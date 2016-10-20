@@ -13,7 +13,8 @@ namespace Classes.Enumerations
             Fleetmanager,
             Driver,
             Engineer,
-            Cleaner
+            Cleaner,
+            Harry
         }
     }
 }
