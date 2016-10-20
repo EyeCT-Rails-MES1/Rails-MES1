@@ -13,6 +13,6 @@ namespace DAL.Interfaces
         void setStatus();
         void getCleaningTasks();
 
-        //lceaning list?
+        //cleaning list?
     }
 }

@@ -48,6 +48,7 @@
     <Compile Include="Interfaces\ITram.cs" />
     <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Persistencies\AdminSQL.cs" />
+    <Compile Include="Persistencies\CleanerSQL.cs" />
     <Compile Include="Persistencies\DatabaseConnection.cs" />
     <Compile Include="Persistencies\DriverSQL.cs" />
     <Compile Include="Persistencies\TramSQL.cs" />
