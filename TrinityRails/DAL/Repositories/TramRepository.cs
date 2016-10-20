@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Types;
 using DAL.Interfaces;
+using Classes.Enumerations;
 
 namespace DAL.Repositories
 {
@@ -20,7 +21,7 @@ namespace DAL.Repositories
         {
             return trams;
         }
-        public void setStatus(Tram tram, Status status)
+        public void setStatus(Tram tram, Status.tramStatus status)
         {
             tram.status = status;
             //context.setStatus(); weet niet of dit klopt

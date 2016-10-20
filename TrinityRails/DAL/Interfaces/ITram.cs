@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Types;
+using Classes.Enumerations;
 
 namespace DAL.Interfaces
 {
     public interface ITram
     {
         List<Tram> getTrams();
-        void setStatus(Tram tram, Status status);
+        void setStatus(Tram tram, Status.tramStatus status);
         void setLocation(Tram tram, int location);
     }
 }

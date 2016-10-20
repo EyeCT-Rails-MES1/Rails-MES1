@@ -45,7 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rails.cs" />
     <Compile Include="Sector.cs" />
-    <Compile Include="TypeExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using DAL.Interfaces;
 using DAL.Types;
 
+
 namespace DAL.Persistencies
 {
     public class UserSQL : IUser
@@ -18,34 +19,59 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void checkCredentials(User user)
+        public void changePassword()
         {
-            string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + user.username + @"', '" + user.password + @"');";
-            databaseConnection.executeCommand(query);
-        }
-
-        public void getID()
-        {
-            string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
-            databaseConnection.executeCommand(query);
-        }
-
-        public void getFunction(string function)
-        {
-            string query = @"";
-            databaseConnection.executeCommand(query);
+            throw new NotImplementedException();
         }
 
         public void changeUsername()
         {
-            string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
-            databaseConnection.executeCommand(query);
+            throw new NotImplementedException();
         }
 
-        public void changePassword()
+        public void checkCredentials()
         {
-            string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
-            databaseConnection.executeCommand(query);
+            throw new NotImplementedException();
         }
+
+        public void getFunction()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void getID()
+        {
+            throw new NotImplementedException();
+        }
+
+        //public void checkCredentials(User user)
+        //{
+        //    string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + user.username + @"', '" + user.password + @"');";
+        //    databaseConnection.executeCommand(query);
+        //}
+
+        //public void getID()
+        //{
+        //    string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
+        //    databaseConnection.executeCommand(query);
+        //}
+
+        //public void getFunction(string function)
+        //{
+        //    string query = @"";
+        //    databaseConnection.executeCommand(query);
+        //}
+
+        //public void changeUsername()
+        //{
+        //    string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
+        //    databaseConnection.executeCommand(query);
+        //}
+
+        //public void changePassword()
+        //{
+        //    string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
+        //    databaseConnection.executeCommand(query);
+        //}
     }
 }
