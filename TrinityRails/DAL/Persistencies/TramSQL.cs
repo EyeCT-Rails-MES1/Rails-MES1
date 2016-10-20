@@ -14,7 +14,7 @@ namespace DAL.Persistencies
         private DatabaseConnection databaseConnection;
         public TramSQL()
         {
-            databaseConnection = new DatabaseConnection();
+            databaseConnection = new DatabaseConnection();l
         }
         public List<Tram> getTrams()
         {
