@@ -9,7 +9,7 @@ namespace DAL.Interfaces
 {
     public interface IFleetManager
     {
-        void getSectorStatus();
+        bool getSectorStatus();
         void setSectorStatus();
     }
 }
