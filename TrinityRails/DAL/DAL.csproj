@@ -48,10 +48,12 @@
     <Compile Include="Interfaces\ITram.cs" />
     <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Persistencies\DatabaseConnection.cs" />
+    <Compile Include="Persistencies\DriverSQL.cs" />
     <Compile Include="Persistencies\TramSQL.cs" />
     <Compile Include="Persistencies\UserSQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
+    <Compile Include="Repositories\DriverRepository.cs" />
     <Compile Include="Repositories\TramRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Types\Tram.cs" />
