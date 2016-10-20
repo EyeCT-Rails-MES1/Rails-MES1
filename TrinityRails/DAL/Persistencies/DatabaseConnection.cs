@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace RepositoryPattern.Persistencies
+namespace DAL.Persistencies
 {
     public class DatabaseConnection
     {
