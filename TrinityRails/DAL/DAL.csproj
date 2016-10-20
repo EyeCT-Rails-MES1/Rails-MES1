@@ -51,6 +51,12 @@
     <Compile Include="Types\Tram.cs" />
     <Compile Include="Types\TypeExample.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Types\Classes.csproj">
+      <Project>{609c5ca6-4bb7-4113-b0dc-30be3463c821}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

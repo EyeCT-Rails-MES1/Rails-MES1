@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using RepositoryPattern.Interfaces;
 using RepositoryPattern.Types;
 
-namespace RepositoryPattern.Persistencies
+namespace DAL.Persistencies
 {
     public class UserSQLQuery : IUser
     {
