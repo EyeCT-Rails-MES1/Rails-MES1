@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrinityRailsDemo
 {
-    public partial class Form2 : Form
+    public partial class txt_R61S : Form
     {
-        public Form2()
+        public txt_R61S()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace TrinityRailsDemo
         }
 
         private void textBox82_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox220_TextChanged(object sender, EventArgs e)
         {
 
         }

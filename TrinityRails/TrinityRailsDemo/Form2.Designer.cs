@@ -1,6 +1,6 @@
 ﻿namespace TrinityRailsDemo
 {
-    partial class Form2
+    partial class txt_R61S
     {
         /// <summary>
         /// Required designer variable.
@@ -127,71 +127,71 @@
             this.txt_R45S8 = new System.Windows.Forms.TextBox();
             this.txt_R45S9 = new System.Windows.Forms.TextBox();
             this.txt_R45S10 = new System.Windows.Forms.TextBox();
-            this.textBox92 = new System.Windows.Forms.TextBox();
-            this.textBox93 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
-            this.textBox95 = new System.Windows.Forms.TextBox();
-            this.textBox96 = new System.Windows.Forms.TextBox();
-            this.textBox97 = new System.Windows.Forms.TextBox();
-            this.textBox98 = new System.Windows.Forms.TextBox();
-            this.textBox99 = new System.Windows.Forms.TextBox();
-            this.textBox100 = new System.Windows.Forms.TextBox();
-            this.textBox101 = new System.Windows.Forms.TextBox();
+            this.txt_R21S1 = new System.Windows.Forms.TextBox();
+            this.txt_R20S1 = new System.Windows.Forms.TextBox();
+            this.txt_R19S1 = new System.Windows.Forms.TextBox();
+            this.txt_R18S1 = new System.Windows.Forms.TextBox();
+            this.txt_R17S1 = new System.Windows.Forms.TextBox();
+            this.txt_R16S1 = new System.Windows.Forms.TextBox();
+            this.txt_R15S1 = new System.Windows.Forms.TextBox();
+            this.txt_R14S1 = new System.Windows.Forms.TextBox();
+            this.txt_R13S1 = new System.Windows.Forms.TextBox();
+            this.txt_R12S1 = new System.Windows.Forms.TextBox();
             this.textBox102 = new System.Windows.Forms.TextBox();
-            this.textBox103 = new System.Windows.Forms.TextBox();
-            this.textBox104 = new System.Windows.Forms.TextBox();
-            this.textBox105 = new System.Windows.Forms.TextBox();
-            this.textBox106 = new System.Windows.Forms.TextBox();
-            this.textBox107 = new System.Windows.Forms.TextBox();
-            this.textBox108 = new System.Windows.Forms.TextBox();
-            this.textBox109 = new System.Windows.Forms.TextBox();
-            this.textBox110 = new System.Windows.Forms.TextBox();
-            this.textBox111 = new System.Windows.Forms.TextBox();
-            this.textBox112 = new System.Windows.Forms.TextBox();
-            this.textBox113 = new System.Windows.Forms.TextBox();
-            this.textBox114 = new System.Windows.Forms.TextBox();
-            this.textBox115 = new System.Windows.Forms.TextBox();
-            this.textBox116 = new System.Windows.Forms.TextBox();
-            this.textBox117 = new System.Windows.Forms.TextBox();
-            this.textBox118 = new System.Windows.Forms.TextBox();
-            this.textBox119 = new System.Windows.Forms.TextBox();
-            this.textBox120 = new System.Windows.Forms.TextBox();
-            this.textBox121 = new System.Windows.Forms.TextBox();
-            this.textBox122 = new System.Windows.Forms.TextBox();
-            this.textBox123 = new System.Windows.Forms.TextBox();
-            this.textBox124 = new System.Windows.Forms.TextBox();
-            this.textBox125 = new System.Windows.Forms.TextBox();
-            this.textBox126 = new System.Windows.Forms.TextBox();
-            this.textBox127 = new System.Windows.Forms.TextBox();
-            this.textBox128 = new System.Windows.Forms.TextBox();
-            this.textBox129 = new System.Windows.Forms.TextBox();
-            this.textBox130 = new System.Windows.Forms.TextBox();
-            this.textBox131 = new System.Windows.Forms.TextBox();
-            this.textBox132 = new System.Windows.Forms.TextBox();
-            this.textBox133 = new System.Windows.Forms.TextBox();
-            this.textBox134 = new System.Windows.Forms.TextBox();
-            this.textBox135 = new System.Windows.Forms.TextBox();
-            this.textBox136 = new System.Windows.Forms.TextBox();
-            this.textBox137 = new System.Windows.Forms.TextBox();
-            this.textBox138 = new System.Windows.Forms.TextBox();
-            this.textBox139 = new System.Windows.Forms.TextBox();
-            this.textBox140 = new System.Windows.Forms.TextBox();
-            this.textBox141 = new System.Windows.Forms.TextBox();
-            this.textBox142 = new System.Windows.Forms.TextBox();
-            this.textBox143 = new System.Windows.Forms.TextBox();
-            this.textBox144 = new System.Windows.Forms.TextBox();
-            this.textBox145 = new System.Windows.Forms.TextBox();
-            this.textBox146 = new System.Windows.Forms.TextBox();
-            this.textBox147 = new System.Windows.Forms.TextBox();
-            this.textBox148 = new System.Windows.Forms.TextBox();
-            this.textBox149 = new System.Windows.Forms.TextBox();
-            this.textBox150 = new System.Windows.Forms.TextBox();
-            this.textBox151 = new System.Windows.Forms.TextBox();
-            this.textBox152 = new System.Windows.Forms.TextBox();
-            this.textBox153 = new System.Windows.Forms.TextBox();
-            this.textBox154 = new System.Windows.Forms.TextBox();
-            this.textBox155 = new System.Windows.Forms.TextBox();
-            this.textBox156 = new System.Windows.Forms.TextBox();
+            this.txt_R20 = new System.Windows.Forms.TextBox();
+            this.txt_R19 = new System.Windows.Forms.TextBox();
+            this.txt_R18 = new System.Windows.Forms.TextBox();
+            this.txt_R17 = new System.Windows.Forms.TextBox();
+            this.txt_R16 = new System.Windows.Forms.TextBox();
+            this.txt_R15 = new System.Windows.Forms.TextBox();
+            this.txt_R14 = new System.Windows.Forms.TextBox();
+            this.txt_R13 = new System.Windows.Forms.TextBox();
+            this.txt_R12 = new System.Windows.Forms.TextBox();
+            this.txt_R57S3 = new System.Windows.Forms.TextBox();
+            this.txt_R56S3 = new System.Windows.Forms.TextBox();
+            this.txt_R54S3 = new System.Windows.Forms.TextBox();
+            this.txt_R55S3 = new System.Windows.Forms.TextBox();
+            this.txt_R63S3 = new System.Windows.Forms.TextBox();
+            this.txt_R64S3 = new System.Windows.Forms.TextBox();
+            this.txt_R51S3 = new System.Windows.Forms.TextBox();
+            this.txt_R52S3 = new System.Windows.Forms.TextBox();
+            this.txt_R53S3 = new System.Windows.Forms.TextBox();
+            this.txt_R57S2 = new System.Windows.Forms.TextBox();
+            this.txt_R56S2 = new System.Windows.Forms.TextBox();
+            this.txt_R54S2 = new System.Windows.Forms.TextBox();
+            this.txt_R55S2 = new System.Windows.Forms.TextBox();
+            this.txt_R63S2 = new System.Windows.Forms.TextBox();
+            this.txt_R64S2 = new System.Windows.Forms.TextBox();
+            this.txt_R51S2 = new System.Windows.Forms.TextBox();
+            this.txt_R52S2 = new System.Windows.Forms.TextBox();
+            this.txt_R53S2 = new System.Windows.Forms.TextBox();
+            this.txt_R57S1 = new System.Windows.Forms.TextBox();
+            this.txt_R56S1 = new System.Windows.Forms.TextBox();
+            this.txt_R54S1 = new System.Windows.Forms.TextBox();
+            this.txt_R55S1 = new System.Windows.Forms.TextBox();
+            this.txt_R63S1 = new System.Windows.Forms.TextBox();
+            this.txt_R64S1 = new System.Windows.Forms.TextBox();
+            this.txt_R51S1 = new System.Windows.Forms.TextBox();
+            this.txt_R52S1 = new System.Windows.Forms.TextBox();
+            this.txt_R53S1 = new System.Windows.Forms.TextBox();
+            this.txt_R57 = new System.Windows.Forms.TextBox();
+            this.txt_R56 = new System.Windows.Forms.TextBox();
+            this.txt_R54 = new System.Windows.Forms.TextBox();
+            this.txt_R55 = new System.Windows.Forms.TextBox();
+            this.txt_R63 = new System.Windows.Forms.TextBox();
+            this.txt_R64 = new System.Windows.Forms.TextBox();
+            this.txt_R51 = new System.Windows.Forms.TextBox();
+            this.txt_R52 = new System.Windows.Forms.TextBox();
+            this.txt_R53 = new System.Windows.Forms.TextBox();
+            this.txt_R57S4 = new System.Windows.Forms.TextBox();
+            this.txt_R56S4 = new System.Windows.Forms.TextBox();
+            this.txt_R54S4 = new System.Windows.Forms.TextBox();
+            this.txt_R55S4 = new System.Windows.Forms.TextBox();
+            this.txt_R63S4 = new System.Windows.Forms.TextBox();
+            this.txt_R64S4 = new System.Windows.Forms.TextBox();
+            this.txt_R51S4 = new System.Windows.Forms.TextBox();
+            this.txt_R52S4 = new System.Windows.Forms.TextBox();
+            this.txt_R53S4 = new System.Windows.Forms.TextBox();
             this.txt_R38 = new System.Windows.Forms.TextBox();
             this.txt_R37 = new System.Windows.Forms.TextBox();
             this.txt_R35 = new System.Windows.Forms.TextBox();
@@ -201,66 +201,66 @@
             this.txt_R32 = new System.Windows.Forms.TextBox();
             this.txt_R33 = new System.Windows.Forms.TextBox();
             this.txt_R34 = new System.Windows.Forms.TextBox();
-            this.textBox166 = new System.Windows.Forms.TextBox();
-            this.textBox167 = new System.Windows.Forms.TextBox();
-            this.textBox168 = new System.Windows.Forms.TextBox();
-            this.textBox169 = new System.Windows.Forms.TextBox();
-            this.textBox170 = new System.Windows.Forms.TextBox();
-            this.textBox171 = new System.Windows.Forms.TextBox();
-            this.textBox172 = new System.Windows.Forms.TextBox();
-            this.textBox173 = new System.Windows.Forms.TextBox();
-            this.textBox174 = new System.Windows.Forms.TextBox();
-            this.textBox175 = new System.Windows.Forms.TextBox();
-            this.textBox176 = new System.Windows.Forms.TextBox();
-            this.textBox177 = new System.Windows.Forms.TextBox();
-            this.textBox178 = new System.Windows.Forms.TextBox();
-            this.textBox179 = new System.Windows.Forms.TextBox();
-            this.textBox180 = new System.Windows.Forms.TextBox();
-            this.textBox181 = new System.Windows.Forms.TextBox();
-            this.textBox182 = new System.Windows.Forms.TextBox();
-            this.textBox183 = new System.Windows.Forms.TextBox();
-            this.textBox184 = new System.Windows.Forms.TextBox();
-            this.textBox185 = new System.Windows.Forms.TextBox();
-            this.textBox186 = new System.Windows.Forms.TextBox();
-            this.textBox187 = new System.Windows.Forms.TextBox();
-            this.textBox188 = new System.Windows.Forms.TextBox();
-            this.textBox189 = new System.Windows.Forms.TextBox();
-            this.textBox190 = new System.Windows.Forms.TextBox();
-            this.textBox191 = new System.Windows.Forms.TextBox();
-            this.textBox192 = new System.Windows.Forms.TextBox();
-            this.textBox193 = new System.Windows.Forms.TextBox();
-            this.textBox194 = new System.Windows.Forms.TextBox();
-            this.textBox195 = new System.Windows.Forms.TextBox();
-            this.textBox196 = new System.Windows.Forms.TextBox();
-            this.textBox197 = new System.Windows.Forms.TextBox();
-            this.textBox198 = new System.Windows.Forms.TextBox();
-            this.textBox199 = new System.Windows.Forms.TextBox();
-            this.textBox200 = new System.Windows.Forms.TextBox();
-            this.textBox201 = new System.Windows.Forms.TextBox();
-            this.textBox202 = new System.Windows.Forms.TextBox();
-            this.textBox203 = new System.Windows.Forms.TextBox();
-            this.textBox204 = new System.Windows.Forms.TextBox();
-            this.textBox205 = new System.Windows.Forms.TextBox();
-            this.textBox206 = new System.Windows.Forms.TextBox();
-            this.textBox207 = new System.Windows.Forms.TextBox();
-            this.textBox208 = new System.Windows.Forms.TextBox();
-            this.textBox209 = new System.Windows.Forms.TextBox();
-            this.textBox210 = new System.Windows.Forms.TextBox();
-            this.textBox211 = new System.Windows.Forms.TextBox();
-            this.textBox212 = new System.Windows.Forms.TextBox();
-            this.textBox213 = new System.Windows.Forms.TextBox();
-            this.textBox214 = new System.Windows.Forms.TextBox();
-            this.textBox215 = new System.Windows.Forms.TextBox();
-            this.textBox216 = new System.Windows.Forms.TextBox();
-            this.textBox217 = new System.Windows.Forms.TextBox();
-            this.textBox218 = new System.Windows.Forms.TextBox();
-            this.textBox219 = new System.Windows.Forms.TextBox();
-            this.textBox220 = new System.Windows.Forms.TextBox();
-            this.textBox221 = new System.Windows.Forms.TextBox();
-            this.textBox222 = new System.Windows.Forms.TextBox();
-            this.textBox223 = new System.Windows.Forms.TextBox();
-            this.textBox224 = new System.Windows.Forms.TextBox();
-            this.textBox225 = new System.Windows.Forms.TextBox();
+            this.txt_R57S5 = new System.Windows.Forms.TextBox();
+            this.txt_R56S5 = new System.Windows.Forms.TextBox();
+            this.txt_R54S5 = new System.Windows.Forms.TextBox();
+            this.txt_R55S5 = new System.Windows.Forms.TextBox();
+            this.txt_R63S5 = new System.Windows.Forms.TextBox();
+            this.txt_R64S5 = new System.Windows.Forms.TextBox();
+            this.txt_R51S5 = new System.Windows.Forms.TextBox();
+            this.txt_R52S5 = new System.Windows.Forms.TextBox();
+            this.txt_R53S5 = new System.Windows.Forms.TextBox();
+            this.txt_R61S3 = new System.Windows.Forms.TextBox();
+            this.txt_R62S3 = new System.Windows.Forms.TextBox();
+            this.txt_R61S2 = new System.Windows.Forms.TextBox();
+            this.txt_R62S2 = new System.Windows.Forms.TextBox();
+            this.txt_R61S1 = new System.Windows.Forms.TextBox();
+            this.txt_R62S1 = new System.Windows.Forms.TextBox();
+            this.txt_R61 = new System.Windows.Forms.TextBox();
+            this.txt_R62 = new System.Windows.Forms.TextBox();
+            this.txt_R57S6 = new System.Windows.Forms.TextBox();
+            this.txt_R56S6 = new System.Windows.Forms.TextBox();
+            this.txt_R54S6 = new System.Windows.Forms.TextBox();
+            this.txt_R55S6 = new System.Windows.Forms.TextBox();
+            this.txt_R51S6 = new System.Windows.Forms.TextBox();
+            this.txt_R52S6 = new System.Windows.Forms.TextBox();
+            this.txt_R53S6 = new System.Windows.Forms.TextBox();
+            this.txt_R57S7 = new System.Windows.Forms.TextBox();
+            this.txt_R56S7 = new System.Windows.Forms.TextBox();
+            this.txt_R54S7 = new System.Windows.Forms.TextBox();
+            this.txt_R55S7 = new System.Windows.Forms.TextBox();
+            this.txt_R52S7 = new System.Windows.Forms.TextBox();
+            this.txt_R53S7 = new System.Windows.Forms.TextBox();
+            this.txt_R57S8 = new System.Windows.Forms.TextBox();
+            this.txt_R56S8 = new System.Windows.Forms.TextBox();
+            this.txt_R54S8 = new System.Windows.Forms.TextBox();
+            this.txt_R55S8 = new System.Windows.Forms.TextBox();
+            this.txt_R57S9 = new System.Windows.Forms.TextBox();
+            this.txt_R77S4 = new System.Windows.Forms.TextBox();
+            this.txt_R76S4 = new System.Windows.Forms.TextBox();
+            this.txt_R75S4 = new System.Windows.Forms.TextBox();
+            this.txt_R74S4 = new System.Windows.Forms.TextBox();
+            this.txt_R77S3 = new System.Windows.Forms.TextBox();
+            this.txt_R76S3 = new System.Windows.Forms.TextBox();
+            this.txt_R75S3 = new System.Windows.Forms.TextBox();
+            this.txt_R74S3 = new System.Windows.Forms.TextBox();
+            this.txt_R77S2 = new System.Windows.Forms.TextBox();
+            this.txt_R76S2 = new System.Windows.Forms.TextBox();
+            this.txt_R75S2 = new System.Windows.Forms.TextBox();
+            this.txt_R74S2 = new System.Windows.Forms.TextBox();
+            this.txt_R77S1 = new System.Windows.Forms.TextBox();
+            this.txt_R76S1 = new System.Windows.Forms.TextBox();
+            this.txt_R75S1 = new System.Windows.Forms.TextBox();
+            this.txt_R74S1 = new System.Windows.Forms.TextBox();
+            this.txt_R77 = new System.Windows.Forms.TextBox();
+            this.txt_R76 = new System.Windows.Forms.TextBox();
+            this.txt_R75 = new System.Windows.Forms.TextBox();
+            this.txt_R74 = new System.Windows.Forms.TextBox();
+            this.txt_R77S5 = new System.Windows.Forms.TextBox();
+            this.txt_R76S5 = new System.Windows.Forms.TextBox();
+            this.txt_R75S5 = new System.Windows.Forms.TextBox();
+            this.txt_R77S6 = new System.Windows.Forms.TextBox();
+            this.txt_R76S6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnTrams
@@ -1255,105 +1255,105 @@
             this.txt_R45S10.TabIndex = 98;
             this.txt_R45S10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox92
+            // txt_R21S1
             // 
-            this.textBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox92.Location = new System.Drawing.Point(940, 679);
-            this.textBox92.Name = "textBox92";
-            this.textBox92.ReadOnly = true;
-            this.textBox92.Size = new System.Drawing.Size(40, 20);
-            this.textBox92.TabIndex = 108;
-            this.textBox92.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R21S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R21S1.Location = new System.Drawing.Point(940, 679);
+            this.txt_R21S1.Name = "txt_R21S1";
+            this.txt_R21S1.ReadOnly = true;
+            this.txt_R21S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R21S1.TabIndex = 108;
+            this.txt_R21S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox93
+            // txt_R20S1
             // 
-            this.textBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox93.Location = new System.Drawing.Point(940, 653);
-            this.textBox93.Name = "textBox93";
-            this.textBox93.ReadOnly = true;
-            this.textBox93.Size = new System.Drawing.Size(40, 20);
-            this.textBox93.TabIndex = 107;
-            this.textBox93.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R20S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R20S1.Location = new System.Drawing.Point(940, 653);
+            this.txt_R20S1.Name = "txt_R20S1";
+            this.txt_R20S1.ReadOnly = true;
+            this.txt_R20S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R20S1.TabIndex = 107;
+            this.txt_R20S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox94
+            // txt_R19S1
             // 
-            this.textBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox94.Location = new System.Drawing.Point(940, 627);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.ReadOnly = true;
-            this.textBox94.Size = new System.Drawing.Size(40, 20);
-            this.textBox94.TabIndex = 106;
-            this.textBox94.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R19S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R19S1.Location = new System.Drawing.Point(940, 627);
+            this.txt_R19S1.Name = "txt_R19S1";
+            this.txt_R19S1.ReadOnly = true;
+            this.txt_R19S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R19S1.TabIndex = 106;
+            this.txt_R19S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox95
+            // txt_R18S1
             // 
-            this.textBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox95.Location = new System.Drawing.Point(940, 601);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.ReadOnly = true;
-            this.textBox95.Size = new System.Drawing.Size(40, 20);
-            this.textBox95.TabIndex = 105;
-            this.textBox95.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R18S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R18S1.Location = new System.Drawing.Point(940, 601);
+            this.txt_R18S1.Name = "txt_R18S1";
+            this.txt_R18S1.ReadOnly = true;
+            this.txt_R18S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R18S1.TabIndex = 105;
+            this.txt_R18S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox96
+            // txt_R17S1
             // 
-            this.textBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox96.Location = new System.Drawing.Point(940, 575);
-            this.textBox96.Name = "textBox96";
-            this.textBox96.ReadOnly = true;
-            this.textBox96.Size = new System.Drawing.Size(40, 20);
-            this.textBox96.TabIndex = 104;
-            this.textBox96.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R17S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R17S1.Location = new System.Drawing.Point(940, 575);
+            this.txt_R17S1.Name = "txt_R17S1";
+            this.txt_R17S1.ReadOnly = true;
+            this.txt_R17S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R17S1.TabIndex = 104;
+            this.txt_R17S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox97
+            // txt_R16S1
             // 
-            this.textBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox97.Location = new System.Drawing.Point(940, 549);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.ReadOnly = true;
-            this.textBox97.Size = new System.Drawing.Size(40, 20);
-            this.textBox97.TabIndex = 103;
-            this.textBox97.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R16S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R16S1.Location = new System.Drawing.Point(940, 549);
+            this.txt_R16S1.Name = "txt_R16S1";
+            this.txt_R16S1.ReadOnly = true;
+            this.txt_R16S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R16S1.TabIndex = 103;
+            this.txt_R16S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox98
+            // txt_R15S1
             // 
-            this.textBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox98.Location = new System.Drawing.Point(940, 523);
-            this.textBox98.Name = "textBox98";
-            this.textBox98.ReadOnly = true;
-            this.textBox98.Size = new System.Drawing.Size(40, 20);
-            this.textBox98.TabIndex = 102;
-            this.textBox98.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R15S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R15S1.Location = new System.Drawing.Point(940, 523);
+            this.txt_R15S1.Name = "txt_R15S1";
+            this.txt_R15S1.ReadOnly = true;
+            this.txt_R15S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R15S1.TabIndex = 102;
+            this.txt_R15S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox99
+            // txt_R14S1
             // 
-            this.textBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox99.Location = new System.Drawing.Point(940, 497);
-            this.textBox99.Name = "textBox99";
-            this.textBox99.ReadOnly = true;
-            this.textBox99.Size = new System.Drawing.Size(40, 20);
-            this.textBox99.TabIndex = 101;
-            this.textBox99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R14S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R14S1.Location = new System.Drawing.Point(940, 497);
+            this.txt_R14S1.Name = "txt_R14S1";
+            this.txt_R14S1.ReadOnly = true;
+            this.txt_R14S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R14S1.TabIndex = 101;
+            this.txt_R14S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox100
+            // txt_R13S1
             // 
-            this.textBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox100.Location = new System.Drawing.Point(940, 471);
-            this.textBox100.Name = "textBox100";
-            this.textBox100.ReadOnly = true;
-            this.textBox100.Size = new System.Drawing.Size(40, 20);
-            this.textBox100.TabIndex = 100;
-            this.textBox100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R13S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R13S1.Location = new System.Drawing.Point(940, 471);
+            this.txt_R13S1.Name = "txt_R13S1";
+            this.txt_R13S1.ReadOnly = true;
+            this.txt_R13S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R13S1.TabIndex = 100;
+            this.txt_R13S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox101
+            // txt_R12S1
             // 
-            this.textBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox101.Location = new System.Drawing.Point(940, 445);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.ReadOnly = true;
-            this.textBox101.Size = new System.Drawing.Size(40, 20);
-            this.textBox101.TabIndex = 99;
-            this.textBox101.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R12S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R12S1.Location = new System.Drawing.Point(940, 445);
+            this.txt_R12S1.Name = "txt_R12S1";
+            this.txt_R12S1.ReadOnly = true;
+            this.txt_R12S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R12S1.TabIndex = 99;
+            this.txt_R12S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox102
             // 
@@ -1363,547 +1363,566 @@
             this.textBox102.ReadOnly = true;
             this.textBox102.Size = new System.Drawing.Size(40, 20);
             this.textBox102.TabIndex = 118;
+            this.textBox102.Text = "21";
             this.textBox102.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox103
-            // 
-            this.textBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox103.Location = new System.Drawing.Point(894, 653);
-            this.textBox103.Name = "textBox103";
-            this.textBox103.ReadOnly = true;
-            this.textBox103.Size = new System.Drawing.Size(40, 20);
-            this.textBox103.TabIndex = 117;
-            this.textBox103.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox104
-            // 
-            this.textBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox104.Location = new System.Drawing.Point(894, 627);
-            this.textBox104.Name = "textBox104";
-            this.textBox104.ReadOnly = true;
-            this.textBox104.Size = new System.Drawing.Size(40, 20);
-            this.textBox104.TabIndex = 116;
-            this.textBox104.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox105
-            // 
-            this.textBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox105.Location = new System.Drawing.Point(894, 601);
-            this.textBox105.Name = "textBox105";
-            this.textBox105.ReadOnly = true;
-            this.textBox105.Size = new System.Drawing.Size(40, 20);
-            this.textBox105.TabIndex = 115;
-            this.textBox105.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox106
-            // 
-            this.textBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox106.Location = new System.Drawing.Point(894, 575);
-            this.textBox106.Name = "textBox106";
-            this.textBox106.ReadOnly = true;
-            this.textBox106.Size = new System.Drawing.Size(40, 20);
-            this.textBox106.TabIndex = 114;
-            this.textBox106.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox107
-            // 
-            this.textBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox107.Location = new System.Drawing.Point(894, 549);
-            this.textBox107.Name = "textBox107";
-            this.textBox107.ReadOnly = true;
-            this.textBox107.Size = new System.Drawing.Size(40, 20);
-            this.textBox107.TabIndex = 113;
-            this.textBox107.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox108
-            // 
-            this.textBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox108.Location = new System.Drawing.Point(894, 523);
-            this.textBox108.Name = "textBox108";
-            this.textBox108.ReadOnly = true;
-            this.textBox108.Size = new System.Drawing.Size(40, 20);
-            this.textBox108.TabIndex = 112;
-            this.textBox108.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox109
-            // 
-            this.textBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox109.Location = new System.Drawing.Point(894, 497);
-            this.textBox109.Name = "textBox109";
-            this.textBox109.ReadOnly = true;
-            this.textBox109.Size = new System.Drawing.Size(40, 20);
-            this.textBox109.TabIndex = 111;
-            this.textBox109.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox110
-            // 
-            this.textBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox110.Location = new System.Drawing.Point(894, 471);
-            this.textBox110.Name = "textBox110";
-            this.textBox110.ReadOnly = true;
-            this.textBox110.Size = new System.Drawing.Size(40, 20);
-            this.textBox110.TabIndex = 110;
-            this.textBox110.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox111
-            // 
-            this.textBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox111.Location = new System.Drawing.Point(894, 445);
-            this.textBox111.Name = "textBox111";
-            this.textBox111.ReadOnly = true;
-            this.textBox111.Size = new System.Drawing.Size(40, 20);
-            this.textBox111.TabIndex = 109;
-            this.textBox111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox112
-            // 
-            this.textBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox112.Location = new System.Drawing.Point(148, 523);
-            this.textBox112.Name = "textBox112";
-            this.textBox112.ReadOnly = true;
-            this.textBox112.Size = new System.Drawing.Size(40, 20);
-            this.textBox112.TabIndex = 154;
-            this.textBox112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox113
-            // 
-            this.textBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox113.Location = new System.Drawing.Point(194, 523);
-            this.textBox113.Name = "textBox113";
-            this.textBox113.ReadOnly = true;
-            this.textBox113.Size = new System.Drawing.Size(40, 20);
-            this.textBox113.TabIndex = 153;
-            this.textBox113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox114
-            // 
-            this.textBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox114.Location = new System.Drawing.Point(286, 523);
-            this.textBox114.Name = "textBox114";
-            this.textBox114.ReadOnly = true;
-            this.textBox114.Size = new System.Drawing.Size(40, 20);
-            this.textBox114.TabIndex = 152;
-            this.textBox114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox115
-            // 
-            this.textBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox115.Location = new System.Drawing.Point(240, 523);
-            this.textBox115.Name = "textBox115";
-            this.textBox115.ReadOnly = true;
-            this.textBox115.Size = new System.Drawing.Size(40, 20);
-            this.textBox115.TabIndex = 151;
-            this.textBox115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox116
-            // 
-            this.textBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox116.Location = new System.Drawing.Point(516, 523);
-            this.textBox116.Name = "textBox116";
-            this.textBox116.ReadOnly = true;
-            this.textBox116.Size = new System.Drawing.Size(40, 20);
-            this.textBox116.TabIndex = 150;
-            this.textBox116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox117
-            // 
-            this.textBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox117.Location = new System.Drawing.Point(470, 523);
-            this.textBox117.Name = "textBox117";
-            this.textBox117.ReadOnly = true;
-            this.textBox117.Size = new System.Drawing.Size(40, 20);
-            this.textBox117.TabIndex = 149;
-            this.textBox117.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox118
-            // 
-            this.textBox118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox118.Location = new System.Drawing.Point(424, 523);
-            this.textBox118.Name = "textBox118";
-            this.textBox118.ReadOnly = true;
-            this.textBox118.Size = new System.Drawing.Size(40, 20);
-            this.textBox118.TabIndex = 148;
-            this.textBox118.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox119
-            // 
-            this.textBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox119.Location = new System.Drawing.Point(378, 523);
-            this.textBox119.Name = "textBox119";
-            this.textBox119.ReadOnly = true;
-            this.textBox119.Size = new System.Drawing.Size(40, 20);
-            this.textBox119.TabIndex = 147;
-            this.textBox119.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox120
-            // 
-            this.textBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox120.Location = new System.Drawing.Point(332, 523);
-            this.textBox120.Name = "textBox120";
-            this.textBox120.ReadOnly = true;
-            this.textBox120.Size = new System.Drawing.Size(40, 20);
-            this.textBox120.TabIndex = 146;
-            this.textBox120.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox121
-            // 
-            this.textBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox121.Location = new System.Drawing.Point(148, 497);
-            this.textBox121.Name = "textBox121";
-            this.textBox121.ReadOnly = true;
-            this.textBox121.Size = new System.Drawing.Size(40, 20);
-            this.textBox121.TabIndex = 145;
-            this.textBox121.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox122
-            // 
-            this.textBox122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox122.Location = new System.Drawing.Point(194, 497);
-            this.textBox122.Name = "textBox122";
-            this.textBox122.ReadOnly = true;
-            this.textBox122.Size = new System.Drawing.Size(40, 20);
-            this.textBox122.TabIndex = 144;
-            this.textBox122.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox123
-            // 
-            this.textBox123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox123.Location = new System.Drawing.Point(286, 497);
-            this.textBox123.Name = "textBox123";
-            this.textBox123.ReadOnly = true;
-            this.textBox123.Size = new System.Drawing.Size(40, 20);
-            this.textBox123.TabIndex = 143;
-            this.textBox123.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox124
-            // 
-            this.textBox124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox124.Location = new System.Drawing.Point(240, 497);
-            this.textBox124.Name = "textBox124";
-            this.textBox124.ReadOnly = true;
-            this.textBox124.Size = new System.Drawing.Size(40, 20);
-            this.textBox124.TabIndex = 142;
-            this.textBox124.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox125
-            // 
-            this.textBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox125.Location = new System.Drawing.Point(516, 497);
-            this.textBox125.Name = "textBox125";
-            this.textBox125.ReadOnly = true;
-            this.textBox125.Size = new System.Drawing.Size(40, 20);
-            this.textBox125.TabIndex = 141;
-            this.textBox125.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox126
-            // 
-            this.textBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox126.Location = new System.Drawing.Point(470, 497);
-            this.textBox126.Name = "textBox126";
-            this.textBox126.ReadOnly = true;
-            this.textBox126.Size = new System.Drawing.Size(40, 20);
-            this.textBox126.TabIndex = 140;
-            this.textBox126.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox127
-            // 
-            this.textBox127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox127.Location = new System.Drawing.Point(424, 497);
-            this.textBox127.Name = "textBox127";
-            this.textBox127.ReadOnly = true;
-            this.textBox127.Size = new System.Drawing.Size(40, 20);
-            this.textBox127.TabIndex = 139;
-            this.textBox127.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox128
-            // 
-            this.textBox128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox128.Location = new System.Drawing.Point(378, 497);
-            this.textBox128.Name = "textBox128";
-            this.textBox128.ReadOnly = true;
-            this.textBox128.Size = new System.Drawing.Size(40, 20);
-            this.textBox128.TabIndex = 138;
-            this.textBox128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox129
-            // 
-            this.textBox129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox129.Location = new System.Drawing.Point(332, 497);
-            this.textBox129.Name = "textBox129";
-            this.textBox129.ReadOnly = true;
-            this.textBox129.Size = new System.Drawing.Size(40, 20);
-            this.textBox129.TabIndex = 137;
-            this.textBox129.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox130
-            // 
-            this.textBox130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox130.Location = new System.Drawing.Point(148, 471);
-            this.textBox130.Name = "textBox130";
-            this.textBox130.ReadOnly = true;
-            this.textBox130.Size = new System.Drawing.Size(40, 20);
-            this.textBox130.TabIndex = 136;
-            this.textBox130.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox131
-            // 
-            this.textBox131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox131.Location = new System.Drawing.Point(194, 471);
-            this.textBox131.Name = "textBox131";
-            this.textBox131.ReadOnly = true;
-            this.textBox131.Size = new System.Drawing.Size(40, 20);
-            this.textBox131.TabIndex = 135;
-            this.textBox131.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox132
-            // 
-            this.textBox132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox132.Location = new System.Drawing.Point(286, 471);
-            this.textBox132.Name = "textBox132";
-            this.textBox132.ReadOnly = true;
-            this.textBox132.Size = new System.Drawing.Size(40, 20);
-            this.textBox132.TabIndex = 134;
-            this.textBox132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox133
-            // 
-            this.textBox133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox133.Location = new System.Drawing.Point(240, 471);
-            this.textBox133.Name = "textBox133";
-            this.textBox133.ReadOnly = true;
-            this.textBox133.Size = new System.Drawing.Size(40, 20);
-            this.textBox133.TabIndex = 133;
-            this.textBox133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox134
-            // 
-            this.textBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox134.Location = new System.Drawing.Point(516, 471);
-            this.textBox134.Name = "textBox134";
-            this.textBox134.ReadOnly = true;
-            this.textBox134.Size = new System.Drawing.Size(40, 20);
-            this.textBox134.TabIndex = 132;
-            this.textBox134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox135
-            // 
-            this.textBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox135.Location = new System.Drawing.Point(470, 471);
-            this.textBox135.Name = "textBox135";
-            this.textBox135.ReadOnly = true;
-            this.textBox135.Size = new System.Drawing.Size(40, 20);
-            this.textBox135.TabIndex = 131;
-            this.textBox135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox136
-            // 
-            this.textBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox136.Location = new System.Drawing.Point(424, 471);
-            this.textBox136.Name = "textBox136";
-            this.textBox136.ReadOnly = true;
-            this.textBox136.Size = new System.Drawing.Size(40, 20);
-            this.textBox136.TabIndex = 130;
-            this.textBox136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox137
-            // 
-            this.textBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox137.Location = new System.Drawing.Point(378, 471);
-            this.textBox137.Name = "textBox137";
-            this.textBox137.ReadOnly = true;
-            this.textBox137.Size = new System.Drawing.Size(40, 20);
-            this.textBox137.TabIndex = 129;
-            this.textBox137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox138
-            // 
-            this.textBox138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox138.Location = new System.Drawing.Point(332, 471);
-            this.textBox138.Name = "textBox138";
-            this.textBox138.ReadOnly = true;
-            this.textBox138.Size = new System.Drawing.Size(40, 20);
-            this.textBox138.TabIndex = 128;
-            this.textBox138.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox139
-            // 
-            this.textBox139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox139.Location = new System.Drawing.Point(148, 445);
-            this.textBox139.Name = "textBox139";
-            this.textBox139.ReadOnly = true;
-            this.textBox139.Size = new System.Drawing.Size(40, 20);
-            this.textBox139.TabIndex = 127;
-            this.textBox139.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox140
-            // 
-            this.textBox140.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox140.Location = new System.Drawing.Point(194, 445);
-            this.textBox140.Name = "textBox140";
-            this.textBox140.ReadOnly = true;
-            this.textBox140.Size = new System.Drawing.Size(40, 20);
-            this.textBox140.TabIndex = 126;
-            this.textBox140.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox141
-            // 
-            this.textBox141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox141.Location = new System.Drawing.Point(286, 445);
-            this.textBox141.Name = "textBox141";
-            this.textBox141.ReadOnly = true;
-            this.textBox141.Size = new System.Drawing.Size(40, 20);
-            this.textBox141.TabIndex = 125;
-            this.textBox141.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox142
-            // 
-            this.textBox142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox142.Location = new System.Drawing.Point(240, 445);
-            this.textBox142.Name = "textBox142";
-            this.textBox142.ReadOnly = true;
-            this.textBox142.Size = new System.Drawing.Size(40, 20);
-            this.textBox142.TabIndex = 124;
-            this.textBox142.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox143
-            // 
-            this.textBox143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox143.Location = new System.Drawing.Point(516, 445);
-            this.textBox143.Name = "textBox143";
-            this.textBox143.ReadOnly = true;
-            this.textBox143.Size = new System.Drawing.Size(40, 20);
-            this.textBox143.TabIndex = 123;
-            this.textBox143.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox144
-            // 
-            this.textBox144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox144.Location = new System.Drawing.Point(470, 445);
-            this.textBox144.Name = "textBox144";
-            this.textBox144.ReadOnly = true;
-            this.textBox144.Size = new System.Drawing.Size(40, 20);
-            this.textBox144.TabIndex = 122;
-            this.textBox144.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox145
-            // 
-            this.textBox145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox145.Location = new System.Drawing.Point(424, 445);
-            this.textBox145.Name = "textBox145";
-            this.textBox145.ReadOnly = true;
-            this.textBox145.Size = new System.Drawing.Size(40, 20);
-            this.textBox145.TabIndex = 121;
-            this.textBox145.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox146
-            // 
-            this.textBox146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox146.Location = new System.Drawing.Point(378, 445);
-            this.textBox146.Name = "textBox146";
-            this.textBox146.ReadOnly = true;
-            this.textBox146.Size = new System.Drawing.Size(40, 20);
-            this.textBox146.TabIndex = 120;
-            this.textBox146.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox147
-            // 
-            this.textBox147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox147.Location = new System.Drawing.Point(332, 445);
-            this.textBox147.Name = "textBox147";
-            this.textBox147.ReadOnly = true;
-            this.textBox147.Size = new System.Drawing.Size(40, 20);
-            this.textBox147.TabIndex = 119;
-            this.textBox147.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox148
-            // 
-            this.textBox148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox148.Location = new System.Drawing.Point(148, 549);
-            this.textBox148.Name = "textBox148";
-            this.textBox148.ReadOnly = true;
-            this.textBox148.Size = new System.Drawing.Size(40, 20);
-            this.textBox148.TabIndex = 163;
-            this.textBox148.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox149
-            // 
-            this.textBox149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox149.Location = new System.Drawing.Point(194, 549);
-            this.textBox149.Name = "textBox149";
-            this.textBox149.ReadOnly = true;
-            this.textBox149.Size = new System.Drawing.Size(40, 20);
-            this.textBox149.TabIndex = 162;
-            this.textBox149.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox150
-            // 
-            this.textBox150.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox150.Location = new System.Drawing.Point(286, 549);
-            this.textBox150.Name = "textBox150";
-            this.textBox150.ReadOnly = true;
-            this.textBox150.Size = new System.Drawing.Size(40, 20);
-            this.textBox150.TabIndex = 161;
-            this.textBox150.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox151
-            // 
-            this.textBox151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox151.Location = new System.Drawing.Point(240, 549);
-            this.textBox151.Name = "textBox151";
-            this.textBox151.ReadOnly = true;
-            this.textBox151.Size = new System.Drawing.Size(40, 20);
-            this.textBox151.TabIndex = 160;
-            this.textBox151.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox152
-            // 
-            this.textBox152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox152.Location = new System.Drawing.Point(516, 549);
-            this.textBox152.Name = "textBox152";
-            this.textBox152.ReadOnly = true;
-            this.textBox152.Size = new System.Drawing.Size(40, 20);
-            this.textBox152.TabIndex = 159;
-            this.textBox152.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox153
-            // 
-            this.textBox153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox153.Location = new System.Drawing.Point(470, 549);
-            this.textBox153.Name = "textBox153";
-            this.textBox153.ReadOnly = true;
-            this.textBox153.Size = new System.Drawing.Size(40, 20);
-            this.textBox153.TabIndex = 158;
-            this.textBox153.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox154
-            // 
-            this.textBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox154.Location = new System.Drawing.Point(424, 549);
-            this.textBox154.Name = "textBox154";
-            this.textBox154.ReadOnly = true;
-            this.textBox154.Size = new System.Drawing.Size(40, 20);
-            this.textBox154.TabIndex = 157;
-            this.textBox154.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox155
-            // 
-            this.textBox155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox155.Location = new System.Drawing.Point(378, 549);
-            this.textBox155.Name = "textBox155";
-            this.textBox155.ReadOnly = true;
-            this.textBox155.Size = new System.Drawing.Size(40, 20);
-            this.textBox155.TabIndex = 156;
-            this.textBox155.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox156
-            // 
-            this.textBox156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox156.Location = new System.Drawing.Point(332, 549);
-            this.textBox156.Name = "textBox156";
-            this.textBox156.ReadOnly = true;
-            this.textBox156.Size = new System.Drawing.Size(40, 20);
-            this.textBox156.TabIndex = 155;
-            this.textBox156.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // txt_R20
+            // 
+            this.txt_R20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R20.Location = new System.Drawing.Point(894, 653);
+            this.txt_R20.Name = "txt_R20";
+            this.txt_R20.ReadOnly = true;
+            this.txt_R20.Size = new System.Drawing.Size(40, 20);
+            this.txt_R20.TabIndex = 117;
+            this.txt_R20.Text = "20";
+            this.txt_R20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R19
+            // 
+            this.txt_R19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R19.Location = new System.Drawing.Point(894, 627);
+            this.txt_R19.Name = "txt_R19";
+            this.txt_R19.ReadOnly = true;
+            this.txt_R19.Size = new System.Drawing.Size(40, 20);
+            this.txt_R19.TabIndex = 116;
+            this.txt_R19.Text = "19";
+            this.txt_R19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R18
+            // 
+            this.txt_R18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R18.Location = new System.Drawing.Point(894, 601);
+            this.txt_R18.Name = "txt_R18";
+            this.txt_R18.ReadOnly = true;
+            this.txt_R18.Size = new System.Drawing.Size(40, 20);
+            this.txt_R18.TabIndex = 115;
+            this.txt_R18.Text = "18";
+            this.txt_R18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R17
+            // 
+            this.txt_R17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R17.Location = new System.Drawing.Point(894, 575);
+            this.txt_R17.Name = "txt_R17";
+            this.txt_R17.ReadOnly = true;
+            this.txt_R17.Size = new System.Drawing.Size(40, 20);
+            this.txt_R17.TabIndex = 114;
+            this.txt_R17.Text = "17";
+            this.txt_R17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R16
+            // 
+            this.txt_R16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R16.Location = new System.Drawing.Point(894, 549);
+            this.txt_R16.Name = "txt_R16";
+            this.txt_R16.ReadOnly = true;
+            this.txt_R16.Size = new System.Drawing.Size(40, 20);
+            this.txt_R16.TabIndex = 113;
+            this.txt_R16.Text = "16";
+            this.txt_R16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R15
+            // 
+            this.txt_R15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R15.Location = new System.Drawing.Point(894, 523);
+            this.txt_R15.Name = "txt_R15";
+            this.txt_R15.ReadOnly = true;
+            this.txt_R15.Size = new System.Drawing.Size(40, 20);
+            this.txt_R15.TabIndex = 112;
+            this.txt_R15.Text = "15";
+            this.txt_R15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R14
+            // 
+            this.txt_R14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R14.Location = new System.Drawing.Point(894, 497);
+            this.txt_R14.Name = "txt_R14";
+            this.txt_R14.ReadOnly = true;
+            this.txt_R14.Size = new System.Drawing.Size(40, 20);
+            this.txt_R14.TabIndex = 111;
+            this.txt_R14.Text = "14";
+            this.txt_R14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R13
+            // 
+            this.txt_R13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R13.Location = new System.Drawing.Point(894, 471);
+            this.txt_R13.Name = "txt_R13";
+            this.txt_R13.ReadOnly = true;
+            this.txt_R13.Size = new System.Drawing.Size(40, 20);
+            this.txt_R13.TabIndex = 110;
+            this.txt_R13.Text = "13";
+            this.txt_R13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R12
+            // 
+            this.txt_R12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R12.Location = new System.Drawing.Point(894, 445);
+            this.txt_R12.Name = "txt_R12";
+            this.txt_R12.ReadOnly = true;
+            this.txt_R12.Size = new System.Drawing.Size(40, 20);
+            this.txt_R12.TabIndex = 109;
+            this.txt_R12.Text = "12";
+            this.txt_R12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S3
+            // 
+            this.txt_R57S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S3.Location = new System.Drawing.Point(148, 523);
+            this.txt_R57S3.Name = "txt_R57S3";
+            this.txt_R57S3.ReadOnly = true;
+            this.txt_R57S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S3.TabIndex = 154;
+            this.txt_R57S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S3
+            // 
+            this.txt_R56S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S3.Location = new System.Drawing.Point(194, 523);
+            this.txt_R56S3.Name = "txt_R56S3";
+            this.txt_R56S3.ReadOnly = true;
+            this.txt_R56S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S3.TabIndex = 153;
+            this.txt_R56S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S3
+            // 
+            this.txt_R54S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S3.Location = new System.Drawing.Point(286, 523);
+            this.txt_R54S3.Name = "txt_R54S3";
+            this.txt_R54S3.ReadOnly = true;
+            this.txt_R54S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S3.TabIndex = 152;
+            this.txt_R54S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S3
+            // 
+            this.txt_R55S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S3.Location = new System.Drawing.Point(240, 523);
+            this.txt_R55S3.Name = "txt_R55S3";
+            this.txt_R55S3.ReadOnly = true;
+            this.txt_R55S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S3.TabIndex = 151;
+            this.txt_R55S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63S3
+            // 
+            this.txt_R63S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63S3.Location = new System.Drawing.Point(516, 523);
+            this.txt_R63S3.Name = "txt_R63S3";
+            this.txt_R63S3.ReadOnly = true;
+            this.txt_R63S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63S3.TabIndex = 150;
+            this.txt_R63S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64S3
+            // 
+            this.txt_R64S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64S3.Location = new System.Drawing.Point(470, 523);
+            this.txt_R64S3.Name = "txt_R64S3";
+            this.txt_R64S3.ReadOnly = true;
+            this.txt_R64S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64S3.TabIndex = 149;
+            this.txt_R64S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S3
+            // 
+            this.txt_R51S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S3.Location = new System.Drawing.Point(424, 523);
+            this.txt_R51S3.Name = "txt_R51S3";
+            this.txt_R51S3.ReadOnly = true;
+            this.txt_R51S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S3.TabIndex = 148;
+            this.txt_R51S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S3
+            // 
+            this.txt_R52S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S3.Location = new System.Drawing.Point(378, 523);
+            this.txt_R52S3.Name = "txt_R52S3";
+            this.txt_R52S3.ReadOnly = true;
+            this.txt_R52S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S3.TabIndex = 147;
+            this.txt_R52S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S3
+            // 
+            this.txt_R53S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S3.Location = new System.Drawing.Point(332, 523);
+            this.txt_R53S3.Name = "txt_R53S3";
+            this.txt_R53S3.ReadOnly = true;
+            this.txt_R53S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S3.TabIndex = 146;
+            this.txt_R53S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S2
+            // 
+            this.txt_R57S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S2.Location = new System.Drawing.Point(148, 497);
+            this.txt_R57S2.Name = "txt_R57S2";
+            this.txt_R57S2.ReadOnly = true;
+            this.txt_R57S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S2.TabIndex = 145;
+            this.txt_R57S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S2
+            // 
+            this.txt_R56S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S2.Location = new System.Drawing.Point(194, 497);
+            this.txt_R56S2.Name = "txt_R56S2";
+            this.txt_R56S2.ReadOnly = true;
+            this.txt_R56S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S2.TabIndex = 144;
+            this.txt_R56S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S2
+            // 
+            this.txt_R54S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S2.Location = new System.Drawing.Point(286, 497);
+            this.txt_R54S2.Name = "txt_R54S2";
+            this.txt_R54S2.ReadOnly = true;
+            this.txt_R54S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S2.TabIndex = 143;
+            this.txt_R54S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S2
+            // 
+            this.txt_R55S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S2.Location = new System.Drawing.Point(240, 497);
+            this.txt_R55S2.Name = "txt_R55S2";
+            this.txt_R55S2.ReadOnly = true;
+            this.txt_R55S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S2.TabIndex = 142;
+            this.txt_R55S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63S2
+            // 
+            this.txt_R63S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63S2.Location = new System.Drawing.Point(516, 497);
+            this.txt_R63S2.Name = "txt_R63S2";
+            this.txt_R63S2.ReadOnly = true;
+            this.txt_R63S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63S2.TabIndex = 141;
+            this.txt_R63S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64S2
+            // 
+            this.txt_R64S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64S2.Location = new System.Drawing.Point(470, 497);
+            this.txt_R64S2.Name = "txt_R64S2";
+            this.txt_R64S2.ReadOnly = true;
+            this.txt_R64S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64S2.TabIndex = 140;
+            this.txt_R64S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S2
+            // 
+            this.txt_R51S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S2.Location = new System.Drawing.Point(424, 497);
+            this.txt_R51S2.Name = "txt_R51S2";
+            this.txt_R51S2.ReadOnly = true;
+            this.txt_R51S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S2.TabIndex = 139;
+            this.txt_R51S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S2
+            // 
+            this.txt_R52S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S2.Location = new System.Drawing.Point(378, 497);
+            this.txt_R52S2.Name = "txt_R52S2";
+            this.txt_R52S2.ReadOnly = true;
+            this.txt_R52S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S2.TabIndex = 138;
+            this.txt_R52S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S2
+            // 
+            this.txt_R53S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S2.Location = new System.Drawing.Point(332, 497);
+            this.txt_R53S2.Name = "txt_R53S2";
+            this.txt_R53S2.ReadOnly = true;
+            this.txt_R53S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S2.TabIndex = 137;
+            this.txt_R53S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S1
+            // 
+            this.txt_R57S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S1.Location = new System.Drawing.Point(148, 471);
+            this.txt_R57S1.Name = "txt_R57S1";
+            this.txt_R57S1.ReadOnly = true;
+            this.txt_R57S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S1.TabIndex = 136;
+            this.txt_R57S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S1
+            // 
+            this.txt_R56S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S1.Location = new System.Drawing.Point(194, 471);
+            this.txt_R56S1.Name = "txt_R56S1";
+            this.txt_R56S1.ReadOnly = true;
+            this.txt_R56S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S1.TabIndex = 135;
+            this.txt_R56S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S1
+            // 
+            this.txt_R54S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S1.Location = new System.Drawing.Point(286, 471);
+            this.txt_R54S1.Name = "txt_R54S1";
+            this.txt_R54S1.ReadOnly = true;
+            this.txt_R54S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S1.TabIndex = 134;
+            this.txt_R54S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S1
+            // 
+            this.txt_R55S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S1.Location = new System.Drawing.Point(240, 471);
+            this.txt_R55S1.Name = "txt_R55S1";
+            this.txt_R55S1.ReadOnly = true;
+            this.txt_R55S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S1.TabIndex = 133;
+            this.txt_R55S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63S1
+            // 
+            this.txt_R63S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63S1.Location = new System.Drawing.Point(516, 471);
+            this.txt_R63S1.Name = "txt_R63S1";
+            this.txt_R63S1.ReadOnly = true;
+            this.txt_R63S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63S1.TabIndex = 132;
+            this.txt_R63S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64S1
+            // 
+            this.txt_R64S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64S1.Location = new System.Drawing.Point(470, 471);
+            this.txt_R64S1.Name = "txt_R64S1";
+            this.txt_R64S1.ReadOnly = true;
+            this.txt_R64S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64S1.TabIndex = 131;
+            this.txt_R64S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S1
+            // 
+            this.txt_R51S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S1.Location = new System.Drawing.Point(424, 471);
+            this.txt_R51S1.Name = "txt_R51S1";
+            this.txt_R51S1.ReadOnly = true;
+            this.txt_R51S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S1.TabIndex = 130;
+            this.txt_R51S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S1
+            // 
+            this.txt_R52S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S1.Location = new System.Drawing.Point(378, 471);
+            this.txt_R52S1.Name = "txt_R52S1";
+            this.txt_R52S1.ReadOnly = true;
+            this.txt_R52S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S1.TabIndex = 129;
+            this.txt_R52S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S1
+            // 
+            this.txt_R53S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S1.Location = new System.Drawing.Point(332, 471);
+            this.txt_R53S1.Name = "txt_R53S1";
+            this.txt_R53S1.ReadOnly = true;
+            this.txt_R53S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S1.TabIndex = 128;
+            this.txt_R53S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57
+            // 
+            this.txt_R57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57.Location = new System.Drawing.Point(148, 445);
+            this.txt_R57.Name = "txt_R57";
+            this.txt_R57.ReadOnly = true;
+            this.txt_R57.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57.TabIndex = 127;
+            this.txt_R57.Text = "57";
+            this.txt_R57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56
+            // 
+            this.txt_R56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56.Location = new System.Drawing.Point(194, 445);
+            this.txt_R56.Name = "txt_R56";
+            this.txt_R56.ReadOnly = true;
+            this.txt_R56.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56.TabIndex = 126;
+            this.txt_R56.Text = "56";
+            this.txt_R56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54
+            // 
+            this.txt_R54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54.Location = new System.Drawing.Point(286, 445);
+            this.txt_R54.Name = "txt_R54";
+            this.txt_R54.ReadOnly = true;
+            this.txt_R54.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54.TabIndex = 125;
+            this.txt_R54.Text = "54";
+            this.txt_R54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55
+            // 
+            this.txt_R55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55.Location = new System.Drawing.Point(240, 445);
+            this.txt_R55.Name = "txt_R55";
+            this.txt_R55.ReadOnly = true;
+            this.txt_R55.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55.TabIndex = 124;
+            this.txt_R55.Text = "55";
+            this.txt_R55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63
+            // 
+            this.txt_R63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63.Location = new System.Drawing.Point(516, 445);
+            this.txt_R63.Name = "txt_R63";
+            this.txt_R63.ReadOnly = true;
+            this.txt_R63.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63.TabIndex = 123;
+            this.txt_R63.Text = "63";
+            this.txt_R63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64
+            // 
+            this.txt_R64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64.Location = new System.Drawing.Point(470, 445);
+            this.txt_R64.Name = "txt_R64";
+            this.txt_R64.ReadOnly = true;
+            this.txt_R64.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64.TabIndex = 122;
+            this.txt_R64.Text = "64";
+            this.txt_R64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51
+            // 
+            this.txt_R51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51.Location = new System.Drawing.Point(424, 445);
+            this.txt_R51.Name = "txt_R51";
+            this.txt_R51.ReadOnly = true;
+            this.txt_R51.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51.TabIndex = 121;
+            this.txt_R51.Text = "51";
+            this.txt_R51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52
+            // 
+            this.txt_R52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52.Location = new System.Drawing.Point(378, 445);
+            this.txt_R52.Name = "txt_R52";
+            this.txt_R52.ReadOnly = true;
+            this.txt_R52.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52.TabIndex = 120;
+            this.txt_R52.Text = "52";
+            this.txt_R52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53
+            // 
+            this.txt_R53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53.Location = new System.Drawing.Point(332, 445);
+            this.txt_R53.Name = "txt_R53";
+            this.txt_R53.ReadOnly = true;
+            this.txt_R53.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53.TabIndex = 119;
+            this.txt_R53.Text = "53";
+            this.txt_R53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S4
+            // 
+            this.txt_R57S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S4.Location = new System.Drawing.Point(148, 549);
+            this.txt_R57S4.Name = "txt_R57S4";
+            this.txt_R57S4.ReadOnly = true;
+            this.txt_R57S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S4.TabIndex = 163;
+            this.txt_R57S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S4
+            // 
+            this.txt_R56S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S4.Location = new System.Drawing.Point(194, 549);
+            this.txt_R56S4.Name = "txt_R56S4";
+            this.txt_R56S4.ReadOnly = true;
+            this.txt_R56S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S4.TabIndex = 162;
+            this.txt_R56S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S4
+            // 
+            this.txt_R54S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S4.Location = new System.Drawing.Point(286, 549);
+            this.txt_R54S4.Name = "txt_R54S4";
+            this.txt_R54S4.ReadOnly = true;
+            this.txt_R54S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S4.TabIndex = 161;
+            this.txt_R54S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S4
+            // 
+            this.txt_R55S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S4.Location = new System.Drawing.Point(240, 549);
+            this.txt_R55S4.Name = "txt_R55S4";
+            this.txt_R55S4.ReadOnly = true;
+            this.txt_R55S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S4.TabIndex = 160;
+            this.txt_R55S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63S4
+            // 
+            this.txt_R63S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63S4.Location = new System.Drawing.Point(516, 549);
+            this.txt_R63S4.Name = "txt_R63S4";
+            this.txt_R63S4.ReadOnly = true;
+            this.txt_R63S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63S4.TabIndex = 159;
+            this.txt_R63S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64S4
+            // 
+            this.txt_R64S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64S4.Location = new System.Drawing.Point(470, 549);
+            this.txt_R64S4.Name = "txt_R64S4";
+            this.txt_R64S4.ReadOnly = true;
+            this.txt_R64S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64S4.TabIndex = 158;
+            this.txt_R64S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S4
+            // 
+            this.txt_R51S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S4.Location = new System.Drawing.Point(424, 549);
+            this.txt_R51S4.Name = "txt_R51S4";
+            this.txt_R51S4.ReadOnly = true;
+            this.txt_R51S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S4.TabIndex = 157;
+            this.txt_R51S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S4
+            // 
+            this.txt_R52S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S4.Location = new System.Drawing.Point(378, 549);
+            this.txt_R52S4.Name = "txt_R52S4";
+            this.txt_R52S4.ReadOnly = true;
+            this.txt_R52S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S4.TabIndex = 156;
+            this.txt_R52S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S4
+            // 
+            this.txt_R53S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S4.Location = new System.Drawing.Point(332, 549);
+            this.txt_R53S4.Name = "txt_R53S4";
+            this.txt_R53S4.ReadOnly = true;
+            this.txt_R53S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S4.TabIndex = 155;
+            this.txt_R53S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R38
             // 
@@ -2004,672 +2023,679 @@
             this.txt_R34.Text = "34";
             this.txt_R34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox166
-            // 
-            this.textBox166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox166.Location = new System.Drawing.Point(148, 575);
-            this.textBox166.Name = "textBox166";
-            this.textBox166.ReadOnly = true;
-            this.textBox166.Size = new System.Drawing.Size(40, 20);
-            this.textBox166.TabIndex = 181;
-            this.textBox166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox167
-            // 
-            this.textBox167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox167.Location = new System.Drawing.Point(194, 575);
-            this.textBox167.Name = "textBox167";
-            this.textBox167.ReadOnly = true;
-            this.textBox167.Size = new System.Drawing.Size(40, 20);
-            this.textBox167.TabIndex = 180;
-            this.textBox167.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox168
-            // 
-            this.textBox168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox168.Location = new System.Drawing.Point(286, 575);
-            this.textBox168.Name = "textBox168";
-            this.textBox168.ReadOnly = true;
-            this.textBox168.Size = new System.Drawing.Size(40, 20);
-            this.textBox168.TabIndex = 179;
-            this.textBox168.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox169
-            // 
-            this.textBox169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox169.Location = new System.Drawing.Point(240, 575);
-            this.textBox169.Name = "textBox169";
-            this.textBox169.ReadOnly = true;
-            this.textBox169.Size = new System.Drawing.Size(40, 20);
-            this.textBox169.TabIndex = 178;
-            this.textBox169.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox170
-            // 
-            this.textBox170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox170.Location = new System.Drawing.Point(516, 575);
-            this.textBox170.Name = "textBox170";
-            this.textBox170.ReadOnly = true;
-            this.textBox170.Size = new System.Drawing.Size(40, 20);
-            this.textBox170.TabIndex = 177;
-            this.textBox170.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox171
-            // 
-            this.textBox171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox171.Location = new System.Drawing.Point(470, 575);
-            this.textBox171.Name = "textBox171";
-            this.textBox171.ReadOnly = true;
-            this.textBox171.Size = new System.Drawing.Size(40, 20);
-            this.textBox171.TabIndex = 176;
-            this.textBox171.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox172
-            // 
-            this.textBox172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox172.Location = new System.Drawing.Point(424, 575);
-            this.textBox172.Name = "textBox172";
-            this.textBox172.ReadOnly = true;
-            this.textBox172.Size = new System.Drawing.Size(40, 20);
-            this.textBox172.TabIndex = 175;
-            this.textBox172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox173
-            // 
-            this.textBox173.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox173.Location = new System.Drawing.Point(378, 575);
-            this.textBox173.Name = "textBox173";
-            this.textBox173.ReadOnly = true;
-            this.textBox173.Size = new System.Drawing.Size(40, 20);
-            this.textBox173.TabIndex = 174;
-            this.textBox173.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox174
-            // 
-            this.textBox174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox174.Location = new System.Drawing.Point(332, 575);
-            this.textBox174.Name = "textBox174";
-            this.textBox174.ReadOnly = true;
-            this.textBox174.Size = new System.Drawing.Size(40, 20);
-            this.textBox174.TabIndex = 173;
-            this.textBox174.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox175
-            // 
-            this.textBox175.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox175.Location = new System.Drawing.Point(608, 523);
-            this.textBox175.Name = "textBox175";
-            this.textBox175.ReadOnly = true;
-            this.textBox175.Size = new System.Drawing.Size(40, 20);
-            this.textBox175.TabIndex = 189;
-            this.textBox175.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox176
-            // 
-            this.textBox176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox176.Location = new System.Drawing.Point(562, 523);
-            this.textBox176.Name = "textBox176";
-            this.textBox176.ReadOnly = true;
-            this.textBox176.Size = new System.Drawing.Size(40, 20);
-            this.textBox176.TabIndex = 188;
-            this.textBox176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox177
-            // 
-            this.textBox177.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox177.Location = new System.Drawing.Point(608, 497);
-            this.textBox177.Name = "textBox177";
-            this.textBox177.ReadOnly = true;
-            this.textBox177.Size = new System.Drawing.Size(40, 20);
-            this.textBox177.TabIndex = 187;
-            this.textBox177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox178
-            // 
-            this.textBox178.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox178.Location = new System.Drawing.Point(562, 497);
-            this.textBox178.Name = "textBox178";
-            this.textBox178.ReadOnly = true;
-            this.textBox178.Size = new System.Drawing.Size(40, 20);
-            this.textBox178.TabIndex = 186;
-            this.textBox178.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox179
-            // 
-            this.textBox179.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox179.Location = new System.Drawing.Point(608, 471);
-            this.textBox179.Name = "textBox179";
-            this.textBox179.ReadOnly = true;
-            this.textBox179.Size = new System.Drawing.Size(40, 20);
-            this.textBox179.TabIndex = 185;
-            this.textBox179.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox180
-            // 
-            this.textBox180.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox180.Location = new System.Drawing.Point(562, 471);
-            this.textBox180.Name = "textBox180";
-            this.textBox180.ReadOnly = true;
-            this.textBox180.Size = new System.Drawing.Size(40, 20);
-            this.textBox180.TabIndex = 184;
-            this.textBox180.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox181
-            // 
-            this.textBox181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox181.Location = new System.Drawing.Point(608, 445);
-            this.textBox181.Name = "textBox181";
-            this.textBox181.ReadOnly = true;
-            this.textBox181.Size = new System.Drawing.Size(40, 20);
-            this.textBox181.TabIndex = 183;
-            this.textBox181.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox182
-            // 
-            this.textBox182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox182.Location = new System.Drawing.Point(562, 445);
-            this.textBox182.Name = "textBox182";
-            this.textBox182.ReadOnly = true;
-            this.textBox182.Size = new System.Drawing.Size(40, 20);
-            this.textBox182.TabIndex = 182;
-            this.textBox182.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox183
-            // 
-            this.textBox183.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox183.Location = new System.Drawing.Point(148, 601);
-            this.textBox183.Name = "textBox183";
-            this.textBox183.ReadOnly = true;
-            this.textBox183.Size = new System.Drawing.Size(40, 20);
-            this.textBox183.TabIndex = 196;
-            this.textBox183.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox184
-            // 
-            this.textBox184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox184.Location = new System.Drawing.Point(194, 601);
-            this.textBox184.Name = "textBox184";
-            this.textBox184.ReadOnly = true;
-            this.textBox184.Size = new System.Drawing.Size(40, 20);
-            this.textBox184.TabIndex = 195;
-            this.textBox184.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox185
-            // 
-            this.textBox185.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox185.Location = new System.Drawing.Point(286, 601);
-            this.textBox185.Name = "textBox185";
-            this.textBox185.ReadOnly = true;
-            this.textBox185.Size = new System.Drawing.Size(40, 20);
-            this.textBox185.TabIndex = 194;
-            this.textBox185.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox186
-            // 
-            this.textBox186.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox186.Location = new System.Drawing.Point(240, 601);
-            this.textBox186.Name = "textBox186";
-            this.textBox186.ReadOnly = true;
-            this.textBox186.Size = new System.Drawing.Size(40, 20);
-            this.textBox186.TabIndex = 193;
-            this.textBox186.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox187
-            // 
-            this.textBox187.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox187.Location = new System.Drawing.Point(424, 601);
-            this.textBox187.Name = "textBox187";
-            this.textBox187.ReadOnly = true;
-            this.textBox187.Size = new System.Drawing.Size(40, 20);
-            this.textBox187.TabIndex = 192;
-            this.textBox187.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox188
-            // 
-            this.textBox188.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox188.Location = new System.Drawing.Point(378, 601);
-            this.textBox188.Name = "textBox188";
-            this.textBox188.ReadOnly = true;
-            this.textBox188.Size = new System.Drawing.Size(40, 20);
-            this.textBox188.TabIndex = 191;
-            this.textBox188.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox189
-            // 
-            this.textBox189.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox189.Location = new System.Drawing.Point(332, 601);
-            this.textBox189.Name = "textBox189";
-            this.textBox189.ReadOnly = true;
-            this.textBox189.Size = new System.Drawing.Size(40, 20);
-            this.textBox189.TabIndex = 190;
-            this.textBox189.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox190
-            // 
-            this.textBox190.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox190.Location = new System.Drawing.Point(148, 627);
-            this.textBox190.Name = "textBox190";
-            this.textBox190.ReadOnly = true;
-            this.textBox190.Size = new System.Drawing.Size(40, 20);
-            this.textBox190.TabIndex = 202;
-            this.textBox190.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox191
-            // 
-            this.textBox191.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox191.Location = new System.Drawing.Point(194, 627);
-            this.textBox191.Name = "textBox191";
-            this.textBox191.ReadOnly = true;
-            this.textBox191.Size = new System.Drawing.Size(40, 20);
-            this.textBox191.TabIndex = 201;
-            this.textBox191.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox192
-            // 
-            this.textBox192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox192.Location = new System.Drawing.Point(286, 627);
-            this.textBox192.Name = "textBox192";
-            this.textBox192.ReadOnly = true;
-            this.textBox192.Size = new System.Drawing.Size(40, 20);
-            this.textBox192.TabIndex = 200;
-            this.textBox192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox193
-            // 
-            this.textBox193.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox193.Location = new System.Drawing.Point(240, 627);
-            this.textBox193.Name = "textBox193";
-            this.textBox193.ReadOnly = true;
-            this.textBox193.Size = new System.Drawing.Size(40, 20);
-            this.textBox193.TabIndex = 199;
-            this.textBox193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox194
-            // 
-            this.textBox194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox194.Location = new System.Drawing.Point(378, 627);
-            this.textBox194.Name = "textBox194";
-            this.textBox194.ReadOnly = true;
-            this.textBox194.Size = new System.Drawing.Size(40, 20);
-            this.textBox194.TabIndex = 198;
-            this.textBox194.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox195
-            // 
-            this.textBox195.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox195.Location = new System.Drawing.Point(332, 627);
-            this.textBox195.Name = "textBox195";
-            this.textBox195.ReadOnly = true;
-            this.textBox195.Size = new System.Drawing.Size(40, 20);
-            this.textBox195.TabIndex = 197;
-            this.textBox195.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox196
-            // 
-            this.textBox196.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox196.Location = new System.Drawing.Point(148, 653);
-            this.textBox196.Name = "textBox196";
-            this.textBox196.ReadOnly = true;
-            this.textBox196.Size = new System.Drawing.Size(40, 20);
-            this.textBox196.TabIndex = 206;
-            this.textBox196.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox197
-            // 
-            this.textBox197.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox197.Location = new System.Drawing.Point(194, 653);
-            this.textBox197.Name = "textBox197";
-            this.textBox197.ReadOnly = true;
-            this.textBox197.Size = new System.Drawing.Size(40, 20);
-            this.textBox197.TabIndex = 205;
-            this.textBox197.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox198
-            // 
-            this.textBox198.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox198.Location = new System.Drawing.Point(286, 653);
-            this.textBox198.Name = "textBox198";
-            this.textBox198.ReadOnly = true;
-            this.textBox198.Size = new System.Drawing.Size(40, 20);
-            this.textBox198.TabIndex = 204;
-            this.textBox198.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox199
-            // 
-            this.textBox199.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox199.Location = new System.Drawing.Point(240, 653);
-            this.textBox199.Name = "textBox199";
-            this.textBox199.ReadOnly = true;
-            this.textBox199.Size = new System.Drawing.Size(40, 20);
-            this.textBox199.TabIndex = 203;
-            this.textBox199.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox200
-            // 
-            this.textBox200.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox200.Location = new System.Drawing.Point(148, 679);
-            this.textBox200.Name = "textBox200";
-            this.textBox200.ReadOnly = true;
-            this.textBox200.Size = new System.Drawing.Size(40, 20);
-            this.textBox200.TabIndex = 207;
-            this.textBox200.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox201
-            // 
-            this.textBox201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox201.Location = new System.Drawing.Point(826, 549);
-            this.textBox201.Name = "textBox201";
-            this.textBox201.ReadOnly = true;
-            this.textBox201.Size = new System.Drawing.Size(40, 20);
-            this.textBox201.TabIndex = 227;
-            this.textBox201.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox202
-            // 
-            this.textBox202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox202.Location = new System.Drawing.Point(780, 549);
-            this.textBox202.Name = "textBox202";
-            this.textBox202.ReadOnly = true;
-            this.textBox202.Size = new System.Drawing.Size(40, 20);
-            this.textBox202.TabIndex = 226;
-            this.textBox202.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox203
-            // 
-            this.textBox203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox203.Location = new System.Drawing.Point(734, 549);
-            this.textBox203.Name = "textBox203";
-            this.textBox203.ReadOnly = true;
-            this.textBox203.Size = new System.Drawing.Size(40, 20);
-            this.textBox203.TabIndex = 225;
-            this.textBox203.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox204
-            // 
-            this.textBox204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox204.Location = new System.Drawing.Point(688, 549);
-            this.textBox204.Name = "textBox204";
-            this.textBox204.ReadOnly = true;
-            this.textBox204.Size = new System.Drawing.Size(40, 20);
-            this.textBox204.TabIndex = 224;
-            this.textBox204.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox205
-            // 
-            this.textBox205.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox205.Location = new System.Drawing.Point(826, 523);
-            this.textBox205.Name = "textBox205";
-            this.textBox205.ReadOnly = true;
-            this.textBox205.Size = new System.Drawing.Size(40, 20);
-            this.textBox205.TabIndex = 223;
-            this.textBox205.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox206
-            // 
-            this.textBox206.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox206.Location = new System.Drawing.Point(780, 523);
-            this.textBox206.Name = "textBox206";
-            this.textBox206.ReadOnly = true;
-            this.textBox206.Size = new System.Drawing.Size(40, 20);
-            this.textBox206.TabIndex = 222;
-            this.textBox206.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox207
-            // 
-            this.textBox207.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox207.Location = new System.Drawing.Point(734, 523);
-            this.textBox207.Name = "textBox207";
-            this.textBox207.ReadOnly = true;
-            this.textBox207.Size = new System.Drawing.Size(40, 20);
-            this.textBox207.TabIndex = 221;
-            this.textBox207.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox208
-            // 
-            this.textBox208.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox208.Location = new System.Drawing.Point(688, 523);
-            this.textBox208.Name = "textBox208";
-            this.textBox208.ReadOnly = true;
-            this.textBox208.Size = new System.Drawing.Size(40, 20);
-            this.textBox208.TabIndex = 220;
-            this.textBox208.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox209
-            // 
-            this.textBox209.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox209.Location = new System.Drawing.Point(826, 497);
-            this.textBox209.Name = "textBox209";
-            this.textBox209.ReadOnly = true;
-            this.textBox209.Size = new System.Drawing.Size(40, 20);
-            this.textBox209.TabIndex = 219;
-            this.textBox209.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox210
-            // 
-            this.textBox210.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox210.Location = new System.Drawing.Point(780, 497);
-            this.textBox210.Name = "textBox210";
-            this.textBox210.ReadOnly = true;
-            this.textBox210.Size = new System.Drawing.Size(40, 20);
-            this.textBox210.TabIndex = 218;
-            this.textBox210.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox211
-            // 
-            this.textBox211.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox211.Location = new System.Drawing.Point(734, 497);
-            this.textBox211.Name = "textBox211";
-            this.textBox211.ReadOnly = true;
-            this.textBox211.Size = new System.Drawing.Size(40, 20);
-            this.textBox211.TabIndex = 217;
-            this.textBox211.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox212
-            // 
-            this.textBox212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox212.Location = new System.Drawing.Point(688, 497);
-            this.textBox212.Name = "textBox212";
-            this.textBox212.ReadOnly = true;
-            this.textBox212.Size = new System.Drawing.Size(40, 20);
-            this.textBox212.TabIndex = 216;
-            this.textBox212.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox213
-            // 
-            this.textBox213.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox213.Location = new System.Drawing.Point(826, 471);
-            this.textBox213.Name = "textBox213";
-            this.textBox213.ReadOnly = true;
-            this.textBox213.Size = new System.Drawing.Size(40, 20);
-            this.textBox213.TabIndex = 215;
-            this.textBox213.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox214
-            // 
-            this.textBox214.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox214.Location = new System.Drawing.Point(780, 471);
-            this.textBox214.Name = "textBox214";
-            this.textBox214.ReadOnly = true;
-            this.textBox214.Size = new System.Drawing.Size(40, 20);
-            this.textBox214.TabIndex = 214;
-            this.textBox214.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox215
-            // 
-            this.textBox215.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox215.Location = new System.Drawing.Point(734, 471);
-            this.textBox215.Name = "textBox215";
-            this.textBox215.ReadOnly = true;
-            this.textBox215.Size = new System.Drawing.Size(40, 20);
-            this.textBox215.TabIndex = 213;
-            this.textBox215.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox216
-            // 
-            this.textBox216.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox216.Location = new System.Drawing.Point(688, 471);
-            this.textBox216.Name = "textBox216";
-            this.textBox216.ReadOnly = true;
-            this.textBox216.Size = new System.Drawing.Size(40, 20);
-            this.textBox216.TabIndex = 212;
-            this.textBox216.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox217
-            // 
-            this.textBox217.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox217.Location = new System.Drawing.Point(826, 445);
-            this.textBox217.Name = "textBox217";
-            this.textBox217.ReadOnly = true;
-            this.textBox217.Size = new System.Drawing.Size(40, 20);
-            this.textBox217.TabIndex = 211;
-            this.textBox217.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox218
-            // 
-            this.textBox218.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox218.Location = new System.Drawing.Point(780, 445);
-            this.textBox218.Name = "textBox218";
-            this.textBox218.ReadOnly = true;
-            this.textBox218.Size = new System.Drawing.Size(40, 20);
-            this.textBox218.TabIndex = 210;
-            this.textBox218.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox219
-            // 
-            this.textBox219.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox219.Location = new System.Drawing.Point(734, 445);
-            this.textBox219.Name = "textBox219";
-            this.textBox219.ReadOnly = true;
-            this.textBox219.Size = new System.Drawing.Size(40, 20);
-            this.textBox219.TabIndex = 209;
-            this.textBox219.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox220
-            // 
-            this.textBox220.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox220.Location = new System.Drawing.Point(688, 445);
-            this.textBox220.Name = "textBox220";
-            this.textBox220.ReadOnly = true;
-            this.textBox220.Size = new System.Drawing.Size(40, 20);
-            this.textBox220.TabIndex = 208;
-            this.textBox220.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox221
-            // 
-            this.textBox221.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox221.Location = new System.Drawing.Point(826, 575);
-            this.textBox221.Name = "textBox221";
-            this.textBox221.ReadOnly = true;
-            this.textBox221.Size = new System.Drawing.Size(40, 20);
-            this.textBox221.TabIndex = 230;
-            this.textBox221.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox222
-            // 
-            this.textBox222.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox222.Location = new System.Drawing.Point(780, 575);
-            this.textBox222.Name = "textBox222";
-            this.textBox222.ReadOnly = true;
-            this.textBox222.Size = new System.Drawing.Size(40, 20);
-            this.textBox222.TabIndex = 229;
-            this.textBox222.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox223
-            // 
-            this.textBox223.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox223.Location = new System.Drawing.Point(734, 575);
-            this.textBox223.Name = "textBox223";
-            this.textBox223.ReadOnly = true;
-            this.textBox223.Size = new System.Drawing.Size(40, 20);
-            this.textBox223.TabIndex = 228;
-            this.textBox223.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox224
-            // 
-            this.textBox224.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox224.Location = new System.Drawing.Point(826, 601);
-            this.textBox224.Name = "textBox224";
-            this.textBox224.ReadOnly = true;
-            this.textBox224.Size = new System.Drawing.Size(40, 20);
-            this.textBox224.TabIndex = 232;
-            this.textBox224.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox225
-            // 
-            this.textBox225.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox225.Location = new System.Drawing.Point(780, 601);
-            this.textBox225.Name = "textBox225";
-            this.textBox225.ReadOnly = true;
-            this.textBox225.Size = new System.Drawing.Size(40, 20);
-            this.textBox225.TabIndex = 231;
-            this.textBox225.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Form2
+            // txt_R57S5
+            // 
+            this.txt_R57S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S5.Location = new System.Drawing.Point(148, 575);
+            this.txt_R57S5.Name = "txt_R57S5";
+            this.txt_R57S5.ReadOnly = true;
+            this.txt_R57S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S5.TabIndex = 181;
+            this.txt_R57S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S5
+            // 
+            this.txt_R56S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S5.Location = new System.Drawing.Point(194, 575);
+            this.txt_R56S5.Name = "txt_R56S5";
+            this.txt_R56S5.ReadOnly = true;
+            this.txt_R56S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S5.TabIndex = 180;
+            this.txt_R56S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S5
+            // 
+            this.txt_R54S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S5.Location = new System.Drawing.Point(286, 575);
+            this.txt_R54S5.Name = "txt_R54S5";
+            this.txt_R54S5.ReadOnly = true;
+            this.txt_R54S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S5.TabIndex = 179;
+            this.txt_R54S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S5
+            // 
+            this.txt_R55S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S5.Location = new System.Drawing.Point(240, 575);
+            this.txt_R55S5.Name = "txt_R55S5";
+            this.txt_R55S5.ReadOnly = true;
+            this.txt_R55S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S5.TabIndex = 178;
+            this.txt_R55S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R63S5
+            // 
+            this.txt_R63S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63S5.Location = new System.Drawing.Point(516, 575);
+            this.txt_R63S5.Name = "txt_R63S5";
+            this.txt_R63S5.ReadOnly = true;
+            this.txt_R63S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63S5.TabIndex = 177;
+            this.txt_R63S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R64S5
+            // 
+            this.txt_R64S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64S5.Location = new System.Drawing.Point(470, 575);
+            this.txt_R64S5.Name = "txt_R64S5";
+            this.txt_R64S5.ReadOnly = true;
+            this.txt_R64S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64S5.TabIndex = 176;
+            this.txt_R64S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S5
+            // 
+            this.txt_R51S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S5.Location = new System.Drawing.Point(424, 575);
+            this.txt_R51S5.Name = "txt_R51S5";
+            this.txt_R51S5.ReadOnly = true;
+            this.txt_R51S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S5.TabIndex = 175;
+            this.txt_R51S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S5
+            // 
+            this.txt_R52S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S5.Location = new System.Drawing.Point(378, 575);
+            this.txt_R52S5.Name = "txt_R52S5";
+            this.txt_R52S5.ReadOnly = true;
+            this.txt_R52S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S5.TabIndex = 174;
+            this.txt_R52S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S5
+            // 
+            this.txt_R53S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S5.Location = new System.Drawing.Point(332, 575);
+            this.txt_R53S5.Name = "txt_R53S5";
+            this.txt_R53S5.ReadOnly = true;
+            this.txt_R53S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S5.TabIndex = 173;
+            this.txt_R53S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R61S3
+            // 
+            this.txt_R61S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R61S3.Location = new System.Drawing.Point(608, 523);
+            this.txt_R61S3.Name = "txt_R61S3";
+            this.txt_R61S3.ReadOnly = true;
+            this.txt_R61S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R61S3.TabIndex = 189;
+            this.txt_R61S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R62S3
+            // 
+            this.txt_R62S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R62S3.Location = new System.Drawing.Point(562, 523);
+            this.txt_R62S3.Name = "txt_R62S3";
+            this.txt_R62S3.ReadOnly = true;
+            this.txt_R62S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R62S3.TabIndex = 188;
+            this.txt_R62S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R61S2
+            // 
+            this.txt_R61S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R61S2.Location = new System.Drawing.Point(608, 497);
+            this.txt_R61S2.Name = "txt_R61S2";
+            this.txt_R61S2.ReadOnly = true;
+            this.txt_R61S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R61S2.TabIndex = 187;
+            this.txt_R61S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R62S2
+            // 
+            this.txt_R62S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R62S2.Location = new System.Drawing.Point(562, 497);
+            this.txt_R62S2.Name = "txt_R62S2";
+            this.txt_R62S2.ReadOnly = true;
+            this.txt_R62S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R62S2.TabIndex = 186;
+            this.txt_R62S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R61S1
+            // 
+            this.txt_R61S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R61S1.Location = new System.Drawing.Point(608, 471);
+            this.txt_R61S1.Name = "txt_R61S1";
+            this.txt_R61S1.ReadOnly = true;
+            this.txt_R61S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R61S1.TabIndex = 185;
+            this.txt_R61S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R62S1
+            // 
+            this.txt_R62S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R62S1.Location = new System.Drawing.Point(562, 471);
+            this.txt_R62S1.Name = "txt_R62S1";
+            this.txt_R62S1.ReadOnly = true;
+            this.txt_R62S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R62S1.TabIndex = 184;
+            this.txt_R62S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R61
+            // 
+            this.txt_R61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R61.Location = new System.Drawing.Point(608, 445);
+            this.txt_R61.Name = "txt_R61";
+            this.txt_R61.ReadOnly = true;
+            this.txt_R61.Size = new System.Drawing.Size(40, 20);
+            this.txt_R61.TabIndex = 183;
+            this.txt_R61.Text = "61";
+            this.txt_R61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R62
+            // 
+            this.txt_R62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R62.Location = new System.Drawing.Point(562, 445);
+            this.txt_R62.Name = "txt_R62";
+            this.txt_R62.ReadOnly = true;
+            this.txt_R62.Size = new System.Drawing.Size(40, 20);
+            this.txt_R62.TabIndex = 182;
+            this.txt_R62.Text = "62";
+            this.txt_R62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S6
+            // 
+            this.txt_R57S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S6.Location = new System.Drawing.Point(148, 601);
+            this.txt_R57S6.Name = "txt_R57S6";
+            this.txt_R57S6.ReadOnly = true;
+            this.txt_R57S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S6.TabIndex = 196;
+            this.txt_R57S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S6
+            // 
+            this.txt_R56S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S6.Location = new System.Drawing.Point(194, 601);
+            this.txt_R56S6.Name = "txt_R56S6";
+            this.txt_R56S6.ReadOnly = true;
+            this.txt_R56S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S6.TabIndex = 195;
+            this.txt_R56S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S6
+            // 
+            this.txt_R54S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S6.Location = new System.Drawing.Point(286, 601);
+            this.txt_R54S6.Name = "txt_R54S6";
+            this.txt_R54S6.ReadOnly = true;
+            this.txt_R54S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S6.TabIndex = 194;
+            this.txt_R54S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S6
+            // 
+            this.txt_R55S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S6.Location = new System.Drawing.Point(240, 601);
+            this.txt_R55S6.Name = "txt_R55S6";
+            this.txt_R55S6.ReadOnly = true;
+            this.txt_R55S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S6.TabIndex = 193;
+            this.txt_R55S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R51S6
+            // 
+            this.txt_R51S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51S6.Location = new System.Drawing.Point(424, 601);
+            this.txt_R51S6.Name = "txt_R51S6";
+            this.txt_R51S6.ReadOnly = true;
+            this.txt_R51S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51S6.TabIndex = 192;
+            this.txt_R51S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S6
+            // 
+            this.txt_R52S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S6.Location = new System.Drawing.Point(378, 601);
+            this.txt_R52S6.Name = "txt_R52S6";
+            this.txt_R52S6.ReadOnly = true;
+            this.txt_R52S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S6.TabIndex = 191;
+            this.txt_R52S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S6
+            // 
+            this.txt_R53S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S6.Location = new System.Drawing.Point(332, 601);
+            this.txt_R53S6.Name = "txt_R53S6";
+            this.txt_R53S6.ReadOnly = true;
+            this.txt_R53S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S6.TabIndex = 190;
+            this.txt_R53S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S7
+            // 
+            this.txt_R57S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S7.Location = new System.Drawing.Point(148, 627);
+            this.txt_R57S7.Name = "txt_R57S7";
+            this.txt_R57S7.ReadOnly = true;
+            this.txt_R57S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S7.TabIndex = 202;
+            this.txt_R57S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S7
+            // 
+            this.txt_R56S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S7.Location = new System.Drawing.Point(194, 627);
+            this.txt_R56S7.Name = "txt_R56S7";
+            this.txt_R56S7.ReadOnly = true;
+            this.txt_R56S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S7.TabIndex = 201;
+            this.txt_R56S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S7
+            // 
+            this.txt_R54S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S7.Location = new System.Drawing.Point(286, 627);
+            this.txt_R54S7.Name = "txt_R54S7";
+            this.txt_R54S7.ReadOnly = true;
+            this.txt_R54S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S7.TabIndex = 200;
+            this.txt_R54S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S7
+            // 
+            this.txt_R55S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S7.Location = new System.Drawing.Point(240, 627);
+            this.txt_R55S7.Name = "txt_R55S7";
+            this.txt_R55S7.ReadOnly = true;
+            this.txt_R55S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S7.TabIndex = 199;
+            this.txt_R55S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R52S7
+            // 
+            this.txt_R52S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S7.Location = new System.Drawing.Point(378, 627);
+            this.txt_R52S7.Name = "txt_R52S7";
+            this.txt_R52S7.ReadOnly = true;
+            this.txt_R52S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52S7.TabIndex = 198;
+            this.txt_R52S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R53S7
+            // 
+            this.txt_R53S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53S7.Location = new System.Drawing.Point(332, 627);
+            this.txt_R53S7.Name = "txt_R53S7";
+            this.txt_R53S7.ReadOnly = true;
+            this.txt_R53S7.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53S7.TabIndex = 197;
+            this.txt_R53S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S8
+            // 
+            this.txt_R57S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S8.Location = new System.Drawing.Point(148, 653);
+            this.txt_R57S8.Name = "txt_R57S8";
+            this.txt_R57S8.ReadOnly = true;
+            this.txt_R57S8.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S8.TabIndex = 206;
+            this.txt_R57S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R56S8
+            // 
+            this.txt_R56S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56S8.Location = new System.Drawing.Point(194, 653);
+            this.txt_R56S8.Name = "txt_R56S8";
+            this.txt_R56S8.ReadOnly = true;
+            this.txt_R56S8.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56S8.TabIndex = 205;
+            this.txt_R56S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R54S8
+            // 
+            this.txt_R54S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54S8.Location = new System.Drawing.Point(286, 653);
+            this.txt_R54S8.Name = "txt_R54S8";
+            this.txt_R54S8.ReadOnly = true;
+            this.txt_R54S8.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54S8.TabIndex = 204;
+            this.txt_R54S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R55S8
+            // 
+            this.txt_R55S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55S8.Location = new System.Drawing.Point(240, 653);
+            this.txt_R55S8.Name = "txt_R55S8";
+            this.txt_R55S8.ReadOnly = true;
+            this.txt_R55S8.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55S8.TabIndex = 203;
+            this.txt_R55S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R57S9
+            // 
+            this.txt_R57S9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S9.Location = new System.Drawing.Point(148, 679);
+            this.txt_R57S9.Name = "txt_R57S9";
+            this.txt_R57S9.ReadOnly = true;
+            this.txt_R57S9.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57S9.TabIndex = 207;
+            this.txt_R57S9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77S4
+            // 
+            this.txt_R77S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S4.Location = new System.Drawing.Point(826, 549);
+            this.txt_R77S4.Name = "txt_R77S4";
+            this.txt_R77S4.ReadOnly = true;
+            this.txt_R77S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S4.TabIndex = 227;
+            this.txt_R77S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S4
+            // 
+            this.txt_R76S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S4.Location = new System.Drawing.Point(780, 549);
+            this.txt_R76S4.Name = "txt_R76S4";
+            this.txt_R76S4.ReadOnly = true;
+            this.txt_R76S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S4.TabIndex = 226;
+            this.txt_R76S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75S4
+            // 
+            this.txt_R75S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75S4.Location = new System.Drawing.Point(734, 549);
+            this.txt_R75S4.Name = "txt_R75S4";
+            this.txt_R75S4.ReadOnly = true;
+            this.txt_R75S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75S4.TabIndex = 225;
+            this.txt_R75S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R74S4
+            // 
+            this.txt_R74S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R74S4.Location = new System.Drawing.Point(688, 549);
+            this.txt_R74S4.Name = "txt_R74S4";
+            this.txt_R74S4.ReadOnly = true;
+            this.txt_R74S4.Size = new System.Drawing.Size(40, 20);
+            this.txt_R74S4.TabIndex = 224;
+            this.txt_R74S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77S3
+            // 
+            this.txt_R77S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S3.Location = new System.Drawing.Point(826, 523);
+            this.txt_R77S3.Name = "txt_R77S3";
+            this.txt_R77S3.ReadOnly = true;
+            this.txt_R77S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S3.TabIndex = 223;
+            this.txt_R77S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S3
+            // 
+            this.txt_R76S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S3.Location = new System.Drawing.Point(780, 523);
+            this.txt_R76S3.Name = "txt_R76S3";
+            this.txt_R76S3.ReadOnly = true;
+            this.txt_R76S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S3.TabIndex = 222;
+            this.txt_R76S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75S3
+            // 
+            this.txt_R75S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75S3.Location = new System.Drawing.Point(734, 523);
+            this.txt_R75S3.Name = "txt_R75S3";
+            this.txt_R75S3.ReadOnly = true;
+            this.txt_R75S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75S3.TabIndex = 221;
+            this.txt_R75S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R74S3
+            // 
+            this.txt_R74S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R74S3.Location = new System.Drawing.Point(688, 523);
+            this.txt_R74S3.Name = "txt_R74S3";
+            this.txt_R74S3.ReadOnly = true;
+            this.txt_R74S3.Size = new System.Drawing.Size(40, 20);
+            this.txt_R74S3.TabIndex = 220;
+            this.txt_R74S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77S2
+            // 
+            this.txt_R77S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S2.Location = new System.Drawing.Point(826, 497);
+            this.txt_R77S2.Name = "txt_R77S2";
+            this.txt_R77S2.ReadOnly = true;
+            this.txt_R77S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S2.TabIndex = 219;
+            this.txt_R77S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S2
+            // 
+            this.txt_R76S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S2.Location = new System.Drawing.Point(780, 497);
+            this.txt_R76S2.Name = "txt_R76S2";
+            this.txt_R76S2.ReadOnly = true;
+            this.txt_R76S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S2.TabIndex = 218;
+            this.txt_R76S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75S2
+            // 
+            this.txt_R75S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75S2.Location = new System.Drawing.Point(734, 497);
+            this.txt_R75S2.Name = "txt_R75S2";
+            this.txt_R75S2.ReadOnly = true;
+            this.txt_R75S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75S2.TabIndex = 217;
+            this.txt_R75S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R74S2
+            // 
+            this.txt_R74S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R74S2.Location = new System.Drawing.Point(688, 497);
+            this.txt_R74S2.Name = "txt_R74S2";
+            this.txt_R74S2.ReadOnly = true;
+            this.txt_R74S2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R74S2.TabIndex = 216;
+            this.txt_R74S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77S1
+            // 
+            this.txt_R77S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S1.Location = new System.Drawing.Point(826, 471);
+            this.txt_R77S1.Name = "txt_R77S1";
+            this.txt_R77S1.ReadOnly = true;
+            this.txt_R77S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S1.TabIndex = 215;
+            this.txt_R77S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S1
+            // 
+            this.txt_R76S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S1.Location = new System.Drawing.Point(780, 471);
+            this.txt_R76S1.Name = "txt_R76S1";
+            this.txt_R76S1.ReadOnly = true;
+            this.txt_R76S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S1.TabIndex = 214;
+            this.txt_R76S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75S1
+            // 
+            this.txt_R75S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75S1.Location = new System.Drawing.Point(734, 471);
+            this.txt_R75S1.Name = "txt_R75S1";
+            this.txt_R75S1.ReadOnly = true;
+            this.txt_R75S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75S1.TabIndex = 213;
+            this.txt_R75S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R74S1
+            // 
+            this.txt_R74S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R74S1.Location = new System.Drawing.Point(688, 471);
+            this.txt_R74S1.Name = "txt_R74S1";
+            this.txt_R74S1.ReadOnly = true;
+            this.txt_R74S1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R74S1.TabIndex = 212;
+            this.txt_R74S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77
+            // 
+            this.txt_R77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77.Location = new System.Drawing.Point(826, 445);
+            this.txt_R77.Name = "txt_R77";
+            this.txt_R77.ReadOnly = true;
+            this.txt_R77.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77.TabIndex = 211;
+            this.txt_R77.Text = "77";
+            this.txt_R77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76
+            // 
+            this.txt_R76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76.Location = new System.Drawing.Point(780, 445);
+            this.txt_R76.Name = "txt_R76";
+            this.txt_R76.ReadOnly = true;
+            this.txt_R76.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76.TabIndex = 210;
+            this.txt_R76.Text = "76";
+            this.txt_R76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75
+            // 
+            this.txt_R75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75.Location = new System.Drawing.Point(734, 445);
+            this.txt_R75.Name = "txt_R75";
+            this.txt_R75.ReadOnly = true;
+            this.txt_R75.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75.TabIndex = 209;
+            this.txt_R75.Text = "75";
+            this.txt_R75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R74
+            // 
+            this.txt_R74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R74.Location = new System.Drawing.Point(688, 445);
+            this.txt_R74.Name = "txt_R74";
+            this.txt_R74.ReadOnly = true;
+            this.txt_R74.Size = new System.Drawing.Size(40, 20);
+            this.txt_R74.TabIndex = 208;
+            this.txt_R74.Text = "74";
+            this.txt_R74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R74.TextChanged += new System.EventHandler(this.textBox220_TextChanged);
+            // 
+            // txt_R77S5
+            // 
+            this.txt_R77S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S5.Location = new System.Drawing.Point(826, 575);
+            this.txt_R77S5.Name = "txt_R77S5";
+            this.txt_R77S5.ReadOnly = true;
+            this.txt_R77S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S5.TabIndex = 230;
+            this.txt_R77S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S5
+            // 
+            this.txt_R76S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S5.Location = new System.Drawing.Point(780, 575);
+            this.txt_R76S5.Name = "txt_R76S5";
+            this.txt_R76S5.ReadOnly = true;
+            this.txt_R76S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S5.TabIndex = 229;
+            this.txt_R76S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R75S5
+            // 
+            this.txt_R75S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R75S5.Location = new System.Drawing.Point(734, 575);
+            this.txt_R75S5.Name = "txt_R75S5";
+            this.txt_R75S5.ReadOnly = true;
+            this.txt_R75S5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R75S5.TabIndex = 228;
+            this.txt_R75S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R77S6
+            // 
+            this.txt_R77S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R77S6.Location = new System.Drawing.Point(826, 601);
+            this.txt_R77S6.Name = "txt_R77S6";
+            this.txt_R77S6.ReadOnly = true;
+            this.txt_R77S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R77S6.TabIndex = 232;
+            this.txt_R77S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R76S6
+            // 
+            this.txt_R76S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R76S6.Location = new System.Drawing.Point(780, 601);
+            this.txt_R76S6.Name = "txt_R76S6";
+            this.txt_R76S6.ReadOnly = true;
+            this.txt_R76S6.Size = new System.Drawing.Size(40, 20);
+            this.txt_R76S6.TabIndex = 231;
+            this.txt_R76S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_R61S
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.textBox224);
-            this.Controls.Add(this.textBox225);
-            this.Controls.Add(this.textBox221);
-            this.Controls.Add(this.textBox222);
-            this.Controls.Add(this.textBox223);
-            this.Controls.Add(this.textBox201);
-            this.Controls.Add(this.textBox202);
-            this.Controls.Add(this.textBox203);
-            this.Controls.Add(this.textBox204);
-            this.Controls.Add(this.textBox205);
-            this.Controls.Add(this.textBox206);
-            this.Controls.Add(this.textBox207);
-            this.Controls.Add(this.textBox208);
-            this.Controls.Add(this.textBox209);
-            this.Controls.Add(this.textBox210);
-            this.Controls.Add(this.textBox211);
-            this.Controls.Add(this.textBox212);
-            this.Controls.Add(this.textBox213);
-            this.Controls.Add(this.textBox214);
-            this.Controls.Add(this.textBox215);
-            this.Controls.Add(this.textBox216);
-            this.Controls.Add(this.textBox217);
-            this.Controls.Add(this.textBox218);
-            this.Controls.Add(this.textBox219);
-            this.Controls.Add(this.textBox220);
-            this.Controls.Add(this.textBox200);
-            this.Controls.Add(this.textBox196);
-            this.Controls.Add(this.textBox197);
-            this.Controls.Add(this.textBox198);
-            this.Controls.Add(this.textBox199);
-            this.Controls.Add(this.textBox190);
-            this.Controls.Add(this.textBox191);
-            this.Controls.Add(this.textBox192);
-            this.Controls.Add(this.textBox193);
-            this.Controls.Add(this.textBox194);
-            this.Controls.Add(this.textBox195);
-            this.Controls.Add(this.textBox183);
-            this.Controls.Add(this.textBox184);
-            this.Controls.Add(this.textBox185);
-            this.Controls.Add(this.textBox186);
-            this.Controls.Add(this.textBox187);
-            this.Controls.Add(this.textBox188);
-            this.Controls.Add(this.textBox189);
-            this.Controls.Add(this.textBox175);
-            this.Controls.Add(this.textBox176);
-            this.Controls.Add(this.textBox177);
-            this.Controls.Add(this.textBox178);
-            this.Controls.Add(this.textBox179);
-            this.Controls.Add(this.textBox180);
-            this.Controls.Add(this.textBox181);
-            this.Controls.Add(this.textBox182);
-            this.Controls.Add(this.textBox166);
-            this.Controls.Add(this.textBox167);
-            this.Controls.Add(this.textBox168);
-            this.Controls.Add(this.textBox169);
-            this.Controls.Add(this.textBox170);
-            this.Controls.Add(this.textBox171);
-            this.Controls.Add(this.textBox172);
-            this.Controls.Add(this.textBox173);
-            this.Controls.Add(this.textBox174);
+            this.Controls.Add(this.txt_R77S6);
+            this.Controls.Add(this.txt_R76S6);
+            this.Controls.Add(this.txt_R77S5);
+            this.Controls.Add(this.txt_R76S5);
+            this.Controls.Add(this.txt_R75S5);
+            this.Controls.Add(this.txt_R77S4);
+            this.Controls.Add(this.txt_R76S4);
+            this.Controls.Add(this.txt_R75S4);
+            this.Controls.Add(this.txt_R74S4);
+            this.Controls.Add(this.txt_R77S3);
+            this.Controls.Add(this.txt_R76S3);
+            this.Controls.Add(this.txt_R75S3);
+            this.Controls.Add(this.txt_R74S3);
+            this.Controls.Add(this.txt_R77S2);
+            this.Controls.Add(this.txt_R76S2);
+            this.Controls.Add(this.txt_R75S2);
+            this.Controls.Add(this.txt_R74S2);
+            this.Controls.Add(this.txt_R77S1);
+            this.Controls.Add(this.txt_R76S1);
+            this.Controls.Add(this.txt_R75S1);
+            this.Controls.Add(this.txt_R74S1);
+            this.Controls.Add(this.txt_R77);
+            this.Controls.Add(this.txt_R76);
+            this.Controls.Add(this.txt_R75);
+            this.Controls.Add(this.txt_R74);
+            this.Controls.Add(this.txt_R57S9);
+            this.Controls.Add(this.txt_R57S8);
+            this.Controls.Add(this.txt_R56S8);
+            this.Controls.Add(this.txt_R54S8);
+            this.Controls.Add(this.txt_R55S8);
+            this.Controls.Add(this.txt_R57S7);
+            this.Controls.Add(this.txt_R56S7);
+            this.Controls.Add(this.txt_R54S7);
+            this.Controls.Add(this.txt_R55S7);
+            this.Controls.Add(this.txt_R52S7);
+            this.Controls.Add(this.txt_R53S7);
+            this.Controls.Add(this.txt_R57S6);
+            this.Controls.Add(this.txt_R56S6);
+            this.Controls.Add(this.txt_R54S6);
+            this.Controls.Add(this.txt_R55S6);
+            this.Controls.Add(this.txt_R51S6);
+            this.Controls.Add(this.txt_R52S6);
+            this.Controls.Add(this.txt_R53S6);
+            this.Controls.Add(this.txt_R61S3);
+            this.Controls.Add(this.txt_R62S3);
+            this.Controls.Add(this.txt_R61S2);
+            this.Controls.Add(this.txt_R62S2);
+            this.Controls.Add(this.txt_R61S1);
+            this.Controls.Add(this.txt_R62S1);
+            this.Controls.Add(this.txt_R61);
+            this.Controls.Add(this.txt_R62);
+            this.Controls.Add(this.txt_R57S5);
+            this.Controls.Add(this.txt_R56S5);
+            this.Controls.Add(this.txt_R54S5);
+            this.Controls.Add(this.txt_R55S5);
+            this.Controls.Add(this.txt_R63S5);
+            this.Controls.Add(this.txt_R64S5);
+            this.Controls.Add(this.txt_R51S5);
+            this.Controls.Add(this.txt_R52S5);
+            this.Controls.Add(this.txt_R53S5);
             this.Controls.Add(this.txt_R38);
             this.Controls.Add(this.txt_R37);
             this.Controls.Add(this.txt_R35);
@@ -2679,71 +2705,71 @@
             this.Controls.Add(this.txt_R32);
             this.Controls.Add(this.txt_R33);
             this.Controls.Add(this.txt_R34);
-            this.Controls.Add(this.textBox148);
-            this.Controls.Add(this.textBox149);
-            this.Controls.Add(this.textBox150);
-            this.Controls.Add(this.textBox151);
-            this.Controls.Add(this.textBox152);
-            this.Controls.Add(this.textBox153);
-            this.Controls.Add(this.textBox154);
-            this.Controls.Add(this.textBox155);
-            this.Controls.Add(this.textBox156);
-            this.Controls.Add(this.textBox112);
-            this.Controls.Add(this.textBox113);
-            this.Controls.Add(this.textBox114);
-            this.Controls.Add(this.textBox115);
-            this.Controls.Add(this.textBox116);
-            this.Controls.Add(this.textBox117);
-            this.Controls.Add(this.textBox118);
-            this.Controls.Add(this.textBox119);
-            this.Controls.Add(this.textBox120);
-            this.Controls.Add(this.textBox121);
-            this.Controls.Add(this.textBox122);
-            this.Controls.Add(this.textBox123);
-            this.Controls.Add(this.textBox124);
-            this.Controls.Add(this.textBox125);
-            this.Controls.Add(this.textBox126);
-            this.Controls.Add(this.textBox127);
-            this.Controls.Add(this.textBox128);
-            this.Controls.Add(this.textBox129);
-            this.Controls.Add(this.textBox130);
-            this.Controls.Add(this.textBox131);
-            this.Controls.Add(this.textBox132);
-            this.Controls.Add(this.textBox133);
-            this.Controls.Add(this.textBox134);
-            this.Controls.Add(this.textBox135);
-            this.Controls.Add(this.textBox136);
-            this.Controls.Add(this.textBox137);
-            this.Controls.Add(this.textBox138);
-            this.Controls.Add(this.textBox139);
-            this.Controls.Add(this.textBox140);
-            this.Controls.Add(this.textBox141);
-            this.Controls.Add(this.textBox142);
-            this.Controls.Add(this.textBox143);
-            this.Controls.Add(this.textBox144);
-            this.Controls.Add(this.textBox145);
-            this.Controls.Add(this.textBox146);
-            this.Controls.Add(this.textBox147);
+            this.Controls.Add(this.txt_R57S4);
+            this.Controls.Add(this.txt_R56S4);
+            this.Controls.Add(this.txt_R54S4);
+            this.Controls.Add(this.txt_R55S4);
+            this.Controls.Add(this.txt_R63S4);
+            this.Controls.Add(this.txt_R64S4);
+            this.Controls.Add(this.txt_R51S4);
+            this.Controls.Add(this.txt_R52S4);
+            this.Controls.Add(this.txt_R53S4);
+            this.Controls.Add(this.txt_R57S3);
+            this.Controls.Add(this.txt_R56S3);
+            this.Controls.Add(this.txt_R54S3);
+            this.Controls.Add(this.txt_R55S3);
+            this.Controls.Add(this.txt_R63S3);
+            this.Controls.Add(this.txt_R64S3);
+            this.Controls.Add(this.txt_R51S3);
+            this.Controls.Add(this.txt_R52S3);
+            this.Controls.Add(this.txt_R53S3);
+            this.Controls.Add(this.txt_R57S2);
+            this.Controls.Add(this.txt_R56S2);
+            this.Controls.Add(this.txt_R54S2);
+            this.Controls.Add(this.txt_R55S2);
+            this.Controls.Add(this.txt_R63S2);
+            this.Controls.Add(this.txt_R64S2);
+            this.Controls.Add(this.txt_R51S2);
+            this.Controls.Add(this.txt_R52S2);
+            this.Controls.Add(this.txt_R53S2);
+            this.Controls.Add(this.txt_R57S1);
+            this.Controls.Add(this.txt_R56S1);
+            this.Controls.Add(this.txt_R54S1);
+            this.Controls.Add(this.txt_R55S1);
+            this.Controls.Add(this.txt_R63S1);
+            this.Controls.Add(this.txt_R64S1);
+            this.Controls.Add(this.txt_R51S1);
+            this.Controls.Add(this.txt_R52S1);
+            this.Controls.Add(this.txt_R53S1);
+            this.Controls.Add(this.txt_R57);
+            this.Controls.Add(this.txt_R56);
+            this.Controls.Add(this.txt_R54);
+            this.Controls.Add(this.txt_R55);
+            this.Controls.Add(this.txt_R63);
+            this.Controls.Add(this.txt_R64);
+            this.Controls.Add(this.txt_R51);
+            this.Controls.Add(this.txt_R52);
+            this.Controls.Add(this.txt_R53);
             this.Controls.Add(this.textBox102);
-            this.Controls.Add(this.textBox103);
-            this.Controls.Add(this.textBox104);
-            this.Controls.Add(this.textBox105);
-            this.Controls.Add(this.textBox106);
-            this.Controls.Add(this.textBox107);
-            this.Controls.Add(this.textBox108);
-            this.Controls.Add(this.textBox109);
-            this.Controls.Add(this.textBox110);
-            this.Controls.Add(this.textBox111);
-            this.Controls.Add(this.textBox92);
-            this.Controls.Add(this.textBox93);
-            this.Controls.Add(this.textBox94);
-            this.Controls.Add(this.textBox95);
-            this.Controls.Add(this.textBox96);
-            this.Controls.Add(this.textBox97);
-            this.Controls.Add(this.textBox98);
-            this.Controls.Add(this.textBox99);
-            this.Controls.Add(this.textBox100);
-            this.Controls.Add(this.textBox101);
+            this.Controls.Add(this.txt_R20);
+            this.Controls.Add(this.txt_R19);
+            this.Controls.Add(this.txt_R18);
+            this.Controls.Add(this.txt_R17);
+            this.Controls.Add(this.txt_R16);
+            this.Controls.Add(this.txt_R15);
+            this.Controls.Add(this.txt_R14);
+            this.Controls.Add(this.txt_R13);
+            this.Controls.Add(this.txt_R12);
+            this.Controls.Add(this.txt_R21S1);
+            this.Controls.Add(this.txt_R20S1);
+            this.Controls.Add(this.txt_R19S1);
+            this.Controls.Add(this.txt_R18S1);
+            this.Controls.Add(this.txt_R17S1);
+            this.Controls.Add(this.txt_R16S1);
+            this.Controls.Add(this.txt_R15S1);
+            this.Controls.Add(this.txt_R14S1);
+            this.Controls.Add(this.txt_R13S1);
+            this.Controls.Add(this.txt_R12S1);
             this.Controls.Add(this.txt_R45S10);
             this.Controls.Add(this.txt_R45S9);
             this.Controls.Add(this.txt_R45S8);
@@ -2843,7 +2869,7 @@
             this.Controls.Add(this.btnLijnen);
             this.Controls.Add(this.btnSporen);
             this.Controls.Add(this.btnTrams);
-            this.Name = "Form2";
+            this.Name = "txt_R61S";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
@@ -2952,71 +2978,71 @@
         private System.Windows.Forms.TextBox txt_R45S8;
         private System.Windows.Forms.TextBox txt_R45S9;
         private System.Windows.Forms.TextBox txt_R45S10;
-        private System.Windows.Forms.TextBox textBox92;
-        private System.Windows.Forms.TextBox textBox93;
-        private System.Windows.Forms.TextBox textBox94;
-        private System.Windows.Forms.TextBox textBox95;
-        private System.Windows.Forms.TextBox textBox96;
-        private System.Windows.Forms.TextBox textBox97;
-        private System.Windows.Forms.TextBox textBox98;
-        private System.Windows.Forms.TextBox textBox99;
-        private System.Windows.Forms.TextBox textBox100;
-        private System.Windows.Forms.TextBox textBox101;
+        private System.Windows.Forms.TextBox txt_R21S1;
+        private System.Windows.Forms.TextBox txt_R20S1;
+        private System.Windows.Forms.TextBox txt_R19S1;
+        private System.Windows.Forms.TextBox txt_R18S1;
+        private System.Windows.Forms.TextBox txt_R17S1;
+        private System.Windows.Forms.TextBox txt_R16S1;
+        private System.Windows.Forms.TextBox txt_R15S1;
+        private System.Windows.Forms.TextBox txt_R14S1;
+        private System.Windows.Forms.TextBox txt_R13S1;
+        private System.Windows.Forms.TextBox txt_R12S1;
         private System.Windows.Forms.TextBox textBox102;
-        private System.Windows.Forms.TextBox textBox103;
-        private System.Windows.Forms.TextBox textBox104;
-        private System.Windows.Forms.TextBox textBox105;
-        private System.Windows.Forms.TextBox textBox106;
-        private System.Windows.Forms.TextBox textBox107;
-        private System.Windows.Forms.TextBox textBox108;
-        private System.Windows.Forms.TextBox textBox109;
-        private System.Windows.Forms.TextBox textBox110;
-        private System.Windows.Forms.TextBox textBox111;
-        private System.Windows.Forms.TextBox textBox112;
-        private System.Windows.Forms.TextBox textBox113;
-        private System.Windows.Forms.TextBox textBox114;
-        private System.Windows.Forms.TextBox textBox115;
-        private System.Windows.Forms.TextBox textBox116;
-        private System.Windows.Forms.TextBox textBox117;
-        private System.Windows.Forms.TextBox textBox118;
-        private System.Windows.Forms.TextBox textBox119;
-        private System.Windows.Forms.TextBox textBox120;
-        private System.Windows.Forms.TextBox textBox121;
-        private System.Windows.Forms.TextBox textBox122;
-        private System.Windows.Forms.TextBox textBox123;
-        private System.Windows.Forms.TextBox textBox124;
-        private System.Windows.Forms.TextBox textBox125;
-        private System.Windows.Forms.TextBox textBox126;
-        private System.Windows.Forms.TextBox textBox127;
-        private System.Windows.Forms.TextBox textBox128;
-        private System.Windows.Forms.TextBox textBox129;
-        private System.Windows.Forms.TextBox textBox130;
-        private System.Windows.Forms.TextBox textBox131;
-        private System.Windows.Forms.TextBox textBox132;
-        private System.Windows.Forms.TextBox textBox133;
-        private System.Windows.Forms.TextBox textBox134;
-        private System.Windows.Forms.TextBox textBox135;
-        private System.Windows.Forms.TextBox textBox136;
-        private System.Windows.Forms.TextBox textBox137;
-        private System.Windows.Forms.TextBox textBox138;
-        private System.Windows.Forms.TextBox textBox139;
-        private System.Windows.Forms.TextBox textBox140;
-        private System.Windows.Forms.TextBox textBox141;
-        private System.Windows.Forms.TextBox textBox142;
-        private System.Windows.Forms.TextBox textBox143;
-        private System.Windows.Forms.TextBox textBox144;
-        private System.Windows.Forms.TextBox textBox145;
-        private System.Windows.Forms.TextBox textBox146;
-        private System.Windows.Forms.TextBox textBox147;
-        private System.Windows.Forms.TextBox textBox148;
-        private System.Windows.Forms.TextBox textBox149;
-        private System.Windows.Forms.TextBox textBox150;
-        private System.Windows.Forms.TextBox textBox151;
-        private System.Windows.Forms.TextBox textBox152;
-        private System.Windows.Forms.TextBox textBox153;
-        private System.Windows.Forms.TextBox textBox154;
-        private System.Windows.Forms.TextBox textBox155;
-        private System.Windows.Forms.TextBox textBox156;
+        private System.Windows.Forms.TextBox txt_R20;
+        private System.Windows.Forms.TextBox txt_R19;
+        private System.Windows.Forms.TextBox txt_R18;
+        private System.Windows.Forms.TextBox txt_R17;
+        private System.Windows.Forms.TextBox txt_R16;
+        private System.Windows.Forms.TextBox txt_R15;
+        private System.Windows.Forms.TextBox txt_R14;
+        private System.Windows.Forms.TextBox txt_R13;
+        private System.Windows.Forms.TextBox txt_R12;
+        private System.Windows.Forms.TextBox txt_R57S3;
+        private System.Windows.Forms.TextBox txt_R56S3;
+        private System.Windows.Forms.TextBox txt_R54S3;
+        private System.Windows.Forms.TextBox txt_R55S3;
+        private System.Windows.Forms.TextBox txt_R63S3;
+        private System.Windows.Forms.TextBox txt_R64S3;
+        private System.Windows.Forms.TextBox txt_R51S3;
+        private System.Windows.Forms.TextBox txt_R52S3;
+        private System.Windows.Forms.TextBox txt_R53S3;
+        private System.Windows.Forms.TextBox txt_R57S2;
+        private System.Windows.Forms.TextBox txt_R56S2;
+        private System.Windows.Forms.TextBox txt_R54S2;
+        private System.Windows.Forms.TextBox txt_R55S2;
+        private System.Windows.Forms.TextBox txt_R63S2;
+        private System.Windows.Forms.TextBox txt_R64S2;
+        private System.Windows.Forms.TextBox txt_R51S2;
+        private System.Windows.Forms.TextBox txt_R52S2;
+        private System.Windows.Forms.TextBox txt_R53S2;
+        private System.Windows.Forms.TextBox txt_R57S1;
+        private System.Windows.Forms.TextBox txt_R56S1;
+        private System.Windows.Forms.TextBox txt_R54S1;
+        private System.Windows.Forms.TextBox txt_R55S1;
+        private System.Windows.Forms.TextBox txt_R63S1;
+        private System.Windows.Forms.TextBox txt_R64S1;
+        private System.Windows.Forms.TextBox txt_R51S1;
+        private System.Windows.Forms.TextBox txt_R52S1;
+        private System.Windows.Forms.TextBox txt_R53S1;
+        private System.Windows.Forms.TextBox txt_R57;
+        private System.Windows.Forms.TextBox txt_R56;
+        private System.Windows.Forms.TextBox txt_R54;
+        private System.Windows.Forms.TextBox txt_R55;
+        private System.Windows.Forms.TextBox txt_R63;
+        private System.Windows.Forms.TextBox txt_R64;
+        private System.Windows.Forms.TextBox txt_R51;
+        private System.Windows.Forms.TextBox txt_R52;
+        private System.Windows.Forms.TextBox txt_R53;
+        private System.Windows.Forms.TextBox txt_R57S4;
+        private System.Windows.Forms.TextBox txt_R56S4;
+        private System.Windows.Forms.TextBox txt_R54S4;
+        private System.Windows.Forms.TextBox txt_R55S4;
+        private System.Windows.Forms.TextBox txt_R63S4;
+        private System.Windows.Forms.TextBox txt_R64S4;
+        private System.Windows.Forms.TextBox txt_R51S4;
+        private System.Windows.Forms.TextBox txt_R52S4;
+        private System.Windows.Forms.TextBox txt_R53S4;
         private System.Windows.Forms.TextBox txt_R38;
         private System.Windows.Forms.TextBox txt_R37;
         private System.Windows.Forms.TextBox txt_R35;
@@ -3026,65 +3052,65 @@
         private System.Windows.Forms.TextBox txt_R32;
         private System.Windows.Forms.TextBox txt_R33;
         private System.Windows.Forms.TextBox txt_R34;
-        private System.Windows.Forms.TextBox textBox166;
-        private System.Windows.Forms.TextBox textBox167;
-        private System.Windows.Forms.TextBox textBox168;
-        private System.Windows.Forms.TextBox textBox169;
-        private System.Windows.Forms.TextBox textBox170;
-        private System.Windows.Forms.TextBox textBox171;
-        private System.Windows.Forms.TextBox textBox172;
-        private System.Windows.Forms.TextBox textBox173;
-        private System.Windows.Forms.TextBox textBox174;
-        private System.Windows.Forms.TextBox textBox175;
-        private System.Windows.Forms.TextBox textBox176;
-        private System.Windows.Forms.TextBox textBox177;
-        private System.Windows.Forms.TextBox textBox178;
-        private System.Windows.Forms.TextBox textBox179;
-        private System.Windows.Forms.TextBox textBox180;
-        private System.Windows.Forms.TextBox textBox181;
-        private System.Windows.Forms.TextBox textBox182;
-        private System.Windows.Forms.TextBox textBox183;
-        private System.Windows.Forms.TextBox textBox184;
-        private System.Windows.Forms.TextBox textBox185;
-        private System.Windows.Forms.TextBox textBox186;
-        private System.Windows.Forms.TextBox textBox187;
-        private System.Windows.Forms.TextBox textBox188;
-        private System.Windows.Forms.TextBox textBox189;
-        private System.Windows.Forms.TextBox textBox190;
-        private System.Windows.Forms.TextBox textBox191;
-        private System.Windows.Forms.TextBox textBox192;
-        private System.Windows.Forms.TextBox textBox193;
-        private System.Windows.Forms.TextBox textBox194;
-        private System.Windows.Forms.TextBox textBox195;
-        private System.Windows.Forms.TextBox textBox196;
-        private System.Windows.Forms.TextBox textBox197;
-        private System.Windows.Forms.TextBox textBox198;
-        private System.Windows.Forms.TextBox textBox199;
-        private System.Windows.Forms.TextBox textBox200;
-        private System.Windows.Forms.TextBox textBox201;
-        private System.Windows.Forms.TextBox textBox202;
-        private System.Windows.Forms.TextBox textBox203;
-        private System.Windows.Forms.TextBox textBox204;
-        private System.Windows.Forms.TextBox textBox205;
-        private System.Windows.Forms.TextBox textBox206;
-        private System.Windows.Forms.TextBox textBox207;
-        private System.Windows.Forms.TextBox textBox208;
-        private System.Windows.Forms.TextBox textBox209;
-        private System.Windows.Forms.TextBox textBox210;
-        private System.Windows.Forms.TextBox textBox211;
-        private System.Windows.Forms.TextBox textBox212;
-        private System.Windows.Forms.TextBox textBox213;
-        private System.Windows.Forms.TextBox textBox214;
-        private System.Windows.Forms.TextBox textBox215;
-        private System.Windows.Forms.TextBox textBox216;
-        private System.Windows.Forms.TextBox textBox217;
-        private System.Windows.Forms.TextBox textBox218;
-        private System.Windows.Forms.TextBox textBox219;
-        private System.Windows.Forms.TextBox textBox220;
-        private System.Windows.Forms.TextBox textBox221;
-        private System.Windows.Forms.TextBox textBox222;
-        private System.Windows.Forms.TextBox textBox223;
-        private System.Windows.Forms.TextBox textBox224;
-        private System.Windows.Forms.TextBox textBox225;
+        private System.Windows.Forms.TextBox txt_R57S5;
+        private System.Windows.Forms.TextBox txt_R56S5;
+        private System.Windows.Forms.TextBox txt_R54S5;
+        private System.Windows.Forms.TextBox txt_R55S5;
+        private System.Windows.Forms.TextBox txt_R63S5;
+        private System.Windows.Forms.TextBox txt_R64S5;
+        private System.Windows.Forms.TextBox txt_R51S5;
+        private System.Windows.Forms.TextBox txt_R52S5;
+        private System.Windows.Forms.TextBox txt_R53S5;
+        private System.Windows.Forms.TextBox txt_R61S3;
+        private System.Windows.Forms.TextBox txt_R62S3;
+        private System.Windows.Forms.TextBox txt_R61S2;
+        private System.Windows.Forms.TextBox txt_R62S2;
+        private System.Windows.Forms.TextBox txt_R61S1;
+        private System.Windows.Forms.TextBox txt_R62S1;
+        private System.Windows.Forms.TextBox txt_R61;
+        private System.Windows.Forms.TextBox txt_R62;
+        private System.Windows.Forms.TextBox txt_R57S6;
+        private System.Windows.Forms.TextBox txt_R56S6;
+        private System.Windows.Forms.TextBox txt_R54S6;
+        private System.Windows.Forms.TextBox txt_R55S6;
+        private System.Windows.Forms.TextBox txt_R51S6;
+        private System.Windows.Forms.TextBox txt_R52S6;
+        private System.Windows.Forms.TextBox txt_R53S6;
+        private System.Windows.Forms.TextBox txt_R57S7;
+        private System.Windows.Forms.TextBox txt_R56S7;
+        private System.Windows.Forms.TextBox txt_R54S7;
+        private System.Windows.Forms.TextBox txt_R55S7;
+        private System.Windows.Forms.TextBox txt_R52S7;
+        private System.Windows.Forms.TextBox txt_R53S7;
+        private System.Windows.Forms.TextBox txt_R57S8;
+        private System.Windows.Forms.TextBox txt_R56S8;
+        private System.Windows.Forms.TextBox txt_R54S8;
+        private System.Windows.Forms.TextBox txt_R55S8;
+        private System.Windows.Forms.TextBox txt_R57S9;
+        private System.Windows.Forms.TextBox txt_R77S4;
+        private System.Windows.Forms.TextBox txt_R76S4;
+        private System.Windows.Forms.TextBox txt_R75S4;
+        private System.Windows.Forms.TextBox txt_R74S4;
+        private System.Windows.Forms.TextBox txt_R77S3;
+        private System.Windows.Forms.TextBox txt_R76S3;
+        private System.Windows.Forms.TextBox txt_R75S3;
+        private System.Windows.Forms.TextBox txt_R74S3;
+        private System.Windows.Forms.TextBox txt_R77S2;
+        private System.Windows.Forms.TextBox txt_R76S2;
+        private System.Windows.Forms.TextBox txt_R75S2;
+        private System.Windows.Forms.TextBox txt_R74S2;
+        private System.Windows.Forms.TextBox txt_R77S1;
+        private System.Windows.Forms.TextBox txt_R76S1;
+        private System.Windows.Forms.TextBox txt_R75S1;
+        private System.Windows.Forms.TextBox txt_R74S1;
+        private System.Windows.Forms.TextBox txt_R77;
+        private System.Windows.Forms.TextBox txt_R76;
+        private System.Windows.Forms.TextBox txt_R75;
+        private System.Windows.Forms.TextBox txt_R74;
+        private System.Windows.Forms.TextBox txt_R77S5;
+        private System.Windows.Forms.TextBox txt_R76S5;
+        private System.Windows.Forms.TextBox txt_R75S5;
+        private System.Windows.Forms.TextBox txt_R77S6;
+        private System.Windows.Forms.TextBox txt_R76S6;
     }
 }
