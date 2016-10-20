@@ -19,59 +19,34 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void changePassword()
+        public void changePassword(User user, string password)
+        {
+            string query = @"UPDATE [UserTable] SET [password] = '" + password + @"' WHERE ID = " + user.ID + @";";
+            databaseConnection.executeCommand(query);
+        }
+
+        public void changeUsername(User user)
         {
             throw new NotImplementedException();
         }
 
-        public void changeUsername()
+        public void checkCredentials(string username, string password)
         {
             throw new NotImplementedException();
         }
 
-        public void checkCredentials()
+        public string getFunction(User user)
         {
             throw new NotImplementedException();
         }
 
-        public void getFunction()
+        public int getID(string username, string password)
         {
             throw new NotImplementedException();
         }
 
-        public void getID()
-        {
-            throw new NotImplementedException();
-        }
-
-        //public void checkCredentials(User user)
-        //{
-        //    string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + user.username + @"', '" + user.password + @"');";
-        //    databaseConnection.executeCommand(query);
-        //}
-
-        //public void getID()
-        //{
-        //    string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
-        //    databaseConnection.executeCommand(query);
-        //}
-
-        //public void getFunction(string function)
-        //{
-        //    string query = @"";
-        //    databaseConnection.executeCommand(query);
-        //}
-
-        //public void changeUsername()
-        //{
-        //    string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
-        //    databaseConnection.executeCommand(query);
-        //}
-
-        //public void changePassword()
-        //{
-        //    string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
-        //    databaseConnection.executeCommand(query);
-        //}
+        //string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + user.username + @"', '" + user.password + @"');";
+        //string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
+        //string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";      
     }
 }
