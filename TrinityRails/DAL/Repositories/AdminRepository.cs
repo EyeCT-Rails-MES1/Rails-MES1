@@ -19,19 +19,19 @@ namespace DAL.Repositories
         }
         public void create(User user)
         {
-
+            throw new NotImplementedException();
         }
         public void delete(User user)
         {
-
+            throw new NotImplementedException();
         }
         public void changeUsername(User user, string username)
         {
-
+            throw new NotImplementedException();
         }
         public void changePassword(User user, string password)
         {
-
+            throw new NotImplementedException();
         }
         public List<User> getUsers()
         {

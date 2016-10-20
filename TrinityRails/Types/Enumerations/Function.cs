@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Classes.Enumerations
 {
-    class Function
+    public class Function
     {
         public enum userFunction
         {
-            Fleetmanager,
-            Driver,
-            Engineer,
-            Cleaner
+            Cleaner,        //Index = 0
+            Driver,         //Index = 1
+            Engineer,       //Index = 2
+            Fleetmanager    //Index = 3
         }
     }
 }
