@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Rails
+    public class Rails
     {
         public int railNumber { get; set; }
         public int sectorAmount { get; set; }
@@ -16,7 +16,5 @@ namespace Classes
             this.railNumber = railNumber;
             this.sectorAmount = sectorAmount;
         }
-
-
     }
 }
