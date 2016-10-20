@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Sector
+    public class Sector
     {
-        public int railNumber { get; set; }
-        public int sectorNumber { get; set; }
-        public bool blocked { get; set; }
+        public int railNumber { get; private set; }
+        public int sectorNumber { get; private set; }
+        public bool blocked { get; private set; }
 
         public Sector (int railNumber, int sectorNumber)
         {

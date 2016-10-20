@@ -8,8 +8,8 @@ namespace Classes
 {
     public class Rails
     {
-        public int railNumber { get; set; }
-        public int sectorAmount { get; set; }
+        public int railNumber { get; private set; }
+        public int sectorAmount { get; private set; }
 
         public Rails (int railNumber, int sectorAmount)
         {
