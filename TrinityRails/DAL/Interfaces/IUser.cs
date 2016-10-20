@@ -13,6 +13,6 @@ namespace DAL.Interfaces
         int getID(string username, string password);
         string getFunction(User user);
         void changeUsername(User user);
-        void changePassword(User user);
+        void changePassword(User user, string password);
     }
 }
