@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Classes.Enumerations;
 
 namespace DAL.Types
 {
@@ -11,9 +12,9 @@ namespace DAL.Types
         public int ID { get; set; }
         public string name { get; set; }
         public string username { get; set; }
-        public string function { get; set; } //TODO create enumeration
+        public Status.tramStatus function { get; set; }
 
-        public User(int ID, string name, string username, string function)
+        public User(int ID, string name, string username, Status.tramStatus function)
         {
             this.ID = ID;
             this.name = name;
