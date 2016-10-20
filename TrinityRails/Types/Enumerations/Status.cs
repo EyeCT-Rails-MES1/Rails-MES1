@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Types.Enumerations
+namespace Classes.Enumerations
 {
-    class Status
+    public class Status
     {
         public enum tramStatus
         {
