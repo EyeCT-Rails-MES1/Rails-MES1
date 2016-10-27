@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.gbxInlog = new System.Windows.Forms.GroupBox();
-            this.txtGebruikersnaam = new System.Windows.Forms.TextBox();
-            this.txtWachtwoord = new System.Windows.Forms.TextBox();
             this.btnInloggen = new System.Windows.Forms.Button();
+            this.txtWachtwoord = new System.Windows.Forms.TextBox();
+            this.txtGebruikersnaam = new System.Windows.Forms.TextBox();
             this.gbxInlog.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,22 +46,6 @@
             this.gbxInlog.TabIndex = 0;
             this.gbxInlog.TabStop = false;
             // 
-            // txtGebruikersnaam
-            // 
-            this.txtGebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGebruikersnaam.Location = new System.Drawing.Point(100, 50);
-            this.txtGebruikersnaam.Name = "txtGebruikersnaam";
-            this.txtGebruikersnaam.Size = new System.Drawing.Size(200, 30);
-            this.txtGebruikersnaam.TabIndex = 0;
-            // 
-            // txtWachtwoord
-            // 
-            this.txtWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtWachtwoord.Location = new System.Drawing.Point(100, 150);
-            this.txtWachtwoord.Name = "txtWachtwoord";
-            this.txtWachtwoord.Size = new System.Drawing.Size(200, 30);
-            this.txtWachtwoord.TabIndex = 1;
-            // 
             // btnInloggen
             // 
             this.btnInloggen.Location = new System.Drawing.Point(100, 213);
@@ -71,6 +55,22 @@
             this.btnInloggen.Text = "Inloggen";
             this.btnInloggen.UseVisualStyleBackColor = true;
             this.btnInloggen.Click += new System.EventHandler(this.btnInloggen_Click);
+            // 
+            // txtWachtwoord
+            // 
+            this.txtWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWachtwoord.Location = new System.Drawing.Point(100, 150);
+            this.txtWachtwoord.Name = "txtWachtwoord";
+            this.txtWachtwoord.Size = new System.Drawing.Size(200, 30);
+            this.txtWachtwoord.TabIndex = 1;
+            // 
+            // txtGebruikersnaam
+            // 
+            this.txtGebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGebruikersnaam.Location = new System.Drawing.Point(100, 50);
+            this.txtGebruikersnaam.Name = "txtGebruikersnaam";
+            this.txtGebruikersnaam.Size = new System.Drawing.Size(200, 30);
+            this.txtGebruikersnaam.TabIndex = 0;
             // 
             // Form1
             // 
