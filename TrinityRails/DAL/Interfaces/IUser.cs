@@ -9,9 +9,9 @@ namespace DAL.Interfaces
 {
     public interface IUser
     {
-        void checkCredentials(string username, string password);
+        bool checkCredentials(string username, string password);
         int getID(string username, string password);
-        string getFunction(User user);
+        int getFunction(User user);
         void changeUsername(User user);
         void changePassword(User user, string password);
     }

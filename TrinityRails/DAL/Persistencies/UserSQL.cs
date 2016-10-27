@@ -21,33 +21,36 @@ namespace DAL.Persistencies
 
         public void changePassword(User user, string password)
         {
-            string query = @"UPDATE [UserTable] SET [password] = '" + password + @"' WHERE ID = " + user.ID + @";";
+            string query = @"UPDATE [UserTable] SET [password] = '" + password + @"' WHERE [UserID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void changeUsername(User user)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [UserTable] SET [Username] = '" + user.username + @"' WHERE [UserID] = " + user.ID + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void checkCredentials(string username, string password)
+        public bool checkCredentials(string username, string password)
         {
-            throw new NotImplementedException();
+            string query = @"SELECT [ID] FROM [UserTable] WHERE [Username] = '" + username + @"' AND [password] = '" + password + @"';";
+            if (databaseConnection.executeReaderInt(query) != -1)
+            {
+                return true;
+            }
+            return false;
         }
 
-        public string getFunction(User user)
+        public int getFunction(User user)
         {
-            throw new NotImplementedException();
+            string query = @"SELECT [function] FROM [UserTable] WHERE [UserID] = " + user.ID + @";";
+            return databaseConnection.executeReaderInt(query);
         }
 
         public int getID(string username, string password)
         {
-            string query = @"SELECT [ID] FROM [USER] WHERE Name = '" + username + @"' AND Password = '" + password + @"';";
+            string query = @"SELECT [UserID] FROM [UserTable] WHERE [username] = '" + username + @"' AND [password] = '" + password + @"';";
             return databaseConnection.executeReaderInt(query);
         }
-
-        //string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + username + @"', '" + user.password + @"');";
-        //string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
-        //string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
     }
 }
