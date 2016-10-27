@@ -29,5 +29,29 @@ namespace DAL.Persistencies
                 Console.WriteLine("Error: " + exception.Message);
             }
         }
+
+        //if there are no results this method will return -1
+        public int executeReaderInt(string query)
+        {
+            int noResult = -1;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(query, connection);
+                    if (command.ExecuteScalar() != null)
+                    {
+                        return Convert.ToInt32(command.ExecuteScalar());
+                    }
+                    connection.Close();                    
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine("Error: " + exception.Message);
+            }
+            return noResult;
+        }
     }
 }
