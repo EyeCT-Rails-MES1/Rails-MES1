@@ -51,6 +51,7 @@
     <Compile Include="Persistencies\CleanerSQL.cs" />
     <Compile Include="Persistencies\DatabaseConnection.cs" />
     <Compile Include="Persistencies\DriverSQL.cs" />
+    <Compile Include="Persistencies\EngineerSQL.cs" />
     <Compile Include="Persistencies\FleetManagerSQl.cs" />
     <Compile Include="Persistencies\TramSQL.cs" />
     <Compile Include="Persistencies\UserSQL.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Repositories\AdminRepository.cs" />
     <Compile Include="Repositories\CleanerRepository.cs" />
     <Compile Include="Repositories\DriverRepository.cs" />
+    <Compile Include="Repositories\EngineerRepository.cs" />
     <Compile Include="Repositories\FleetManagerRepository.cs" />
     <Compile Include="Repositories\TramRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />

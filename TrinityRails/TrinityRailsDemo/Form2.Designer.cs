@@ -1,6 +1,6 @@
 ﻿namespace TrinityRailsDemo
 {
-    partial class txt_R61S
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnTrams = new System.Windows.Forms.Button();
             this.btnSporen = new System.Windows.Forms.Button();
             this.btnLijnen = new System.Windows.Forms.Button();
@@ -261,6 +262,16 @@
             this.txt_R75S5 = new System.Windows.Forms.TextBox();
             this.txt_R77S6 = new System.Windows.Forms.TextBox();
             this.txt_R76S6 = new System.Windows.Forms.TextBox();
+            this.cmsVakjes = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.test3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.test1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.test2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.test3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsVakjes.SuspendLayout();
+            this.cmsButtons.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTrams
@@ -271,6 +282,7 @@
             this.btnTrams.TabIndex = 0;
             this.btnTrams.Text = "Trams";
             this.btnTrams.UseVisualStyleBackColor = true;
+            this.btnTrams.Click += new System.EventHandler(this.btnTrams_Click);
             // 
             // btnSporen
             // 
@@ -441,7 +453,6 @@
             this.txt_R45.TabIndex = 17;
             this.txt_R45.Text = "45";
             this.txt_R45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_R45.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // txt_R44
             // 
@@ -743,6 +754,7 @@
             this.txt_R38S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S1.TabIndex = 47;
             this.txt_R38S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R38S1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_R38S1_MouseClick);
             // 
             // txt_R38S2
             // 
@@ -1163,7 +1175,6 @@
             this.txt_R45S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S4.TabIndex = 90;
             this.txt_R45S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_R45S4.TextChanged += new System.EventHandler(this.textBox82_TextChanged);
             // 
             // txt_R58S4
             // 
@@ -2578,7 +2589,6 @@
             this.txt_R74.TabIndex = 208;
             this.txt_R74.Text = "74";
             this.txt_R74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_R74.TextChanged += new System.EventHandler(this.textBox220_TextChanged);
             // 
             // txt_R77S5
             // 
@@ -2630,7 +2640,62 @@
             this.txt_R76S6.TabIndex = 231;
             this.txt_R76S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R61S
+            // cmsVakjes
+            // 
+            this.cmsVakjes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.test1ToolStripMenuItem,
+            this.test2ToolStripMenuItem1,
+            this.test3ToolStripMenuItem1});
+            this.cmsVakjes.Name = "cmsVakjes";
+            this.cmsVakjes.Size = new System.Drawing.Size(100, 70);
+            // 
+            // cmsButtons
+            // 
+            this.cmsButtons.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testToolStripMenuItem,
+            this.test2ToolStripMenuItem,
+            this.test3ToolStripMenuItem});
+            this.cmsButtons.Name = "cmsButtons";
+            this.cmsButtons.Size = new System.Drawing.Size(100, 70);
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.testToolStripMenuItem.Text = "test";
+            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
+            // 
+            // test2ToolStripMenuItem
+            // 
+            this.test2ToolStripMenuItem.Name = "test2ToolStripMenuItem";
+            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.test2ToolStripMenuItem.Text = "test2";
+            // 
+            // test3ToolStripMenuItem
+            // 
+            this.test3ToolStripMenuItem.Name = "test3ToolStripMenuItem";
+            this.test3ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.test3ToolStripMenuItem.Text = "test3";
+            // 
+            // test1ToolStripMenuItem
+            // 
+            this.test1ToolStripMenuItem.Name = "test1ToolStripMenuItem";
+            this.test1ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.test1ToolStripMenuItem.Text = "test1";
+            // 
+            // test2ToolStripMenuItem1
+            // 
+            this.test2ToolStripMenuItem1.Name = "test2ToolStripMenuItem1";
+            this.test2ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
+            this.test2ToolStripMenuItem1.Text = "test2";
+            // 
+            // test3ToolStripMenuItem1
+            // 
+            this.test3ToolStripMenuItem1.Name = "test3ToolStripMenuItem1";
+            this.test3ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
+            this.test3ToolStripMenuItem1.Text = "test3";
+            // 
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2869,9 +2934,10 @@
             this.Controls.Add(this.btnLijnen);
             this.Controls.Add(this.btnSporen);
             this.Controls.Add(this.btnTrams);
-            this.Name = "txt_R61S";
+            this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.cmsVakjes.ResumeLayout(false);
+            this.cmsButtons.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3112,5 +3178,13 @@
         private System.Windows.Forms.TextBox txt_R75S5;
         private System.Windows.Forms.TextBox txt_R77S6;
         private System.Windows.Forms.TextBox txt_R76S6;
+        private System.Windows.Forms.ContextMenuStrip cmsVakjes;
+        private System.Windows.Forms.ContextMenuStrip cmsButtons;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem test1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem1;
     }
 }

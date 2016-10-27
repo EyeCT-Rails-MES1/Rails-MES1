@@ -42,11 +42,12 @@ namespace DAL.Persistencies
 
         public int getID(string username, string password)
         {
-            throw new NotImplementedException();
+            string query = @"SELECT [ID] FROM [USER] WHERE Name = '" + username + @"' AND Password = '" + password + @"';";
+            //int id = databaseConnection.executeCommand(query); TODO
         }
 
-        //string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + user.username + @"', '" + user.password + @"');";
+        //string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + username + @"', '" + user.password + @"');";
         //string query = @"DELETE FROM [UserTable] WHERE [UserID] = '" + user.ID + @"';";
-        //string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";      
+        //string query = @"UPDATE [UserTable] SET [password] = '" + user.password + @"' WHERE [UserID] = '" + user.ID + @"';";
     }
 }

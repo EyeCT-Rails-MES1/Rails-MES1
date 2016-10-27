@@ -10,31 +10,45 @@ using System.Windows.Forms;
 
 namespace TrinityRailsDemo
 {
-    public partial class txt_R61S : Form
+    public partial class Form2 : Form
     {
-        public txt_R61S()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
+        //Verander de naam van context menu strip (nu cmsVakjes) in iets wat normaal klinkt
 
+        private void ShowTextBoxCMS(Control cont, Object current)
+        {
+            TextBox selected = (TextBox)current;
+            cmsButtons.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
 
-        private void textBox11_TextChanged(object sender, EventArgs e)
+        private void btnTrams_Click(object sender, EventArgs e)
         {
-            
+            throw new NotImplementedException();
         }
 
-        private void textBox82_TextChanged(object sender, EventArgs e)
+        
+        //test voor de het menu klik. (vind je bij events bij properties)
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("ay");
         }
 
-        private void textBox220_TextChanged(object sender, EventArgs e)
-        {
+        // hier alle mouseclick events in zetten
+        #region Mouse click CMS events
 
+
+        private void txt_R38S1_MouseClick(object sender, MouseEventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
         }
+
+        #endregion
+
+
+
     }
 }

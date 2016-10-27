@@ -16,7 +16,7 @@ namespace TrinityRailsDemo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new txt_R61S());
+            Application.Run(new Form2());
         }
     }
 }
