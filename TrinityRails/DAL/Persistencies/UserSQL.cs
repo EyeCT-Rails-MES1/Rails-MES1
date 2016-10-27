@@ -43,7 +43,7 @@ namespace DAL.Persistencies
         public int getID(string username, string password)
         {
             string query = @"SELECT [ID] FROM [USER] WHERE Name = '" + username + @"' AND Password = '" + password + @"';";
-            //int id = databaseConnection.executeCommand(query); TODO
+            return databaseConnection.executeReaderInt(query);
         }
 
         //string query = @"INSERT INTO [UserTable] (Username, Password) VALUES ('" + username + @"', '" + user.password + @"');";

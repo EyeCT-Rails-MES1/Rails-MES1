@@ -30,7 +30,7 @@ namespace DAL.Persistencies
 
         public void getLocation()
         {
-            throw new NotImplementedException();
+            string query = @"SELECT [Location] FROM [TRAM]"
         }
     }
 }
