@@ -11,6 +11,8 @@ namespace Classes
         public int railNumber { get; private set; }
         public int sectorAmount { get; private set; }
 
+        public Sector sector { get; set; }
+
         public Rails (int railNumber, int sectorAmount)
         {
             this.railNumber = railNumber;

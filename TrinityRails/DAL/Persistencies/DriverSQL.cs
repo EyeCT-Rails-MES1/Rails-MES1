@@ -9,7 +9,7 @@ using DAL.Types;
 
 namespace DAL.Persistencies
 {
-    public class DriverSQL
+    public class DriverSQL : IDriver
     {
         private DatabaseConnection databaseConnection;
 

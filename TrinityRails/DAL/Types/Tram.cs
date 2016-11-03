@@ -14,7 +14,7 @@ namespace DAL.Types
         public int sector { get; set; }
         public int RFID { get; set; }
         public int location { get; set; }
-        Tram(int number, Status.tramStatus tramStatus, int sector, int RFID, int location)
+        public Tram(int number, Status.tramStatus tramStatus, int sector, int RFID, int location)
         {
             this.number = number;
             status = tramStatus;

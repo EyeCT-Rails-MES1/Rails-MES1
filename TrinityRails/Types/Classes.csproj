@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Trinity.cs" />
     <Compile Include="Enumerations\Function.cs" />
     <Compile Include="Enumerations\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

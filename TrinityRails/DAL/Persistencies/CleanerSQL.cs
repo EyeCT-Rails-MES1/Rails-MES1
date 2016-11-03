@@ -9,7 +9,7 @@ using DAL.Types;
 
 namespace DAL.Persistencies
 {
-    public class CleanerSQL
+    public class CleanerSQL : ICleaner
     {
         private DatabaseConnection databaseConnection;
 
