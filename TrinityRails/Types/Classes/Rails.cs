@@ -8,14 +8,14 @@ namespace Classes
 {
     public class Rails
     {
-        public int railNumber { get; private set; }
+        public int Number { get; private set; }
         public int sectorAmount { get; private set; }
 
         public Sector sector { get; set; }
 
-        public Rails (int railNumber, int sectorAmount)
+        public Rails (int Number, int sectorAmount)
         {
-            this.railNumber = railNumber;
+            this.Number = Number;
             this.sectorAmount = sectorAmount;
         }
     }

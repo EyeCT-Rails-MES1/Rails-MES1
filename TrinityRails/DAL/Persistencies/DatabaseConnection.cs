@@ -9,6 +9,7 @@ namespace DAL.Persistencies
 {
     public class DatabaseConnection
     {
+        //Er moet nog een methode komen die een list returns en een methode die een boolean returned
         public string connectionString = @"Server = DESKTOP-NNKUBRF; Database = Tronics; User ID = sa; Password = 1234;";
 
         public void executeCommand(string query)
