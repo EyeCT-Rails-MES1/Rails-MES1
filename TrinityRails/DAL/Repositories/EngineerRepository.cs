@@ -11,14 +11,16 @@ namespace DAL.Repositories
     class EngineerRepository
     {
         IEngineer context;
+        List<User> userList = new List<User>();
 
         public EngineerRepository(IEngineer context)
         {
             this.context = context;
         }
+
         public void finishRepair()
         {
-            throw new NotImplementedException();
+            //?
         }
     }
 }

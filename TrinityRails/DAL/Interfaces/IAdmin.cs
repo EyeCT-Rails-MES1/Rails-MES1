@@ -13,6 +13,6 @@ namespace DAL.Interfaces
         void delete();
         void changeUsername();
         void changePassword();
-        void getUsers();
+        List<User> getUsers();
     }
 }

@@ -12,6 +12,5 @@ namespace DAL.Interfaces
         void setName();
         void setDate();
         void setStatus();
-
     }
 }

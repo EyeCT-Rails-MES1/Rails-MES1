@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Classes.Enumerations;
 
 namespace DAL.Interfaces
 {
@@ -12,7 +13,6 @@ namespace DAL.Interfaces
         void setDate();
         void setStatus();
         void getCleaningTasks();
-
-        //cleaning list?
+        List<string> cleaningList();
     }
 }
