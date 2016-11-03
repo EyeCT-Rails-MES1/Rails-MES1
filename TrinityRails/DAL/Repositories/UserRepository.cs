@@ -25,6 +25,7 @@ namespace DAL.Repositories
             User user = new User(context.getID(username, password), context.getName(), username);
             //context.create(user);
         }
+
         public void changeUsername(User user, string username)
         {
             //context.update(user);
