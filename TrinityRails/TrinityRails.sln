@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0632F9FE-BC88-4422-8E0A-A47F31F7A410}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DFC9C786-32B9-43A1-8DF2-D4867A5992ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrinityRailsDemo", "TrinityRailsDemo\TrinityRailsDemo.csproj", "{95A78996-DF3B-442D-BB72-E7BE0A00E5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALTests", "DALTests\DALTests.csproj", "{79F786AA-330F-4BB3-907A-CD58BB474211}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{95A78996-DF3B-442D-BB72-E7BE0A00E5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A78996-DF3B-442D-BB72-E7BE0A00E5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A78996-DF3B-442D-BB72-E7BE0A00E5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F786AA-330F-4BB3-907A-CD58BB474211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F786AA-330F-4BB3-907A-CD58BB474211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F786AA-330F-4BB3-907A-CD58BB474211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F786AA-330F-4BB3-907A-CD58BB474211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

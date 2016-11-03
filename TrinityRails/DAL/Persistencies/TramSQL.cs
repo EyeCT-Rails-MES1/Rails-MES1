@@ -19,17 +19,22 @@ namespace DAL.Persistencies
         }
         public List<Tram> getTrams()
         {
+            string query = @"SELECT [TramNumber, RFID, Status, Rail, Sector] FROM [Tram];";
+            databaseConnection.executeCommand(query);
+
+            //Voeg ze toe aan een list en return deze
             throw new NotImplementedException();
         }
 
         public void setStatus(Tram tram, Status.tramStatus status)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Tram] SET [Status] = '" + status + @"' WHERE [TramNumber] = " + tram.number + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void setLocation(Tram tram, int location)
+        public void setLocation(Tram tram)
         {
-            throw new NotImplementedException();
+            string query = @"Update [Tram] SET [Rail, Sector] = '" + "(" + tram.rail + ", " + tram.sector + ")" + @"' WHERE [TramNumber] = " + tram.number + @";";
         }
 
         
