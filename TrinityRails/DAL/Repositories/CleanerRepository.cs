@@ -23,6 +23,7 @@ namespace DAL.Repositories
         public List<string> getCleaningList()
         {
             //return context.cleaningList();
+            throw new NotImplementedException();
         }
 
         public void finishCleaning(string taak, User user)

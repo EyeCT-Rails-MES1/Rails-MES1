@@ -29,7 +29,7 @@ namespace DAL.Repositories
         public void setLocation(Tram tram, int location)
         {
             //TODO
-            tram.location = location;
+            //tram.location = location;
             //context.setLocation(); weet niet of dit klopt
         }
     }

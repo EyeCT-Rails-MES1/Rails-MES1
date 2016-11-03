@@ -28,6 +28,7 @@ namespace DAL.Repositories
         public int getLocation(int location)
         {
             //return context.getLocation(location);
+            throw new NotImplementedException();
         }
     }
 }

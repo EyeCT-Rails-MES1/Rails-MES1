@@ -19,7 +19,7 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void create(int ID, string name, string username, Status.tramStatus function)
+        public void create(int ID, string name, string username, Function.userFunction function)
         {
             User user = new User(ID, name, username, function);
             //context.create(user);
