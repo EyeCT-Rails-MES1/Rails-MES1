@@ -20,6 +20,12 @@ namespace DAL.Types
 
         public User(int ID, string username)
         {
+            this.ID = ID;   
+            this.username = username;
+        }
+
+        public User(int ID, string name, string username, Function.userFunction function)
+        {   
             this.ID = ID;
             this.name = name;
             this.username = username;
