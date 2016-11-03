@@ -27,5 +27,15 @@ namespace DAL.Persistencies
         {
 
         }
+
+        bool IFleetManager.getSectorStatus()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IFleetManager.setSectorStatus()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

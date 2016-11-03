@@ -28,9 +28,9 @@ namespace DAL.Persistencies
             throw new NotImplementedException();
         }
 
-        public void getLocation()
+        int IDriver.getLocation()
         {
-            //string query = @"SELECT [Location] FROM [TRAM]"
+            throw new NotImplementedException();
         }
     }
 }

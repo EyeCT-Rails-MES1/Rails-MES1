@@ -35,9 +35,9 @@ namespace DAL.Persistencies
         public void delete()
         {
             throw new NotImplementedException();
-        }
+        } 
 
-        public void getUsers()
+        List<User> IAdmin.getUsers()
         {
             throw new NotImplementedException();
         }
