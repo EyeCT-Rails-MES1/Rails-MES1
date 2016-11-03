@@ -18,19 +18,24 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setCleaningTask()
+        public void setCleaningTask(string task)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @";";
+            //Snap geen drol van onze database
+            databaseConnection.executeCommand(query);
         }
 
-        public void setPriority()
+        public void setPriority(int priority)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Cleaninglist] SET [Priority] = " + priority + @";";
+            //Snap geen drol van onze database
+            databaseConnection.executeCommand(query);
         }
 
         int IDriver.getLocation()
         {
             throw new NotImplementedException();
+            //Ik dacht dat een logaritme in de database de locatie bepaalde? En deze daarna in de database werd geupdate?
         }
     }
 }

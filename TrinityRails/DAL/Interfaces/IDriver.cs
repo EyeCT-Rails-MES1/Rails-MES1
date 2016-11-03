@@ -9,8 +9,8 @@ namespace DAL.Interfaces
 {
     public interface IDriver
     {
-        void setCleaningTask();
-        void setPriority();
+        void setCleaningTask(string task);
+        void setPriority(int priority);
         int getLocation();
     }
 }
