@@ -32,5 +32,10 @@ namespace DAL.Repositories
             //tram.location = location;
             //context.setLocation(); weet niet of dit klopt
         }
+
+        public void setLocation(Tram tram)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
