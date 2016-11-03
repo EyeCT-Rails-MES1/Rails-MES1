@@ -12,6 +12,7 @@ namespace DAL.Interfaces
         bool checkCredentials(string username, string password);
         int getID(string username, string password);
         int getFunction(User user);
+        string getName(User user);
         void changeUsername(User user);
         void changePassword(User user, string password);
     }

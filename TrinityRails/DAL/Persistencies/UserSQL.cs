@@ -33,7 +33,7 @@ namespace DAL.Persistencies
 
         public bool checkCredentials(string username, string password)
         {
-            string query = @"SELECT [ID] FROM [UserTable] WHERE [Username] = '" + username + @"' AND [password] = '" + password + @"';";
+            string query = @"SELECT [UserID] FROM [UserTable] WHERE [Username] = '" + username + @"' AND [password] = '" + password + @"';";
             if (databaseConnection.executeReaderInt(query) != -1)
             {
                 return true;
@@ -51,6 +51,12 @@ namespace DAL.Persistencies
         {
             string query = @"SELECT [UserID] FROM [UserTable] WHERE [username] = '" + username + @"' AND [password] = '" + password + @"';";
             return databaseConnection.executeReaderInt(query);
+        }
+
+        public string getName(User user)
+        {
+            string query = "";
+            return databaseConnection.executeReaderString(query);
         }
     }
 }

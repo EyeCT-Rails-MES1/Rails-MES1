@@ -29,9 +29,8 @@ namespace DAL.Persistencies
                 Console.WriteLine("Error: " + exception.Message);
             }
         }
-
-        //if there are no results this method will return -1
-        public int executeReaderInt(string query)
+                
+        public int executeReaderInt(string query) //returns -1 if there is no result
         {
             int noResult = -1;
             try
@@ -53,5 +52,28 @@ namespace DAL.Persistencies
             }
             return noResult;
         }
+                
+        public string executeReaderString(string query) //returns null if there is no result
+        {
+            string noResult = null;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(query, connection);
+                    if (command.ExecuteScalar() != null)
+                    {
+                        return Convert.ToString(command.ExecuteScalar());
+                    }
+                    connection.Close();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine("Error: " + exception.Message);
+            }
+            return noResult;
+        } 
     }
 }

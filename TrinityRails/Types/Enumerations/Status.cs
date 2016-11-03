@@ -10,10 +10,10 @@ namespace Classes.Enumerations
     {
         public enum tramStatus
         {
-            Cleaning,   //Index = 0
-            Repair,     //Index = 1
-            Remise,     //Index = 2
-            Service     //Index = 3
+            Cleaning = 0,   
+            Repair = 1,     
+            Remise = 2,     
+            Service = 3    
         }
     }
 }

@@ -14,7 +14,7 @@ namespace DAL.Types
         public string username { get; set; }
         public Status.tramStatus function { get; set; }
 
-        public User(int ID, string name, string username, Status.tramStatus function)
+        public User(int ID, string name, string username)
         {
             this.ID = ID;
             this.name = name;
