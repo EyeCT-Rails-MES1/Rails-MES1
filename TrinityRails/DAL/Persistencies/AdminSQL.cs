@@ -17,29 +17,34 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void changePassword()
+        public void changePassword(User user, string password)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [User] SET [Password] = " + password + @"WHERE [UserID] = " + user.ID + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void changeUsername()
+        public void changeUsername(User user, string username)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [User] SET [Name] = " + user + @"WHERE [UserID] = " + user.ID + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void create()
+        public void create(string username, string password)
         {
-            throw new NotImplementedException();
+            string query = @"INSERT INTO [User] (ID, Name, Password) VALUES (" + username + @", " + password + @");";
+            databaseConnection.executeCommand(query);
         }
 
-        public void delete()
+        public void delete(User user)
         {
-            throw new NotImplementedException();
+            string query = @"DELETE FROM [User] WHERE [ID] = " + user.ID + @";";
+            databaseConnection.executeCommand(query);
         } 
 
         List<User> IAdmin.getUsers()
         {
             throw new NotImplementedException();
+            //Haalt alle users op en maakt nieuwe user instanties aan
         }
     }
 }

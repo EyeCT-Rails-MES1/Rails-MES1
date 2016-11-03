@@ -9,10 +9,10 @@ namespace DAL.Interfaces
 {
     public interface IAdmin
     {
-        void create();
-        void delete();
-        void changeUsername();
-        void changePassword();
+        void create(string username, string password);
+        void delete(User user);
+        void changeUsername(User user, string username);
+        void changePassword(User user, string password);
         List<User> getUsers();
     }
 }
