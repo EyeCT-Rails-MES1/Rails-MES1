@@ -9,7 +9,7 @@ using DAL.Types;
 
 namespace DAL.Persistencies
 {
-    public class DriverSQL
+    public class DriverSQL : IDriver
     {
         private DatabaseConnection databaseConnection;
 
@@ -30,7 +30,7 @@ namespace DAL.Persistencies
 
         public void getLocation()
         {
-            string query = @"SELECT [Location] FROM [TRAM]";
+            //string query = @"SELECT [Location] FROM [TRAM]"
         }
     }
 }

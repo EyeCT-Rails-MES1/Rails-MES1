@@ -12,6 +12,6 @@ namespace DAL.Interfaces
     {
         List<Tram> getTrams();
         void setStatus(Tram tram, Status.tramStatus status);
-        void setLocation(Tram tram, int location);
+        void setLocation(Tram tram);
     }
 }
