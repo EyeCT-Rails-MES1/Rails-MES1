@@ -22,7 +22,7 @@ namespace DAL.Repositories
 
         public void login(string username, string password)
         {
-            User user = new User(context.getID(username, password), context.getName(), username);
+            User user = new User(context.getID(username, password), username);
             //context.create(user);
         }
 

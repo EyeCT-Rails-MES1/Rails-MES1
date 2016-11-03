@@ -18,7 +18,7 @@ namespace DAL.Types
         public Function.userFunction function { get; set; }
 
 
-        public User(int ID, string name, string username, Function.userFunction function)
+        public User(int ID, string username)
         {
             this.ID = ID;
             this.name = name;
