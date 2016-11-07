@@ -32,7 +32,6 @@
             this.btnInloggen = new System.Windows.Forms.Button();
             this.txtWachtwoord = new System.Windows.Forms.TextBox();
             this.txtGebruikersnaam = new System.Windows.Forms.TextBox();
-            this.btnRFIDInloggen = new System.Windows.Forms.Button();
             this.gbxInlog.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,22 +72,11 @@
             this.txtGebruikersnaam.Size = new System.Drawing.Size(200, 30);
             this.txtGebruikersnaam.TabIndex = 0;
             // 
-            // btnRFIDInloggen
-            // 
-            this.btnRFIDInloggen.Location = new System.Drawing.Point(796, 22);
-            this.btnRFIDInloggen.Name = "btnRFIDInloggen";
-            this.btnRFIDInloggen.Size = new System.Drawing.Size(200, 50);
-            this.btnRFIDInloggen.TabIndex = 3;
-            this.btnRFIDInloggen.Text = "Inloggen met RFID";
-            this.btnRFIDInloggen.UseVisualStyleBackColor = true;
-            this.btnRFIDInloggen.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 729);
-            this.Controls.Add(this.btnRFIDInloggen);
             this.Controls.Add(this.gbxInlog);
             this.Name = "Form1";
             this.Text = "Inloggen";
@@ -105,7 +93,6 @@
         private System.Windows.Forms.Button btnInloggen;
         private System.Windows.Forms.TextBox txtWachtwoord;
         private System.Windows.Forms.TextBox txtGebruikersnaam;
-        private System.Windows.Forms.Button btnRFIDInloggen;
     }
 }
 

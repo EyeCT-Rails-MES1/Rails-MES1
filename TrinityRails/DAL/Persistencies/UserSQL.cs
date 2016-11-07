@@ -44,13 +44,13 @@ namespace DAL.Persistencies
         public int getFunction(User user)
         {
             string query = @"SELECT [function] FROM [UserTable] WHERE [UserID] = " + user.ID + @";";
-            return databaseConnection.executeReaderInt(query);
+            return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
 
         public int getID(string username, string password)
         {
             string query = @"SELECT [UserID] FROM [UserTable] WHERE [username] = '" + username + @"' AND [password] = '" + password + @"';";
-            return databaseConnection.executeReaderInt(query);
+            return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
 
         public string getName(User user)
