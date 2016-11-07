@@ -50,6 +50,10 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnConfirm = new System.Windows.Forms.Button();
             this.lblGoTo = new System.Windows.Forms.Label();
+            this.btnScanRFID = new System.Windows.Forms.Button();
+            this.lblRemarks = new System.Windows.Forms.Label();
+            this.lblHistory = new System.Windows.Forms.Label();
+            this.lblTramNumber = new System.Windows.Forms.Label();
             this.gbTechnicalhelp.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,6 +144,7 @@
             this.tbTramNumber.Size = new System.Drawing.Size(100, 66);
             this.tbTramNumber.TabIndex = 6;
             this.tbTramNumber.Text = "";
+            this.tbTramNumber.TextChanged += new System.EventHandler(this.tbTramNumber_TextChanged);
             // 
             // btn1
             // 
@@ -265,17 +270,62 @@
             // lblGoTo
             // 
             this.lblGoTo.AutoSize = true;
-            this.lblGoTo.Location = new System.Drawing.Point(39, 18);
+            this.lblGoTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGoTo.Location = new System.Drawing.Point(35, 23);
             this.lblGoTo.Name = "lblGoTo";
-            this.lblGoTo.Size = new System.Drawing.Size(44, 13);
+            this.lblGoTo.Size = new System.Drawing.Size(60, 17);
             this.lblGoTo.TabIndex = 19;
-            this.lblGoTo.Text = "lblGoTo";
+            this.lblGoTo.Text = "Ga naar";
+            // 
+            // btnScanRFID
+            // 
+            this.btnScanRFID.Location = new System.Drawing.Point(596, 222);
+            this.btnScanRFID.Name = "btnScanRFID";
+            this.btnScanRFID.Size = new System.Drawing.Size(176, 50);
+            this.btnScanRFID.TabIndex = 20;
+            this.btnScanRFID.Text = "Scan RFID";
+            this.btnScanRFID.UseVisualStyleBackColor = true;
+            this.btnScanRFID.Click += new System.EventHandler(this.btnScanRFID_Click);
+            // 
+            // lblRemarks
+            // 
+            this.lblRemarks.AutoSize = true;
+            this.lblRemarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemarks.Location = new System.Drawing.Point(19, 115);
+            this.lblRemarks.Name = "lblRemarks";
+            this.lblRemarks.Size = new System.Drawing.Size(93, 17);
+            this.lblRemarks.TabIndex = 21;
+            this.lblRemarks.Text = "Opmerkingen";
+            // 
+            // lblHistory
+            // 
+            this.lblHistory.AutoSize = true;
+            this.lblHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHistory.Location = new System.Drawing.Point(638, 23);
+            this.lblHistory.Name = "lblHistory";
+            this.lblHistory.Size = new System.Drawing.Size(56, 17);
+            this.lblHistory.TabIndex = 22;
+            this.lblHistory.Text = "Historie";
+            // 
+            // lblTramNumber
+            // 
+            this.lblTramNumber.AutoSize = true;
+            this.lblTramNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTramNumber.Location = new System.Drawing.Point(394, 112);
+            this.lblTramNumber.Name = "lblTramNumber";
+            this.lblTramNumber.Size = new System.Drawing.Size(92, 17);
+            this.lblTramNumber.TabIndex = 23;
+            this.lblTramNumber.Text = "Tramnummer";
             // 
             // DriverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.lblTramNumber);
+            this.Controls.Add(this.lblHistory);
+            this.Controls.Add(this.lblRemarks);
+            this.Controls.Add(this.btnScanRFID);
             this.Controls.Add(this.lblGoTo);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.btn0);
@@ -328,5 +378,9 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Label lblGoTo;
+        private System.Windows.Forms.Button btnScanRFID;
+        private System.Windows.Forms.Label lblRemarks;
+        private System.Windows.Forms.Label lblHistory;
+        private System.Windows.Forms.Label lblTramNumber;
     }
 }
