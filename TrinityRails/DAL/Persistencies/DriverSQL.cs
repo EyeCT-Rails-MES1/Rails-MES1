@@ -18,19 +18,19 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setCleaningTask()
+        public void setCleaningTask(string task, int priority)
         {
-            throw new NotImplementedException();
+            
         }
 
-        public void setPriority()
+        public void setPriority(int priority)
         {
             throw new NotImplementedException();
         }
 
         public void getLocation()
         {
-            string query = @"SELECT [Location] FROM [TRAM]"
+            //string query = @"SELECT [Location] FROM [TRAM]"
         }
     }
 }

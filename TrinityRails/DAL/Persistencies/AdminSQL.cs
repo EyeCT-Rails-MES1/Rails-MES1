@@ -17,9 +17,9 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void changePassword()
+        public void changePassword(string username, string password)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [USER] SET [Password] = "
         }
 
         public void changeUsername()
