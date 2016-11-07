@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
 using DAL.Types;
+using DAL.Persistencies;
 using Classes.Enumerations;
 using Classes;
 
@@ -19,11 +20,12 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void login(int ID, string name, string username, Status.tramStatus function)
+        public void login(string username, string password)
         {
-            User user = new User(ID, name, username, function);
+            User user = new User(context.getID(username, password), username);
             //context.create(user);
         }
+
         public void changeUsername(User user, string username)
         {
             //context.update(user);

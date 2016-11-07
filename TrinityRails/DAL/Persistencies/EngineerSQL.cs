@@ -18,19 +18,22 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setDate()
+        public void setDate(DateTime date, User user, Tram tram)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void setName()
+        public void setName(User user, Tram tram)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void setStatus()
+        public void setStatus(Tram tram, Status.tramStatus status)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Tram] SET [Status] = " + status + @"WHERE [TramNumber] = " + tram.number + @";";
+            databaseConnection.executeCommand(query);
         }
     }
 }

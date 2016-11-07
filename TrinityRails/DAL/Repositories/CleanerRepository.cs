@@ -13,19 +13,22 @@ namespace DAL.Repositories
     public class CleanerRepository
     {
         ICleaner context;
+        List<User> userList = new List<User>();
 
         public CleanerRepository(ICleaner context)
         {
             this.context = context;
         }
+
         public List<string> getCleaningList()
         {
+            //return context.cleaningList();
             throw new NotImplementedException();
         }
-        public void finishCleaning()
+
+        public void finishCleaning(string taak, User user)
         {
-            throw new NotImplementedException();
+            //context.cleaningList().Remove(taak);
         }
     }
 }
-

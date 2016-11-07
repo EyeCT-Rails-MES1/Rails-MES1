@@ -10,10 +10,11 @@ namespace Classes.Enumerations
     {
         public enum userFunction
         {
-            Cleaner,        //Index = 0
-            Driver,         //Index = 1
-            Engineer,       //Index = 2
-            Fleetmanager    //Index = 3
+            Cleaner = 0,        
+            Driver = 1,
+            Engineer = 2,       
+            Fleetmanager = 3,
+            Admin = 4
         }
     }
 }

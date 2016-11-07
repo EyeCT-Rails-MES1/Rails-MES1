@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Classes;
 using DAL.Interfaces;
 using DAL.Types;
 
@@ -17,15 +18,18 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public bool setSectorStatus()
+        public void setSectorStatus(Sector sector)
         {
-            throw new Exception();
-            //Methode moet een boolean returnen
+            string query = @"UPDATE [Sector] SET [Status] = " + sector.blocked + @"WHERE [SectorNumber] = " + sector.Number + @";";
+            databaseConnection.executeCommand(query);
         }
 
-        public void getSectorStatus()
+        public bool getSectorStatus(Sector sector)
         {
-
+            string query = @"SELECT [Status] FROM [Sector] WHERE [SectorNumber] = " + sector.Number + @";";
+            databaseConnection.executeCommand(query);
+            //Return de status als boolean
+            throw new NotImplementedException();
         }
     }
 }

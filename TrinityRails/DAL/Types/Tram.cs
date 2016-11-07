@@ -11,16 +11,16 @@ namespace DAL.Types
     {
         public int number { get; set; }
         public Status.tramStatus status { get; set; }
+        public int rail { get; set; }
         public int sector { get; set; }
-        public int RFID { get; set; }
-        public int location { get; set; }
-        Tram(int number, Status.tramStatus tramStatus, int sector, int RFID, int location)
+        public string RFID { get; set; }
+        public Tram(int number, Status.tramStatus tramStatus, int sector, string RFID, int rail)
         {
             this.number = number;
             status = tramStatus;
             this.sector = sector;
             this.RFID = RFID;
-            this.location = location;
+            this.rail = rail;
         }
     }
 }

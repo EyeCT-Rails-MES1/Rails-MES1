@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.Types;
+using Classes.Enumerations;
 
 namespace DAL.Interfaces
 {
     public interface ICleaner
     {
-        void setName();
-        void setDate();
-        void setStatus();
+        void setDate(DateTime date, User user, Tram tram);
+        void setName(User user, Tram tram);
+        void setStatus(Tram tram, Status.tramStatus status);
         void getCleaningTasks();
-
-        //cleaning list?
+        List<string> cleaningList();
     }
 }

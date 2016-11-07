@@ -9,7 +9,7 @@ using DAL.Types;
 
 namespace DAL.Persistencies
 {
-    public class DriverSQL
+    public class DriverSQL : IDriver
     {
         private DatabaseConnection databaseConnection;
 
@@ -18,19 +18,24 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setCleaningTask(string task, int priority)
+        public void setCleaningTask(string task)
         {
-            
+            string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @";";
+            //Snap geen drol van onze database
+            databaseConnection.executeCommand(query);
         }
 
         public void setPriority(int priority)
         {
-            throw new NotImplementedException();
+            string query = @"UPDATE [Cleaninglist] SET [Priority] = " + priority + @";";
+            //Snap geen drol van onze database
+            databaseConnection.executeCommand(query);
         }
 
-        public void getLocation()
+        int IDriver.getLocation()
         {
-            //string query = @"SELECT [Location] FROM [TRAM]"
+            throw new NotImplementedException();
+            //Ik dacht dat een logaritme in de database de locatie bepaalde? En deze daarna in de database werd geupdate?
         }
     }
 }

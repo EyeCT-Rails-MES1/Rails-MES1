@@ -13,6 +13,7 @@ namespace DAL.Repositories
     public class DriverRepository
     {
         IDriver context;
+        List<User> userList = new List<User>();
 
         public DriverRepository(IDriver context)
         {
@@ -21,12 +22,13 @@ namespace DAL.Repositories
 
         public void addCleaningTask(string cleaningTask)
         {
-            
+            //context.setCleaningTask(cleaningTask);
         }
 
         public int getLocation(int location)
         {
-            return location;
+            //return context.getLocation(location);
+            throw new NotImplementedException();
         }
     }
 }

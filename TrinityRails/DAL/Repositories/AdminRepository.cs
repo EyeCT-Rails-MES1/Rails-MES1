@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Classes.Enumerations;
 using DAL.Interfaces;
 using DAL.Types;
 
@@ -17,25 +18,31 @@ namespace DAL.Repositories
         {
             this.context = context;
         }
-        public void create(User user)
+
+        public void create(int ID, string name, string username, Function.userFunction function)
         {
-            throw new NotImplementedException();
+            User user = new User(ID, name, username, function);
+            //context.create(user);
         }
+
         public void delete(User user)
         {
-            throw new NotImplementedException();
+            //context.delete(user);
         }
+
         public void changeUsername(User user, string username)
         {
-            throw new NotImplementedException();
+            //context.changeUsername(user, username);
         }
+
         public void changePassword(User user, string password)
         {
-            throw new NotImplementedException();
+            //context.changePassword(user, password);
         }
+
         public List<User> getUsers()
         {
-            return userList;
+            return context.getUsers();
         }
     }
 }
