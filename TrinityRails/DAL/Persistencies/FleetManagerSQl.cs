@@ -27,9 +27,7 @@ namespace DAL.Persistencies
         public bool getSectorStatus(Sector sector)
         {
             string query = @"SELECT [Status] FROM [Sector] WHERE [SectorNumber] = " + sector.Number + @";";
-            databaseConnection.executeCommand(query);
-            //Return de status als boolean
-            throw new NotImplementedException();
+            return Convert.ToBoolean(databaseConnection.executeReaderBool(query));
         }
     }
 }

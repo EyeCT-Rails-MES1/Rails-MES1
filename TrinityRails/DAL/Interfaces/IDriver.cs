@@ -11,6 +11,6 @@ namespace DAL.Interfaces
     {
         void setCleaningTask(string task);
         void setPriority(int priority);
-        int getLocation();
+        int getLocation(Tram tram);
     }
 }

@@ -32,8 +32,9 @@
             this.tbHistory = new System.Windows.Forms.RichTextBox();
             this.tbRemarks = new System.Windows.Forms.RichTextBox();
             this.cbJa = new System.Windows.Forms.CheckBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.gbTechnicalhelp = new System.Windows.Forms.GroupBox();
+            this.cbNee = new System.Windows.Forms.CheckBox();
+            this.lblNeedTechHelp = new System.Windows.Forms.Label();
             this.cbxNeedCleaning = new System.Windows.Forms.CheckBox();
             this.tbTramNumber = new System.Windows.Forms.RichTextBox();
             this.btn1 = new System.Windows.Forms.Button();
@@ -48,9 +49,7 @@
             this.btnRecover = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btnConfirm = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblNeedTechHelp = new System.Windows.Forms.Label();
-            this.cbNee = new System.Windows.Forms.CheckBox();
+            this.lblGoTo = new System.Windows.Forms.Label();
             this.gbTechnicalhelp.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +101,27 @@
             this.gbTechnicalhelp.TabStop = false;
             this.gbTechnicalhelp.Text = "groupBox1";
             // 
+            // cbNee
+            // 
+            this.cbNee.AutoSize = true;
+            this.cbNee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbNee.Location = new System.Drawing.Point(10, 75);
+            this.cbNee.Name = "cbNee";
+            this.cbNee.Size = new System.Drawing.Size(53, 21);
+            this.cbNee.TabIndex = 21;
+            this.cbNee.Text = "Nee";
+            this.cbNee.UseVisualStyleBackColor = true;
+            // 
+            // lblNeedTechHelp
+            // 
+            this.lblNeedTechHelp.AutoSize = true;
+            this.lblNeedTechHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNeedTechHelp.Location = new System.Drawing.Point(6, 17);
+            this.lblNeedTechHelp.Name = "lblNeedTechHelp";
+            this.lblNeedTechHelp.Size = new System.Drawing.Size(222, 20);
+            this.lblNeedTechHelp.TabIndex = 20;
+            this.lblNeedTechHelp.Text = "Technische assistentie nodig?";
+            // 
             // cbxNeedCleaning
             // 
             this.cbxNeedCleaning.AutoSize = true;
@@ -129,6 +149,7 @@
             this.btn1.TabIndex = 7;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -138,6 +159,7 @@
             this.btn2.TabIndex = 8;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
@@ -147,6 +169,7 @@
             this.btn3.TabIndex = 9;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn4
             // 
@@ -156,6 +179,7 @@
             this.btn4.TabIndex = 10;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
@@ -165,6 +189,7 @@
             this.btn5.TabIndex = 11;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn6
             // 
@@ -174,6 +199,7 @@
             this.btn6.TabIndex = 12;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn7
             // 
@@ -183,6 +209,7 @@
             this.btn7.TabIndex = 13;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn8
             // 
@@ -192,6 +219,7 @@
             this.btn8.TabIndex = 14;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn9
             // 
@@ -201,6 +229,7 @@
             this.btn9.TabIndex = 15;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // btnRecover
             // 
@@ -210,6 +239,7 @@
             this.btnRecover.TabIndex = 16;
             this.btnRecover.Text = "Hertel";
             this.btnRecover.UseVisualStyleBackColor = true;
+            this.btnRecover.Click += new System.EventHandler(this.btnRecover_Click);
             // 
             // btn0
             // 
@@ -219,6 +249,7 @@
             this.btn0.TabIndex = 17;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
             // btnConfirm
             // 
@@ -229,43 +260,23 @@
             this.btnConfirm.Text = "Bevestig";
             this.btnConfirm.UseCompatibleTextRendering = true;
             this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
-            // label1
+            // lblGoTo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(189, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "label1";
-            // 
-            // lblNeedTechHelp
-            // 
-            this.lblNeedTechHelp.AutoSize = true;
-            this.lblNeedTechHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNeedTechHelp.Location = new System.Drawing.Point(6, 17);
-            this.lblNeedTechHelp.Name = "lblNeedTechHelp";
-            this.lblNeedTechHelp.Size = new System.Drawing.Size(222, 20);
-            this.lblNeedTechHelp.TabIndex = 20;
-            this.lblNeedTechHelp.Text = "Technische assistentie nodig?";
-            // 
-            // cbNee
-            // 
-            this.cbNee.AutoSize = true;
-            this.cbNee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbNee.Location = new System.Drawing.Point(10, 75);
-            this.cbNee.Name = "cbNee";
-            this.cbNee.Size = new System.Drawing.Size(53, 21);
-            this.cbNee.TabIndex = 21;
-            this.cbNee.Text = "Nee";
-            this.cbNee.UseVisualStyleBackColor = true;
+            this.lblGoTo.AutoSize = true;
+            this.lblGoTo.Location = new System.Drawing.Point(39, 18);
+            this.lblGoTo.Name = "lblGoTo";
+            this.lblGoTo.Size = new System.Drawing.Size(44, 13);
+            this.lblGoTo.TabIndex = 19;
+            this.lblGoTo.Text = "lblGoTo";
             // 
             // DriverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblGoTo);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btnRecover);
@@ -299,7 +310,6 @@
         private System.Windows.Forms.RichTextBox tbHistory;
         private System.Windows.Forms.RichTextBox tbRemarks;
         private System.Windows.Forms.CheckBox cbJa;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.GroupBox gbTechnicalhelp;
         private System.Windows.Forms.CheckBox cbNee;
         private System.Windows.Forms.Label lblNeedTechHelp;
@@ -317,6 +327,6 @@
         private System.Windows.Forms.Button btnRecover;
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnConfirm;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblGoTo;
     }
 }

@@ -21,21 +21,21 @@ namespace DAL.Persistencies
         public void setCleaningTask(string task)
         {
             string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @";";
-            //Snap geen drol van onze database
+            //Moet nog geimplementeerd worden
             databaseConnection.executeCommand(query);
         }
 
         public void setPriority(int priority)
         {
             string query = @"UPDATE [Cleaninglist] SET [Priority] = " + priority + @";";
-            //Snap geen drol van onze database
+            //Moet nog geimplementeerd worden
             databaseConnection.executeCommand(query);
         }
 
-        int IDriver.getLocation()
+        int IDriver.getLocation(Tram tram)
         {
-            throw new NotImplementedException();
-            //Ik dacht dat een logaritme in de database de locatie bepaalde? En deze daarna in de database werd geupdate?
+            string query = @"SELECT [Location] From [Tram] WHERE [TramNumber] = " + tram.number + @";";
+            return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
     }
 }
