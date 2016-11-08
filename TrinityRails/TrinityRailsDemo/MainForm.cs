@@ -14,9 +14,9 @@ using TrinityRailsDemo.SideForms;
 
 namespace TrinityRailsDemo
 {
-    public partial class Form2 : Form
+    public partial class MainForm : Form
     {
-        public Form2()
+        public MainForm()
         {
             InitializeComponent();
             btnDiensten.Enabled = true;
@@ -27,7 +27,7 @@ namespace TrinityRailsDemo
             btnSporen.Enabled = true;
             btnTrams.Enabled = true;
         }
-        public Form2(User user)
+        public MainForm(User user)
         {
             InitializeComponent();
             switch (user.function)
