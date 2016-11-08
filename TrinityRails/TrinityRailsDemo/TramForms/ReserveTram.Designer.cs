@@ -61,6 +61,7 @@
             this.btnBevestig.TabIndex = 2;
             this.btnBevestig.Text = "Bevestig";
             this.btnBevestig.UseVisualStyleBackColor = true;
+            this.btnBevestig.Click += new System.EventHandler(this.btnBevestig_Click);
             // 
             // lblTramNumber
             // 

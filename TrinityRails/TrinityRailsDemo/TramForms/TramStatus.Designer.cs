@@ -93,6 +93,7 @@
             this.Controls.Add(this.cbTramStatus);
             this.Name = "TramStatus";
             this.Text = "TramStatus";
+            this.Load += new System.EventHandler(this.TramStatus_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
