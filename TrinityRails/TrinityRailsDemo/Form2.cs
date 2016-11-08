@@ -17,6 +17,13 @@ namespace TrinityRailsDemo
         public Form2()
         {
             InitializeComponent();
+            btnDiensten.Enabled = true;
+            btnExit.Enabled = true;
+            btnLijnen.Enabled = true;
+            btnRepair.Enabled = true;
+            btnSchoonmaak.Enabled = true;
+            btnSporen.Enabled = true;
+            btnTrams.Enabled = true;
         }
         public Form2(User user)
         {
@@ -24,6 +31,8 @@ namespace TrinityRailsDemo
             switch (user.function)
             {
                 case Function.userFunction.Cleaner:
+                    btnSchoonmaak.Enabled = true;
+                    btnExit.Enabled = true;
                     break;
                 case Function.userFunction.Driver:
                     break;
@@ -32,25 +41,46 @@ namespace TrinityRailsDemo
                 case Function.userFunction.Fleetmanager:
                     break;
                 case Function.userFunction.Admin:
+                    btnDiensten.Enabled = true;
+                    btnExit.Enabled = true;
+                    btnLijnen.Enabled = true;
+                    btnRepair.Enabled = true;
+                    btnSchoonmaak.Enabled = true;
+                    btnSporen.Enabled = true;
+                    btnTrams.Enabled = true;
                     break;
                 default:
-                    throw new UnauthorizedAccessException("Failed to get access");
+                    btnDiensten.Enabled = true;
+                    btnExit.Enabled = true;
+                    btnLijnen.Enabled = true;
+                    btnRepair.Enabled = true;
+                    btnSchoonmaak.Enabled = true;
+                    btnSporen.Enabled = true;
+                    btnTrams.Enabled = true;
+                    break;
             }
         }
 
         //Verander de naam van context menu strip (nu cmsVakjes) in iets wat normaal klinkt
-
         private void ShowTextBoxCMS(Control cont, Object current)
         {
             TextBox selected = (TextBox)current;
             cmsButtons.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
 
+        private void ShowCMS(Control cont, object current, ContextMenuStrip cms)
+        {
+            Button selected = (Button)current;
+            cms.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
+        }
         private void btnTrams_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            ShowCMS(this, btnTrams, cmsTram);
         }
-
+        private void btnSporen_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnSporen, cmsSporen);
+        }
         
         //test voor de het menu klik. (vind je bij events bij properties)
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,9 +97,34 @@ namespace TrinityRailsDemo
             ShowTextBoxCMS(this, sender);
         }
 
+
+
+
         #endregion
 
+        private void btnLijnen_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnLijnen, cmsLijnen);
+        }
 
+        private void btnDiensten_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnDiensten,cmsDiensten);
+        }
 
+        private void btnSchoonmaak_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnSchoonmaak, cmsSchoonmaak);
+        }
+
+        private void btnRepair_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnRepair, cmsReparatie);
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
