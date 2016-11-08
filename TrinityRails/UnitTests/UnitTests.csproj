@@ -53,6 +53,20 @@
     <Compile Include="UnitExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{0632f9fe-bc88-4422-8e0a-a47f31f7a410}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrinityRailsDemo\TrinityRailsDemo.csproj">
+      <Project>{95a78996-df3b-442d-bb72-e7be0a00e5da}</Project>
+      <Name>TrinityRailsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Types\Classes.csproj">
+      <Project>{609c5ca6-4bb7-4113-b0dc-30be3463c821}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
