@@ -21,19 +21,19 @@ namespace DAL.Persistencies
 
         public void changePassword(User user, string password)
         {
-            string query = @"UPDATE [UserTable] SET [password] = '" + password + @"' WHERE [UserID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET [Password] = '" + password + @"' WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void changeUsername(User user)
         {
-            string query = @"UPDATE [UserTable] SET [Username] = '" + user.username + @"' WHERE [UserID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET [Name] = '" + user.username + @"' WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public bool checkCredentials(string username, string password)
         {
-            string query = @"SELECT [UserID] FROM [UserTable] WHERE [Username] = '" + username + @"' AND [password] = '" + password + @"';";
+            string query = @"SELECT [ID] FROM [User] WHERE [Name] = '" + username + @"' AND [Password] = '" + password + @"';";
             if (databaseConnection.executeReaderInt(query) != -1)
             {
                 return true;
@@ -43,19 +43,19 @@ namespace DAL.Persistencies
 
         public int getFunction(User user)
         {
-            string query = @"SELECT [function] FROM [UserTable] WHERE [UserID] = " + user.ID + @";";
+            string query = @"SELECT [Function] FROM [User] WHERE [ID] = " + user.ID + @";";
             return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
 
         public int getID(string username, string password)
         {
-            string query = @"SELECT [UserID] FROM [UserTable] WHERE [username] = '" + username + @"' AND [password] = '" + password + @"';";
+            string query = @"SELECT [ID] FROM [User] WHERE [Name] = '" + username + @"' AND [Password] = '" + password + @"';";
             return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
 
         public string getName(User user)
         {
-            string query = "";
+            string query = @"SELECT[Name] FROM [User] WHERE [ID] = '" + user.ID + @";";
             return databaseConnection.executeReaderString(query);
         }
     }
