@@ -46,7 +46,7 @@ namespace TrinityRailsDemo
                     btnTrams.Enabled = true;
                     break;
                 default:
-                    btnDiensten.Enabled = false;
+                    btnDiensten.Enabled = false; 
                     btnLijnen.Enabled = false;
                     btnRepair.Enabled = false;
                     btnSchoonmaak.Enabled = false;
