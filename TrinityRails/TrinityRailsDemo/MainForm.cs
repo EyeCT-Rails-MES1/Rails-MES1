@@ -16,29 +16,36 @@ namespace TrinityRailsDemo
 {
     public partial class MainForm : Form
     {
+        TextBox currentTextBox;
+        public MainForm()
+        {
+            InitializeComponent();
+            btnDiensten.Enabled = true;
+            btnExit.Enabled = true;
+            btnLijnen.Enabled = true;
+            btnRepair.Enabled = true;
+            btnSchoonmaak.Enabled = true;
+            btnSporen.Enabled = true;
+            btnTrams.Enabled = true;
+        }
         public MainForm(User user)
         {
             InitializeComponent();
-            btnExit.Enabled = true;
             switch (user.function)
             {
                 case Function.userFunction.Cleaner:
                     btnSchoonmaak.Enabled = true;
+                    btnExit.Enabled = true;
                     break;
                 case Function.userFunction.Driver:
-                    btnTrams.Enabled = true;
                     break;
                 case Function.userFunction.Engineer:
-                    btnRepair.Enabled = true;
                     break;
                 case Function.userFunction.Fleetmanager:
-                    btnDiensten.Enabled = true;
-                    btnLijnen.Enabled = true;
-                    btnSporen.Enabled = true;
-                    btnTrams.Enabled = true;
                     break;
                 case Function.userFunction.Admin:
                     btnDiensten.Enabled = true;
+                    btnExit.Enabled = true;
                     btnLijnen.Enabled = true;
                     btnRepair.Enabled = true;
                     btnSchoonmaak.Enabled = true;
@@ -47,6 +54,7 @@ namespace TrinityRailsDemo
                     break;
                 default:
                     btnDiensten.Enabled = true;
+                    btnExit.Enabled = true;
                     btnLijnen.Enabled = true;
                     btnRepair.Enabled = true;
                     btnSchoonmaak.Enabled = true;
@@ -82,9 +90,80 @@ namespace TrinityRailsDemo
         private void txt_R38S1_MouseClick(object sender, MouseEventArgs e)
         {
             ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
         }
 
+        private void txt_R38S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
 
+        private void txt_R37S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
 
 
         #endregion
