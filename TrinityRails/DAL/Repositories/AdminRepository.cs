@@ -16,7 +16,7 @@ namespace DAL.Repositories
 
         public AdminRepository(IAdmin context)
         {
-            this.context = context;
+            this.context = context; 
         }
 
         public void create(int ID, string name, string username, string password, Function.userFunction function)
