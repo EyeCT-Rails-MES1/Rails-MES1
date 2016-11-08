@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DAL.Types;
 using DAL.Interfaces;
 using Classes.Enumerations;
+using Classes;
 
 namespace DAL.Repositories
 {
@@ -24,18 +25,11 @@ namespace DAL.Repositories
         public void setStatus(Tram tram, Status.tramStatus status)
         {
             tram.status = status;
-            //context.setStatus(); weet niet of dit klopt
+            context.setStatus(tram, status);
         }
-        public void setLocation(Tram tram, int location)
-        {
-            //TODO
-            //tram.location = location;
-            //context.setLocation(); weet niet of dit klopt
-        }
-
         public void setLocation(Tram tram)
         {
-            throw new NotImplementedException();
+            context.setLocation(tram);
         }
     }
 }

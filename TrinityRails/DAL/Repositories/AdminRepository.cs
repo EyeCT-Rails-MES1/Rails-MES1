@@ -16,28 +16,36 @@ namespace DAL.Repositories
 
         public AdminRepository(IAdmin context)
         {
-            this.context = context;
+            this.context = context; 
         }
 
-        public void create(int ID, string name, string username, Function.userFunction function)
+        public void create(int ID, string name, string username, string password, Function.userFunction function)
         {
             User user = new User(ID, name, username, function);
-            //context.create(user);
+            context.create(user.username, password);
         }
 
         public void delete(User user)
         {
-            //context.delete(user);
+            foreach(User u in userList)
+            {
+                if (u == user)
+                {
+                    userList.Remove(user);
+                }
+            }
+            context.delete(user);
         }
 
         public void changeUsername(User user, string username)
         {
-            //context.changeUsername(user, username);
+            user.username = username;
+            context.changeUsername(user, username);
         }
 
         public void changePassword(User user, string password)
         {
-            //context.changePassword(user, password);
+            context.changePassword(user, password);
         }
 
         public List<User> getUsers()

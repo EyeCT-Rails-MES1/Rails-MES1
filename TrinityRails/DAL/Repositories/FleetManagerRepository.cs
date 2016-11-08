@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
 using DAL.Types;
+using Classes;
 
 namespace DAL.Repositories
 {
@@ -18,19 +19,23 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void checkSector()
+        public void checkSector(Sector sector)
         {
-            //context.getSectorStatus();
+            context.getSectorStatus(sector);
         }
 
-        public void blockSector()
+        public void blockSector(Sector sector)
         {
-            //context.setSectorStatus(false);
+            bool block = sector.blocked;
+            block = true;
+            context.setSectorStatus(sector);
         }
 
-        public void unblockSector()
+        public void unblockSector(Sector sector)
         {
-            //context.setSectorStatus(true);
+            bool block = sector.blocked;
+            block = false;
+            context.setSectorStatus(sector);
         }
     }
 }
