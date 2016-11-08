@@ -30,7 +30,7 @@ namespace DAL.Repositories
 
         public void unblockSector()
         {
-            //context.setSectorStatus(false);
+            //context.setSectorStatus(true);
         }
     }
 }

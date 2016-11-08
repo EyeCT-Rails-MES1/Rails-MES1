@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL.Types;
 
 namespace TrinityRailsDemo
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(User user)
         {
             InitializeComponent();
         }
