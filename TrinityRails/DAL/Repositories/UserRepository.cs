@@ -29,7 +29,8 @@ namespace DAL.Repositories
                     user.function = (Function.userFunction)context.getFunction(user);
                     return user;
                 case false:
-                    return null;
+                    user = null;
+                    return user;
                 default:
                     return null;
             }

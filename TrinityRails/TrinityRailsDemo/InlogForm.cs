@@ -30,6 +30,7 @@ namespace TrinityRailsDemo
             if (user != null)
             {
                 MainForm form = new MainForm(user);
+                form.Show();
             }
             else
             {
