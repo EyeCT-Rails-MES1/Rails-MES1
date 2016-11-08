@@ -111,7 +111,6 @@
             this.txt_R32S5 = new System.Windows.Forms.TextBox();
             this.txt_R33S5 = new System.Windows.Forms.TextBox();
             this.txt_R34S5 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_R45S1 = new System.Windows.Forms.TextBox();
             this.txt_R58S1 = new System.Windows.Forms.TextBox();
             this.txt_R45S2 = new System.Windows.Forms.TextBox();
@@ -262,20 +261,43 @@
             this.txt_R75S5 = new System.Windows.Forms.TextBox();
             this.txt_R77S6 = new System.Windows.Forms.TextBox();
             this.txt_R76S6 = new System.Windows.Forms.TextBox();
-            this.cmsVakjes = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsTram = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmPlaatsen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmVerwijderen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmReserveren = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.test3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsVakjes.SuspendLayout();
+            this.gbInformation = new System.Windows.Forms.GroupBox();
+            this.lblInformation = new System.Windows.Forms.Label();
+            this.lblTram = new System.Windows.Forms.Label();
+            this.lblTrack = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.gbReservations = new System.Windows.Forms.GroupBox();
+            this.lblReservations = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.cmsSporen = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsLijnen = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsDiensten = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsSchoonmaak = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsReparatie = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmStatusVeranderen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmInformatie = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorSectorBlokkerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorUpdatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorInformatieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
+            this.gbInformation.SuspendLayout();
+            this.gbReservations.SuspendLayout();
+            this.cmsSporen.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTrams
             // 
+            this.btnTrams.Enabled = false;
             this.btnTrams.Location = new System.Drawing.Point(12, 12);
             this.btnTrams.Name = "btnTrams";
             this.btnTrams.Size = new System.Drawing.Size(50, 25);
@@ -286,57 +308,69 @@
             // 
             // btnSporen
             // 
+            this.btnSporen.Enabled = false;
             this.btnSporen.Location = new System.Drawing.Point(68, 12);
             this.btnSporen.Name = "btnSporen";
             this.btnSporen.Size = new System.Drawing.Size(50, 25);
             this.btnSporen.TabIndex = 1;
             this.btnSporen.Text = "Sporen";
             this.btnSporen.UseVisualStyleBackColor = true;
+            this.btnSporen.Click += new System.EventHandler(this.btnSporen_Click);
             // 
             // btnLijnen
             // 
+            this.btnLijnen.Enabled = false;
             this.btnLijnen.Location = new System.Drawing.Point(124, 12);
             this.btnLijnen.Name = "btnLijnen";
             this.btnLijnen.Size = new System.Drawing.Size(50, 25);
             this.btnLijnen.TabIndex = 2;
             this.btnLijnen.Text = "Lijnen";
             this.btnLijnen.UseVisualStyleBackColor = true;
+            this.btnLijnen.Click += new System.EventHandler(this.btnLijnen_Click);
             // 
             // btnDiensten
             // 
+            this.btnDiensten.Enabled = false;
             this.btnDiensten.Location = new System.Drawing.Point(180, 12);
             this.btnDiensten.Name = "btnDiensten";
             this.btnDiensten.Size = new System.Drawing.Size(61, 25);
             this.btnDiensten.TabIndex = 3;
             this.btnDiensten.Text = "Diensten";
             this.btnDiensten.UseVisualStyleBackColor = true;
+            this.btnDiensten.Click += new System.EventHandler(this.btnDiensten_Click);
             // 
             // btnSchoonmaak
             // 
+            this.btnSchoonmaak.Enabled = false;
             this.btnSchoonmaak.Location = new System.Drawing.Point(247, 12);
             this.btnSchoonmaak.Name = "btnSchoonmaak";
             this.btnSchoonmaak.Size = new System.Drawing.Size(84, 25);
             this.btnSchoonmaak.TabIndex = 4;
             this.btnSchoonmaak.Text = "Schoonmaak";
             this.btnSchoonmaak.UseVisualStyleBackColor = true;
+            this.btnSchoonmaak.Click += new System.EventHandler(this.btnSchoonmaak_Click);
             // 
             // btnRepair
             // 
+            this.btnRepair.Enabled = false;
             this.btnRepair.Location = new System.Drawing.Point(337, 12);
             this.btnRepair.Name = "btnRepair";
-            this.btnRepair.Size = new System.Drawing.Size(48, 25);
+            this.btnRepair.Size = new System.Drawing.Size(66, 25);
             this.btnRepair.TabIndex = 5;
-            this.btnRepair.Text = "Repair";
+            this.btnRepair.Text = "Reparatie";
             this.btnRepair.UseVisualStyleBackColor = true;
+            this.btnRepair.Click += new System.EventHandler(this.btnRepair_Click);
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(391, 12);
+            this.btnExit.Enabled = false;
+            this.btnExit.Location = new System.Drawing.Point(414, 12);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(50, 25);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txt_R58
             // 
@@ -351,36 +385,44 @@
             // 
             // txt_R34S1
             // 
+            this.txt_R34S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R34S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S1.Location = new System.Drawing.Point(332, 121);
             this.txt_R34S1.Name = "txt_R34S1";
             this.txt_R34S1.ReadOnly = true;
             this.txt_R34S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S1.TabIndex = 8;
+            this.txt_R34S1.Text = "2";
             this.txt_R34S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R33S1
             // 
+            this.txt_R33S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R33S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R33S1.ForeColor = System.Drawing.Color.White;
             this.txt_R33S1.Location = new System.Drawing.Point(378, 121);
             this.txt_R33S1.Name = "txt_R33S1";
             this.txt_R33S1.ReadOnly = true;
             this.txt_R33S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S1.TabIndex = 9;
+            this.txt_R33S1.Text = "16/24";
             this.txt_R33S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R32S1
             // 
+            this.txt_R32S1.BackColor = System.Drawing.Color.Gray;
             this.txt_R32S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S1.Location = new System.Drawing.Point(424, 121);
             this.txt_R32S1.Name = "txt_R32S1";
             this.txt_R32S1.ReadOnly = true;
             this.txt_R32S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S1.TabIndex = 10;
+            this.txt_R32S1.Text = "10";
             this.txt_R32S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R31S1
             // 
+            this.txt_R31S1.BackColor = System.Drawing.Color.Magenta;
             this.txt_R31S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R31S1.Location = new System.Drawing.Point(470, 121);
             this.txt_R31S1.Name = "txt_R31S1";
@@ -391,12 +433,15 @@
             // 
             // txt_R30S1
             // 
+            this.txt_R30S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R30S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R30S1.ForeColor = System.Drawing.Color.White;
             this.txt_R30S1.Location = new System.Drawing.Point(516, 121);
             this.txt_R30S1.Name = "txt_R30S1";
             this.txt_R30S1.ReadOnly = true;
             this.txt_R30S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R30S1.TabIndex = 12;
+            this.txt_R30S1.Text = "16/24";
             this.txt_R30S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40
@@ -467,46 +512,56 @@
             // 
             // txt_R44S1
             // 
+            this.txt_R44S1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.txt_R44S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S1.Location = new System.Drawing.Point(780, 122);
             this.txt_R44S1.Name = "txt_R44S1";
             this.txt_R44S1.ReadOnly = true;
             this.txt_R44S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S1.TabIndex = 23;
+            this.txt_R44S1.Text = "13";
             this.txt_R44S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R43S1
             // 
+            this.txt_R43S1.BackColor = System.Drawing.Color.SpringGreen;
             this.txt_R43S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S1.Location = new System.Drawing.Point(734, 122);
             this.txt_R43S1.Name = "txt_R43S1";
             this.txt_R43S1.ReadOnly = true;
             this.txt_R43S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S1.TabIndex = 22;
+            this.txt_R43S1.Text = "1";
             this.txt_R43S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R42S1
             // 
+            this.txt_R42S1.BackColor = System.Drawing.Color.DarkViolet;
             this.txt_R42S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R42S1.ForeColor = System.Drawing.Color.White;
             this.txt_R42S1.Location = new System.Drawing.Point(688, 122);
             this.txt_R42S1.Name = "txt_R42S1";
             this.txt_R42S1.ReadOnly = true;
             this.txt_R42S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S1.TabIndex = 21;
+            this.txt_R42S1.Text = "55";
             this.txt_R42S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R41S1
             // 
+            this.txt_R41S1.BackColor = System.Drawing.Color.Gray;
             this.txt_R41S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S1.Location = new System.Drawing.Point(642, 122);
             this.txt_R41S1.Name = "txt_R41S1";
             this.txt_R41S1.ReadOnly = true;
             this.txt_R41S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S1.TabIndex = 20;
+            this.txt_R41S1.Text = "10";
             this.txt_R41S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40S1
             // 
+            this.txt_R40S1.BackColor = System.Drawing.SystemColors.Control;
             this.txt_R40S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S1.Location = new System.Drawing.Point(596, 122);
             this.txt_R40S1.Name = "txt_R40S1";
@@ -717,42 +772,51 @@
             // 
             // txt_R36S1
             // 
+            this.txt_R36S1.BackColor = System.Drawing.Color.SpringGreen;
             this.txt_R36S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S1.Location = new System.Drawing.Point(240, 121);
             this.txt_R36S1.Name = "txt_R36S1";
             this.txt_R36S1.ReadOnly = true;
             this.txt_R36S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S1.TabIndex = 44;
+            this.txt_R36S1.Text = "1";
             this.txt_R36S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R35S1
             // 
+            this.txt_R35S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R35S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R35S1.ForeColor = System.Drawing.Color.White;
             this.txt_R35S1.Location = new System.Drawing.Point(286, 121);
             this.txt_R35S1.Name = "txt_R35S1";
             this.txt_R35S1.ReadOnly = true;
             this.txt_R35S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S1.TabIndex = 45;
+            this.txt_R35S1.Text = "16/24";
             this.txt_R35S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R37S1
             // 
+            this.txt_R37S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R37S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S1.Location = new System.Drawing.Point(194, 121);
             this.txt_R37S1.Name = "txt_R37S1";
             this.txt_R37S1.ReadOnly = true;
             this.txt_R37S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S1.TabIndex = 46;
+            this.txt_R37S1.Text = "5";
             this.txt_R37S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R38S1
             // 
+            this.txt_R38S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R38S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S1.Location = new System.Drawing.Point(148, 121);
             this.txt_R38S1.Name = "txt_R38S1";
             this.txt_R38S1.ReadOnly = true;
             this.txt_R38S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S1.TabIndex = 47;
+            this.txt_R38S1.Text = "2";
             this.txt_R38S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_R38S1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_R38S1_MouseClick);
             // 
@@ -1096,24 +1160,17 @@
             this.txt_R34S5.TabIndex = 75;
             this.txt_R34S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox1.Location = new System.Drawing.Point(12, 71);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(130, 304);
-            this.groupBox1.TabIndex = 82;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
             // txt_R45S1
             // 
+            this.txt_R45S1.BackColor = System.Drawing.Color.Red;
             this.txt_R45S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R45S1.ForeColor = System.Drawing.Color.White;
             this.txt_R45S1.Location = new System.Drawing.Point(860, 122);
             this.txt_R45S1.Name = "txt_R45S1";
             this.txt_R45S1.ReadOnly = true;
             this.txt_R45S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S1.TabIndex = 84;
+            this.txt_R45S1.Text = "17";
             this.txt_R45S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R58S1
@@ -1658,56 +1715,68 @@
             // 
             // txt_R57S1
             // 
+            this.txt_R57S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R57S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S1.ForeColor = System.Drawing.Color.White;
             this.txt_R57S1.Location = new System.Drawing.Point(148, 471);
             this.txt_R57S1.Name = "txt_R57S1";
             this.txt_R57S1.ReadOnly = true;
             this.txt_R57S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S1.TabIndex = 136;
+            this.txt_R57S1.Text = "16/24";
             this.txt_R57S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R56S1
             // 
+            this.txt_R56S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R56S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S1.Location = new System.Drawing.Point(194, 471);
             this.txt_R56S1.Name = "txt_R56S1";
             this.txt_R56S1.ReadOnly = true;
             this.txt_R56S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S1.TabIndex = 135;
+            this.txt_R56S1.Text = "5";
             this.txt_R56S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R54S1
             // 
+            this.txt_R54S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R54S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S1.Location = new System.Drawing.Point(286, 471);
             this.txt_R54S1.Name = "txt_R54S1";
             this.txt_R54S1.ReadOnly = true;
             this.txt_R54S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S1.TabIndex = 134;
+            this.txt_R54S1.Text = "5";
             this.txt_R54S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R55S1
             // 
+            this.txt_R55S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R55S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S1.Location = new System.Drawing.Point(240, 471);
             this.txt_R55S1.Name = "txt_R55S1";
             this.txt_R55S1.ReadOnly = true;
             this.txt_R55S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S1.TabIndex = 133;
+            this.txt_R55S1.Text = "2";
             this.txt_R55S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R63S1
             // 
+            this.txt_R63S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R63S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S1.Location = new System.Drawing.Point(516, 471);
             this.txt_R63S1.Name = "txt_R63S1";
             this.txt_R63S1.ReadOnly = true;
             this.txt_R63S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S1.TabIndex = 132;
+            this.txt_R63S1.Text = "2";
             this.txt_R63S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R64S1
             // 
+            this.txt_R64S1.BackColor = System.Drawing.Color.Magenta;
             this.txt_R64S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S1.Location = new System.Drawing.Point(470, 471);
             this.txt_R64S1.Name = "txt_R64S1";
@@ -1718,6 +1787,7 @@
             // 
             // txt_R51S1
             // 
+            this.txt_R51S1.BackColor = System.Drawing.Color.Black;
             this.txt_R51S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S1.Location = new System.Drawing.Point(424, 471);
             this.txt_R51S1.Name = "txt_R51S1";
@@ -1728,22 +1798,27 @@
             // 
             // txt_R52S1
             // 
+            this.txt_R52S1.BackColor = System.Drawing.Color.Red;
             this.txt_R52S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S1.ForeColor = System.Drawing.Color.White;
             this.txt_R52S1.Location = new System.Drawing.Point(378, 471);
             this.txt_R52S1.Name = "txt_R52S1";
             this.txt_R52S1.ReadOnly = true;
             this.txt_R52S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S1.TabIndex = 129;
+            this.txt_R52S1.Text = "17";
             this.txt_R52S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R53S1
             // 
+            this.txt_R53S1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.txt_R53S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S1.Location = new System.Drawing.Point(332, 471);
             this.txt_R53S1.Name = "txt_R53S1";
             this.txt_R53S1.ReadOnly = true;
             this.txt_R53S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S1.TabIndex = 128;
+            this.txt_R53S1.Text = "13";
             this.txt_R53S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R57
@@ -2166,6 +2241,7 @@
             // 
             // txt_R61S1
             // 
+            this.txt_R61S1.BackColor = System.Drawing.Color.Pink;
             this.txt_R61S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R61S1.Location = new System.Drawing.Point(608, 471);
             this.txt_R61S1.Name = "txt_R61S1";
@@ -2176,6 +2252,7 @@
             // 
             // txt_R62S1
             // 
+            this.txt_R62S1.BackColor = System.Drawing.Color.Pink;
             this.txt_R62S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R62S1.Location = new System.Drawing.Point(562, 471);
             this.txt_R62S1.Name = "txt_R62S1";
@@ -2640,14 +2717,37 @@
             this.txt_R76S6.TabIndex = 231;
             this.txt_R76S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // cmsVakjes
+            // cmsTram
             // 
-            this.cmsVakjes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.test1ToolStripMenuItem,
-            this.test2ToolStripMenuItem1,
-            this.test3ToolStripMenuItem1});
-            this.cmsVakjes.Name = "cmsVakjes";
-            this.cmsVakjes.Size = new System.Drawing.Size(100, 70);
+            this.cmsTram.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmPlaatsen,
+            this.tsmVerwijderen,
+            this.tsmReserveren,
+            this.tsmStatusVeranderen,
+            this.tsmInformatie});
+            this.cmsTram.Name = "cmsVakjes";
+            this.cmsTram.Size = new System.Drawing.Size(205, 114);
+            // 
+            // tsmPlaatsen
+            // 
+            this.tsmPlaatsen.Name = "tsmPlaatsen";
+            this.tsmPlaatsen.Size = new System.Drawing.Size(204, 22);
+            this.tsmPlaatsen.Text = "-Trams Plaatsen";
+            this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
+            // 
+            // tsmVerwijderen
+            // 
+            this.tsmVerwijderen.Name = "tsmVerwijderen";
+            this.tsmVerwijderen.Size = new System.Drawing.Size(204, 22);
+            this.tsmVerwijderen.Text = "-Trams Verwijderen";
+            this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
+            // 
+            // tsmReserveren
+            // 
+            this.tsmReserveren.Name = "tsmReserveren";
+            this.tsmReserveren.Size = new System.Drawing.Size(204, 22);
+            this.tsmReserveren.Text = "-Trams Reserveren";
+            this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
             // 
             // cmsButtons
             // 
@@ -2661,14 +2761,14 @@
             // testToolStripMenuItem
             // 
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.testToolStripMenuItem.Text = "test";
             this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
             // 
             // test2ToolStripMenuItem
             // 
             this.test2ToolStripMenuItem.Name = "test2ToolStripMenuItem";
-            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.test2ToolStripMenuItem.Text = "test2";
             // 
             // test3ToolStripMenuItem
@@ -2677,23 +2777,160 @@
             this.test3ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.test3ToolStripMenuItem.Text = "test3";
             // 
-            // test1ToolStripMenuItem
+            // gbInformation
             // 
-            this.test1ToolStripMenuItem.Name = "test1ToolStripMenuItem";
-            this.test1ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.test1ToolStripMenuItem.Text = "test1";
+            this.gbInformation.BackColor = System.Drawing.Color.LightGray;
+            this.gbInformation.Controls.Add(this.lblInformation);
+            this.gbInformation.Controls.Add(this.lblTram);
+            this.gbInformation.Controls.Add(this.lblTrack);
+            this.gbInformation.Controls.Add(this.richTextBox2);
+            this.gbInformation.Controls.Add(this.richTextBox1);
+            this.gbInformation.Location = new System.Drawing.Point(12, 89);
+            this.gbInformation.Name = "gbInformation";
+            this.gbInformation.Size = new System.Drawing.Size(130, 261);
+            this.gbInformation.TabIndex = 234;
+            this.gbInformation.TabStop = false;
+            this.gbInformation.Text = "Informatie";
             // 
-            // test2ToolStripMenuItem1
+            // lblInformation
             // 
-            this.test2ToolStripMenuItem1.Name = "test2ToolStripMenuItem1";
-            this.test2ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
-            this.test2ToolStripMenuItem1.Text = "test2";
+            this.lblInformation.AutoSize = true;
+            this.lblInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformation.Location = new System.Drawing.Point(33, 196);
+            this.lblInformation.Name = "lblInformation";
+            this.lblInformation.Size = new System.Drawing.Size(53, 13);
+            this.lblInformation.TabIndex = 239;
+            this.lblInformation.Text = "Informatie";
             // 
-            // test3ToolStripMenuItem1
+            // lblTram
             // 
-            this.test3ToolStripMenuItem1.Name = "test3ToolStripMenuItem1";
-            this.test3ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
-            this.test3ToolStripMenuItem1.Text = "test3";
+            this.lblTram.AutoSize = true;
+            this.lblTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTram.Location = new System.Drawing.Point(38, 31);
+            this.lblTram.Name = "lblTram";
+            this.lblTram.Size = new System.Drawing.Size(41, 17);
+            this.lblTram.TabIndex = 236;
+            this.lblTram.Text = "Tram";
+            // 
+            // lblTrack
+            // 
+            this.lblTrack.AutoSize = true;
+            this.lblTrack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrack.Location = new System.Drawing.Point(38, 115);
+            this.lblTrack.Name = "lblTrack";
+            this.lblTrack.Size = new System.Drawing.Size(46, 17);
+            this.lblTrack.TabIndex = 238;
+            this.lblTrack.Text = "Spoor";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(20, 135);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox2.TabIndex = 237;
+            this.richTextBox2.Text = "";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(20, 51);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox1.TabIndex = 236;
+            this.richTextBox1.Text = "";
+            // 
+            // gbReservations
+            // 
+            this.gbReservations.BackColor = System.Drawing.Color.LightGray;
+            this.gbReservations.Controls.Add(this.lblReservations);
+            this.gbReservations.Controls.Add(this.listBox1);
+            this.gbReservations.Location = new System.Drawing.Point(12, 360);
+            this.gbReservations.Name = "gbReservations";
+            this.gbReservations.Size = new System.Drawing.Size(130, 297);
+            this.gbReservations.TabIndex = 235;
+            this.gbReservations.TabStop = false;
+            this.gbReservations.Text = "Reserveringen";
+            // 
+            // lblReservations
+            // 
+            this.lblReservations.AutoSize = true;
+            this.lblReservations.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservations.Location = new System.Drawing.Point(17, 29);
+            this.lblReservations.Name = "lblReservations";
+            this.lblReservations.Size = new System.Drawing.Size(101, 17);
+            this.lblReservations.TabIndex = 240;
+            this.lblReservations.Text = "Reserveringen";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 49);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(118, 238);
+            this.listBox1.TabIndex = 236;
+            // 
+            // cmsSporen
+            // 
+            this.cmsSporen.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.spoorSectorBlokkerenToolStripMenuItem,
+            this.spoorUpdatenToolStripMenuItem,
+            this.spoorInformatieToolStripMenuItem});
+            this.cmsSporen.Name = "cmsSporen";
+            this.cmsSporen.Size = new System.Drawing.Size(207, 92);
+            // 
+            // cmsLijnen
+            // 
+            this.cmsLijnen.Name = "cmsLijnen";
+            this.cmsLijnen.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsDiensten
+            // 
+            this.cmsDiensten.Name = "cmsDiensten";
+            this.cmsDiensten.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsSchoonmaak
+            // 
+            this.cmsSchoonmaak.Name = "cmsSchoonmaak";
+            this.cmsSchoonmaak.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsReparatie
+            // 
+            this.cmsReparatie.Name = "cmsReparatie";
+            this.cmsReparatie.Size = new System.Drawing.Size(61, 4);
+            // 
+            // tsmStatusVeranderen
+            // 
+            this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
+            this.tsmStatusVeranderen.Size = new System.Drawing.Size(204, 22);
+            this.tsmStatusVeranderen.Text = "-Tram status Veranderen";
+            this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
+            // 
+            // tsmInformatie
+            // 
+            this.tsmInformatie.Name = "tsmInformatie";
+            this.tsmInformatie.Size = new System.Drawing.Size(204, 22);
+            this.tsmInformatie.Text = "-Tram informatie";
+            this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
+            // 
+            // spoorSectorBlokkerenToolStripMenuItem
+            // 
+            this.spoorSectorBlokkerenToolStripMenuItem.Name = "spoorSectorBlokkerenToolStripMenuItem";
+            this.spoorSectorBlokkerenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorSectorBlokkerenToolStripMenuItem.Text = "- Spoor/Sector blokkeren";
+            this.spoorSectorBlokkerenToolStripMenuItem.Click += new System.EventHandler(this.spoorSectorBlokkerenToolStripMenuItem_Click);
+            // 
+            // spoorUpdatenToolStripMenuItem
+            // 
+            this.spoorUpdatenToolStripMenuItem.Name = "spoorUpdatenToolStripMenuItem";
+            this.spoorUpdatenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorUpdatenToolStripMenuItem.Text = "- Spoor updaten";
+            this.spoorUpdatenToolStripMenuItem.Click += new System.EventHandler(this.spoorUpdatenToolStripMenuItem_Click);
+            // 
+            // spoorInformatieToolStripMenuItem
+            // 
+            this.spoorInformatieToolStripMenuItem.Name = "spoorInformatieToolStripMenuItem";
+            this.spoorInformatieToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorInformatieToolStripMenuItem.Text = "- Spoor informatie";
+            this.spoorInformatieToolStripMenuItem.Click += new System.EventHandler(this.spoorInformatieToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -2701,6 +2938,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.gbReservations);
+            this.Controls.Add(this.gbInformation);
             this.Controls.Add(this.txt_R77S6);
             this.Controls.Add(this.txt_R76S6);
             this.Controls.Add(this.txt_R77S5);
@@ -2851,7 +3090,6 @@
             this.Controls.Add(this.txt_R58S2);
             this.Controls.Add(this.txt_R45S1);
             this.Controls.Add(this.txt_R58S1);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txt_R38S5);
             this.Controls.Add(this.txt_R37S5);
             this.Controls.Add(this.txt_R35S5);
@@ -2936,8 +3174,13 @@
             this.Controls.Add(this.btnTrams);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.cmsVakjes.ResumeLayout(false);
+            this.cmsTram.ResumeLayout(false);
             this.cmsButtons.ResumeLayout(false);
+            this.gbInformation.ResumeLayout(false);
+            this.gbInformation.PerformLayout();
+            this.gbReservations.ResumeLayout(false);
+            this.gbReservations.PerformLayout();
+            this.cmsSporen.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3027,7 +3270,6 @@
         private System.Windows.Forms.TextBox txt_R32S5;
         private System.Windows.Forms.TextBox txt_R33S5;
         private System.Windows.Forms.TextBox txt_R34S5;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_R45S1;
         private System.Windows.Forms.TextBox txt_R58S1;
         private System.Windows.Forms.TextBox txt_R45S2;
@@ -3178,13 +3420,32 @@
         private System.Windows.Forms.TextBox txt_R75S5;
         private System.Windows.Forms.TextBox txt_R77S6;
         private System.Windows.Forms.TextBox txt_R76S6;
-        private System.Windows.Forms.ContextMenuStrip cmsVakjes;
+        private System.Windows.Forms.ContextMenuStrip cmsTram;
         private System.Windows.Forms.ContextMenuStrip cmsButtons;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tsmPlaatsen;
+        private System.Windows.Forms.ToolStripMenuItem tsmVerwijderen;
+        private System.Windows.Forms.ToolStripMenuItem tsmReserveren;
+        private System.Windows.Forms.GroupBox gbInformation;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.GroupBox gbReservations;
+        private System.Windows.Forms.Label lblTram;
+        private System.Windows.Forms.Label lblTrack;
+        private System.Windows.Forms.Label lblInformation;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label lblReservations;
+        private System.Windows.Forms.ContextMenuStrip cmsSporen;
+        private System.Windows.Forms.ContextMenuStrip cmsLijnen;
+        private System.Windows.Forms.ContextMenuStrip cmsDiensten;
+        private System.Windows.Forms.ContextMenuStrip cmsSchoonmaak;
+        private System.Windows.Forms.ContextMenuStrip cmsReparatie;
+        private System.Windows.Forms.ToolStripMenuItem tsmStatusVeranderen;
+        private System.Windows.Forms.ToolStripMenuItem tsmInformatie;
+        private System.Windows.Forms.ToolStripMenuItem spoorSectorBlokkerenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spoorUpdatenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spoorInformatieToolStripMenuItem;
     }
 }

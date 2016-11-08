@@ -20,18 +20,18 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void login(string username, string password)
+        public User login(string username, string password)
         {
             switch (context.checkCredentials(username, password))
             {
                 case true:
                     User user = new User(context.getID(username, password), username);
                     user.function = (Function.userFunction)context.getFunction(user);
-                    break;
+                    return user;
                 case false:
-                    throw new NotImplementedException();
+                    return null;
                 default:
-                    break;
+                    return null;
             }
         }
 

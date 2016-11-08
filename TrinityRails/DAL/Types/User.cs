@@ -37,10 +37,10 @@ namespace DAL.Types
             switch (function)
             {
                 case Function.userFunction.Cleaner:
-                    CleanerRepository cleaner = new CleanerRepository(new CleanerSQL());
+                    //Cleaner Form open
                     break;
                 case Function.userFunction.Driver:
-                    DriverRepository driver = new DriverRepository(new DriverSQL());
+                    
                     break;
                 case Function.userFunction.Engineer:
                     EngineerRepository engineer = new EngineerRepository(new EngineerSQL());
