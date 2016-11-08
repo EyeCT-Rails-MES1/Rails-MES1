@@ -9,7 +9,7 @@ using Classes.Enumerations;
 
 namespace DAL.Persistencies
 {
-    class AdminSQL : IAdmin
+    public class AdminSQL : IAdmin
     {
         private DatabaseConnection databaseConnection;
         public AdminSQL()

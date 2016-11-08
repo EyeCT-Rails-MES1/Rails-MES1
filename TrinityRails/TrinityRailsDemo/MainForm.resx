@@ -121,7 +121,7 @@
     <value>17, 3</value>
   </metadata>
   <metadata name="cmsButtons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>16, 45</value>
+    <value>886, 24</value>
   </metadata>
   <metadata name="cmsSporen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>416, 26</value>
@@ -133,7 +133,7 @@
     <value>610, 24</value>
   </metadata>
   <metadata name="cmsSchoonmaak.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>122, 49</value>
+    <value>1001, 24</value>
   </metadata>
   <metadata name="cmsReparatie.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>107, 2</value>

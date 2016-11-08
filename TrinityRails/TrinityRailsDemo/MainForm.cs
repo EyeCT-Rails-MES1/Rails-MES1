@@ -44,6 +44,7 @@ namespace TrinityRailsDemo
                     btnSchoonmaak.Enabled = true;
                     btnSporen.Enabled = true;
                     btnTrams.Enabled = true;
+                    btnUsers.Enabled = true;
                     break;
                 default:
                     btnDiensten.Enabled = false; 
@@ -242,5 +243,11 @@ namespace TrinityRailsDemo
 
         }
         #endregion
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            UserForm form = new UserForm();
+            form.Show();
+        }
     }
 }
