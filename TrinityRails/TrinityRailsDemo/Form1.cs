@@ -25,7 +25,16 @@ namespace TrinityRailsDemo
 
         private void btnInloggen_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            UserRepository repository = new UserRepository(new UserSQL());
+            User user = repository.login(txtGebruikersnaam.Text, txtWachtwoord.Text);
+            if (user != null)
+            {
+                Form2 form = new Form2(user);
+            }
+            else
+            {
+                MessageBox.Show("Failed to log on");
+            }
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
