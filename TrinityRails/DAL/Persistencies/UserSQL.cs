@@ -34,16 +34,19 @@ namespace DAL.Persistencies
         public bool checkCredentials(string username, string password)
         {
             string query = @"SELECT [ID] FROM [User] WHERE [Name] = '" + username + @"' AND [Password] = '" + password + @"';";
-            if (databaseConnection.executeReaderInt(query) != -1)
+            if (databaseConnection.executeReaderInt(query) != null)
             {
                 return true;
             }
-            return false;
+            else
+            {
+                return false;
+            }
         }
 
         public int getFunction(User user)
         {
-            string query = @"SELECT [Function] FROM [User] WHERE [ID] = " + user.ID + @";";
+            string query = @"SELECT [FunctionID] FROM [User] WHERE [ID] = " + user.ID + @";";
             return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
 
