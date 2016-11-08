@@ -16,6 +16,7 @@ namespace TrinityRailsDemo
 {
     public partial class MainForm : Form
     {
+        TextBox currentTextBox;
         public MainForm()
         {
             InitializeComponent();
@@ -89,9 +90,80 @@ namespace TrinityRailsDemo
         private void txt_R38S1_MouseClick(object sender, MouseEventArgs e)
         {
             ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
         }
 
+        private void txt_R38S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
 
+        private void txt_R37S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S2_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S3_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S4_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R38S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R37S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
+
+        private void txt_R36S5_Click(object sender, EventArgs e)
+        {
+            ShowTextBoxCMS(this, sender);
+            currentTextBox = (TextBox)sender;
+        }
 
 
         #endregion
