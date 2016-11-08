@@ -16,9 +16,9 @@ using Phidgets.Events;
 
 namespace TrinityRailsDemo
 {
-    public partial class Form1 : Form
+    public partial class InlogForm : Form
     {
-        public Form1()
+        public InlogForm()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace TrinityRailsDemo
             User user = repository.login(txtGebruikersnaam.Text, txtWachtwoord.Text);
             if (user != null)
             {
-                Form2 form = new Form2(user);
+                MainForm form = new MainForm(user);
             }
             else
             {

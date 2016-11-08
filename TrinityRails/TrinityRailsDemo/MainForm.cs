@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Classes.Enumerations;
 using DAL.Types;
+using TrinityRailsDemo.RailForms;
+using TrinityRailsDemo.SideForms;
 
 namespace TrinityRailsDemo
 {
-    public partial class Form2 : Form
+    public partial class MainForm : Form
     {
-        public Form2()
+        public MainForm()
         {
             InitializeComponent();
             btnDiensten.Enabled = true;
@@ -25,7 +27,7 @@ namespace TrinityRailsDemo
             btnSporen.Enabled = true;
             btnTrams.Enabled = true;
         }
-        public Form2(User user)
+        public MainForm(User user)
         {
             InitializeComponent();
             switch (user.function)
@@ -132,27 +134,32 @@ namespace TrinityRailsDemo
         #region Tram Dropdown
         private void tsmPlaatsen_Click(object sender, EventArgs e)
         {
-
+            PlaceTram form = new PlaceTram();
+            form.Show();
         }
 
         private void tsmVerwijderen_Click(object sender, EventArgs e)
         {
-
+            DeleteTram form = new DeleteTram();
+            form.Show();
         }
 
         private void tsmReserveren_Click(object sender, EventArgs e)
         {
-
+            ReserveTram form = new ReserveTram();
+            form.Show();
         }
 
         private void tsmStatusVeranderen_Click(object sender, EventArgs e)
         {
-
+            TramStatus form = new TramStatus();
+            form.Show();
         }
 
         private void tsmInformatie_Click(object sender, EventArgs e)
         {
-
+            TramInfo form = new TramInfo();
+            form.Show();
         }
         #endregion
         #region Sporen Dropdown

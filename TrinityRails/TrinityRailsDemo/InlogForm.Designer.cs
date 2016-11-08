@@ -1,6 +1,6 @@
 ﻿namespace TrinityRailsDemo
 {
-    partial class Form1
+    partial class InlogForm
     {
         /// <summary>
         /// Required designer variable.
