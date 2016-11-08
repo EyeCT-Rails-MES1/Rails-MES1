@@ -261,31 +261,43 @@
             this.txt_R75S5 = new System.Windows.Forms.TextBox();
             this.txt_R77S6 = new System.Windows.Forms.TextBox();
             this.txt_R76S6 = new System.Windows.Forms.TextBox();
-            this.cmsVakjes = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.test1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.test3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsTram = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmPlaatsen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmVerwijderen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmReserveren = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gbInformation = new System.Windows.Forms.GroupBox();
-            this.gbReservations = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.lblInformation = new System.Windows.Forms.Label();
             this.lblTram = new System.Windows.Forms.Label();
             this.lblTrack = new System.Windows.Forms.Label();
-            this.lblInformation = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.gbReservations = new System.Windows.Forms.GroupBox();
             this.lblReservations = new System.Windows.Forms.Label();
-            this.cmsVakjes.SuspendLayout();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.cmsSporen = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsLijnen = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsDiensten = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsSchoonmaak = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cmsReparatie = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmStatusVeranderen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmInformatie = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorSectorBlokkerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorUpdatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorInformatieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
             this.gbInformation.SuspendLayout();
             this.gbReservations.SuspendLayout();
+            this.cmsSporen.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTrams
             // 
+            this.btnTrams.Enabled = false;
             this.btnTrams.Location = new System.Drawing.Point(12, 12);
             this.btnTrams.Name = "btnTrams";
             this.btnTrams.Size = new System.Drawing.Size(50, 25);
@@ -296,57 +308,69 @@
             // 
             // btnSporen
             // 
+            this.btnSporen.Enabled = false;
             this.btnSporen.Location = new System.Drawing.Point(68, 12);
             this.btnSporen.Name = "btnSporen";
             this.btnSporen.Size = new System.Drawing.Size(50, 25);
             this.btnSporen.TabIndex = 1;
             this.btnSporen.Text = "Sporen";
             this.btnSporen.UseVisualStyleBackColor = true;
+            this.btnSporen.Click += new System.EventHandler(this.btnSporen_Click);
             // 
             // btnLijnen
             // 
+            this.btnLijnen.Enabled = false;
             this.btnLijnen.Location = new System.Drawing.Point(124, 12);
             this.btnLijnen.Name = "btnLijnen";
             this.btnLijnen.Size = new System.Drawing.Size(50, 25);
             this.btnLijnen.TabIndex = 2;
             this.btnLijnen.Text = "Lijnen";
             this.btnLijnen.UseVisualStyleBackColor = true;
+            this.btnLijnen.Click += new System.EventHandler(this.btnLijnen_Click);
             // 
             // btnDiensten
             // 
+            this.btnDiensten.Enabled = false;
             this.btnDiensten.Location = new System.Drawing.Point(180, 12);
             this.btnDiensten.Name = "btnDiensten";
             this.btnDiensten.Size = new System.Drawing.Size(61, 25);
             this.btnDiensten.TabIndex = 3;
             this.btnDiensten.Text = "Diensten";
             this.btnDiensten.UseVisualStyleBackColor = true;
+            this.btnDiensten.Click += new System.EventHandler(this.btnDiensten_Click);
             // 
             // btnSchoonmaak
             // 
+            this.btnSchoonmaak.Enabled = false;
             this.btnSchoonmaak.Location = new System.Drawing.Point(247, 12);
             this.btnSchoonmaak.Name = "btnSchoonmaak";
             this.btnSchoonmaak.Size = new System.Drawing.Size(84, 25);
             this.btnSchoonmaak.TabIndex = 4;
             this.btnSchoonmaak.Text = "Schoonmaak";
             this.btnSchoonmaak.UseVisualStyleBackColor = true;
+            this.btnSchoonmaak.Click += new System.EventHandler(this.btnSchoonmaak_Click);
             // 
             // btnRepair
             // 
+            this.btnRepair.Enabled = false;
             this.btnRepair.Location = new System.Drawing.Point(337, 12);
             this.btnRepair.Name = "btnRepair";
             this.btnRepair.Size = new System.Drawing.Size(66, 25);
             this.btnRepair.TabIndex = 5;
             this.btnRepair.Text = "Reparatie";
             this.btnRepair.UseVisualStyleBackColor = true;
+            this.btnRepair.Click += new System.EventHandler(this.btnRepair_Click);
             // 
             // btnExit
             // 
+            this.btnExit.Enabled = false;
             this.btnExit.Location = new System.Drawing.Point(414, 12);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(50, 25);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txt_R58
             // 
@@ -2693,32 +2717,37 @@
             this.txt_R76S6.TabIndex = 231;
             this.txt_R76S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // cmsVakjes
+            // cmsTram
             // 
-            this.cmsVakjes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.test1ToolStripMenuItem,
-            this.test2ToolStripMenuItem1,
-            this.test3ToolStripMenuItem1});
-            this.cmsVakjes.Name = "cmsVakjes";
-            this.cmsVakjes.Size = new System.Drawing.Size(100, 70);
+            this.cmsTram.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmPlaatsen,
+            this.tsmVerwijderen,
+            this.tsmReserveren,
+            this.tsmStatusVeranderen,
+            this.tsmInformatie});
+            this.cmsTram.Name = "cmsVakjes";
+            this.cmsTram.Size = new System.Drawing.Size(205, 114);
             // 
-            // test1ToolStripMenuItem
+            // tsmPlaatsen
             // 
-            this.test1ToolStripMenuItem.Name = "test1ToolStripMenuItem";
-            this.test1ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.test1ToolStripMenuItem.Text = "test1";
+            this.tsmPlaatsen.Name = "tsmPlaatsen";
+            this.tsmPlaatsen.Size = new System.Drawing.Size(204, 22);
+            this.tsmPlaatsen.Text = "-Trams Plaatsen";
+            this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
             // 
-            // test2ToolStripMenuItem1
+            // tsmVerwijderen
             // 
-            this.test2ToolStripMenuItem1.Name = "test2ToolStripMenuItem1";
-            this.test2ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
-            this.test2ToolStripMenuItem1.Text = "test2";
+            this.tsmVerwijderen.Name = "tsmVerwijderen";
+            this.tsmVerwijderen.Size = new System.Drawing.Size(204, 22);
+            this.tsmVerwijderen.Text = "-Trams Verwijderen";
+            this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
             // 
-            // test3ToolStripMenuItem1
+            // tsmReserveren
             // 
-            this.test3ToolStripMenuItem1.Name = "test3ToolStripMenuItem1";
-            this.test3ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
-            this.test3ToolStripMenuItem1.Text = "test3";
+            this.tsmReserveren.Name = "tsmReserveren";
+            this.tsmReserveren.Size = new System.Drawing.Size(204, 22);
+            this.tsmReserveren.Text = "-Trams Reserveren";
+            this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
             // 
             // cmsButtons
             // 
@@ -2763,33 +2792,15 @@
             this.gbInformation.TabStop = false;
             this.gbInformation.Text = "Informatie";
             // 
-            // gbReservations
+            // lblInformation
             // 
-            this.gbReservations.BackColor = System.Drawing.Color.LightGray;
-            this.gbReservations.Controls.Add(this.lblReservations);
-            this.gbReservations.Controls.Add(this.listBox1);
-            this.gbReservations.Location = new System.Drawing.Point(12, 360);
-            this.gbReservations.Name = "gbReservations";
-            this.gbReservations.Size = new System.Drawing.Size(130, 297);
-            this.gbReservations.TabIndex = 235;
-            this.gbReservations.TabStop = false;
-            this.gbReservations.Text = "Reserveringen";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(20, 51);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(86, 53);
-            this.richTextBox1.TabIndex = 236;
-            this.richTextBox1.Text = "";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Location = new System.Drawing.Point(20, 135);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(86, 53);
-            this.richTextBox2.TabIndex = 237;
-            this.richTextBox2.Text = "";
+            this.lblInformation.AutoSize = true;
+            this.lblInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformation.Location = new System.Drawing.Point(33, 196);
+            this.lblInformation.Name = "lblInformation";
+            this.lblInformation.Size = new System.Drawing.Size(53, 13);
+            this.lblInformation.TabIndex = 239;
+            this.lblInformation.Text = "Informatie";
             // 
             // lblTram
             // 
@@ -2811,23 +2822,33 @@
             this.lblTrack.TabIndex = 238;
             this.lblTrack.Text = "Spoor";
             // 
-            // lblInformation
+            // richTextBox2
             // 
-            this.lblInformation.AutoSize = true;
-            this.lblInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInformation.Location = new System.Drawing.Point(33, 196);
-            this.lblInformation.Name = "lblInformation";
-            this.lblInformation.Size = new System.Drawing.Size(53, 13);
-            this.lblInformation.TabIndex = 239;
-            this.lblInformation.Text = "Informatie";
+            this.richTextBox2.Location = new System.Drawing.Point(20, 135);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox2.TabIndex = 237;
+            this.richTextBox2.Text = "";
             // 
-            // listBox1
+            // richTextBox1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(6, 49);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(118, 238);
-            this.listBox1.TabIndex = 236;
+            this.richTextBox1.Location = new System.Drawing.Point(20, 51);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox1.TabIndex = 236;
+            this.richTextBox1.Text = "";
+            // 
+            // gbReservations
+            // 
+            this.gbReservations.BackColor = System.Drawing.Color.LightGray;
+            this.gbReservations.Controls.Add(this.lblReservations);
+            this.gbReservations.Controls.Add(this.listBox1);
+            this.gbReservations.Location = new System.Drawing.Point(12, 360);
+            this.gbReservations.Name = "gbReservations";
+            this.gbReservations.Size = new System.Drawing.Size(130, 297);
+            this.gbReservations.TabIndex = 235;
+            this.gbReservations.TabStop = false;
+            this.gbReservations.Text = "Reserveringen";
             // 
             // lblReservations
             // 
@@ -2838,6 +2859,78 @@
             this.lblReservations.Size = new System.Drawing.Size(101, 17);
             this.lblReservations.TabIndex = 240;
             this.lblReservations.Text = "Reserveringen";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 49);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(118, 238);
+            this.listBox1.TabIndex = 236;
+            // 
+            // cmsSporen
+            // 
+            this.cmsSporen.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.spoorSectorBlokkerenToolStripMenuItem,
+            this.spoorUpdatenToolStripMenuItem,
+            this.spoorInformatieToolStripMenuItem});
+            this.cmsSporen.Name = "cmsSporen";
+            this.cmsSporen.Size = new System.Drawing.Size(207, 92);
+            // 
+            // cmsLijnen
+            // 
+            this.cmsLijnen.Name = "cmsLijnen";
+            this.cmsLijnen.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsDiensten
+            // 
+            this.cmsDiensten.Name = "cmsDiensten";
+            this.cmsDiensten.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsSchoonmaak
+            // 
+            this.cmsSchoonmaak.Name = "cmsSchoonmaak";
+            this.cmsSchoonmaak.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cmsReparatie
+            // 
+            this.cmsReparatie.Name = "cmsReparatie";
+            this.cmsReparatie.Size = new System.Drawing.Size(61, 4);
+            // 
+            // tsmStatusVeranderen
+            // 
+            this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
+            this.tsmStatusVeranderen.Size = new System.Drawing.Size(204, 22);
+            this.tsmStatusVeranderen.Text = "-Tram status Veranderen";
+            this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
+            // 
+            // tsmInformatie
+            // 
+            this.tsmInformatie.Name = "tsmInformatie";
+            this.tsmInformatie.Size = new System.Drawing.Size(204, 22);
+            this.tsmInformatie.Text = "-Tram informatie";
+            this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
+            // 
+            // spoorSectorBlokkerenToolStripMenuItem
+            // 
+            this.spoorSectorBlokkerenToolStripMenuItem.Name = "spoorSectorBlokkerenToolStripMenuItem";
+            this.spoorSectorBlokkerenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorSectorBlokkerenToolStripMenuItem.Text = "- Spoor/Sector blokkeren";
+            this.spoorSectorBlokkerenToolStripMenuItem.Click += new System.EventHandler(this.spoorSectorBlokkerenToolStripMenuItem_Click);
+            // 
+            // spoorUpdatenToolStripMenuItem
+            // 
+            this.spoorUpdatenToolStripMenuItem.Name = "spoorUpdatenToolStripMenuItem";
+            this.spoorUpdatenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorUpdatenToolStripMenuItem.Text = "- Spoor updaten";
+            this.spoorUpdatenToolStripMenuItem.Click += new System.EventHandler(this.spoorUpdatenToolStripMenuItem_Click);
+            // 
+            // spoorInformatieToolStripMenuItem
+            // 
+            this.spoorInformatieToolStripMenuItem.Name = "spoorInformatieToolStripMenuItem";
+            this.spoorInformatieToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.spoorInformatieToolStripMenuItem.Text = "- Spoor informatie";
+            this.spoorInformatieToolStripMenuItem.Click += new System.EventHandler(this.spoorInformatieToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -3081,12 +3174,13 @@
             this.Controls.Add(this.btnTrams);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.cmsVakjes.ResumeLayout(false);
+            this.cmsTram.ResumeLayout(false);
             this.cmsButtons.ResumeLayout(false);
             this.gbInformation.ResumeLayout(false);
             this.gbInformation.PerformLayout();
             this.gbReservations.ResumeLayout(false);
             this.gbReservations.PerformLayout();
+            this.cmsSporen.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3326,14 +3420,14 @@
         private System.Windows.Forms.TextBox txt_R75S5;
         private System.Windows.Forms.TextBox txt_R77S6;
         private System.Windows.Forms.TextBox txt_R76S6;
-        private System.Windows.Forms.ContextMenuStrip cmsVakjes;
+        private System.Windows.Forms.ContextMenuStrip cmsTram;
         private System.Windows.Forms.ContextMenuStrip cmsButtons;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tsmPlaatsen;
+        private System.Windows.Forms.ToolStripMenuItem tsmVerwijderen;
+        private System.Windows.Forms.ToolStripMenuItem tsmReserveren;
         private System.Windows.Forms.GroupBox gbInformation;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
@@ -3343,5 +3437,15 @@
         private System.Windows.Forms.Label lblInformation;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label lblReservations;
+        private System.Windows.Forms.ContextMenuStrip cmsSporen;
+        private System.Windows.Forms.ContextMenuStrip cmsLijnen;
+        private System.Windows.Forms.ContextMenuStrip cmsDiensten;
+        private System.Windows.Forms.ContextMenuStrip cmsSchoonmaak;
+        private System.Windows.Forms.ContextMenuStrip cmsReparatie;
+        private System.Windows.Forms.ToolStripMenuItem tsmStatusVeranderen;
+        private System.Windows.Forms.ToolStripMenuItem tsmInformatie;
+        private System.Windows.Forms.ToolStripMenuItem spoorSectorBlokkerenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spoorUpdatenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spoorInformatieToolStripMenuItem;
     }
 }
