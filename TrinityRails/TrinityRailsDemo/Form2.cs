@@ -7,15 +7,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Classes.Enumerations;
 using DAL.Types;
 
 namespace TrinityRailsDemo
 {
     public partial class Form2 : Form
     {
+        public Form2()
+        {
+            InitializeComponent();
+        }
         public Form2(User user)
         {
             InitializeComponent();
+            switch (user.function)
+            {
+                case Function.userFunction.Cleaner:
+                    break;
+                case Function.userFunction.Driver:
+                    break;
+                case Function.userFunction.Engineer:
+                    break;
+                case Function.userFunction.Fleetmanager:
+                    break;
+                case Function.userFunction.Admin:
+                    break;
+                default:
+                    throw new UnauthorizedAccessException("Failed to get access");
+            }
         }
 
         //Verander de naam van context menu strip (nu cmsVakjes) in iets wat normaal klinkt
