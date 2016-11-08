@@ -2733,18 +2733,21 @@
             this.tsmPlaatsen.Name = "tsmPlaatsen";
             this.tsmPlaatsen.Size = new System.Drawing.Size(204, 22);
             this.tsmPlaatsen.Text = "-Trams Plaatsen";
+            this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
             // 
             // tsmVerwijderen
             // 
             this.tsmVerwijderen.Name = "tsmVerwijderen";
             this.tsmVerwijderen.Size = new System.Drawing.Size(204, 22);
             this.tsmVerwijderen.Text = "-Trams Verwijderen";
+            this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
             // 
             // tsmReserveren
             // 
             this.tsmReserveren.Name = "tsmReserveren";
             this.tsmReserveren.Size = new System.Drawing.Size(204, 22);
             this.tsmReserveren.Text = "-Trams Reserveren";
+            this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
             // 
             // cmsButtons
             // 
@@ -2872,7 +2875,7 @@
             this.spoorUpdatenToolStripMenuItem,
             this.spoorInformatieToolStripMenuItem});
             this.cmsSporen.Name = "cmsSporen";
-            this.cmsSporen.Size = new System.Drawing.Size(207, 70);
+            this.cmsSporen.Size = new System.Drawing.Size(207, 92);
             // 
             // cmsLijnen
             // 
@@ -2899,30 +2902,35 @@
             this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
             this.tsmStatusVeranderen.Size = new System.Drawing.Size(204, 22);
             this.tsmStatusVeranderen.Text = "-Tram status Veranderen";
+            this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
             // 
             // tsmInformatie
             // 
             this.tsmInformatie.Name = "tsmInformatie";
             this.tsmInformatie.Size = new System.Drawing.Size(204, 22);
             this.tsmInformatie.Text = "-Tram informatie";
+            this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
             // 
             // spoorSectorBlokkerenToolStripMenuItem
             // 
             this.spoorSectorBlokkerenToolStripMenuItem.Name = "spoorSectorBlokkerenToolStripMenuItem";
             this.spoorSectorBlokkerenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.spoorSectorBlokkerenToolStripMenuItem.Text = "- Spoor/Sector blokkeren";
+            this.spoorSectorBlokkerenToolStripMenuItem.Click += new System.EventHandler(this.spoorSectorBlokkerenToolStripMenuItem_Click);
             // 
             // spoorUpdatenToolStripMenuItem
             // 
             this.spoorUpdatenToolStripMenuItem.Name = "spoorUpdatenToolStripMenuItem";
             this.spoorUpdatenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.spoorUpdatenToolStripMenuItem.Text = "- Spoor updaten";
+            this.spoorUpdatenToolStripMenuItem.Click += new System.EventHandler(this.spoorUpdatenToolStripMenuItem_Click);
             // 
             // spoorInformatieToolStripMenuItem
             // 
             this.spoorInformatieToolStripMenuItem.Name = "spoorInformatieToolStripMenuItem";
             this.spoorInformatieToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.spoorInformatieToolStripMenuItem.Text = "- Spoor informatie";
+            this.spoorInformatieToolStripMenuItem.Click += new System.EventHandler(this.spoorInformatieToolStripMenuItem_Click);
             // 
             // Form2
             // 

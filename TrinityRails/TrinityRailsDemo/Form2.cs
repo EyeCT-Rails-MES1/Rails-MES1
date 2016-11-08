@@ -73,14 +73,6 @@ namespace TrinityRailsDemo
             Button selected = (Button)current;
             cms.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
-        private void btnTrams_Click(object sender, EventArgs e)
-        {
-            ShowCMS(this, btnTrams, cmsTram);
-        }
-        private void btnSporen_Click(object sender, EventArgs e)
-        {
-            ShowCMS(this, btnSporen, cmsSporen);
-        }
         
         //test voor de het menu klik. (vind je bij events bij properties)
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,6 +94,15 @@ namespace TrinityRailsDemo
 
         #endregion
 
+        #region Button Click Events
+        private void btnTrams_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnTrams, cmsTram);
+        }
+        private void btnSporen_Click(object sender, EventArgs e)
+        {
+            ShowCMS(this, btnSporen, cmsSporen);
+        }
         private void btnLijnen_Click(object sender, EventArgs e)
         {
             ShowCMS(this, btnLijnen, cmsLijnen);
@@ -126,5 +127,49 @@ namespace TrinityRailsDemo
         {
             this.Close();
         }
+        #endregion
+
+        #region Tram Dropdown
+        private void tsmPlaatsen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmVerwijderen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmReserveren_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmStatusVeranderen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmInformatie_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+        #region Sporen Dropdown
+        private void spoorSectorBlokkerenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spoorUpdatenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spoorInformatieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
