@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Types;
 using Classes.Enumerations;
+using Classes;
 
 namespace DAL.Interfaces
 {

@@ -55,6 +55,18 @@
     <Compile Include="RailForms\BlockRailSector.Designer.cs">
       <DependentUpon>BlockRailSector.cs</DependentUpon>
     </Compile>
+    <Compile Include="RailForms\RailInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RailForms\RailInfo.Designer.cs">
+      <DependentUpon>RailInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RailForms\UpdateRail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RailForms\UpdateRail.Designer.cs">
+      <DependentUpon>UpdateRail.cs</DependentUpon>
+    </Compile>
     <Compile Include="TramForms\DeleteTram.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +119,12 @@
     </Compile>
     <EmbeddedResource Include="RailForms\BlockRailSector.resx">
       <DependentUpon>BlockRailSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RailForms\RailInfo.resx">
+      <DependentUpon>RailInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RailForms\UpdateRail.resx">
+      <DependentUpon>UpdateRail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TramForms\DeleteTram.resx">
       <DependentUpon>DeleteTram.cs</DependentUpon>
