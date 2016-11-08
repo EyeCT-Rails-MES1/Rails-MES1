@@ -22,13 +22,12 @@ namespace DAL.Repositories
 
         public List<string> getCleaningList()
         {
-            //return context.cleaningList();
-            throw new NotImplementedException();
+            return context.cleaningList();
         }
 
-        public void finishCleaning(string taak, User user)
+        public void finishCleaning(string taak)
         {
-            //context.cleaningList().Remove(taak);
+            context.cleaningList().Remove(taak);
         }
     }
 }

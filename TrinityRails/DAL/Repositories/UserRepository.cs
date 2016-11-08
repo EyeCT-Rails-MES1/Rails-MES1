@@ -37,12 +37,13 @@ namespace DAL.Repositories
 
         public void changeUsername(User user, string username)
         {
-            //context.update(user);
+            user.username = username;
+            context.changeUsername(user);
         }
 
         public void changePassword(User user, string password)
         {
-            //context.update(user);
+            context.changePassword(user, password);
         }
     }
 }

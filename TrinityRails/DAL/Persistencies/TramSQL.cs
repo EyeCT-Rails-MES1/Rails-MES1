@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using DAL.Interfaces;
 using DAL.Types;
 using Classes.Enumerations;
+using Classes;
 
 namespace DAL.Persistencies
 {
@@ -36,7 +37,5 @@ namespace DAL.Persistencies
         {
             string query = @"Update [Tram] SET [Rail, Sector] = '" + "(" + tram.rail + ", " + tram.sector + ")" + @"' WHERE [TramNumber] = " + tram.number + @";";
         }
-
-        
     }
 }
