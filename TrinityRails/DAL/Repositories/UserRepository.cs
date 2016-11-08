@@ -22,8 +22,17 @@ namespace DAL.Repositories
 
         public void login(string username, string password)
         {
-            User user = new User(context.getID(username, password), username);
-            //context.create(user);
+            switch (context.checkCredentials(username, password))
+            {
+                case true:
+                    User user = new User(context.getID(username, password), username);
+                    user.function = (Function.userFunction)context.getFunction(user);
+                    break;
+                case false:
+                    throw new NotImplementedException();
+                default:
+                    break;
+            }
         }
 
         public void changeUsername(User user, string username)
