@@ -17,17 +17,6 @@ namespace TrinityRailsDemo
     public partial class MainForm : Form
     {
         TextBox currentTextBox;
-        public MainForm()
-        {
-            InitializeComponent();
-            btnDiensten.Enabled = true;
-            btnExit.Enabled = true;
-            btnLijnen.Enabled = true;
-            btnRepair.Enabled = true;
-            btnSchoonmaak.Enabled = true;
-            btnSporen.Enabled = true;
-            btnTrams.Enabled = true;
-        }
         public MainForm(User user)
         {
             InitializeComponent();
@@ -35,17 +24,21 @@ namespace TrinityRailsDemo
             {
                 case Function.userFunction.Cleaner:
                     btnSchoonmaak.Enabled = true;
-                    btnExit.Enabled = true;
                     break;
                 case Function.userFunction.Driver:
+                    btnTrams.Enabled = true;
                     break;
                 case Function.userFunction.Engineer:
+                    btnRepair.Enabled = true;
                     break;
                 case Function.userFunction.Fleetmanager:
+                    btnDiensten.Enabled = true;
+                    btnLijnen.Enabled = true;
+                    btnSporen.Enabled = true;
+                    btnTrams.Enabled = true;
                     break;
                 case Function.userFunction.Admin:
                     btnDiensten.Enabled = true;
-                    btnExit.Enabled = true;
                     btnLijnen.Enabled = true;
                     btnRepair.Enabled = true;
                     btnSchoonmaak.Enabled = true;
@@ -54,7 +47,6 @@ namespace TrinityRailsDemo
                     break;
                 default:
                     btnDiensten.Enabled = true;
-                    btnExit.Enabled = true;
                     btnLijnen.Enabled = true;
                     btnRepair.Enabled = true;
                     btnSchoonmaak.Enabled = true;
