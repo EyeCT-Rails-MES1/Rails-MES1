@@ -13,7 +13,8 @@ namespace Classes.Enumerations
             Cleaning = 0,   
             Repair = 1,     
             Remise = 2,     
-            Service = 3    
+            Service = 3,
+            Defect = 4   
         }
     }
 }
