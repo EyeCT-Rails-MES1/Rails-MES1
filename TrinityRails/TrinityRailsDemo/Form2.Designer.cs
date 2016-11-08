@@ -111,7 +111,6 @@
             this.txt_R32S5 = new System.Windows.Forms.TextBox();
             this.txt_R33S5 = new System.Windows.Forms.TextBox();
             this.txt_R34S5 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_R45S1 = new System.Windows.Forms.TextBox();
             this.txt_R58S1 = new System.Windows.Forms.TextBox();
             this.txt_R45S2 = new System.Windows.Forms.TextBox();
@@ -263,15 +262,26 @@
             this.txt_R77S6 = new System.Windows.Forms.TextBox();
             this.txt_R76S6 = new System.Windows.Forms.TextBox();
             this.cmsVakjes = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.test1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.test2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.test3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.test3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gbInformation = new System.Windows.Forms.GroupBox();
+            this.gbReservations = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.lblTram = new System.Windows.Forms.Label();
+            this.lblTrack = new System.Windows.Forms.Label();
+            this.lblInformation = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lblReservations = new System.Windows.Forms.Label();
             this.cmsVakjes.SuspendLayout();
             this.cmsButtons.SuspendLayout();
+            this.gbInformation.SuspendLayout();
+            this.gbReservations.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTrams
@@ -324,14 +334,14 @@
             // 
             this.btnRepair.Location = new System.Drawing.Point(337, 12);
             this.btnRepair.Name = "btnRepair";
-            this.btnRepair.Size = new System.Drawing.Size(48, 25);
+            this.btnRepair.Size = new System.Drawing.Size(66, 25);
             this.btnRepair.TabIndex = 5;
-            this.btnRepair.Text = "Repair";
+            this.btnRepair.Text = "Reparatie";
             this.btnRepair.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(391, 12);
+            this.btnExit.Location = new System.Drawing.Point(414, 12);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(50, 25);
             this.btnExit.TabIndex = 6;
@@ -351,36 +361,44 @@
             // 
             // txt_R34S1
             // 
+            this.txt_R34S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R34S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S1.Location = new System.Drawing.Point(332, 121);
             this.txt_R34S1.Name = "txt_R34S1";
             this.txt_R34S1.ReadOnly = true;
             this.txt_R34S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S1.TabIndex = 8;
+            this.txt_R34S1.Text = "2";
             this.txt_R34S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R33S1
             // 
+            this.txt_R33S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R33S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R33S1.ForeColor = System.Drawing.Color.White;
             this.txt_R33S1.Location = new System.Drawing.Point(378, 121);
             this.txt_R33S1.Name = "txt_R33S1";
             this.txt_R33S1.ReadOnly = true;
             this.txt_R33S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S1.TabIndex = 9;
+            this.txt_R33S1.Text = "16/24";
             this.txt_R33S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R32S1
             // 
+            this.txt_R32S1.BackColor = System.Drawing.Color.Gray;
             this.txt_R32S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S1.Location = new System.Drawing.Point(424, 121);
             this.txt_R32S1.Name = "txt_R32S1";
             this.txt_R32S1.ReadOnly = true;
             this.txt_R32S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S1.TabIndex = 10;
+            this.txt_R32S1.Text = "10";
             this.txt_R32S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R31S1
             // 
+            this.txt_R31S1.BackColor = System.Drawing.Color.Magenta;
             this.txt_R31S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R31S1.Location = new System.Drawing.Point(470, 121);
             this.txt_R31S1.Name = "txt_R31S1";
@@ -391,12 +409,15 @@
             // 
             // txt_R30S1
             // 
+            this.txt_R30S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R30S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R30S1.ForeColor = System.Drawing.Color.White;
             this.txt_R30S1.Location = new System.Drawing.Point(516, 121);
             this.txt_R30S1.Name = "txt_R30S1";
             this.txt_R30S1.ReadOnly = true;
             this.txt_R30S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R30S1.TabIndex = 12;
+            this.txt_R30S1.Text = "16/24";
             this.txt_R30S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40
@@ -467,46 +488,56 @@
             // 
             // txt_R44S1
             // 
+            this.txt_R44S1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.txt_R44S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S1.Location = new System.Drawing.Point(780, 122);
             this.txt_R44S1.Name = "txt_R44S1";
             this.txt_R44S1.ReadOnly = true;
             this.txt_R44S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S1.TabIndex = 23;
+            this.txt_R44S1.Text = "13";
             this.txt_R44S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R43S1
             // 
+            this.txt_R43S1.BackColor = System.Drawing.Color.SpringGreen;
             this.txt_R43S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S1.Location = new System.Drawing.Point(734, 122);
             this.txt_R43S1.Name = "txt_R43S1";
             this.txt_R43S1.ReadOnly = true;
             this.txt_R43S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S1.TabIndex = 22;
+            this.txt_R43S1.Text = "1";
             this.txt_R43S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R42S1
             // 
+            this.txt_R42S1.BackColor = System.Drawing.Color.DarkViolet;
             this.txt_R42S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R42S1.ForeColor = System.Drawing.Color.White;
             this.txt_R42S1.Location = new System.Drawing.Point(688, 122);
             this.txt_R42S1.Name = "txt_R42S1";
             this.txt_R42S1.ReadOnly = true;
             this.txt_R42S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S1.TabIndex = 21;
+            this.txt_R42S1.Text = "55";
             this.txt_R42S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R41S1
             // 
+            this.txt_R41S1.BackColor = System.Drawing.Color.Gray;
             this.txt_R41S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S1.Location = new System.Drawing.Point(642, 122);
             this.txt_R41S1.Name = "txt_R41S1";
             this.txt_R41S1.ReadOnly = true;
             this.txt_R41S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S1.TabIndex = 20;
+            this.txt_R41S1.Text = "10";
             this.txt_R41S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40S1
             // 
+            this.txt_R40S1.BackColor = System.Drawing.SystemColors.Control;
             this.txt_R40S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S1.Location = new System.Drawing.Point(596, 122);
             this.txt_R40S1.Name = "txt_R40S1";
@@ -717,42 +748,51 @@
             // 
             // txt_R36S1
             // 
+            this.txt_R36S1.BackColor = System.Drawing.Color.SpringGreen;
             this.txt_R36S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S1.Location = new System.Drawing.Point(240, 121);
             this.txt_R36S1.Name = "txt_R36S1";
             this.txt_R36S1.ReadOnly = true;
             this.txt_R36S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S1.TabIndex = 44;
+            this.txt_R36S1.Text = "1";
             this.txt_R36S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R35S1
             // 
+            this.txt_R35S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R35S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R35S1.ForeColor = System.Drawing.Color.White;
             this.txt_R35S1.Location = new System.Drawing.Point(286, 121);
             this.txt_R35S1.Name = "txt_R35S1";
             this.txt_R35S1.ReadOnly = true;
             this.txt_R35S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S1.TabIndex = 45;
+            this.txt_R35S1.Text = "16/24";
             this.txt_R35S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R37S1
             // 
+            this.txt_R37S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R37S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S1.Location = new System.Drawing.Point(194, 121);
             this.txt_R37S1.Name = "txt_R37S1";
             this.txt_R37S1.ReadOnly = true;
             this.txt_R37S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S1.TabIndex = 46;
+            this.txt_R37S1.Text = "5";
             this.txt_R37S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R38S1
             // 
+            this.txt_R38S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R38S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S1.Location = new System.Drawing.Point(148, 121);
             this.txt_R38S1.Name = "txt_R38S1";
             this.txt_R38S1.ReadOnly = true;
             this.txt_R38S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S1.TabIndex = 47;
+            this.txt_R38S1.Text = "2";
             this.txt_R38S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_R38S1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_R38S1_MouseClick);
             // 
@@ -1096,24 +1136,17 @@
             this.txt_R34S5.TabIndex = 75;
             this.txt_R34S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox1.Location = new System.Drawing.Point(12, 71);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(130, 304);
-            this.groupBox1.TabIndex = 82;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
             // txt_R45S1
             // 
+            this.txt_R45S1.BackColor = System.Drawing.Color.Red;
             this.txt_R45S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R45S1.ForeColor = System.Drawing.Color.White;
             this.txt_R45S1.Location = new System.Drawing.Point(860, 122);
             this.txt_R45S1.Name = "txt_R45S1";
             this.txt_R45S1.ReadOnly = true;
             this.txt_R45S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S1.TabIndex = 84;
+            this.txt_R45S1.Text = "17";
             this.txt_R45S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R58S1
@@ -1658,56 +1691,68 @@
             // 
             // txt_R57S1
             // 
+            this.txt_R57S1.BackColor = System.Drawing.Color.DarkRed;
             this.txt_R57S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57S1.ForeColor = System.Drawing.Color.White;
             this.txt_R57S1.Location = new System.Drawing.Point(148, 471);
             this.txt_R57S1.Name = "txt_R57S1";
             this.txt_R57S1.ReadOnly = true;
             this.txt_R57S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S1.TabIndex = 136;
+            this.txt_R57S1.Text = "16/24";
             this.txt_R57S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R56S1
             // 
+            this.txt_R56S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R56S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S1.Location = new System.Drawing.Point(194, 471);
             this.txt_R56S1.Name = "txt_R56S1";
             this.txt_R56S1.ReadOnly = true;
             this.txt_R56S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S1.TabIndex = 135;
+            this.txt_R56S1.Text = "5";
             this.txt_R56S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R54S1
             // 
+            this.txt_R54S1.BackColor = System.Drawing.Color.Violet;
             this.txt_R54S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S1.Location = new System.Drawing.Point(286, 471);
             this.txt_R54S1.Name = "txt_R54S1";
             this.txt_R54S1.ReadOnly = true;
             this.txt_R54S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S1.TabIndex = 134;
+            this.txt_R54S1.Text = "5";
             this.txt_R54S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R55S1
             // 
+            this.txt_R55S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R55S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S1.Location = new System.Drawing.Point(240, 471);
             this.txt_R55S1.Name = "txt_R55S1";
             this.txt_R55S1.ReadOnly = true;
             this.txt_R55S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S1.TabIndex = 133;
+            this.txt_R55S1.Text = "2";
             this.txt_R55S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R63S1
             // 
+            this.txt_R63S1.BackColor = System.Drawing.Color.Yellow;
             this.txt_R63S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S1.Location = new System.Drawing.Point(516, 471);
             this.txt_R63S1.Name = "txt_R63S1";
             this.txt_R63S1.ReadOnly = true;
             this.txt_R63S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S1.TabIndex = 132;
+            this.txt_R63S1.Text = "2";
             this.txt_R63S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R64S1
             // 
+            this.txt_R64S1.BackColor = System.Drawing.Color.Magenta;
             this.txt_R64S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S1.Location = new System.Drawing.Point(470, 471);
             this.txt_R64S1.Name = "txt_R64S1";
@@ -1718,6 +1763,7 @@
             // 
             // txt_R51S1
             // 
+            this.txt_R51S1.BackColor = System.Drawing.Color.Black;
             this.txt_R51S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S1.Location = new System.Drawing.Point(424, 471);
             this.txt_R51S1.Name = "txt_R51S1";
@@ -1728,22 +1774,27 @@
             // 
             // txt_R52S1
             // 
+            this.txt_R52S1.BackColor = System.Drawing.Color.Red;
             this.txt_R52S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52S1.ForeColor = System.Drawing.Color.White;
             this.txt_R52S1.Location = new System.Drawing.Point(378, 471);
             this.txt_R52S1.Name = "txt_R52S1";
             this.txt_R52S1.ReadOnly = true;
             this.txt_R52S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S1.TabIndex = 129;
+            this.txt_R52S1.Text = "17";
             this.txt_R52S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R53S1
             // 
+            this.txt_R53S1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.txt_R53S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S1.Location = new System.Drawing.Point(332, 471);
             this.txt_R53S1.Name = "txt_R53S1";
             this.txt_R53S1.ReadOnly = true;
             this.txt_R53S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S1.TabIndex = 128;
+            this.txt_R53S1.Text = "13";
             this.txt_R53S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R57
@@ -2166,6 +2217,7 @@
             // 
             // txt_R61S1
             // 
+            this.txt_R61S1.BackColor = System.Drawing.Color.Pink;
             this.txt_R61S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R61S1.Location = new System.Drawing.Point(608, 471);
             this.txt_R61S1.Name = "txt_R61S1";
@@ -2176,6 +2228,7 @@
             // 
             // txt_R62S1
             // 
+            this.txt_R62S1.BackColor = System.Drawing.Color.Pink;
             this.txt_R62S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R62S1.Location = new System.Drawing.Point(562, 471);
             this.txt_R62S1.Name = "txt_R62S1";
@@ -2649,34 +2702,6 @@
             this.cmsVakjes.Name = "cmsVakjes";
             this.cmsVakjes.Size = new System.Drawing.Size(100, 70);
             // 
-            // cmsButtons
-            // 
-            this.cmsButtons.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testToolStripMenuItem,
-            this.test2ToolStripMenuItem,
-            this.test3ToolStripMenuItem});
-            this.cmsButtons.Name = "cmsButtons";
-            this.cmsButtons.Size = new System.Drawing.Size(100, 70);
-            // 
-            // testToolStripMenuItem
-            // 
-            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.testToolStripMenuItem.Text = "test";
-            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
-            // 
-            // test2ToolStripMenuItem
-            // 
-            this.test2ToolStripMenuItem.Name = "test2ToolStripMenuItem";
-            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.test2ToolStripMenuItem.Text = "test2";
-            // 
-            // test3ToolStripMenuItem
-            // 
-            this.test3ToolStripMenuItem.Name = "test3ToolStripMenuItem";
-            this.test3ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.test3ToolStripMenuItem.Text = "test3";
-            // 
             // test1ToolStripMenuItem
             // 
             this.test1ToolStripMenuItem.Name = "test1ToolStripMenuItem";
@@ -2695,12 +2720,133 @@
             this.test3ToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
             this.test3ToolStripMenuItem1.Text = "test3";
             // 
+            // cmsButtons
+            // 
+            this.cmsButtons.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testToolStripMenuItem,
+            this.test2ToolStripMenuItem,
+            this.test3ToolStripMenuItem});
+            this.cmsButtons.Name = "cmsButtons";
+            this.cmsButtons.Size = new System.Drawing.Size(100, 70);
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.testToolStripMenuItem.Text = "test";
+            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
+            // 
+            // test2ToolStripMenuItem
+            // 
+            this.test2ToolStripMenuItem.Name = "test2ToolStripMenuItem";
+            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.test2ToolStripMenuItem.Text = "test2";
+            // 
+            // test3ToolStripMenuItem
+            // 
+            this.test3ToolStripMenuItem.Name = "test3ToolStripMenuItem";
+            this.test3ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.test3ToolStripMenuItem.Text = "test3";
+            // 
+            // gbInformation
+            // 
+            this.gbInformation.BackColor = System.Drawing.Color.LightGray;
+            this.gbInformation.Controls.Add(this.lblInformation);
+            this.gbInformation.Controls.Add(this.lblTram);
+            this.gbInformation.Controls.Add(this.lblTrack);
+            this.gbInformation.Controls.Add(this.richTextBox2);
+            this.gbInformation.Controls.Add(this.richTextBox1);
+            this.gbInformation.Location = new System.Drawing.Point(12, 89);
+            this.gbInformation.Name = "gbInformation";
+            this.gbInformation.Size = new System.Drawing.Size(130, 261);
+            this.gbInformation.TabIndex = 234;
+            this.gbInformation.TabStop = false;
+            this.gbInformation.Text = "Informatie";
+            // 
+            // gbReservations
+            // 
+            this.gbReservations.BackColor = System.Drawing.Color.LightGray;
+            this.gbReservations.Controls.Add(this.lblReservations);
+            this.gbReservations.Controls.Add(this.listBox1);
+            this.gbReservations.Location = new System.Drawing.Point(12, 360);
+            this.gbReservations.Name = "gbReservations";
+            this.gbReservations.Size = new System.Drawing.Size(130, 297);
+            this.gbReservations.TabIndex = 235;
+            this.gbReservations.TabStop = false;
+            this.gbReservations.Text = "Reserveringen";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(20, 51);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox1.TabIndex = 236;
+            this.richTextBox1.Text = "";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(20, 135);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(86, 53);
+            this.richTextBox2.TabIndex = 237;
+            this.richTextBox2.Text = "";
+            // 
+            // lblTram
+            // 
+            this.lblTram.AutoSize = true;
+            this.lblTram.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTram.Location = new System.Drawing.Point(38, 31);
+            this.lblTram.Name = "lblTram";
+            this.lblTram.Size = new System.Drawing.Size(41, 17);
+            this.lblTram.TabIndex = 236;
+            this.lblTram.Text = "Tram";
+            // 
+            // lblTrack
+            // 
+            this.lblTrack.AutoSize = true;
+            this.lblTrack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrack.Location = new System.Drawing.Point(38, 115);
+            this.lblTrack.Name = "lblTrack";
+            this.lblTrack.Size = new System.Drawing.Size(46, 17);
+            this.lblTrack.TabIndex = 238;
+            this.lblTrack.Text = "Spoor";
+            // 
+            // lblInformation
+            // 
+            this.lblInformation.AutoSize = true;
+            this.lblInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformation.Location = new System.Drawing.Point(33, 196);
+            this.lblInformation.Name = "lblInformation";
+            this.lblInformation.Size = new System.Drawing.Size(53, 13);
+            this.lblInformation.TabIndex = 239;
+            this.lblInformation.Text = "Informatie";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 49);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(118, 238);
+            this.listBox1.TabIndex = 236;
+            // 
+            // lblReservations
+            // 
+            this.lblReservations.AutoSize = true;
+            this.lblReservations.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservations.Location = new System.Drawing.Point(17, 29);
+            this.lblReservations.Name = "lblReservations";
+            this.lblReservations.Size = new System.Drawing.Size(101, 17);
+            this.lblReservations.TabIndex = 240;
+            this.lblReservations.Text = "Reserveringen";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.gbReservations);
+            this.Controls.Add(this.gbInformation);
             this.Controls.Add(this.txt_R77S6);
             this.Controls.Add(this.txt_R76S6);
             this.Controls.Add(this.txt_R77S5);
@@ -2851,7 +2997,6 @@
             this.Controls.Add(this.txt_R58S2);
             this.Controls.Add(this.txt_R45S1);
             this.Controls.Add(this.txt_R58S1);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txt_R38S5);
             this.Controls.Add(this.txt_R37S5);
             this.Controls.Add(this.txt_R35S5);
@@ -2938,6 +3083,10 @@
             this.Text = "Form2";
             this.cmsVakjes.ResumeLayout(false);
             this.cmsButtons.ResumeLayout(false);
+            this.gbInformation.ResumeLayout(false);
+            this.gbInformation.PerformLayout();
+            this.gbReservations.ResumeLayout(false);
+            this.gbReservations.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3027,7 +3176,6 @@
         private System.Windows.Forms.TextBox txt_R32S5;
         private System.Windows.Forms.TextBox txt_R33S5;
         private System.Windows.Forms.TextBox txt_R34S5;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_R45S1;
         private System.Windows.Forms.TextBox txt_R58S1;
         private System.Windows.Forms.TextBox txt_R45S2;
@@ -3186,5 +3334,14 @@
         private System.Windows.Forms.ToolStripMenuItem test1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem1;
+        private System.Windows.Forms.GroupBox gbInformation;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.GroupBox gbReservations;
+        private System.Windows.Forms.Label lblTram;
+        private System.Windows.Forms.Label lblTrack;
+        private System.Windows.Forms.Label lblInformation;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label lblReservations;
     }
 }
