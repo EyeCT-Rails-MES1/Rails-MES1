@@ -265,6 +265,8 @@
             this.tsmPlaatsen = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmVerwijderen = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmReserveren = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmStatusVeranderen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmInformatie = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -279,15 +281,13 @@
             this.lblReservations = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.cmsSporen = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.spoorSectorBlokkerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorUpdatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spoorInformatieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsLijnen = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cmsDiensten = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cmsSchoonmaak = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cmsReparatie = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmStatusVeranderen = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmInformatie = new System.Windows.Forms.ToolStripMenuItem();
-            this.spoorSectorBlokkerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.spoorUpdatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.spoorInformatieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
             this.gbInformation.SuspendLayout();
@@ -2726,28 +2726,42 @@
             this.tsmStatusVeranderen,
             this.tsmInformatie});
             this.cmsTram.Name = "cmsVakjes";
-            this.cmsTram.Size = new System.Drawing.Size(205, 114);
+            this.cmsTram.Size = new System.Drawing.Size(200, 114);
             // 
             // tsmPlaatsen
             // 
             this.tsmPlaatsen.Name = "tsmPlaatsen";
             this.tsmPlaatsen.Size = new System.Drawing.Size(204, 22);
-            this.tsmPlaatsen.Text = "-Trams Plaatsen";
+            this.tsmPlaatsen.Text = "Trams Plaatsen";
             this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
             // 
             // tsmVerwijderen
             // 
             this.tsmVerwijderen.Name = "tsmVerwijderen";
-            this.tsmVerwijderen.Size = new System.Drawing.Size(204, 22);
-            this.tsmVerwijderen.Text = "-Trams Verwijderen";
+            this.tsmVerwijderen.Size = new System.Drawing.Size(199, 22);
+            this.tsmVerwijderen.Text = "Trams Verwijderen";
             this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
             // 
             // tsmReserveren
             // 
             this.tsmReserveren.Name = "tsmReserveren";
-            this.tsmReserveren.Size = new System.Drawing.Size(204, 22);
-            this.tsmReserveren.Text = "-Trams Reserveren";
+            this.tsmReserveren.Size = new System.Drawing.Size(199, 22);
+            this.tsmReserveren.Text = "Trams Reserveren";
             this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
+            // 
+            // tsmStatusVeranderen
+            // 
+            this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
+            this.tsmStatusVeranderen.Size = new System.Drawing.Size(199, 22);
+            this.tsmStatusVeranderen.Text = "Tram status Veranderen";
+            this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
+            // 
+            // tsmInformatie
+            // 
+            this.tsmInformatie.Name = "tsmInformatie";
+            this.tsmInformatie.Size = new System.Drawing.Size(199, 22);
+            this.tsmInformatie.Text = "Tram informatie";
+            this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
             // 
             // cmsButtons
             // 
@@ -2875,7 +2889,28 @@
             this.spoorUpdatenToolStripMenuItem,
             this.spoorInformatieToolStripMenuItem});
             this.cmsSporen.Name = "cmsSporen";
-            this.cmsSporen.Size = new System.Drawing.Size(207, 92);
+            this.cmsSporen.Size = new System.Drawing.Size(199, 70);
+            // 
+            // spoorSectorBlokkerenToolStripMenuItem
+            // 
+            this.spoorSectorBlokkerenToolStripMenuItem.Name = "spoorSectorBlokkerenToolStripMenuItem";
+            this.spoorSectorBlokkerenToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.spoorSectorBlokkerenToolStripMenuItem.Text = "Spoor/Sector blokkeren";
+            this.spoorSectorBlokkerenToolStripMenuItem.Click += new System.EventHandler(this.spoorSectorBlokkerenToolStripMenuItem_Click);
+            // 
+            // spoorUpdatenToolStripMenuItem
+            // 
+            this.spoorUpdatenToolStripMenuItem.Name = "spoorUpdatenToolStripMenuItem";
+            this.spoorUpdatenToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.spoorUpdatenToolStripMenuItem.Text = "Spoor updaten";
+            this.spoorUpdatenToolStripMenuItem.Click += new System.EventHandler(this.spoorUpdatenToolStripMenuItem_Click);
+            // 
+            // spoorInformatieToolStripMenuItem
+            // 
+            this.spoorInformatieToolStripMenuItem.Name = "spoorInformatieToolStripMenuItem";
+            this.spoorInformatieToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.spoorInformatieToolStripMenuItem.Text = "Spoor informatie";
+            this.spoorInformatieToolStripMenuItem.Click += new System.EventHandler(this.spoorInformatieToolStripMenuItem_Click);
             // 
             // cmsLijnen
             // 
@@ -2897,42 +2932,7 @@
             this.cmsReparatie.Name = "cmsReparatie";
             this.cmsReparatie.Size = new System.Drawing.Size(61, 4);
             // 
-            // tsmStatusVeranderen
-            // 
-            this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
-            this.tsmStatusVeranderen.Size = new System.Drawing.Size(204, 22);
-            this.tsmStatusVeranderen.Text = "-Tram status Veranderen";
-            this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
-            // 
-            // tsmInformatie
-            // 
-            this.tsmInformatie.Name = "tsmInformatie";
-            this.tsmInformatie.Size = new System.Drawing.Size(204, 22);
-            this.tsmInformatie.Text = "-Tram informatie";
-            this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
-            // 
-            // spoorSectorBlokkerenToolStripMenuItem
-            // 
-            this.spoorSectorBlokkerenToolStripMenuItem.Name = "spoorSectorBlokkerenToolStripMenuItem";
-            this.spoorSectorBlokkerenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.spoorSectorBlokkerenToolStripMenuItem.Text = "- Spoor/Sector blokkeren";
-            this.spoorSectorBlokkerenToolStripMenuItem.Click += new System.EventHandler(this.spoorSectorBlokkerenToolStripMenuItem_Click);
-            // 
-            // spoorUpdatenToolStripMenuItem
-            // 
-            this.spoorUpdatenToolStripMenuItem.Name = "spoorUpdatenToolStripMenuItem";
-            this.spoorUpdatenToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.spoorUpdatenToolStripMenuItem.Text = "- Spoor updaten";
-            this.spoorUpdatenToolStripMenuItem.Click += new System.EventHandler(this.spoorUpdatenToolStripMenuItem_Click);
-            // 
-            // spoorInformatieToolStripMenuItem
-            // 
-            this.spoorInformatieToolStripMenuItem.Name = "spoorInformatieToolStripMenuItem";
-            this.spoorInformatieToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.spoorInformatieToolStripMenuItem.Text = "- Spoor informatie";
-            this.spoorInformatieToolStripMenuItem.Click += new System.EventHandler(this.spoorInformatieToolStripMenuItem_Click);
-            // 
-            // Form2
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -3172,7 +3172,7 @@
             this.Controls.Add(this.btnLijnen);
             this.Controls.Add(this.btnSporen);
             this.Controls.Add(this.btnTrams);
-            this.Name = "Form2";
+            this.Name = "MainForm";
             this.Text = "Form2";
             this.cmsTram.ResumeLayout(false);
             this.cmsButtons.ResumeLayout(false);
