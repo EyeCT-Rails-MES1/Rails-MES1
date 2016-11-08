@@ -9,7 +9,7 @@ namespace DAL.Persistencies
 {
     public class DatabaseConnection
     {  
-        public string connectionString = @"Server = DESKTOP-NNKUBRF; Database = Tronics; User ID = sa; Password = 1234;";
+        public string connectionString = @"Data Source=DESKTOP-SA3RDHR;Initial Catalog=Lokale DB Proftaak;Integrated Security=True";
 
         public void executeCommand(string query)
         {
