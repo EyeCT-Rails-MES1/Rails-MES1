@@ -8,7 +8,7 @@ using DAL.Types;
 
 namespace DAL.Repositories
 {
-    class EngineerRepository
+    public class EngineerRepository
     {
         IEngineer context;
         List<User> userList = new List<User>();
