@@ -188,7 +188,7 @@ namespace TrinityRailsDemo
 
         private void btnRepair_Click(object sender, EventArgs e)
         {
-            ShowCMS(this, btnRepair, cmsReparatie);
+            EngineerForm form = new EngineerForm(user);
         }
 
         private void btnExit_Click(object sender, EventArgs e)

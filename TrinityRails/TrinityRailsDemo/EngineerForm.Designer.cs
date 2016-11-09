@@ -28,64 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gbStatus = new System.Windows.Forms.GroupBox();
-            this.cbTramStatus = new System.Windows.Forms.ComboBox();
-            this.btnChangeStatus = new System.Windows.Forms.Button();
+            this.btnFinishRepair = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.btnChangeName = new System.Windows.Forms.Button();
             this.gbDatum = new System.Windows.Forms.GroupBox();
-            this.btnChangeDate = new System.Windows.Forms.Button();
             this.dtDate = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbRepair = new System.Windows.Forms.ListBox();
-            this.gbStatus.SuspendLayout();
+            this.btnRepair = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.gbDatum.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gbStatus
+            // btnFinishRepair
             // 
-            this.gbStatus.Controls.Add(this.cbTramStatus);
-            this.gbStatus.Controls.Add(this.btnChangeStatus);
-            this.gbStatus.Location = new System.Drawing.Point(161, 189);
-            this.gbStatus.Margin = new System.Windows.Forms.Padding(2);
-            this.gbStatus.Name = "gbStatus";
-            this.gbStatus.Padding = new System.Windows.Forms.Padding(2);
-            this.gbStatus.Size = new System.Drawing.Size(188, 71);
-            this.gbStatus.TabIndex = 14;
-            this.gbStatus.TabStop = false;
-            this.gbStatus.Text = "Status";
-            // 
-            // cbTramStatus
-            // 
-            this.cbTramStatus.FormattingEnabled = true;
-            this.cbTramStatus.Location = new System.Drawing.Point(5, 18);
-            this.cbTramStatus.Margin = new System.Windows.Forms.Padding(2);
-            this.cbTramStatus.Name = "cbTramStatus";
-            this.cbTramStatus.Size = new System.Drawing.Size(179, 21);
-            this.cbTramStatus.TabIndex = 9;
-            // 
-            // btnChangeStatus
-            // 
-            this.btnChangeStatus.Location = new System.Drawing.Point(4, 41);
-            this.btnChangeStatus.Margin = new System.Windows.Forms.Padding(2);
-            this.btnChangeStatus.Name = "btnChangeStatus";
-            this.btnChangeStatus.Size = new System.Drawing.Size(178, 24);
-            this.btnChangeStatus.TabIndex = 8;
-            this.btnChangeStatus.Text = "Verander status";
-            this.btnChangeStatus.UseVisualStyleBackColor = true;
+            this.btnFinishRepair.Location = new System.Drawing.Point(165, 200);
+            this.btnFinishRepair.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFinishRepair.Name = "btnFinishRepair";
+            this.btnFinishRepair.Size = new System.Drawing.Size(188, 56);
+            this.btnFinishRepair.TabIndex = 8;
+            this.btnFinishRepair.Text = "Reparatie afgerond";
+            this.btnFinishRepair.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.tbName);
-            this.groupBox3.Controls.Add(this.btnChangeName);
-            this.groupBox3.Location = new System.Drawing.Point(161, 98);
+            this.groupBox3.Location = new System.Drawing.Point(165, 11);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(188, 71);
+            this.groupBox3.Size = new System.Drawing.Size(188, 44);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Naam";
@@ -98,38 +71,17 @@
             this.tbName.Size = new System.Drawing.Size(180, 20);
             this.tbName.TabIndex = 9;
             // 
-            // btnChangeName
-            // 
-            this.btnChangeName.Location = new System.Drawing.Point(4, 41);
-            this.btnChangeName.Margin = new System.Windows.Forms.Padding(2);
-            this.btnChangeName.Name = "btnChangeName";
-            this.btnChangeName.Size = new System.Drawing.Size(178, 24);
-            this.btnChangeName.TabIndex = 8;
-            this.btnChangeName.Text = "Verander naam";
-            this.btnChangeName.UseVisualStyleBackColor = true;
-            // 
             // gbDatum
             // 
-            this.gbDatum.Controls.Add(this.btnChangeDate);
             this.gbDatum.Controls.Add(this.dtDate);
-            this.gbDatum.Location = new System.Drawing.Point(161, 11);
+            this.gbDatum.Location = new System.Drawing.Point(165, 140);
             this.gbDatum.Margin = new System.Windows.Forms.Padding(2);
             this.gbDatum.Name = "gbDatum";
             this.gbDatum.Padding = new System.Windows.Forms.Padding(2);
-            this.gbDatum.Size = new System.Drawing.Size(188, 71);
+            this.gbDatum.Size = new System.Drawing.Size(188, 47);
             this.gbDatum.TabIndex = 12;
             this.gbDatum.TabStop = false;
             this.gbDatum.Text = "Datum";
-            // 
-            // btnChangeDate
-            // 
-            this.btnChangeDate.Location = new System.Drawing.Point(4, 41);
-            this.btnChangeDate.Margin = new System.Windows.Forms.Padding(2);
-            this.btnChangeDate.Name = "btnChangeDate";
-            this.btnChangeDate.Size = new System.Drawing.Size(178, 24);
-            this.btnChangeDate.TabIndex = 8;
-            this.btnChangeDate.Text = "Verander datum";
-            this.btnChangeDate.UseVisualStyleBackColor = true;
             // 
             // dtDate
             // 
@@ -159,21 +111,33 @@
             this.lbRepair.Name = "lbRepair";
             this.lbRepair.Size = new System.Drawing.Size(128, 225);
             this.lbRepair.TabIndex = 0;
+            this.lbRepair.SelectedIndexChanged += new System.EventHandler(this.lbRepair_SelectedIndexChanged);
+            // 
+            // btnRepair
+            // 
+            this.btnRepair.Location = new System.Drawing.Point(165, 64);
+            this.btnRepair.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRepair.Name = "btnRepair";
+            this.btnRepair.Size = new System.Drawing.Size(188, 62);
+            this.btnRepair.TabIndex = 16;
+            this.btnRepair.Text = "Repareren";
+            this.btnRepair.UseVisualStyleBackColor = true;
+            this.btnRepair.Click += new System.EventHandler(this.button1_Click);
             // 
             // EngineerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 272);
+            this.ClientSize = new System.Drawing.Size(373, 272);
+            this.Controls.Add(this.btnRepair);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.gbStatus);
+            this.Controls.Add(this.btnFinishRepair);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gbDatum);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EngineerForm";
-            this.Text = "EngineerForm";
+            this.Text = "w";
             this.Load += new System.EventHandler(this.EngineerForm_Load);
-            this.gbStatus.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.gbDatum.ResumeLayout(false);
@@ -183,17 +147,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox gbStatus;
-        private System.Windows.Forms.ComboBox cbTramStatus;
-        private System.Windows.Forms.Button btnChangeStatus;
+        private System.Windows.Forms.Button btnFinishRepair;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox tbName;
-        private System.Windows.Forms.Button btnChangeName;
         private System.Windows.Forms.GroupBox gbDatum;
-        private System.Windows.Forms.Button btnChangeDate;
         private System.Windows.Forms.DateTimePicker dtDate;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ListBox lbRepair;
+        private System.Windows.Forms.Button btnRepair;
     }
 }

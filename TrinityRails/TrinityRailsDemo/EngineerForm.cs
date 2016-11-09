@@ -17,16 +17,43 @@ namespace TrinityRailsDemo
 {
     public partial class EngineerForm : Form
     {
-        
+        TramRepository TramRepo = new TramRepository(new TramSQL());
+        EngineerRepository EngineerRepo = new EngineerRepository(new EngineerSQL());
+        List<Tram> Trams = new List<Tram>();
+        User user;
 
-        public EngineerForm()
+        public EngineerForm(User user)
         {
             InitializeComponent();
+            this.user = user;
         }
 
         private void EngineerForm_Load(object sender, EventArgs e)
         {
+            Trams = TramRepo.getTrams();
+            foreach (Tram tram in Trams)
+            {
+                if (tram.status == Classes.Enumerations.Status.tramStatus.Defect || tram.status == Classes.Enumerations.Status.tramStatus.Repair)
+                {
+                    lbRepair.Items.Add(tram.number + " " + tram.status);
+                }
+            }
+        }
 
+        private void btnFinishRepair_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int Selected = lbRepair.SelectedIndex;
+            EngineerRepo.setRepair(Trams[Selected], user, Classes.Enumerations.Status.tramStatus.Repair);
+        }
+
+        private void lbRepair_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

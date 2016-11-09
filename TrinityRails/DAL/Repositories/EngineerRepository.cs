@@ -18,9 +18,17 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void finishRepair()
+        public void setRepair(Tram tram, User user, Classes.Enumerations.Status.tramStatus status)
         {
-            //?
+            context.setName(user, tram);
+            context.setStatus(tram, status);
+        }
+
+        public void finishRepair(Tram tram, User user, DateTime date, Classes.Enumerations.Status.tramStatus status)
+        {
+            context.setDate(date, user, tram);
+            context.setName(user, tram);
+            context.setStatus(tram, status);
         }
     }
 }
