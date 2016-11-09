@@ -11,7 +11,7 @@ namespace DAL.Interfaces
     {
         void create(string username, string password);
         void delete(User user);
-        void changeUsername(User user, string username);
+        void changeUsername(User user);
         void changePassword(User user, string password);
         List<User> getUsers();
     }

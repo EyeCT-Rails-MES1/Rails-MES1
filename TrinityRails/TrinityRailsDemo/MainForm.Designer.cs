@@ -296,6 +296,7 @@
             this.wanneerIsOnderhoudVerrichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wanneerTreinWeerGereedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnUsers = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
             this.gbInformation.SuspendLayout();
@@ -3548,5 +3549,6 @@
         private System.Windows.Forms.ToolStripMenuItem wanneerIsOnderhoudVerrichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wanneerTreinWeerGereedToolStripMenuItem;
         private System.Windows.Forms.Button btnUsers;
+        private System.Windows.Forms.Timer timer1;
     }
 }

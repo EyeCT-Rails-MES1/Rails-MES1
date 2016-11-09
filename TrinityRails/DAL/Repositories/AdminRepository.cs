@@ -40,7 +40,7 @@ namespace DAL.Repositories
         public void changeUsername(User user, string username)
         {
             user.username = username;
-            context.changeUsername(user, username);
+            context.changeUsername(user);
         }
 
         public void changePassword(User user, string password)
