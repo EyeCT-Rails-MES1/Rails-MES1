@@ -16,5 +16,15 @@ namespace TrinityRailsDemo
         {
             InitializeComponent();
         }
+
+        private void CleanerForm_Load(object sender, EventArgs e)
+        {
+            cbTramStatus.Items.Clear();
+            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Cleaning);
+            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Repair);
+            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Remise);
+            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Service);
+            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Defect);
+        }
     }
 }

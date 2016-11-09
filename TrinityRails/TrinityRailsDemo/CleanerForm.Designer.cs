@@ -28,146 +28,151 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbSchoonmaak = new System.Windows.Forms.ListBox();
+            this.lbCleaning = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnLaatLijstZien = new System.Windows.Forms.Button();
-            this.datumKiezer = new System.Windows.Forms.DateTimePicker();
+            this.dtDate = new System.Windows.Forms.DateTimePicker();
             this.gbDatum = new System.Windows.Forms.GroupBox();
-            this.btnVeranderDatum = new System.Windows.Forms.Button();
+            this.btnChangeDate = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnVeranderNaam = new System.Windows.Forms.Button();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.btnChangeName = new System.Windows.Forms.Button();
             this.gbStatus = new System.Windows.Forms.GroupBox();
-            this.btnVeranderStatus = new System.Windows.Forms.Button();
-            this.tbNaam = new System.Windows.Forms.TextBox();
-            this.cbStatus = new System.Windows.Forms.ComboBox();
+            this.cbTramStatus = new System.Windows.Forms.ComboBox();
+            this.btnChangeStatus = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gbDatum.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.gbStatus.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lbSchoonmaak
+            // lbCleaning
             // 
-            this.lbSchoonmaak.FormattingEnabled = true;
-            this.lbSchoonmaak.ItemHeight = 16;
-            this.lbSchoonmaak.Location = new System.Drawing.Point(6, 23);
-            this.lbSchoonmaak.Name = "lbSchoonmaak";
-            this.lbSchoonmaak.Size = new System.Drawing.Size(169, 276);
-            this.lbSchoonmaak.TabIndex = 0;
+            this.lbCleaning.FormattingEnabled = true;
+            this.lbCleaning.Location = new System.Drawing.Point(4, 19);
+            this.lbCleaning.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lbCleaning.Name = "lbCleaning";
+            this.lbCleaning.Size = new System.Drawing.Size(128, 225);
+            this.lbCleaning.TabIndex = 0;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbSchoonmaak);
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+            this.groupBox1.Controls.Add(this.lbCleaning);
+            this.groupBox1.Location = new System.Drawing.Point(10, 11);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(181, 306);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(136, 249);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Schoonmaaklijst";
             // 
-            // btnLaatLijstZien
+            // dtDate
             // 
-            this.btnLaatLijstZien.Location = new System.Drawing.Point(19, 326);
-            this.btnLaatLijstZien.Name = "btnLaatLijstZien";
-            this.btnLaatLijstZien.Size = new System.Drawing.Size(169, 29);
-            this.btnLaatLijstZien.TabIndex = 2;
-            this.btnLaatLijstZien.Text = "Laat lijst zien";
-            this.btnLaatLijstZien.UseVisualStyleBackColor = true;
-            // 
-            // datumKiezer
-            // 
-            this.datumKiezer.Location = new System.Drawing.Point(6, 23);
-            this.datumKiezer.Name = "datumKiezer";
-            this.datumKiezer.Size = new System.Drawing.Size(238, 22);
-            this.datumKiezer.TabIndex = 6;
+            this.dtDate.Location = new System.Drawing.Point(4, 19);
+            this.dtDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtDate.Name = "dtDate";
+            this.dtDate.Size = new System.Drawing.Size(180, 20);
+            this.dtDate.TabIndex = 6;
             // 
             // gbDatum
             // 
-            this.gbDatum.Controls.Add(this.btnVeranderDatum);
-            this.gbDatum.Controls.Add(this.datumKiezer);
-            this.gbDatum.Location = new System.Drawing.Point(221, 13);
+            this.gbDatum.Controls.Add(this.btnChangeDate);
+            this.gbDatum.Controls.Add(this.dtDate);
+            this.gbDatum.Location = new System.Drawing.Point(166, 11);
+            this.gbDatum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbDatum.Name = "gbDatum";
-            this.gbDatum.Size = new System.Drawing.Size(251, 87);
+            this.gbDatum.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbDatum.Size = new System.Drawing.Size(188, 71);
             this.gbDatum.TabIndex = 7;
             this.gbDatum.TabStop = false;
             this.gbDatum.Text = "Datum";
             // 
-            // btnVeranderDatum
+            // btnChangeDate
             // 
-            this.btnVeranderDatum.Location = new System.Drawing.Point(6, 51);
-            this.btnVeranderDatum.Name = "btnVeranderDatum";
-            this.btnVeranderDatum.Size = new System.Drawing.Size(238, 29);
-            this.btnVeranderDatum.TabIndex = 8;
-            this.btnVeranderDatum.Text = "Verander datum";
-            this.btnVeranderDatum.UseVisualStyleBackColor = true;
+            this.btnChangeDate.Location = new System.Drawing.Point(4, 41);
+            this.btnChangeDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChangeDate.Name = "btnChangeDate";
+            this.btnChangeDate.Size = new System.Drawing.Size(178, 24);
+            this.btnChangeDate.TabIndex = 8;
+            this.btnChangeDate.Text = "Verander datum";
+            this.btnChangeDate.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.tbNaam);
-            this.groupBox3.Controls.Add(this.btnVeranderNaam);
-            this.groupBox3.Location = new System.Drawing.Point(221, 120);
+            this.groupBox3.Controls.Add(this.tbName);
+            this.groupBox3.Controls.Add(this.btnChangeName);
+            this.groupBox3.Location = new System.Drawing.Point(166, 98);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(251, 87);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(188, 71);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Naam";
             // 
-            // btnVeranderNaam
+            // tbName
             // 
-            this.btnVeranderNaam.Location = new System.Drawing.Point(6, 51);
-            this.btnVeranderNaam.Name = "btnVeranderNaam";
-            this.btnVeranderNaam.Size = new System.Drawing.Size(238, 29);
-            this.btnVeranderNaam.TabIndex = 8;
-            this.btnVeranderNaam.Text = "Verander naam";
-            this.btnVeranderNaam.UseVisualStyleBackColor = true;
+            this.tbName.Location = new System.Drawing.Point(4, 18);
+            this.tbName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(180, 20);
+            this.tbName.TabIndex = 9;
+            // 
+            // btnChangeName
+            // 
+            this.btnChangeName.Location = new System.Drawing.Point(4, 41);
+            this.btnChangeName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChangeName.Name = "btnChangeName";
+            this.btnChangeName.Size = new System.Drawing.Size(178, 24);
+            this.btnChangeName.TabIndex = 8;
+            this.btnChangeName.Text = "Verander naam";
+            this.btnChangeName.UseVisualStyleBackColor = true;
             // 
             // gbStatus
             // 
-            this.gbStatus.Controls.Add(this.cbStatus);
-            this.gbStatus.Controls.Add(this.btnVeranderStatus);
-            this.gbStatus.Location = new System.Drawing.Point(221, 232);
+            this.gbStatus.Controls.Add(this.cbTramStatus);
+            this.gbStatus.Controls.Add(this.btnChangeStatus);
+            this.gbStatus.Location = new System.Drawing.Point(166, 188);
+            this.gbStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbStatus.Name = "gbStatus";
-            this.gbStatus.Size = new System.Drawing.Size(251, 87);
+            this.gbStatus.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbStatus.Size = new System.Drawing.Size(188, 71);
             this.gbStatus.TabIndex = 9;
             this.gbStatus.TabStop = false;
             this.gbStatus.Text = "Status";
             // 
-            // btnVeranderStatus
+            // cbTramStatus
             // 
-            this.btnVeranderStatus.Location = new System.Drawing.Point(6, 51);
-            this.btnVeranderStatus.Name = "btnVeranderStatus";
-            this.btnVeranderStatus.Size = new System.Drawing.Size(238, 29);
-            this.btnVeranderStatus.TabIndex = 8;
-            this.btnVeranderStatus.Text = "Verander status";
-            this.btnVeranderStatus.UseVisualStyleBackColor = true;
+            this.cbTramStatus.FormattingEnabled = true;
+            this.cbTramStatus.Location = new System.Drawing.Point(5, 18);
+            this.cbTramStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbTramStatus.Name = "cbTramStatus";
+            this.cbTramStatus.Size = new System.Drawing.Size(179, 21);
+            this.cbTramStatus.TabIndex = 9;
             // 
-            // tbNaam
+            // btnChangeStatus
             // 
-            this.tbNaam.Location = new System.Drawing.Point(6, 22);
-            this.tbNaam.Name = "tbNaam";
-            this.tbNaam.Size = new System.Drawing.Size(238, 22);
-            this.tbNaam.TabIndex = 9;
-            // 
-            // cbStatus
-            // 
-            this.cbStatus.FormattingEnabled = true;
-            this.cbStatus.Location = new System.Drawing.Point(7, 22);
-            this.cbStatus.Name = "cbStatus";
-            this.cbStatus.Size = new System.Drawing.Size(237, 24);
-            this.cbStatus.TabIndex = 9;
+            this.btnChangeStatus.Location = new System.Drawing.Point(4, 41);
+            this.btnChangeStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChangeStatus.Name = "btnChangeStatus";
+            this.btnChangeStatus.Size = new System.Drawing.Size(178, 24);
+            this.btnChangeStatus.TabIndex = 8;
+            this.btnChangeStatus.Text = "Verander status";
+            this.btnChangeStatus.UseVisualStyleBackColor = true;
             // 
             // CleanerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 366);
+            this.ClientSize = new System.Drawing.Size(364, 271);
             this.Controls.Add(this.gbStatus);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gbDatum);
-            this.Controls.Add(this.btnLaatLijstZien);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CleanerForm";
             this.Text = "CleanerForm";
+            this.Load += new System.EventHandler(this.CleanerForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.gbDatum.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -179,17 +184,16 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox lbSchoonmaak;
+        private System.Windows.Forms.ListBox lbCleaning;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnLaatLijstZien;
-        private System.Windows.Forms.DateTimePicker datumKiezer;
+        private System.Windows.Forms.DateTimePicker dtDate;
         private System.Windows.Forms.GroupBox gbDatum;
-        private System.Windows.Forms.Button btnVeranderDatum;
+        private System.Windows.Forms.Button btnChangeDate;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button btnVeranderNaam;
+        private System.Windows.Forms.Button btnChangeName;
         private System.Windows.Forms.GroupBox gbStatus;
-        private System.Windows.Forms.Button btnVeranderStatus;
-        private System.Windows.Forms.TextBox tbNaam;
-        private System.Windows.Forms.ComboBox cbStatus;
+        private System.Windows.Forms.Button btnChangeStatus;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.ComboBox cbTramStatus;
     }
 }
