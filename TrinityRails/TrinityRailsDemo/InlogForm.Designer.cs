@@ -50,7 +50,7 @@
             this.gbxInlog.Controls.Add(this.label1);
             this.gbxInlog.Controls.Add(this.txtWachtwoord);
             this.gbxInlog.Controls.Add(this.txtGebruikersnaam);
-            this.gbxInlog.Location = new System.Drawing.Point(13, 13);
+            this.gbxInlog.Location = new System.Drawing.Point(12, 4);
             this.gbxInlog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbxInlog.Name = "gbxInlog";
             this.gbxInlog.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -71,7 +71,7 @@
             // 
             // txtWachtwoord
             // 
-            this.txtWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWachtwoord.Location = new System.Drawing.Point(165, 71);
             this.txtWachtwoord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtWachtwoord.Multiline = true;
@@ -81,7 +81,7 @@
             // 
             // txtGebruikersnaam
             // 
-            this.txtGebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGebruikersnaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGebruikersnaam.Location = new System.Drawing.Point(166, 23);
             this.txtGebruikersnaam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtGebruikersnaam.Multiline = true;
