@@ -12,5 +12,8 @@ namespace DAL.Interfaces
     {
         bool getSectorStatus(Sector sector);
         void setSectorStatus(Sector sector);
+
+        List<Sector> getSectorList();
+        List<Rails> getRailList();
     }
 }

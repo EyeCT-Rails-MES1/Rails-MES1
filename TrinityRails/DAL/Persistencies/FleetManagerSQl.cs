@@ -29,5 +29,14 @@ namespace DAL.Persistencies
             string query = @"SELECT [Status] FROM [Sector] WHERE [SectorNumber] = " + sector.Number + @";";
             return Convert.ToBoolean(databaseConnection.executeReaderBool(query));
         }
+
+        List<Sector> IFleetManager.getSectorList()
+        {
+            throw new NotImplementedException();
+        }
+        List<Rails> IFleetManager.getRailList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
