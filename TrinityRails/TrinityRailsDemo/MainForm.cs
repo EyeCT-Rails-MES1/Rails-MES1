@@ -13,6 +13,7 @@ using TrinityRailsDemo.RailForms;
 using TrinityRailsDemo.SideForms;
 using DAL.Repositories;
 using DAL.Persistencies;
+using Classes;
 
 namespace TrinityRailsDemo
 {
@@ -266,7 +267,14 @@ namespace TrinityRailsDemo
         private void tsmSpoorBlok_Click(object sender, EventArgs e)
         {
             FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
-            fleetRepo.blockSector();
+            //foreach(Sector sector in fleetRepo.getSectorList())
+           // {
+           //     MessageBox.Show(sector.Number.ToString() + ", " + sector.railNumber.ToString());
+            //}
+            foreach(Rails rail in fleetRepo.getRailsList())
+            {
+                MessageBox.Show(rail.Number.ToString() + ", " + rail.sectorAmount.ToString());
+            }
         }
     }
 }
