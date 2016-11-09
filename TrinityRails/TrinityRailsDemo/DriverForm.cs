@@ -108,10 +108,5 @@ namespace TrinityRailsDemo
                 }
             }
         }
-
-        private void btnScanRFID_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

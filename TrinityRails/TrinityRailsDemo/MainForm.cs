@@ -261,11 +261,11 @@ namespace TrinityRailsDemo
         private void timer1_Tick(object sender, EventArgs e)
         {
             trams = tramRepo.getTrams();
-            foreach(Tram tram in trams)
+            foreach (Tram tram in trams)
             {
-                if(tram.status == Status.tramStatus.Remise)
+                if (tram.status == Status.tramStatus.Remise)
                 {
-                    string test = txt_R12.Name.Substring(4);
+                    
                 }
             }
         }
