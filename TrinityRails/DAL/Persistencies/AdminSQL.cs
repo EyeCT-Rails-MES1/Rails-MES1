@@ -25,7 +25,7 @@ namespace DAL.Persistencies
 
         public void changeUsername(User user, string username)
         {
-            string query = @"UPDATE [User] SET [Name] = " + user + @"WHERE [UserID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET [Username] = " + user + @" WHERE [UserID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
