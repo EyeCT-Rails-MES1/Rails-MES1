@@ -84,7 +84,7 @@ namespace TrinityRailsDemo
             }
             else
             {
-                MessageBox.Show("Password too short.");
+                MessageBox.Show("Wachtwoord te kort.");
             }
             tbPassword.Clear();
         }

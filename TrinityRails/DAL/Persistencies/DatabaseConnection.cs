@@ -22,6 +22,7 @@ namespace DAL.Persistencies
 
                     command.ExecuteReader();
                     Console.WriteLine("Execute reader executed");
+                    connection.Close();
                 }
             }
             catch (Exception exception)

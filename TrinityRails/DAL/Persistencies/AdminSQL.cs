@@ -19,19 +19,19 @@ namespace DAL.Persistencies
 
         public void changePassword(User user, string password)
         {
-            string query = @"UPDATE [User] SET [Password] = " + password + @"WHERE [UserID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET Password = " + password + @" WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void changeUsername(User user, string username)
         {
-            string query = @"UPDATE [User] SET [Username] = " + user + @" WHERE [UserID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET Username = " + username + @" WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void create(string username, string password)
         {
-            string query = @"INSERT INTO [User] (ID, Name, Password) VALUES (" + username + @", " + password + @");";
+            string query = @"INSERT INTO [User] (ID, Username, Password) VALUES (" + username + @", " + password + @");";
             databaseConnection.executeCommand(query);
         }
 

@@ -11,6 +11,8 @@ using Classes.Enumerations;
 using DAL.Types;
 using TrinityRailsDemo.RailForms;
 using TrinityRailsDemo.SideForms;
+using DAL.Repositories;
+using DAL.Persistencies;
 
 namespace TrinityRailsDemo
 {
@@ -18,6 +20,8 @@ namespace TrinityRailsDemo
     {
         TextBox currentTextBox;
         User user;
+        List<Tram> trams;
+        TramRepository tramRepo = new TramRepository(new TramSQL());
         public MainForm(User user)
         {
             InitializeComponent();
@@ -250,6 +254,18 @@ namespace TrinityRailsDemo
         {
             UserForm form = new UserForm();
             form.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            trams = tramRepo.getTrams();
+            foreach(Tram tram in trams)
+            {
+                if(tram.status == Status.tramStatus.Remise)
+                {
+                    
+                }
+            }
         }
     }
 }

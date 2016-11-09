@@ -35,7 +35,7 @@ namespace TrinityRailsDemo
             {
                 if (tram.status == Classes.Enumerations.Status.tramStatus.Defect || tram.status == Classes.Enumerations.Status.tramStatus.Repair)
                 {
-                    lbRepair.Items.Add(tram.number + " " + tram.status);
+                    lbRepair.Items.Add(tram.number + ": " + tram.status);
                 }
             }
         }

@@ -24,9 +24,8 @@ namespace DAL.Persistencies
             string query = @"select TramNumber from [Tram];";
             List<int> tramID = databaseConnection.executeReaderIntList(query);
             Tram tempTram = new Tram(1, Status.tramStatus.Repair, 1, "1", 1);
-            foreach (int harry in tramID)
+            foreach (int id in tramID)
             {
-                int id = 816;
                 tempTram.number = id;
                 query = @"Select Status from [Tram] where TramNumber =" + id + @";";
                 tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);

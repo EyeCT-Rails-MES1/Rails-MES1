@@ -296,6 +296,7 @@
             this.wanneerIsOnderhoudVerrichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wanneerTreinWeerGereedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnUsers = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
             this.gbInformation.SuspendLayout();
@@ -2748,40 +2749,40 @@
             this.tsmStatusVeranderen,
             this.tsmInformatie});
             this.cmsTram.Name = "cmsVakjes";
-            this.cmsTram.Size = new System.Drawing.Size(198, 114);
+            this.cmsTram.Size = new System.Drawing.Size(200, 114);
             // 
             // tsmPlaatsen
             // 
             this.tsmPlaatsen.Name = "tsmPlaatsen";
-            this.tsmPlaatsen.Size = new System.Drawing.Size(197, 22);
+            this.tsmPlaatsen.Size = new System.Drawing.Size(199, 22);
             this.tsmPlaatsen.Text = "Trams Plaatsen";
             this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
             // 
             // tsmVerwijderen
             // 
             this.tsmVerwijderen.Name = "tsmVerwijderen";
-            this.tsmVerwijderen.Size = new System.Drawing.Size(197, 22);
+            this.tsmVerwijderen.Size = new System.Drawing.Size(199, 22);
             this.tsmVerwijderen.Text = "Trams Verwijderen";
             this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
             // 
             // tsmReserveren
             // 
             this.tsmReserveren.Name = "tsmReserveren";
-            this.tsmReserveren.Size = new System.Drawing.Size(197, 22);
+            this.tsmReserveren.Size = new System.Drawing.Size(199, 22);
             this.tsmReserveren.Text = "Trams Reserveren";
             this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
             // 
             // tsmStatusVeranderen
             // 
             this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
-            this.tsmStatusVeranderen.Size = new System.Drawing.Size(197, 22);
+            this.tsmStatusVeranderen.Size = new System.Drawing.Size(199, 22);
             this.tsmStatusVeranderen.Text = "Tram status Veranderen";
             this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
             // 
             // tsmInformatie
             // 
             this.tsmInformatie.Name = "tsmInformatie";
-            this.tsmInformatie.Size = new System.Drawing.Size(197, 22);
+            this.tsmInformatie.Size = new System.Drawing.Size(199, 22);
             this.tsmInformatie.Text = "Tram informatie";
             this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
             // 
@@ -3021,6 +3022,12 @@
             this.btnUsers.Text = "Gebruikers";
             this.btnUsers.UseVisualStyleBackColor = true;
             this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainForm
             // 
@@ -3548,5 +3555,6 @@
         private System.Windows.Forms.ToolStripMenuItem wanneerIsOnderhoudVerrichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wanneerTreinWeerGereedToolStripMenuItem;
         private System.Windows.Forms.Button btnUsers;
+        private System.Windows.Forms.Timer timer1;
     }
 }
