@@ -42,7 +42,7 @@ namespace DAL.Persistencies
                 int railnummer = (int)databaseConnection.executeReaderInt(query);
                 query = @"Select SectorNumber from [Location] where ID =" + id + @";";
                 int sectornummer = (int)databaseConnection.executeReaderInt(query);
-                query = @"Select Status from [Location where ID =" + id + @";";
+                query = @"Select Status from [Location] where ID =" + id + @";";
                 RailStatus.railStatus status = (RailStatus.railStatus)databaseConnection.executeReaderInt(query);
 
                 sectorList.Add(new Sector(railnummer, sectornummer, status));
@@ -56,15 +56,16 @@ namespace DAL.Persistencies
             List<int> railID = databaseConnection.executeReaderIntList(query);
             foreach (int id in railID)
             {
+                int count = railList.Count;
                 query = @"Select RailNumber from [Location] where ID =" + id + @";";
                 int railnummer = (int)databaseConnection.executeReaderInt(query);
                 if (railList.Count > 0)
                 {
-                    foreach (Rails rail in railList)
+                    for (int i = 0; i < count; i++)
                     {
-                        if (rail.Number == railnummer)
+                        if(railList[i].Number == railnummer)
                         {
-                            rail.sectorAmount++;
+                            railList[i].sectorAmount++;
                         }
                         else
                         {
