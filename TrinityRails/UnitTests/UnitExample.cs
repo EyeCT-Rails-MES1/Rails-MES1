@@ -52,7 +52,7 @@ namespace UnitTests
             //Sector sector2 = new Sector(1, 5);
             //fleetManagerContext.setSectorStatus(sector1); //geen status meegeven? (blocked/unblocked), hij wisselt iedere keer van blocked --> unblocked?
             //Assert.AreEqual(sector1, sector2);
-            //komt false uit (niet gelijk als setSectorStatus is toegepast)
+            //komt false uit(niet gelijk als setSectorStatus is toegepast)
         }
 
         [TestMethod]
@@ -83,7 +83,6 @@ namespace UnitTests
 
             string verander = tasks2[3];
             //driverContext.setCleaningTask(verander); verander in "Schoonmaken tram 3"
-            //Luuk, kan je wel iets? Word eens legend #1. Ez pz. Ik heb al cardback.
 
             CollectionAssert.AreEqual(tasks1, tasks2);
         }

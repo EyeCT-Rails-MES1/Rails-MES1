@@ -21,14 +21,14 @@ namespace DAL.Persistencies
 
         public void setSectorStatus(Sector sector)
         {
-            string query = @"UPDATE [Sector] SET [Status] = " + (int)sector.status + @"WHERE [SectorNumber] = " + sector.Number + @";";
+            string query = @"UPDATE [Location] SET [Status] = " + (int)sector.status + @" WHERE [SectorNumber] = " + sector.Number + @";";
             databaseConnection.executeCommand(query);
         }
 
-        public Nullable<int> getSectorStatus(Sector sector)
+        public Nullable<bool> getSectorStatus(Sector sector)
         {
             string query = @"SELECT [Status] FROM [Location] WHERE [SectorNumber] = " + sector.Number + @";";
-            return databaseConnection.executeReaderInt(query);
+            return databaseConnection.executeReaderBool(query);
         }
 
         public List<Sector> getSectorList()
