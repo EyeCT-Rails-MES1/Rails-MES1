@@ -75,11 +75,6 @@ namespace TrinityRailsDemo
             cms.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
         
-        //test voor de het menu klik. (vind je bij events bij properties)
-        private void testToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("ay");
-        }
 
         // hier alle mouseclick events in zetten
         #region Mouse click CMS events
@@ -202,6 +197,11 @@ namespace TrinityRailsDemo
         {
             Application.Exit();
         }
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            UserForm form = new UserForm();
+            form.Show();
+        }
         #endregion
 
         #region Tram Dropdown
@@ -252,22 +252,20 @@ namespace TrinityRailsDemo
         }
         #endregion
 
-        private void btnUsers_Click(object sender, EventArgs e)
-        {
-            UserForm form = new UserForm();
-            form.Show();
-        }
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            trams = tramRepo.getTrams();
-            foreach (Tram tram in trams)
-            {
-                if (tram.status == Status.tramStatus.Remise)
-                {
-                    
-                }
-            }
+        }
+
+        private void cmsButtons_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void tsmSpoorBlok_Click(object sender, EventArgs e)
+        {
+            FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
         }
     }
 }
