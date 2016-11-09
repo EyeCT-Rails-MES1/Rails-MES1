@@ -31,11 +31,8 @@
             this.tbGoTo = new System.Windows.Forms.RichTextBox();
             this.tbHistory = new System.Windows.Forms.RichTextBox();
             this.tbRemarks = new System.Windows.Forms.RichTextBox();
-            this.cbJa = new System.Windows.Forms.CheckBox();
             this.gbTechnicalhelp = new System.Windows.Forms.GroupBox();
-            this.cbNee = new System.Windows.Forms.CheckBox();
             this.lblNeedTechHelp = new System.Windows.Forms.Label();
-            this.cbxNeedCleaning = new System.Windows.Forms.CheckBox();
             this.tbTramNumber = new System.Windows.Forms.RichTextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
@@ -53,6 +50,8 @@
             this.lblRemarks = new System.Windows.Forms.Label();
             this.lblHistory = new System.Windows.Forms.Label();
             this.lblTramNumber = new System.Windows.Forms.Label();
+            this.rbCleaning = new System.Windows.Forms.RadioButton();
+            this.rbRepair = new System.Windows.Forms.RadioButton();
             this.gbTechnicalhelp.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,40 +82,18 @@
             this.tbRemarks.TabIndex = 3;
             this.tbRemarks.Text = "";
             // 
-            // cbJa
-            // 
-            this.cbJa.AutoSize = true;
-            this.cbJa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbJa.Location = new System.Drawing.Point(10, 52);
-            this.cbJa.Name = "cbJa";
-            this.cbJa.Size = new System.Drawing.Size(42, 21);
-            this.cbJa.TabIndex = 4;
-            this.cbJa.Text = "Ja";
-            this.cbJa.UseVisualStyleBackColor = true;
-            // 
             // gbTechnicalhelp
             // 
             this.gbTechnicalhelp.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.gbTechnicalhelp.Controls.Add(this.cbNee);
+            this.gbTechnicalhelp.Controls.Add(this.rbRepair);
+            this.gbTechnicalhelp.Controls.Add(this.rbCleaning);
             this.gbTechnicalhelp.Controls.Add(this.lblNeedTechHelp);
-            this.gbTechnicalhelp.Controls.Add(this.cbJa);
-            this.gbTechnicalhelp.Location = new System.Drawing.Point(22, 235);
+            this.gbTechnicalhelp.Location = new System.Drawing.Point(22, 295);
             this.gbTechnicalhelp.Name = "gbTechnicalhelp";
             this.gbTechnicalhelp.Size = new System.Drawing.Size(241, 100);
             this.gbTechnicalhelp.TabIndex = 5;
             this.gbTechnicalhelp.TabStop = false;
             this.gbTechnicalhelp.Text = "groupBox1";
-            // 
-            // cbNee
-            // 
-            this.cbNee.AutoSize = true;
-            this.cbNee.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbNee.Location = new System.Drawing.Point(10, 75);
-            this.cbNee.Name = "cbNee";
-            this.cbNee.Size = new System.Drawing.Size(53, 21);
-            this.cbNee.TabIndex = 21;
-            this.cbNee.Text = "Nee";
-            this.cbNee.UseVisualStyleBackColor = true;
             // 
             // lblNeedTechHelp
             // 
@@ -124,20 +101,9 @@
             this.lblNeedTechHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNeedTechHelp.Location = new System.Drawing.Point(6, 17);
             this.lblNeedTechHelp.Name = "lblNeedTechHelp";
-            this.lblNeedTechHelp.Size = new System.Drawing.Size(222, 20);
+            this.lblNeedTechHelp.Size = new System.Drawing.Size(139, 20);
             this.lblNeedTechHelp.TabIndex = 20;
-            this.lblNeedTechHelp.Text = "Technische assistentie nodig?";
-            // 
-            // cbxNeedCleaning
-            // 
-            this.cbxNeedCleaning.AutoSize = true;
-            this.cbxNeedCleaning.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxNeedCleaning.Location = new System.Drawing.Point(22, 378);
-            this.cbxNeedCleaning.Name = "cbxNeedCleaning";
-            this.cbxNeedCleaning.Size = new System.Drawing.Size(203, 28);
-            this.cbxNeedCleaning.TabIndex = 5;
-            this.cbxNeedCleaning.Text = "Schoonmaak nodig?";
-            this.cbxNeedCleaning.UseVisualStyleBackColor = true;
+            this.lblNeedTechHelp.Text = "Assistentie nodig?";
             // 
             // tbTramNumber
             // 
@@ -310,6 +276,28 @@
             this.lblTramNumber.TabIndex = 23;
             this.lblTramNumber.Text = "Tramnummer";
             // 
+            // rbCleaning
+            // 
+            this.rbCleaning.AutoSize = true;
+            this.rbCleaning.Location = new System.Drawing.Point(10, 56);
+            this.rbCleaning.Name = "rbCleaning";
+            this.rbCleaning.Size = new System.Drawing.Size(88, 17);
+            this.rbCleaning.TabIndex = 24;
+            this.rbCleaning.TabStop = true;
+            this.rbCleaning.Text = "Schoonmaak";
+            this.rbCleaning.UseVisualStyleBackColor = true;
+            // 
+            // rbRepair
+            // 
+            this.rbRepair.AutoSize = true;
+            this.rbRepair.Location = new System.Drawing.Point(10, 77);
+            this.rbRepair.Name = "rbRepair";
+            this.rbRepair.Size = new System.Drawing.Size(71, 17);
+            this.rbRepair.TabIndex = 25;
+            this.rbRepair.TabStop = true;
+            this.rbRepair.Text = "Reparatie";
+            this.rbRepair.UseVisualStyleBackColor = true;
+            // 
             // DriverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -332,7 +320,6 @@
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.tbTramNumber);
-            this.Controls.Add(this.cbxNeedCleaning);
             this.Controls.Add(this.gbTechnicalhelp);
             this.Controls.Add(this.tbRemarks);
             this.Controls.Add(this.tbHistory);
@@ -351,11 +338,8 @@
         private System.Windows.Forms.RichTextBox tbGoTo;
         private System.Windows.Forms.RichTextBox tbHistory;
         private System.Windows.Forms.RichTextBox tbRemarks;
-        private System.Windows.Forms.CheckBox cbJa;
         private System.Windows.Forms.GroupBox gbTechnicalhelp;
-        private System.Windows.Forms.CheckBox cbNee;
         private System.Windows.Forms.Label lblNeedTechHelp;
-        private System.Windows.Forms.CheckBox cbxNeedCleaning;
         private System.Windows.Forms.RichTextBox tbTramNumber;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
@@ -373,5 +357,7 @@
         private System.Windows.Forms.Label lblRemarks;
         private System.Windows.Forms.Label lblHistory;
         private System.Windows.Forms.Label lblTramNumber;
+        private System.Windows.Forms.RadioButton rbRepair;
+        private System.Windows.Forms.RadioButton rbCleaning;
     }
 }

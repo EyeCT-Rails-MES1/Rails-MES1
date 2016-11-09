@@ -18,10 +18,9 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setCleaningTask(string task)
+        public void setCleaningTask(string task, Tram tram)
         {
-            string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @";";
-            //Moet nog geimplementeerd worden
+            string query = @"INSERT INTO [Cleaninglist] VALUES ('"+ null + @"', " + task + @", " + tram.number + @");";
             databaseConnection.executeCommand(query);
         }
 

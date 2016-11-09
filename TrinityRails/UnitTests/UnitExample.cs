@@ -82,7 +82,8 @@ namespace UnitTests
             tasks2.Add("Schoonmaken tram 4");
 
             string verander = tasks2[3];
-            driverContext.setCleaningTask(verander); //verander in "Schoonmaken tram 3"
+            //driverContext.setCleaningTask(verander); verander in "Schoonmaken tram 3"
+            //Luuk, kan je wel iets? Word eens legend #1. Ez pz. Ik heb al cardback.
 
             CollectionAssert.AreEqual(tasks1, tasks2);
         }

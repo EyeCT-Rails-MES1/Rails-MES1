@@ -11,14 +11,15 @@ using DAL.Types;
 using DAL.Repositories;
 using DAL.Interfaces;
 using DAL.Persistencies;
-using Phidgets;
-using Phidgets.Events;
 using System.Windows.Forms;
+
 
 namespace TrinityRailsDemo
 {
     public partial class DriverForm : Form
     {
+        TramRepository TramRepo = new TramRepository(new TramSQL());
+        DriverRepository DriverRepo = new DriverRepository(new DriverSQL());
         User user;
 
         public DriverForm(User user)
@@ -92,20 +93,33 @@ namespace TrinityRailsDemo
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            foreach (Tram tram in TramRepo.getTrams())
+            {
+                if (tram.number == Convert.ToInt32(tbTramNumber.Text))
+                {
+                    if (rbRepair.Checked)
+                    {
+                        TramRepo.setStatus(tram, Classes.Enumerations.Status.tramStatus.Repair);
+                    }
+                    if (rbCleaning.Checked)
+                    {
+                        TramRepo.setStatus(tram, Classes.Enumerations.Status.tramStatus.Cleaning);
+                        DriverRepo.addCleaningTask(tbRemarks.Text, tram);
+                    }
+                    tbGoTo.Text = Convert.ToString(DriverRepo.getLocation(tram));
+                }
+            }
             
         }
 
         private void tbTramNumber_TextChanged(object sender, EventArgs e)
         {
-            if (cbJa.Checked && tbRemarks.Text == "" || cbNee.Checked)
+            if (rbRepair.Checked && tbRemarks.Text != "" || rbCleaning.Checked && tbRemarks.Text != "")
             {
-                if (cbxNeedCleaning.Checked && tbRemarks.Text == "" || cbxNeedCleaning.Checked == false)
-                {
-                    if (tbTramNumber.TextLength == 3 || tbTramNumber.TextLength == 4)
+                 if (tbTramNumber.TextLength == 3 || tbTramNumber.TextLength == 4)
                     {
                         btnConfirm.Enabled = true;
                     }
-                }
             }
         }
     }

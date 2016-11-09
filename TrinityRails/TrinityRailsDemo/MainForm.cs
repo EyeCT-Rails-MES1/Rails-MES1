@@ -33,7 +33,7 @@ namespace TrinityRailsDemo
                     btnSchoonmaak.Enabled = true;
                     break;
                 case Function.userFunction.Driver:
-                    btnTrams.Enabled = true;
+                    btnDiensten.Enabled = true;
                     break;
                 case Function.userFunction.Engineer:
                     btnRepair.Enabled = true;

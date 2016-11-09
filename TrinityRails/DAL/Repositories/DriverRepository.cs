@@ -20,9 +20,9 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public void addCleaningTask(string cleaningTask)
+        public void addCleaningTask(string cleaningTask, Tram tram)
         {
-            context.setCleaningTask(cleaningTask);
+            context.setCleaningTask(cleaningTask, tram);
         }
 
         public int getLocation(Tram tram)
