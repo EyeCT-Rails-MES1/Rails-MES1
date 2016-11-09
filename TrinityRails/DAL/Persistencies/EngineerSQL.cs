@@ -9,7 +9,7 @@ using Classes.Enumerations;
 
 namespace DAL.Persistencies
 {
-    class EngineerSQL : IEngineer
+    public class EngineerSQL : IEngineer
     {
         private DatabaseConnection databaseConnection;
 
