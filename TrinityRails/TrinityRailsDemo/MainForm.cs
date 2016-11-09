@@ -23,6 +23,8 @@ namespace TrinityRailsDemo
         User user;
         List<Tram> trams;
         TramRepository tramRepo = new TramRepository(new TramSQL());
+        FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
+
         public MainForm(User user)
         {
             InitializeComponent();
@@ -266,7 +268,6 @@ namespace TrinityRailsDemo
 
         private void tsmSpoorBlok_Click(object sender, EventArgs e)
         {
-            FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
             foreach (Sector sector in fleetRepo.getSectorList())
             {
                 if (sector.railNumber == Convert.ToInt32(currentTextBox.Name.Substring(currentTextBox.Name.IndexOf("R") + 1, 2)))
@@ -290,6 +291,20 @@ namespace TrinityRailsDemo
                 }
             }
 
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            List<Sector> sectors = new List<Sector>();
+            foreach (Tram tram in tramRepo.getTrams())
+            {
+                sectors = fleetRepo.getSectorList();
+                if (tram.rail != 0 && tram.sector != 0)
+                {
+                    
+
+                }
+            }
         }
     }
 }

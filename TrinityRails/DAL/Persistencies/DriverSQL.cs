@@ -20,7 +20,9 @@ namespace DAL.Persistencies
 
         public void createCleaningTask(string task, Tram tram)
         {
-            string query = @"INSERT INTO [Cleaninglist] VALUES ('" + null + @"', " + task + @", " + tram.number + @");";
+            string query = @"SELECT MAX(ID) FROM [Cleaninglist]";
+            int CleaningListID = (int)databaseConnection.executeReaderInt(query) + 1;
+            query = @"INSERT INTO [Cleaninglist] VALUES (" + CleaningListID + @", '" + "NULL" + @"', '" + task + @"', " + tram.number + @");";
             databaseConnection.executeCommand(query);
         }
 
