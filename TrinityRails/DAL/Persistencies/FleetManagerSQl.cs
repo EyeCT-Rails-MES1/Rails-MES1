@@ -31,7 +31,7 @@ namespace DAL.Persistencies
             return databaseConnection.executeReaderInt(query);
         }
 
-        List<Sector> IFleetManager.getSectorList()
+        public List<Sector> getSectorList()
         {
             List<Sector> sectorList = new List<Sector>();
             string query = @"select ID from [Location];";
@@ -49,7 +49,8 @@ namespace DAL.Persistencies
             }
             return sectorList;
         }
-        List<Rails> IFleetManager.getRailList()
+
+        public List<Rails> getRailList()
         {
             List<Rails> railList = new List<Rails>();
             string query = @"select ID from [Location];";

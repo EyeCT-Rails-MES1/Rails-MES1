@@ -10,7 +10,7 @@ namespace DAL.Interfaces
 {
     public interface IFleetManager
     {
-        Nullable<bool> getSectorStatus(Sector sector);
+        Nullable<int> getSectorStatus(Sector sector);
         void setSectorStatus(Sector sector);
 
         List<Sector> getSectorList();
