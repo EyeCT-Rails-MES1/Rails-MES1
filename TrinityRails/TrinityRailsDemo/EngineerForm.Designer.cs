@@ -136,7 +136,7 @@
             this.Controls.Add(this.gbDatum);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EngineerForm";
-            this.Text = "w";
+            this.Text = "EngineerForm";
             this.Load += new System.EventHandler(this.EngineerForm_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
