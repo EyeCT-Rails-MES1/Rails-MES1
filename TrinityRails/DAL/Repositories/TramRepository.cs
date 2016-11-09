@@ -20,7 +20,8 @@ namespace DAL.Repositories
         }
         public List<Tram> getTrams()
         {
-            return trams;
+            List<Tram> hary = context.getTrams();
+            return hary;
         }
         public void setStatus(Tram tram, Status.tramStatus status)
         {
