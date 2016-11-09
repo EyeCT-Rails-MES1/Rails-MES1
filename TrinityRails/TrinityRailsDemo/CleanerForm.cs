@@ -7,24 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Classes;
+using DAL.Types;
+using DAL.Repositories;
+using DAL.Interfaces;
+using DAL.Persistencies;
 
 namespace TrinityRailsDemo
 {
     public partial class CleanerForm : Form
     {
-        public CleanerForm()
+        CleanerRepository CleanerRepo = new CleanerRepository(new CleanerSQL());
+        List<string> Taken = new List<string>();
+        User user;
+
+        public CleanerForm(User user)
         {
             InitializeComponent();
+            this.user = user;
         }
 
         private void CleanerForm_Load(object sender, EventArgs e)
         {
-            cbTramStatus.Items.Clear();
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Cleaning);
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Repair);
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Remise);
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Service);
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Defect);
+            Taken = CleanerRepo.getCleaningList();
+            foreach (string taak in Taken)
+            {
+                lbCleaning.Items.Add(taak);
+            }
+        }
+
+        private void btnFinishCleaning_Click(object sender, EventArgs e)
+        {
+            int selected = lbCleaning.SelectedIndex;
+            CleanerRepo.finishCleaning(Taken[selected]);
         }
     }
 }

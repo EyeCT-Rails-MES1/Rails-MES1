@@ -183,7 +183,7 @@ namespace TrinityRailsDemo
 
         private void btnSchoonmaak_Click(object sender, EventArgs e)
         {
-            ShowCMS(this, btnSchoonmaak, cmsSchoonmaak);
+            CleanerForm form = new CleanerForm(user);
         }
 
         private void btnRepair_Click(object sender, EventArgs e)

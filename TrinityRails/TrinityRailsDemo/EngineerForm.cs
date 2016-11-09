@@ -42,7 +42,8 @@ namespace TrinityRailsDemo
 
         private void btnFinishRepair_Click(object sender, EventArgs e)
         {
-
+            int Selected = lbRepair.SelectedIndex;
+            EngineerRepo.finishRepair(Trams[Selected], user, dtDate.Value, Classes.Enumerations.Status.tramStatus.Remise);
         }
 
         private void button1_Click(object sender, EventArgs e)
