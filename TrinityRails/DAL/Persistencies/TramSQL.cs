@@ -29,11 +29,11 @@ namespace DAL.Persistencies
                 tempTram.number = id;
                 query = @"Select Status from [Tram] where ID =" + id + @";";
                 tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);
-                query = @"Select Sector from [Tram] where ID =" + id + @";";
+                query = @"Select SectorNumber from [Location] where ID = Location.ID AND Tram.LocationID=" + id + @";";
                 tempTram.sector = (int)databaseConnection.executeReaderInt(query);
                 query = @"Select RFID from [Tram] where ID =" + id + @";";
                 tempTram.RFID = (string)databaseConnection.executeReaderString(query);
-                query = @"Select Rail from [Tram] where ID =" + id + @";";
+                query = @"Select RailNumber from [Location] where ID = Location.ID AND Tram.LocationID=" + id + @";";
                 tempTram.rail = (int)databaseConnection.executeReaderInt(query);
                 userList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
             }
