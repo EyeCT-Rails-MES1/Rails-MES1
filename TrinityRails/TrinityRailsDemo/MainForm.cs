@@ -266,7 +266,7 @@ namespace TrinityRailsDemo
         private void tsmSpoorBlok_Click(object sender, EventArgs e)
         {
             FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
-            fleetRepo.blockSector();
+            //fleetRepo.blockSector();
         }
     }
 }

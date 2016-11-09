@@ -35,7 +35,6 @@
             this.dtDate = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbRepair = new System.Windows.Forms.ListBox();
-            this.btnRepair = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.gbDatum.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -50,6 +49,7 @@
             this.btnFinishRepair.TabIndex = 8;
             this.btnFinishRepair.Text = "Reparatie afgerond";
             this.btnFinishRepair.UseVisualStyleBackColor = true;
+            this.btnFinishRepair.Click += new System.EventHandler(this.btnFinishRepair_Click_1);
             // 
             // groupBox3
             // 
@@ -74,7 +74,7 @@
             // gbDatum
             // 
             this.gbDatum.Controls.Add(this.dtDate);
-            this.gbDatum.Location = new System.Drawing.Point(165, 140);
+            this.gbDatum.Location = new System.Drawing.Point(165, 59);
             this.gbDatum.Margin = new System.Windows.Forms.Padding(2);
             this.gbDatum.Name = "gbDatum";
             this.gbDatum.Padding = new System.Windows.Forms.Padding(2);
@@ -113,23 +113,11 @@
             this.lbRepair.TabIndex = 0;
             this.lbRepair.SelectedIndexChanged += new System.EventHandler(this.lbRepair_SelectedIndexChanged);
             // 
-            // btnRepair
-            // 
-            this.btnRepair.Location = new System.Drawing.Point(165, 64);
-            this.btnRepair.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRepair.Name = "btnRepair";
-            this.btnRepair.Size = new System.Drawing.Size(188, 62);
-            this.btnRepair.TabIndex = 16;
-            this.btnRepair.Text = "Repareren";
-            this.btnRepair.UseVisualStyleBackColor = true;
-            this.btnRepair.Click += new System.EventHandler(this.button1_Click);
-            // 
             // EngineerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 272);
-            this.Controls.Add(this.btnRepair);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnFinishRepair);
             this.Controls.Add(this.groupBox3);
@@ -154,6 +142,5 @@
         private System.Windows.Forms.DateTimePicker dtDate;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ListBox lbRepair;
-        private System.Windows.Forms.Button btnRepair;
     }
 }
