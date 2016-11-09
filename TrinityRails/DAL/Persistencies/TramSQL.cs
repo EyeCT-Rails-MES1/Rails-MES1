@@ -18,26 +18,27 @@ namespace DAL.Persistencies
         {
             databaseConnection = new DatabaseConnection();
         }
-        public List<Tram> getTrams()
+        List<Tram> ITram.getTrams()
         {
-            List<Tram> userList = new List<Tram>();
+            List<Tram> TramList = new List<Tram>();
             string query = @"select TramNumber from [Tram];";
             List<int> tramID = databaseConnection.executeReaderIntList(query);
-            Tram tempTram = new Tram(1, 0, 1, "1", 1);
-            foreach (int id in tramID)
+            Tram tempTram = new Tram(1, Status.tramStatus.Repair, 1, "1", 1);
+            foreach (int harry in tramID)
             {
+                int id = 816;
                 tempTram.number = id;
-                query = @"Select Status from [Tram] where ID =" + id + @";";
+                query = @"Select Status from [Tram] where TramNumber =" + id + @";";
                 tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);
-                query = @"Select SectorNumber from [Location] where ID = Location.ID AND Tram.LocationID=" + id + @";";
+                query = @"select SectorNumber from [LOCATION] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
                 tempTram.sector = (int)databaseConnection.executeReaderInt(query);
                 query = @"Select RFID from [Tram] where ID =" + id + @";";
                 tempTram.RFID = (string)databaseConnection.executeReaderString(query);
-                query = @"Select RailNumber from [Location] where ID = Location.ID AND Tram.LocationID=" + id + @";";
+                query = @"Select RailNumber from [Location] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
                 tempTram.rail = (int)databaseConnection.executeReaderInt(query);
-                userList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
+                TramList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
             }
-            return userList;
+            return TramList;
 
 
             //string query = @"SELECT [TramNumber, RFID, Status, Rail, Sector] FROM [Tram];";
