@@ -9,7 +9,7 @@ using Classes;
 
 namespace DAL.Repositories
 {
-    class FleetManagerRepository
+    public class FleetManagerRepository
     {
         IFleetManager context;
         List<User> userList = new List<User>();
@@ -37,5 +37,16 @@ namespace DAL.Repositories
             block = false;
             context.setSectorStatus(sector);
         }
+
+        public List<Rails> getRailsList()
+        {
+            return context.getRailList();
+        }
+
+        public List<Sector> getSectorList()
+        {
+            return context.getSectorList();
+        }
+
     }
 }

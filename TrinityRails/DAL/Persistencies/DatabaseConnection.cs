@@ -13,7 +13,6 @@ namespace DAL.Persistencies
 
         public void executeCommand(string query)
         {
-            SqlDependency.Start(connectionString);
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))

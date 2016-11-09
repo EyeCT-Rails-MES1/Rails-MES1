@@ -20,6 +20,7 @@ namespace TrinityRailsDemo
         TramRepository TramRepo = new TramRepository(new TramSQL());
         EngineerRepository EngineerRepo = new EngineerRepository(new EngineerSQL());
         List<Tram> Trams = new List<Tram>();
+        List<Tram> DefecteTrams = new List<Tram>();
         User user;
 
         public EngineerForm(User user)
@@ -33,28 +34,33 @@ namespace TrinityRailsDemo
             Trams = TramRepo.getTrams();
             foreach (Tram tram in Trams)
             {
-                if (tram.status == Classes.Enumerations.Status.tramStatus.Defect || tram.status == Classes.Enumerations.Status.tramStatus.Repair)
+                if (tram.status == Classes.Enumerations.Status.tramStatus.Repair)
                 {
+                    DefecteTrams.Add(tram);
                     lbRepair.Items.Add(tram.number + ": " + tram.status);
                 }
             }
         }
 
-        private void btnFinishRepair_Click(object sender, EventArgs e)
-        {
-            int Selected = lbRepair.SelectedIndex;
-            EngineerRepo.finishRepair(Trams[Selected], user, dtDate.Value, Classes.Enumerations.Status.tramStatus.Remise);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int Selected = lbRepair.SelectedIndex;
-            EngineerRepo.setRepair(Trams[Selected], user, Classes.Enumerations.Status.tramStatus.Repair);
-        }
-
         private void lbRepair_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnFinishRepair_Click_1(object sender, EventArgs e)
+        {
+            int Selected = lbRepair.SelectedIndex;
+            EngineerRepo.finishRepair(DefecteTrams[Selected], user, dtDate.Value, Classes.Enumerations.Status.tramStatus.Remise);
+            lbRepair.Items.Clear();
+            Trams = TramRepo.getTrams();
+            foreach (Tram tram in Trams)
+            {
+                if (tram.status == Classes.Enumerations.Status.tramStatus.Repair)
+                {
+                    DefecteTrams.Add(tram);
+                    lbRepair.Items.Add(tram.number + ": " + tram.status);
+                }
+            }
         }
     }
 }

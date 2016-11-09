@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Classes.Enumerations
 {
-    public class Status
+    public class RailStatus
     {
-        public enum tramStatus
+        public enum railStatus
         {
-            Cleaning = 1,   
-            Repair = 2,     
-            Remise = 3,     
-            Service = 4  
+            Available = 1,
+            Blocked = 2,
+            Occupied = 3
         }
     }
 }

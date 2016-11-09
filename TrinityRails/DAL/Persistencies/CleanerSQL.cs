@@ -33,7 +33,7 @@ namespace DAL.Persistencies
 
         public void setStatus(Tram tram, Status.tramStatus status)
         {
-            string query = @"UPDATE [Tram] SET [Status] = " + status.ToString() + @" WHERE [TramNumber] = " + tram.number + @";";
+            string query = @"UPDATE [Tram] SET [Status] = " + status.ToInt() + @"WHERE [TramNumber] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 

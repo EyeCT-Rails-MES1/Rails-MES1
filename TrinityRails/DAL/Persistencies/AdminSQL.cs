@@ -19,13 +19,13 @@ namespace DAL.Persistencies
 
         public void changePassword(User user, string password)
         {
-            string query = @"UPDATE [User] SET Password = " + password + @" WHERE [ID] = " + user.ID + @" COLLATE Latin1_General_CS_AS_KS_WS;";
+            string query = @"UPDATE [User] SET Password = '" + password + @"' WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void changeUsername(User user)
         {
-            string query = @"UPDATE [User] SET Username = " + user.username + @" WHERE [ID] = " + user.ID + @";";
+            string query = @"UPDATE [User] SET Username = '" + user.username + @"' WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         }
 

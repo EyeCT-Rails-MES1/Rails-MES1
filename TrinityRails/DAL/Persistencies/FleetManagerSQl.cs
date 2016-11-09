@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Classes;
 using DAL.Interfaces;
 using DAL.Types;
+using Classes.Enumerations;
 
 namespace DAL.Persistencies
 {
-    class FleetManagerSQL : IFleetManager
+    public class FleetManagerSQL : IFleetManager
     {
         private DatabaseConnection databaseConnection;
 
@@ -20,14 +21,63 @@ namespace DAL.Persistencies
 
         public void setSectorStatus(Sector sector)
         {
-            string query = @"UPDATE [Location] SET [Status] = " + sector.blocked + @" WHERE [SectorNumber] = " + sector.Number + @";";
+            string query = @"UPDATE [Sector] SET [Status] = " + (int)sector.status + @"WHERE [SectorNumber] = " + sector.Number + @";";
             databaseConnection.executeCommand(query);
         }
 
-        public Nullable<bool> getSectorStatus(Sector sector)
+        public Nullable<int> getSectorStatus(Sector sector)
         {
             string query = @"SELECT [Status] FROM [Location] WHERE [SectorNumber] = " + sector.Number + @";";
-            return databaseConnection.executeReaderBool(query);
+            return databaseConnection.executeReaderInt(query);
+        }
+
+        List<Sector> IFleetManager.getSectorList()
+        {
+            List<Sector> sectorList = new List<Sector>();
+            string query = @"select ID from [Location];";
+            List<int> sectorID = databaseConnection.executeReaderIntList(query);
+            foreach (int id in sectorID)
+            {
+                query = @"Select RailNumber from [Location] where ID =" + id + @";";
+                int railnummer = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select SectorNumber from [Location] where ID =" + id + @";";
+                int sectornummer = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select Status from [Location where ID =" + id + @";";
+                RailStatus.railStatus status = (RailStatus.railStatus)databaseConnection.executeReaderInt(query);
+
+                sectorList.Add(new Sector(railnummer, sectornummer, status));
+            }
+            return sectorList;
+        }
+        List<Rails> IFleetManager.getRailList()
+        {
+            List<Rails> railList = new List<Rails>();
+            string query = @"select ID from [Location];";
+            List<int> railID = databaseConnection.executeReaderIntList(query);
+            foreach (int id in railID)
+            {
+                query = @"Select RailNumber from [Location] where ID =" + id + @";";
+                int railnummer = (int)databaseConnection.executeReaderInt(query);
+                if (railList.Count > 0)
+                {
+                    foreach (Rails rail in railList)
+                    {
+                        if (rail.Number == railnummer)
+                        {
+                            rail.sectorAmount++;
+                        }
+                        else
+                        {
+                            railList.Add(new Rails(railnummer, 1));
+                        }
+                    }
+                }
+                else
+                {
+                    railList.Add(new Rails(railnummer, 1));
+                }
+            }
+            return railList;
         }
     }
 }

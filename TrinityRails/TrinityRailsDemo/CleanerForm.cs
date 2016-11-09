@@ -39,7 +39,7 @@ namespace TrinityRailsDemo
         private void btnFinishCleaning_Click(object sender, EventArgs e)
         {
             int selected = lbCleaning.SelectedIndex;
-            CleanerRepo.finishCleaning(Taken[selected]);
+            //CleanerRepo.finishCleaning(dtDate.Value,  Taken[selected]);
         }
     }
 }

@@ -23,7 +23,7 @@ namespace TrinityRailsDemo
         public InlogForm()
         {
             InitializeComponent();
-            rfid = new RFID(); //Declare an RFID object
+           // rfid = new RFID(); //Declare an RFID object
         }
 
         private void btnInloggen_Click(object sender, EventArgs e)

@@ -13,6 +13,7 @@ using TrinityRailsDemo.RailForms;
 using TrinityRailsDemo.SideForms;
 using DAL.Repositories;
 using DAL.Persistencies;
+using Classes;
 
 namespace TrinityRailsDemo
 {
@@ -75,11 +76,6 @@ namespace TrinityRailsDemo
             cms.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
         
-        //test voor de het menu klik. (vind je bij events bij properties)
-        private void testToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("ay");
-        }
 
         // hier alle mouseclick events in zetten
         #region Mouse click CMS events
@@ -200,7 +196,12 @@ namespace TrinityRailsDemo
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            UserForm form = new UserForm();
+            form.Show();
         }
         #endregion
 
@@ -252,21 +253,27 @@ namespace TrinityRailsDemo
         }
         #endregion
 
-        private void btnUsers_Click(object sender, EventArgs e)
-        {
-            UserForm form = new UserForm();
-            form.Show();
-        }
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            trams = tramRepo.getTrams();
-            foreach (Tram tram in trams)
+        }
+
+        private void cmsButtons_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void tsmSpoorBlok_Click(object sender, EventArgs e)
+        {
+            FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
+            //foreach(Sector sector in fleetRepo.getSectorList())
+           // {
+           //     MessageBox.Show(sector.Number.ToString() + ", " + sector.railNumber.ToString());
+            //}
+            foreach(Rails rail in fleetRepo.getRailsList())
             {
-                if (tram.status == Status.tramStatus.Remise)
-                {
-                    
-                }
+                MessageBox.Show(rail.Number.ToString() + ", " + rail.sectorAmount.ToString());
             }
         }
     }
