@@ -25,7 +25,7 @@ namespace DAL.Repositories
             return context.cleaningList();
         }
 
-        public void finishCleaning(string taak)
+        public void finishCleaning(DateTime date, Tram tram, User user, string taak)
         {
             context.cleaningList().Remove(taak);
         }
