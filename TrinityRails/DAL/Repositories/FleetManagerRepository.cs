@@ -26,15 +26,13 @@ namespace DAL.Repositories
 
         public void blockSector(Sector sector)
         {
-            bool block = sector.blocked;
-            block = true;
+            sector.status = Classes.Enumerations.RailStatus.railStatus.Blocked;
             context.setSectorStatus(sector);
         }
 
         public void unblockSector(Sector sector)
         {
-            bool block = sector.blocked;
-            block = false;
+            sector.status = Classes.Enumerations.RailStatus.railStatus.Available;
             context.setSectorStatus(sector);
         }
 
