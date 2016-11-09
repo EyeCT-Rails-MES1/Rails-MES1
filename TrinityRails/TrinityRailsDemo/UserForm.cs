@@ -18,7 +18,7 @@ namespace TrinityRailsDemo
     public partial class UserForm : Form
     {
         AdminRepository adminRepo = new AdminRepository(new AdminSQL());
-
+        List<User> Users = new List<User>();
         public UserForm()
         {
             InitializeComponent();
@@ -33,19 +33,17 @@ namespace TrinityRailsDemo
 
         private void UserForm_Load(object sender, EventArgs e)
         {
+            Users = adminRepo.getUsers();
             cbFunction.Items.Clear();
-            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Driver);
-            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Admin);
-            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Engineer);
             cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Cleaner);
+            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Driver);
+            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Engineer);
             cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Fleetmanager);
+            cbFunction.Items.Add(Classes.Enumerations.Function.userFunction.Admin);
 
-            foreach (User user in adminRepo.getUsers())
+            foreach (User user in Users)
             {
-                if (user.ID == Convert.ToInt32(tbID.Text))
-                {
-                    lbUserList.Items.Add(user.username + user.function);
-                }
+                    lbUserList.Items.Add(user.name + ", "+  user.function);
             }
         }
 
@@ -83,6 +81,15 @@ namespace TrinityRailsDemo
                 }
                 MessageBox.Show("Gebruiker verwijderd.");
             }
+        }
+
+        private void lbUserList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int Selected = lbUserList.SelectedIndex;
+            tbID.Text = Convert.ToString(Users[Selected].ID);
+            tbName.Text = Users[Selected].name;
+            tbUserName.Text = Users[Selected].username;
+            cbFunction.SelectedIndex = Convert.ToInt32(Users[Selected].function) - 1;
         }
     }
 }

@@ -34,26 +34,7 @@ namespace DAL.Types
 
         public void checkFunction()
         {
-            switch (function)
-            {
-                case Function.userFunction.Cleaner:
-                    //Cleaner Form open
-                    break;
-                case Function.userFunction.Driver:
-                    
-                    break;
-                case Function.userFunction.Engineer:
-                    EngineerRepository engineer = new EngineerRepository(new EngineerSQL());
-                    break;
-                case Function.userFunction.Fleetmanager:
-                    FleetManagerRepository fleetmanager = new FleetManagerRepository(new FleetManagerSQL());
-                    break;
-                case Function.userFunction.Admin:
-                    AdminRepository admin = new AdminRepository(new AdminSQL());
-                    break;
-                default:
-                    throw new UnauthorizedAccessException("Failed to get access");
-            }
+
         }
 
         public override string ToString()

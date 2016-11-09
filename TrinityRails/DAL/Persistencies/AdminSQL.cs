@@ -43,8 +43,22 @@ namespace DAL.Persistencies
 
         List<User> IAdmin.getUsers()
         {
-            throw new NotImplementedException();
-            //Haalt alle users op en maakt nieuwe user instanties aan
+            List<User> userList = new List<User>();
+            string query = @"select ID from [user];";
+            List<int> userID = databaseConnection.executeReaderIntList(query);
+            User tempUser = new User(0,"harry");
+            foreach(int id in userID)
+            {
+                tempUser.ID = id;
+                query = @"Select Name from [user] where ID =" + id + @";";
+                tempUser.name = databaseConnection.executeReaderString(query);
+                query = @"Select Username from [user] where ID =" + id + @";";
+                tempUser.username = databaseConnection.executeReaderString(query);
+                query = @"Select FunctionID from [user] where ID =" + id + @";";
+                tempUser.function = (Function.userFunction)databaseConnection.executeReaderInt(query);
+                userList.Add(new User(tempUser.ID, tempUser.name, tempUser.username, tempUser.function));
+            }
+            return userList;
         }
     }
 }

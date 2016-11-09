@@ -17,9 +17,11 @@ namespace TrinityRailsDemo
     public partial class MainForm : Form
     {
         TextBox currentTextBox;
+        User user;
         public MainForm(User user)
         {
             InitializeComponent();
+            this.user = user;
             btnExit.Enabled = true;
             switch (user.function)
             {
@@ -61,8 +63,11 @@ namespace TrinityRailsDemo
         //Verander de naam van context menu strip (nu cmsVakjes) in iets wat normaal klinkt
         private void ShowTextBoxCMS(Control cont, Object current)
         {
-            TextBox selected = (TextBox)current;
-            cmsButtons.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
+            if (user.function == Function.userFunction.Fleetmanager)
+            {
+                TextBox selected = (TextBox)current;
+                cmsButtons.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
+            }
         }
 
         private void ShowCMS(Control cont, object current, ContextMenuStrip cms)

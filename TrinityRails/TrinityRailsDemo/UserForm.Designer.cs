@@ -31,6 +31,11 @@
             this.lbUserList = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbID = new System.Windows.Forms.TextBox();
+            this.lblID = new System.Windows.Forms.Label();
+            this.cbFunction = new System.Windows.Forms.ComboBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbUserName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,11 +46,6 @@
             this.btnVeranderWachtwoord = new System.Windows.Forms.Button();
             this.btnVeranderNaam = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cbFunction = new System.Windows.Forms.ComboBox();
-            this.tbID = new System.Windows.Forms.TextBox();
-            this.lblID = new System.Windows.Forms.Label();
-            this.tbName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -55,18 +55,19 @@
             // 
             this.lbUserList.FormattingEnabled = true;
             this.lbUserList.Location = new System.Drawing.Point(4, 24);
-            this.lbUserList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lbUserList.Margin = new System.Windows.Forms.Padding(2);
             this.lbUserList.Name = "lbUserList";
             this.lbUserList.Size = new System.Drawing.Size(138, 212);
             this.lbUserList.TabIndex = 0;
+            this.lbUserList.SelectedIndexChanged += new System.EventHandler(this.lbUserList_SelectedIndexChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lbUserList);
             this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(146, 245);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -85,18 +86,62 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(180, 144);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(416, 110);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Gebruikergegevens";
             // 
+            // tbName
+            // 
+            this.tbName.Location = new System.Drawing.Point(282, 54);
+            this.tbName.Margin = new System.Windows.Forms.Padding(2);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(120, 20);
+            this.tbName.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(229, 57);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Naam:";
+            // 
+            // tbID
+            // 
+            this.tbID.Location = new System.Drawing.Point(282, 25);
+            this.tbID.Margin = new System.Windows.Forms.Padding(2);
+            this.tbID.Name = "tbID";
+            this.tbID.Size = new System.Drawing.Size(120, 20);
+            this.tbID.TabIndex = 7;
+            // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Location = new System.Drawing.Point(229, 25);
+            this.lblID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(21, 13);
+            this.lblID.TabIndex = 6;
+            this.lblID.Text = "ID:";
+            // 
+            // cbFunction
+            // 
+            this.cbFunction.FormattingEnabled = true;
+            this.cbFunction.Location = new System.Drawing.Point(95, 84);
+            this.cbFunction.Name = "cbFunction";
+            this.cbFunction.Size = new System.Drawing.Size(120, 21);
+            this.cbFunction.TabIndex = 5;
+            // 
             // tbPassword
             // 
             this.tbPassword.Location = new System.Drawing.Point(95, 54);
-            this.tbPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(2);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(120, 20);
             this.tbPassword.TabIndex = 4;
@@ -104,7 +149,7 @@
             // tbUserName
             // 
             this.tbUserName.Location = new System.Drawing.Point(95, 25);
-            this.tbUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbUserName.Margin = new System.Windows.Forms.Padding(2);
             this.tbUserName.Name = "tbUserName";
             this.tbUserName.Size = new System.Drawing.Size(120, 20);
             this.tbUserName.TabIndex = 3;
@@ -142,7 +187,7 @@
             // btnVoegToe
             // 
             this.btnVoegToe.Location = new System.Drawing.Point(8, 17);
-            this.btnVoegToe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVoegToe.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoegToe.Name = "btnVoegToe";
             this.btnVoegToe.Size = new System.Drawing.Size(83, 41);
             this.btnVoegToe.TabIndex = 3;
@@ -153,7 +198,7 @@
             // btnVerwijder
             // 
             this.btnVerwijder.Location = new System.Drawing.Point(95, 17);
-            this.btnVerwijder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVerwijder.Margin = new System.Windows.Forms.Padding(2);
             this.btnVerwijder.Name = "btnVerwijder";
             this.btnVerwijder.Size = new System.Drawing.Size(83, 41);
             this.btnVerwijder.TabIndex = 4;
@@ -164,7 +209,7 @@
             // btnVeranderWachtwoord
             // 
             this.btnVeranderWachtwoord.Location = new System.Drawing.Point(95, 71);
-            this.btnVeranderWachtwoord.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVeranderWachtwoord.Margin = new System.Windows.Forms.Padding(2);
             this.btnVeranderWachtwoord.Name = "btnVeranderWachtwoord";
             this.btnVeranderWachtwoord.Size = new System.Drawing.Size(83, 41);
             this.btnVeranderWachtwoord.TabIndex = 6;
@@ -176,7 +221,7 @@
             // 
             this.btnVeranderNaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVeranderNaam.Location = new System.Drawing.Point(8, 71);
-            this.btnVeranderNaam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVeranderNaam.Margin = new System.Windows.Forms.Padding(2);
             this.btnVeranderNaam.Name = "btnVeranderNaam";
             this.btnVeranderNaam.Size = new System.Drawing.Size(83, 41);
             this.btnVeranderNaam.TabIndex = 5;
@@ -191,57 +236,13 @@
             this.groupBox3.Controls.Add(this.btnVerwijder);
             this.groupBox3.Controls.Add(this.btnVeranderNaam);
             this.groupBox3.Location = new System.Drawing.Point(180, 10);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(187, 121);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Opties";
-            // 
-            // cbFunction
-            // 
-            this.cbFunction.FormattingEnabled = true;
-            this.cbFunction.Location = new System.Drawing.Point(95, 84);
-            this.cbFunction.Name = "cbFunction";
-            this.cbFunction.Size = new System.Drawing.Size(120, 21);
-            this.cbFunction.TabIndex = 5;
-            // 
-            // tbID
-            // 
-            this.tbID.Location = new System.Drawing.Point(282, 25);
-            this.tbID.Margin = new System.Windows.Forms.Padding(2);
-            this.tbID.Name = "tbID";
-            this.tbID.Size = new System.Drawing.Size(120, 20);
-            this.tbID.TabIndex = 7;
-            // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(229, 25);
-            this.lblID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(21, 13);
-            this.lblID.TabIndex = 6;
-            this.lblID.Text = "ID:";
-            // 
-            // tbName
-            // 
-            this.tbName.Location = new System.Drawing.Point(282, 54);
-            this.tbName.Margin = new System.Windows.Forms.Padding(2);
-            this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(120, 20);
-            this.tbName.TabIndex = 9;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(229, 57);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Naam:";
             // 
             // UserForm
             // 
@@ -251,7 +252,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserForm";
             this.Text = "UserForm";
             this.Load += new System.EventHandler(this.UserForm_Load);
