@@ -20,6 +20,7 @@ namespace TrinityRailsDemo
         public MainForm(User user)
         {
             InitializeComponent();
+            btnExit.Enabled = true;
             switch (user.function)
             {
                 case Function.userFunction.Cleaner:
