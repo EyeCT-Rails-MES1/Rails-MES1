@@ -295,16 +295,15 @@ namespace TrinityRailsDemo
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            List<Sector> sectors = new List<Sector>();
-            foreach (Tram tram in tramRepo.getTrams())
-            {
-                sectors = fleetRepo.getSectorList();
-                if (tram.rail != 0 && tram.sector != 0)
-                {
+            //List<Sector> sectors = new List<Sector>();
+            //foreach (Tram tram in tramRepo.getTrams())
+            //{
+            //    sectors = fleetRepo.getSectorList();
+            //    if (tram.rail != 0 && tram.sector != 0)
+            //    {
                     
-
-                }
-            }
+            //    }
+            //}
         }
     }
 }

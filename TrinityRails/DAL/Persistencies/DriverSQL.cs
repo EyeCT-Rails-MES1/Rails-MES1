@@ -22,7 +22,13 @@ namespace DAL.Persistencies
         {
             string query = @"SELECT MAX(ID) FROM [Cleaninglist]";
             int CleaningListID = (int)databaseConnection.executeReaderInt(query) + 1;
-            query = @"INSERT INTO [Cleaninglist] VALUES (" + CleaningListID + @", '" + "NULL" + @"', '" + task + @"', " + tram.number + @");";
+            query = @"INSERT INTO [Cleaninglist] VALUES (" + CleaningListID + @", " + "NULL" + @", '" + task + @"', " + tram.number + @");";
+            databaseConnection.executeCommand(query);
+            query = @"SELECT MAX(ID) FROM [Maintenance]";
+            int MaintenanceID = (int)databaseConnection.executeReaderInt(query) + 1;
+            query = @"SELECT [ID] FROM [Maintenance] WHERE [TramNumber] = " + tram.number + @";";
+            int TramID = (int)databaseConnection.executeReaderInt(query);
+            query = @"INSERT INTO [Maintenance] VALUES (" + MaintenanceID + @", " + TramID + @", " + "NULL" + @", " + CleaningListID + @", " + "NULL" + @", '" + DateTime.Today + @"', " + "NULL" + @");";
             databaseConnection.executeCommand(query);
         }
 
