@@ -38,13 +38,6 @@ namespace DAL.Persistencies
                 TramList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
             }
             return TramList;
-
-
-            //string query = @"SELECT [TramNumber, RFID, Status, Rail, Sector] FROM [Tram];";
-            //databaseConnection.executeCommand(query);
-
-            //Voeg ze toe aan een list en return deze
-            throw new NotImplementedException();
         }
 
         public void setStatus(Tram tram, Status.tramStatus status)

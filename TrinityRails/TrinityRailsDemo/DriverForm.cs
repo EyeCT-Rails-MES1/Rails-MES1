@@ -6,6 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Classes;
+using DAL.Types;
+using DAL.Repositories;
+using DAL.Interfaces;
+using DAL.Persistencies;
 using Phidgets;
 using Phidgets.Events;
 using System.Windows.Forms;
@@ -14,12 +19,12 @@ namespace TrinityRailsDemo
 {
     public partial class DriverForm : Form
     {
-        private RFID rfid;
+        User user;
 
-        public DriverForm()
+        public DriverForm(User user)
         {
             InitializeComponent();
-            rfid = new RFID(); //Declare an RFID object
+            this.user = user;
             btnConfirm.Enabled = false;
         }
 
@@ -106,30 +111,7 @@ namespace TrinityRailsDemo
 
         private void btnScanRFID_Click(object sender, EventArgs e)
         {
-            //initialize Phidgets RFID reader and hook the event handlers
-            rfid.Error += new ErrorEventHandler(rfid_Error);
-
-            rfid.Tag += new TagEventHandler(rfid_Tag);
-
-            //open the connection
-            rfid.open();
-
-            //wait for an rfid
-            rfid.waitForAttachment();
-
-            //turn on the lights to show it is on
-            rfid.Antenna = true;
-            btnScanRFID.Enabled = false;
-        }
-
-        private void rfid_Tag(object sender, TagEventArgs e)
-        {
-            //Vergelijk e.Tag met de RFID code van alle trams
-        }
-
-        static void rfid_Error(object sender, ErrorEventArgs e)
-        {
-
+            
         }
     }
 }

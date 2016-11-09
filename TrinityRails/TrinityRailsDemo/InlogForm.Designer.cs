@@ -32,6 +32,7 @@
             this.btnInloggen = new System.Windows.Forms.Button();
             this.txtWachtwoord = new System.Windows.Forms.TextBox();
             this.txtGebruikersnaam = new System.Windows.Forms.TextBox();
+            this.btnScanRFID = new System.Windows.Forms.Button();
             this.gbxInlog.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,13 +73,24 @@
             this.txtGebruikersnaam.Size = new System.Drawing.Size(200, 30);
             this.txtGebruikersnaam.TabIndex = 0;
             // 
-            // Form1
+            // btnScanRFID
+            // 
+            this.btnScanRFID.Location = new System.Drawing.Point(820, 12);
+            this.btnScanRFID.Name = "btnScanRFID";
+            this.btnScanRFID.Size = new System.Drawing.Size(176, 50);
+            this.btnScanRFID.TabIndex = 21;
+            this.btnScanRFID.Text = "Scan RFID";
+            this.btnScanRFID.UseVisualStyleBackColor = true;
+            this.btnScanRFID.Click += new System.EventHandler(this.btnScanRFID_Click);
+            // 
+            // InlogForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.btnScanRFID);
             this.Controls.Add(this.gbxInlog);
-            this.Name = "Form1";
+            this.Name = "InlogForm";
             this.Text = "Inloggen";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.gbxInlog.ResumeLayout(false);
@@ -93,6 +105,7 @@
         private System.Windows.Forms.Button btnInloggen;
         private System.Windows.Forms.TextBox txtWachtwoord;
         private System.Windows.Forms.TextBox txtGebruikersnaam;
+        private System.Windows.Forms.Button btnScanRFID;
     }
 }
 
