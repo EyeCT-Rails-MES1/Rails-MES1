@@ -20,14 +20,14 @@ namespace DAL.Repositories
             this.context = context;
         }
 
-        public List<string> getCleaningList(Tram tram)
+        public List<Cleaner> getCleaningList()
         {
-            return context.cleaningList(tram);
+            return context.cleaningList();
         }
 
         public void finishCleaning(DateTime date, Tram tram, User user, string taak)
         {
-            context.cleaningList(tram).Remove(taak);
+            //context.cleaningList(tram).Remove(taak);
         }
     }
 }

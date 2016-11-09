@@ -63,6 +63,7 @@
     <Compile Include="Repositories\FleetManagerRepository.cs" />
     <Compile Include="Repositories\TramRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Types\Cleaner.cs" />
     <Compile Include="Types\Tram.cs" />
     <Compile Include="Types\User.cs" />
   </ItemGroup>

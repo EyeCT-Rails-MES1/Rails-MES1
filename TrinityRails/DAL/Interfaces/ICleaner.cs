@@ -14,6 +14,6 @@ namespace DAL.Interfaces
         void setName(User user, Tram tram);
         void setStatus(Tram tram, Status.tramStatus status);
         string getCleaningTasks(Tram tram);
-        List<string> cleaningList(Tram tram);
+        List<Cleaner> cleaningList();
     }
 }

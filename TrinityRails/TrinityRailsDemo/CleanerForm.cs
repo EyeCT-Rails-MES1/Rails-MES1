@@ -18,7 +18,7 @@ namespace TrinityRailsDemo
     public partial class CleanerForm : Form
     {
         CleanerRepository CleanerRepo = new CleanerRepository(new CleanerSQL());
-        List<string> Taken = new List<string>();
+        List<Cleaner> cleaningList = new List<Cleaner>();
         User user;
 
         public CleanerForm(User user)
@@ -29,10 +29,10 @@ namespace TrinityRailsDemo
 
         private void CleanerForm_Load(object sender, EventArgs e)
         {
-            //Taken = CleanerRepo.getCleaningList();
-            foreach (string taak in Taken)
+            cleaningList = CleanerRepo.getCleaningList();
+            foreach (Cleaner taak in cleaningList)
             {
-                lbCleaning.Items.Add(taak);
+                lbCleaning.Items.Add(taak.task + ", " + Convert.ToString(taak.tramNumber));
             }
         }
 

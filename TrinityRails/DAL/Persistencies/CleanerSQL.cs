@@ -43,17 +43,24 @@ namespace DAL.Persistencies
             return databaseConnection.executeReaderString(query);
         }
 
-        public List<string> cleaningList(Tram tram)
+        List<Cleaner> ICleaner.cleaningList()
         {
-            List<string> cleaningTasks = new List<string>();
-            string query = @"SELECT COUNT(ID) FROM [CleaningList] WHERE [TramNumber] = " + tram.number + @";";
-
-            for (int i = 0; i < databaseConnection.executeReaderInt(query); i++)
+            List<Cleaner> cleaningList = new List<Cleaner>();
+            string query = @"select ID from [Cleaninglist];";
+            List<int> cleaningID = databaseConnection.executeReaderIntList(query);
+            Cleaner tempCleaning = new Cleaner(0, "", "harry", 2050);
+            foreach (int id in cleaningID)
             {
-                cleaningTasks.Add(getCleaningTasks(tram));
+                tempCleaning.ID = id;
+                query = @"Select Name from [Cleaninglist] where ID =" + id + @";";
+                tempCleaning.name = databaseConnection.executeReaderString(query);
+                query = @"Select Task from [Cleaninglist] where ID =" + id + @";";
+                tempCleaning.task = databaseConnection.executeReaderString(query);
+                query = @"Select TramNumber from [Cleaninglist] where ID =" + id + @";";
+                tempCleaning.tramNumber = (int)databaseConnection.executeReaderInt(query);
+                cleaningList.Add(new Cleaner(tempCleaning.ID, tempCleaning.name, tempCleaning.task, tempCleaning.tramNumber));
             }
-
-            return cleaningTasks;
+            return cleaningList;
         }
     }
 }
