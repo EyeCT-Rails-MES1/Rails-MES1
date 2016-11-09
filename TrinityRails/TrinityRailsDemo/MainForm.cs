@@ -178,12 +178,14 @@ namespace TrinityRailsDemo
 
         private void btnDiensten_Click(object sender, EventArgs e)
         {
-            ShowCMS(this, btnDiensten,cmsDiensten);
+            DriverForm form = new DriverForm(user);
+            form.Show();
         }
 
         private void btnSchoonmaak_Click(object sender, EventArgs e)
         {
             CleanerForm form = new CleanerForm(user);
+            form.Show();
         }
 
         private void btnRepair_Click(object sender, EventArgs e)

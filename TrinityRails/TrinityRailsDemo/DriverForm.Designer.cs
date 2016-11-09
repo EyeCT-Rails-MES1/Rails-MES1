@@ -50,7 +50,6 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnConfirm = new System.Windows.Forms.Button();
             this.lblGoTo = new System.Windows.Forms.Label();
-            this.btnScanRFID = new System.Windows.Forms.Button();
             this.lblRemarks = new System.Windows.Forms.Label();
             this.lblHistory = new System.Windows.Forms.Label();
             this.lblTramNumber = new System.Windows.Forms.Label();
@@ -281,16 +280,6 @@
             this.lblGoTo.TabIndex = 19;
             this.lblGoTo.Text = "Ga naar";
             // 
-            // btnScanRFID
-            // 
-            this.btnScanRFID.Location = new System.Drawing.Point(596, 222);
-            this.btnScanRFID.Name = "btnScanRFID";
-            this.btnScanRFID.Size = new System.Drawing.Size(176, 50);
-            this.btnScanRFID.TabIndex = 20;
-            this.btnScanRFID.Text = "Scan RFID";
-            this.btnScanRFID.UseVisualStyleBackColor = true;
-            this.btnScanRFID.Click += new System.EventHandler(this.btnScanRFID_Click);
-            // 
             // lblRemarks
             // 
             this.lblRemarks.AutoSize = true;
@@ -329,7 +318,6 @@
             this.Controls.Add(this.lblTramNumber);
             this.Controls.Add(this.lblHistory);
             this.Controls.Add(this.lblRemarks);
-            this.Controls.Add(this.btnScanRFID);
             this.Controls.Add(this.lblGoTo);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.btn0);
@@ -382,7 +370,6 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Label lblGoTo;
-        private System.Windows.Forms.Button btnScanRFID;
         private System.Windows.Forms.Label lblRemarks;
         private System.Windows.Forms.Label lblHistory;
         private System.Windows.Forms.Label lblTramNumber;
