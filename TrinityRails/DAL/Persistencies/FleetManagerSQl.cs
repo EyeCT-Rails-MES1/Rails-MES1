@@ -9,7 +9,7 @@ using DAL.Types;
 
 namespace DAL.Persistencies
 {
-    class FleetManagerSQL : IFleetManager
+    public class FleetManagerSQL : IFleetManager
     {
         private DatabaseConnection databaseConnection;
 

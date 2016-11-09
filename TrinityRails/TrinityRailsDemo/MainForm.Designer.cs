@@ -268,9 +268,7 @@
             this.tsmStatusVeranderen = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmInformatie = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsButtons = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.test3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmSpoorBlok = new System.Windows.Forms.ToolStripMenuItem();
             this.gbInformation = new System.Windows.Forms.GroupBox();
             this.lblInformation = new System.Windows.Forms.Label();
             this.lblTram = new System.Windows.Forms.Label();
@@ -2749,40 +2747,40 @@
             this.tsmStatusVeranderen,
             this.tsmInformatie});
             this.cmsTram.Name = "cmsVakjes";
-            this.cmsTram.Size = new System.Drawing.Size(198, 114);
+            this.cmsTram.Size = new System.Drawing.Size(200, 114);
             // 
             // tsmPlaatsen
             // 
             this.tsmPlaatsen.Name = "tsmPlaatsen";
-            this.tsmPlaatsen.Size = new System.Drawing.Size(197, 22);
+            this.tsmPlaatsen.Size = new System.Drawing.Size(199, 22);
             this.tsmPlaatsen.Text = "Trams Plaatsen";
             this.tsmPlaatsen.Click += new System.EventHandler(this.tsmPlaatsen_Click);
             // 
             // tsmVerwijderen
             // 
             this.tsmVerwijderen.Name = "tsmVerwijderen";
-            this.tsmVerwijderen.Size = new System.Drawing.Size(197, 22);
+            this.tsmVerwijderen.Size = new System.Drawing.Size(199, 22);
             this.tsmVerwijderen.Text = "Trams Verwijderen";
             this.tsmVerwijderen.Click += new System.EventHandler(this.tsmVerwijderen_Click);
             // 
             // tsmReserveren
             // 
             this.tsmReserveren.Name = "tsmReserveren";
-            this.tsmReserveren.Size = new System.Drawing.Size(197, 22);
+            this.tsmReserveren.Size = new System.Drawing.Size(199, 22);
             this.tsmReserveren.Text = "Trams Reserveren";
             this.tsmReserveren.Click += new System.EventHandler(this.tsmReserveren_Click);
             // 
             // tsmStatusVeranderen
             // 
             this.tsmStatusVeranderen.Name = "tsmStatusVeranderen";
-            this.tsmStatusVeranderen.Size = new System.Drawing.Size(197, 22);
+            this.tsmStatusVeranderen.Size = new System.Drawing.Size(199, 22);
             this.tsmStatusVeranderen.Text = "Tram status Veranderen";
             this.tsmStatusVeranderen.Click += new System.EventHandler(this.tsmStatusVeranderen_Click);
             // 
             // tsmInformatie
             // 
             this.tsmInformatie.Name = "tsmInformatie";
-            this.tsmInformatie.Size = new System.Drawing.Size(197, 22);
+            this.tsmInformatie.Size = new System.Drawing.Size(199, 22);
             this.tsmInformatie.Text = "Tram informatie";
             this.tsmInformatie.Click += new System.EventHandler(this.tsmInformatie_Click);
             // 
@@ -2790,30 +2788,17 @@
             // 
             this.cmsButtons.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsButtons.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testToolStripMenuItem,
-            this.test2ToolStripMenuItem,
-            this.test3ToolStripMenuItem});
+            this.tsmSpoorBlok});
             this.cmsButtons.Name = "cmsButtons";
-            this.cmsButtons.Size = new System.Drawing.Size(100, 70);
+            this.cmsButtons.Size = new System.Drawing.Size(161, 48);
+            this.cmsButtons.Opening += new System.ComponentModel.CancelEventHandler(this.cmsButtons_Opening);
             // 
-            // testToolStripMenuItem
+            // tsmSpoorBlok
             // 
-            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.testToolStripMenuItem.Text = "test";
-            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
-            // 
-            // test2ToolStripMenuItem
-            // 
-            this.test2ToolStripMenuItem.Name = "test2ToolStripMenuItem";
-            this.test2ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.test2ToolStripMenuItem.Text = "test2";
-            // 
-            // test3ToolStripMenuItem
-            // 
-            this.test3ToolStripMenuItem.Name = "test3ToolStripMenuItem";
-            this.test3ToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
-            this.test3ToolStripMenuItem.Text = "test3";
+            this.tsmSpoorBlok.Name = "tsmSpoorBlok";
+            this.tsmSpoorBlok.Size = new System.Drawing.Size(160, 22);
+            this.tsmSpoorBlok.Text = "Spoor blokkeren";
+            this.tsmSpoorBlok.Click += new System.EventHandler(this.tsmSpoorBlok_Click);
             // 
             // gbInformation
             // 
@@ -3516,9 +3501,7 @@
         private System.Windows.Forms.TextBox txt_R76S6;
         private System.Windows.Forms.ContextMenuStrip cmsTram;
         private System.Windows.Forms.ContextMenuStrip cmsButtons;
-        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem test3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmSpoorBlok;
         private System.Windows.Forms.ToolStripMenuItem tsmPlaatsen;
         private System.Windows.Forms.ToolStripMenuItem tsmVerwijderen;
         private System.Windows.Forms.ToolStripMenuItem tsmReserveren;
