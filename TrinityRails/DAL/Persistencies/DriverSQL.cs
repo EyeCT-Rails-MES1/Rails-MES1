@@ -18,24 +18,22 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setCleaningTask(string task)
+        public void createCleaningTask(string task, Tram tram)
         {
-            string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @";";
-            //Moet nog geimplementeerd worden
+            string query = @"UPDATE [Cleaninglist] SET [Task] = " + task +  @" WHERE [TramNumber] = " +  tram.number + ";";
             databaseConnection.executeCommand(query);
         }
 
-        public void setPriority(int priority)
+        public void setPriority(int priority, Tram tram)
         {
-            string query = @"UPDATE [Cleaninglist] SET [Priority] = " + priority + @";";
-            //Moet nog geimplementeerd worden
+            string query = @"UPDATE [Cleaninglist] SET [Priority] = " + priority + @" WHERE [TramNumber] = " + tram.number + ";"; 
             databaseConnection.executeCommand(query);
         }
 
-        int IDriver.getLocation(Tram tram)
+        public Nullable<int> getLocation(Tram tram)
         {
             string query = @"SELECT [Location] From [Tram] WHERE [TramNumber] = " + tram.number + @";";
-            return Convert.ToInt32(databaseConnection.executeReaderInt(query));
-        }
+            return databaseConnection.executeReaderInt(query); 
+        } 
     }
 }

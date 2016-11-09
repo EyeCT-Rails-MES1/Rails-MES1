@@ -20,13 +20,13 @@ namespace DAL.Persistencies
 
         public void setDate(DateTime date, User user, Tram tram)
         {
-            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void setName(User user, Tram tram)
         {
-            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 
