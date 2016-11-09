@@ -29,7 +29,6 @@ namespace TrinityRailsDemo.SideForms
             cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Repair);
             cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Remise);
             cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Service);
-            cbTramStatus.Items.Add(Classes.Enumerations.Status.tramStatus.Defect);
         }
 
         private void btnOk_Click(object sender, EventArgs e)
