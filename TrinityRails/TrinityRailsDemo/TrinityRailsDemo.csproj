@@ -49,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CleanerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CleanerForm.Designer.cs">
+      <DependentUpon>CleanerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EngineerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EngineerForm.Designer.cs">
+      <DependentUpon>EngineerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RailForms\BlockRailSector.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,18 @@
     <Compile Include="TramForms\TramStatus.Designer.cs">
       <DependentUpon>TramStatus.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CleanerForm.resx">
+      <DependentUpon>CleanerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EngineerForm.resx">
+      <DependentUpon>EngineerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RailForms\BlockRailSector.resx">
       <DependentUpon>BlockRailSector.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TramForms\TramStatus.resx">
       <DependentUpon>TramStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

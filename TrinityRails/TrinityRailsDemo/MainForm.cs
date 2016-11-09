@@ -45,14 +45,15 @@ namespace TrinityRailsDemo
                     btnSchoonmaak.Enabled = true;
                     btnSporen.Enabled = true;
                     btnTrams.Enabled = true;
+                    btnUsers.Enabled = true;
                     break;
                 default:
-                    btnDiensten.Enabled = true;
-                    btnLijnen.Enabled = true;
-                    btnRepair.Enabled = true;
-                    btnSchoonmaak.Enabled = true;
-                    btnSporen.Enabled = true;
-                    btnTrams.Enabled = true;
+                    btnDiensten.Enabled = false; 
+                    btnLijnen.Enabled = false;
+                    btnRepair.Enabled = false;
+                    btnSchoonmaak.Enabled = false;
+                    btnSporen.Enabled = false;
+                    btnTrams.Enabled = false;
                     break;
             }
         }
@@ -243,5 +244,11 @@ namespace TrinityRailsDemo
 
         }
         #endregion
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            UserForm form = new UserForm();
+            form.Show();
+        }
     }
 }
