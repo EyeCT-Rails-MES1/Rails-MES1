@@ -265,7 +265,7 @@ namespace TrinityRailsDemo
             {
                 if(tram.status == Status.tramStatus.Remise)
                 {
-                    
+                    string test = txt_R12.Name.Substring(4);
                 }
             }
         }

@@ -9,7 +9,7 @@ namespace DAL.Persistencies
 {
     public class DatabaseConnection
     {  
-        public string connectionString = @"Data Source=BOB;Initial Catalog=Trinity+;Integrated Security=True";
+        public string connectionString = @"Server = 192.168.20.4,1433; Database = Trinity; User ID = sa; Password = 1234;";
 
         public void executeCommand(string query)
         {
