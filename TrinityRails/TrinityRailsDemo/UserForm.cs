@@ -43,7 +43,7 @@ namespace TrinityRailsDemo
 
             foreach (User user in Users)
             {
-                    lbUserList.Items.Add(user.name + ", "+  user.function);
+                    lbUserList.Items.Add(user.username + ", "+  user.function);
             }
         }
 
@@ -56,7 +56,7 @@ namespace TrinityRailsDemo
                     if (user.ID == Convert.ToInt32(tbID.Text))
                     {
                         adminRepo.changeUsername(user, tbUserName.Text);
-                        MessageBox.Show("Gebruikersnaam aangepast.");
+                        MessageBox.Show("Gebruikersnaam aangepast."); 
                     }
 
                 }
@@ -65,7 +65,12 @@ namespace TrinityRailsDemo
             {
                 MessageBox.Show("Gebruikersnaam te kort.");
             }
-
+            lbUserList.Items.Clear();
+            Users = adminRepo.getUsers();
+            foreach (User user in Users)
+            {
+                lbUserList.Items.Add(user.username + ", " + user.function);
+            }
         }
 
         private void btnVeranderWachtwoord_Click(object sender, EventArgs e)
@@ -87,6 +92,12 @@ namespace TrinityRailsDemo
                 MessageBox.Show("Wachtwoord te kort.");
             }
             tbPassword.Clear();
+            lbUserList.Items.Clear();
+            Users = adminRepo.getUsers();
+            foreach (User user in Users)
+            {
+                lbUserList.Items.Add(user.username + ", " + user.function);
+            }
         }
 
         private void btnVerwijder_Click(object sender, EventArgs e)
@@ -98,7 +109,12 @@ namespace TrinityRailsDemo
                     adminRepo.delete(user);
                     MessageBox.Show("Gebruiker verwijderd.");
                 }
-                
+            }
+            lbUserList.Items.Clear();
+            Users = adminRepo.getUsers();
+            foreach (User user in Users)
+            {
+                lbUserList.Items.Add(user.username + ", " + user.function);
             }
         }
 
