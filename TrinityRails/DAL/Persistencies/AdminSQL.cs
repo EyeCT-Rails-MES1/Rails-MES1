@@ -41,22 +41,20 @@ namespace DAL.Persistencies
             databaseConnection.executeCommand(query);
         } 
 
-        List<User> IAdmin.getUsers()
+        public List<User> getUsers()
         {
-            List<User> userList = new List<User>();
-            string query = @"select ID from [user];";
-            List<int> userID = databaseConnection.executeReaderIntList(query);
-            User tempUser = new User(0,"harry");
-            foreach(int id in userID)
+            List<User> userList = new List<User>();  
+
+            string getUserIDquery = @"select ID from [user];"; 
+            List<int> userIDList = databaseConnection.executeReaderIntList(getUserIDquery);
+
+            foreach(int userID in userIDList)
             {
-                tempUser.ID = id;
-                query = @"Select Name from [user] where ID =" + id + @";";
-                tempUser.name = databaseConnection.executeReaderString(query);
-                query = @"Select Username from [user] where ID =" + id + @";";
-                tempUser.username = databaseConnection.executeReaderString(query);
-                query = @"Select FunctionID from [user] where ID =" + id + @";";
-                tempUser.function = (Function.userFunction)databaseConnection.executeReaderInt(query);
-                userList.Add(new User(tempUser.ID, tempUser.name, tempUser.username, tempUser.function));
+                string getNameQuery = @"Select Name from [user] where ID =" + userID + @";";
+                string getUsernameQuery = @"Select Username from [user] where ID =" + userID + @";";
+                string getFunctionIDQuery = @"Select FunctionID from [user] where ID =" + userID + @";"; 
+
+                userList.Add(new User(userID, databaseConnection.executeReaderString(getNameQuery), databaseConnection.executeReaderString(getUsernameQuery), (Function.userFunction)databaseConnection.executeReaderInt(getFunctionIDQuery)));
             }
             return userList;
         }

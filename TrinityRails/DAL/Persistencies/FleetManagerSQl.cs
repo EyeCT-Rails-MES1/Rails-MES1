@@ -25,13 +25,13 @@ namespace DAL.Persistencies
             databaseConnection.executeCommand(query);
         }
 
-        public bool getSectorStatus(Sector sector)
+        public Nullable<int> getSectorStatus(Sector sector)
         {
-            string query = @"SELECT [Status] FROM [Sector] WHERE [SectorNumber] = " + sector.Number + @";";
-            return Convert.ToBoolean(databaseConnection.executeReaderBool(query));
+            string query = @"SELECT [Status] FROM [Location] WHERE [SectorNumber] = " + sector.Number + @";";
+            return databaseConnection.executeReaderInt(query);
         }
 
-        List<Sector> IFleetManager.getSectorList()
+        public List<Sector> getSectorList()
         {
             List<Sector> sectorList = new List<Sector>();
             string query = @"select ID from [Location];";
@@ -49,7 +49,8 @@ namespace DAL.Persistencies
             }
             return sectorList;
         }
-        List<Rails> IFleetManager.getRailList()
+
+        public List<Rails> getRailList()
         {
             List<Rails> railList = new List<Rails>();
             string query = @"select ID from [Location];";
