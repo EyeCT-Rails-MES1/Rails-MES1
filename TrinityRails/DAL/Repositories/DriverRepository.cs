@@ -22,12 +22,12 @@ namespace DAL.Repositories
 
         public void addCleaningTask(string cleaningTask, Tram tram)
         {
-            context.setCleaningTask(cleaningTask, tram);
+            context.createCleaningTask(cleaningTask, tram);
         }
 
         public int getLocation(Tram tram)
         {
-            return context.getLocation(tram);
+            return (int)context.getLocation(tram);
         }
     }
 }

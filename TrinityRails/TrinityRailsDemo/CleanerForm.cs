@@ -29,7 +29,7 @@ namespace TrinityRailsDemo
 
         private void CleanerForm_Load(object sender, EventArgs e)
         {
-            Taken = CleanerRepo.getCleaningList();
+            //Taken = CleanerRepo.getCleaningList();
             foreach (string taak in Taken)
             {
                 lbCleaning.Items.Add(taak);
