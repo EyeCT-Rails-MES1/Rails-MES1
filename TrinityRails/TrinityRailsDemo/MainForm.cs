@@ -50,7 +50,7 @@ namespace TrinityRailsDemo
                     btnUsers.Enabled = true;
                     break;
                 default:
-                    btnDiensten.Enabled = false; 
+                    btnDiensten.Enabled = false;
                     btnLijnen.Enabled = false;
                     btnRepair.Enabled = false;
                     btnSchoonmaak.Enabled = false;
@@ -75,7 +75,7 @@ namespace TrinityRailsDemo
             Button selected = (Button)current;
             cms.Show(cont, selected.Location.X, selected.Location.Y + selected.Height);
         }
-        
+
 
         // hier alle mouseclick events in zetten
         #region Mouse click CMS events
@@ -267,14 +267,29 @@ namespace TrinityRailsDemo
         private void tsmSpoorBlok_Click(object sender, EventArgs e)
         {
             FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
-            //foreach(Sector sector in fleetRepo.getSectorList())
-           // {
-           //     MessageBox.Show(sector.Number.ToString() + ", " + sector.railNumber.ToString());
-            //}
-            foreach(Rails rail in fleetRepo.getRailsList())
+            foreach (Sector sector in fleetRepo.getSectorList())
             {
-                MessageBox.Show(rail.Number.ToString() + ", " + rail.sectorAmount.ToString());
+                if (sector.railNumber == Convert.ToInt32(currentTextBox.Name.Substring(currentTextBox.Name.IndexOf("R") + 1, 2)))
+                {
+                    if (sector.Number == Convert.ToInt32(currentTextBox.Name.Substring(currentTextBox.Name.IndexOf("S") + 1)))
+                    {
+                        if(sector.status == RailStatus.railStatus.Blocked)
+                        {
+                            sector.status = RailStatus.railStatus.Available;
+                        }
+                        else if(sector.status == RailStatus.railStatus.Available)
+                        {
+                            sector.status = RailStatus.railStatus.Blocked;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Occupied");
+                        }
+                    }
+
+                }
             }
+
         }
     }
 }
