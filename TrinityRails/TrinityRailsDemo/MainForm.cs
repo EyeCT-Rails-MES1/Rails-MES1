@@ -41,12 +41,7 @@ namespace TrinityRailsDemo
                     btnTrams.Enabled = true;
                     break;
                 case Function.userFunction.Admin:
-                    btnDiensten.Enabled = true;
-                    btnLijnen.Enabled = true;
-                    btnRepair.Enabled = true;
-                    btnSchoonmaak.Enabled = true;
-                    btnSporen.Enabled = true;
-                    btnTrams.Enabled = true;
+
                     btnUsers.Enabled = true;
                     break;
                 default:

@@ -56,7 +56,9 @@
             // 
             // tbTramNumber
             // 
+            this.tbTramNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTramNumber.Location = new System.Drawing.Point(12, 80);
+            this.tbTramNumber.MaxLength = 4;
             this.tbTramNumber.Name = "tbTramNumber";
             this.tbTramNumber.Size = new System.Drawing.Size(135, 75);
             this.tbTramNumber.TabIndex = 2;

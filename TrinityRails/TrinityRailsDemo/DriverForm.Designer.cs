@@ -59,6 +59,7 @@
             // 
             // tbGoTo
             // 
+            this.tbGoTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbGoTo.Location = new System.Drawing.Point(38, 43);
             this.tbGoTo.Name = "tbGoTo";
             this.tbGoTo.Size = new System.Drawing.Size(100, 52);
@@ -67,6 +68,7 @@
             // 
             // tbHistory
             // 
+            this.tbHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbHistory.Location = new System.Drawing.Point(641, 43);
             this.tbHistory.Name = "tbHistory";
             this.tbHistory.Size = new System.Drawing.Size(100, 93);
@@ -75,6 +77,7 @@
             // 
             // tbRemarks
             // 
+            this.tbRemarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbRemarks.Location = new System.Drawing.Point(22, 135);
             this.tbRemarks.Name = "tbRemarks";
             this.tbRemarks.Size = new System.Drawing.Size(173, 59);
@@ -139,6 +142,7 @@
             // 
             // tbTramNumber
             // 
+            this.tbTramNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTramNumber.Location = new System.Drawing.Point(397, 43);
             this.tbTramNumber.Name = "tbTramNumber";
             this.tbTramNumber.Size = new System.Drawing.Size(100, 66);

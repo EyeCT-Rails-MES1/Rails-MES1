@@ -40,7 +40,9 @@
             // 
             // tbTramNumber
             // 
+            this.tbTramNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTramNumber.Location = new System.Drawing.Point(12, 45);
+            this.tbTramNumber.MaxLength = 4;
             this.tbTramNumber.Name = "tbTramNumber";
             this.tbTramNumber.Size = new System.Drawing.Size(113, 61);
             this.tbTramNumber.TabIndex = 0;
@@ -48,7 +50,9 @@
             // 
             // tbRailNumber
             // 
+            this.tbRailNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbRailNumber.Location = new System.Drawing.Point(171, 45);
+            this.tbRailNumber.MaxLength = 2;
             this.tbRailNumber.Name = "tbRailNumber";
             this.tbRailNumber.Size = new System.Drawing.Size(89, 61);
             this.tbRailNumber.TabIndex = 1;
@@ -56,7 +60,9 @@
             // 
             // tbSectorNumber
             // 
+            this.tbSectorNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSectorNumber.Location = new System.Drawing.Point(283, 45);
+            this.tbSectorNumber.MaxLength = 2;
             this.tbSectorNumber.Name = "tbSectorNumber";
             this.tbSectorNumber.Size = new System.Drawing.Size(89, 61);
             this.tbSectorNumber.TabIndex = 2;

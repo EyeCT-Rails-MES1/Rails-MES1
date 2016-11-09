@@ -54,21 +54,31 @@ namespace TrinityRailsDemo
                 if (user.ID == Convert.ToInt32(tbID.Text))
                 {
                     adminRepo.changeUsername(user, tbUserName.Text);
+                    MessageBox.Show("Gebruikersnaam aangepast.");
                 }
-                MessageBox.Show("Gebruikersnaam aangepast.");
+                
             }
         }
 
         private void btnVeranderWachtwoord_Click(object sender, EventArgs e)
         {
-            foreach (User user in adminRepo.getUsers())
+            if (tbPassword.Text.Length > 4)
             {
-                if (user.ID == Convert.ToInt32(tbID.Text))
+                foreach (User user in adminRepo.getUsers())
                 {
-                    adminRepo.changePassword(user, tbPassword.Text);
+                    if (user.ID == Convert.ToInt32(tbID.Text))
+                    {
+                        adminRepo.changePassword(user, tbPassword.Text);
+                        MessageBox.Show("Wachtwoord aangepast.");
+                    }
+
                 }
-                MessageBox.Show("Wachtwoord aangepast.");
             }
+            else
+            {
+                MessageBox.Show("Password too short.");
+            }
+            tbPassword.Clear();
         }
 
         private void btnVerwijder_Click(object sender, EventArgs e)
@@ -78,8 +88,9 @@ namespace TrinityRailsDemo
                 if (user.ID == Convert.ToInt32(tbID.Text))
                 {
                     adminRepo.delete(user);
+                    MessageBox.Show("Gebruiker verwijderd.");
                 }
-                MessageBox.Show("Gebruiker verwijderd.");
+                
             }
         }
 
