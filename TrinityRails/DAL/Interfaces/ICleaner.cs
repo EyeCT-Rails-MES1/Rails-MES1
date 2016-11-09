@@ -13,7 +13,7 @@ namespace DAL.Interfaces
         void setDate(DateTime date, User user, Tram tram);
         void setName(User user, Tram tram);
         void setStatus(Tram tram, Status.tramStatus status);
-        void getCleaningTasks();
-        List<string> cleaningList();
+        string getCleaningTasks(Tram tram);
+        List<string> cleaningList(Tram tram);
     }
 }

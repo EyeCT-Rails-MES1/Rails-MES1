@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enumerations\Function.cs" />
+    <Compile Include="Enumerations\RailStatus.cs" />
     <Compile Include="Enumerations\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Rails.cs" />

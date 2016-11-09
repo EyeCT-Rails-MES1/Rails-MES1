@@ -21,32 +21,39 @@ namespace DAL.Persistencies
 
         public void setDate(DateTime date, User user, Tram tram)
         {
-            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void setName(User user, Tram tram)
         {
-            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @"WHERE [UserID] = " + user.ID + @"AND [TramID] = " + tram.number + @";";
+            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 
         public void setStatus(Tram tram, Status.tramStatus status)
         {
-            string query = @"UPDATE [Tram] SET [Status] = '" + Convert.ToInt32(status) + @"' WHERE [TramNumber] = " + tram.number + @";";
+            string query = @"UPDATE [Tram] SET [Status] = " + Convert.ToInt32(status) + @"WHERE [TramNumber] = " + tram.number + @";";
             databaseConnection.executeCommand(query);
         }
 
-        public void getCleaningTasks()
+        public string getCleaningTasks(Tram tram)
         {
-            string query = @"SELECT [Task] FROM [Cleaninglist];";
-            //De methode haalt de tasks op, maar returned ze niet?
-            databaseConnection.executeReaderInt(query);
+            string query = @"SELECT [Task] FROM [Cleaninglist] WHERE [TramNumber] = " + tram.number + @";";
+            return databaseConnection.executeReaderString(query);
         }
 
-        public List<string> cleaningList()
+        public List<string> cleaningList(Tram tram)
         {
-            throw new NotImplementedException();
+            List<string> cleaningTasks = new List<string>();
+            string query = @"SELECT COUNT(ID) FROM [CleaningList] WHERE [TramNumber] = " + tram.number + @";";
+
+            for (int i = 0; i < databaseConnection.executeReaderInt(query); i++)
+            {
+                cleaningTasks.Add(getCleaningTasks(tram));
+            }
+
+            return cleaningTasks;
         }
     }
 }

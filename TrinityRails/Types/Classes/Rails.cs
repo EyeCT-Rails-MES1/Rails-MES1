@@ -9,7 +9,7 @@ namespace Classes
     public class Rails
     {
         public int Number { get; private set; }
-        public int sectorAmount { get; private set; }
+        public int sectorAmount { get; set; }
 
         public Sector sector { get; set; }
 
