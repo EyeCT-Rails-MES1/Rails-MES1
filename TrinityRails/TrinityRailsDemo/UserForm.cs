@@ -49,15 +49,23 @@ namespace TrinityRailsDemo
 
         private void btnVeranderNaam_Click(object sender, EventArgs e)
         {
-            foreach (User user in adminRepo.getUsers())
+            if (tbUserName.Text.Length > 3)
             {
-                if (user.ID == Convert.ToInt32(tbID.Text))
+                foreach (User user in adminRepo.getUsers())
                 {
-                    adminRepo.changeUsername(user, tbUserName.Text);
-                    MessageBox.Show("Gebruikersnaam aangepast.");
+                    if (user.ID == Convert.ToInt32(tbID.Text))
+                    {
+                        adminRepo.changeUsername(user, tbUserName.Text);
+                        MessageBox.Show("Gebruikersnaam aangepast.");
+                    }
+
                 }
-                
             }
+            else
+            {
+                MessageBox.Show("Gebruikersnaam te kort.");
+            }
+
         }
 
         private void btnVeranderWachtwoord_Click(object sender, EventArgs e)

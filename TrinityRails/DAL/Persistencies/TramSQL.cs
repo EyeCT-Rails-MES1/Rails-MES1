@@ -20,8 +20,26 @@ namespace DAL.Persistencies
         }
         public List<Tram> getTrams()
         {
-            string query = @"SELECT [TramNumber, RFID, Status, Rail, Sector] FROM [Tram];";
-            databaseConnection.executeCommand(query);
+            List<Tram> userList = new List<Tram>();
+            string query = @"select TramNumber from [Tram];";
+            List<int> tramID = databaseConnection.executeReaderIntList(query);
+            Tram tempTram = new Tram(1, 0, 1, "1", 1);
+            foreach (int id in tramID)
+            {
+                tempTram.number = id;
+                query = @"Select Status from [Tram] where ID =" + id + @";";
+                tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);
+                query = @"Select Username from [user] where ID =" + id + @";";
+                tempTram.username = databaseConnection.executeReaderString(query);
+                query = @"Select FunctionID from [user] where ID =" + id + @";";
+                tempTram.status = (Function.userFunction)databaseConnection.executeReaderInt(query);
+                userList.Add(new Tram(tempTram.number,)
+            }
+            return userList;
+
+
+            //string query = @"SELECT [TramNumber, RFID, Status, Rail, Sector] FROM [Tram];";
+            //databaseConnection.executeCommand(query);
 
             //Voeg ze toe aan een list en return deze
             throw new NotImplementedException();
