@@ -42,14 +42,15 @@ namespace TrinityRailsDemo
             bool comma = false;
             foreach(char character in lbCleaning.SelectedItem.ToString())
             {
-                if(character == ',')
-                {
-                    comma = true;
-                }
-                if(comma)
+                if (comma)
                 {
                     tramNumber += character;
                 }
+                if (character == ',')
+                {
+                    comma = true;
+                }
+                
             }
             tramNumber.Remove(0, 1);
             CleanerRepo.finishTask(Convert.ToInt32(tramNumber), DateTime.Today);
