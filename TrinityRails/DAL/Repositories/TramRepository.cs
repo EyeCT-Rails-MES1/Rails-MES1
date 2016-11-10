@@ -13,15 +13,17 @@ namespace DAL.Repositories
     public class TramRepository : ITram
     {
         ITram context;
-        List<Tram> trams = new List<Tram>();
         public TramRepository(ITram context)
         {
             this.context = context;
         }
         public List<Tram> getTrams()
         {
-            List<Tram> hary = context.getTrams();
-            return hary;
+            return context.getTrams();
+        }
+        public List<Tram> getTramsInRemise()
+        {
+            return context.getTramsInRemise();
         }
         public void setStatus(Tram tram, Status.tramStatus status)
         {
