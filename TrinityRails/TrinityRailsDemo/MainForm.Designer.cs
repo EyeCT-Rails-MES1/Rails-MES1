@@ -37,21 +37,21 @@
             this.btnRepair = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.txt_R58 = new System.Windows.Forms.TextBox();
-            this.txt_R34S1 = new System.Windows.Forms.TextBox();
-            this.txt_R33S1 = new System.Windows.Forms.TextBox();
-            this.txt_R32S1 = new System.Windows.Forms.TextBox();
-            this.txt_R31S1 = new System.Windows.Forms.TextBox();
-            this.txt_R30S1 = new System.Windows.Forms.TextBox();
+            this.txt_R34L2 = new System.Windows.Forms.TextBox();
+            this.txt_R33L1624 = new System.Windows.Forms.TextBox();
+            this.txt_R32L10 = new System.Windows.Forms.TextBox();
+            this.txt_R31LMagenta2 = new System.Windows.Forms.TextBox();
+            this.txt_R30L1624 = new System.Windows.Forms.TextBox();
             this.txt_R40 = new System.Windows.Forms.TextBox();
             this.txt_R41 = new System.Windows.Forms.TextBox();
             this.txt_R42 = new System.Windows.Forms.TextBox();
             this.txt_R43 = new System.Windows.Forms.TextBox();
             this.txt_R45 = new System.Windows.Forms.TextBox();
             this.txt_R44 = new System.Windows.Forms.TextBox();
-            this.txt_R44S1 = new System.Windows.Forms.TextBox();
-            this.txt_R43S1 = new System.Windows.Forms.TextBox();
-            this.txt_R42S1 = new System.Windows.Forms.TextBox();
-            this.txt_R41S1 = new System.Windows.Forms.TextBox();
+            this.txt_R44L13 = new System.Windows.Forms.TextBox();
+            this.txt_R43L1 = new System.Windows.Forms.TextBox();
+            this.txt_R42L55 = new System.Windows.Forms.TextBox();
+            this.txt_R41L10 = new System.Windows.Forms.TextBox();
             this.txt_R40S1 = new System.Windows.Forms.TextBox();
             this.txt_R44S2 = new System.Windows.Forms.TextBox();
             this.txt_R43S2 = new System.Windows.Forms.TextBox();
@@ -74,7 +74,7 @@
             this.txt_R41S3 = new System.Windows.Forms.TextBox();
             this.txt_R40S3 = new System.Windows.Forms.TextBox();
             this.txt_R36L1 = new System.Windows.Forms.TextBox();
-            this.txt_R35S1 = new System.Windows.Forms.TextBox();
+            this.txt_R35L1624 = new System.Windows.Forms.TextBox();
             this.txt_R37L5 = new System.Windows.Forms.TextBox();
             this.txt_R38L2 = new System.Windows.Forms.TextBox();
             this.txt_R38S1 = new System.Windows.Forms.TextBox();
@@ -111,7 +111,7 @@
             this.txt_R32S5 = new System.Windows.Forms.TextBox();
             this.txt_R33S5 = new System.Windows.Forms.TextBox();
             this.txt_R34S5 = new System.Windows.Forms.TextBox();
-            this.txt_R45S1 = new System.Windows.Forms.TextBox();
+            this.txt_R45L17 = new System.Windows.Forms.TextBox();
             this.txt_R58S1 = new System.Windows.Forms.TextBox();
             this.txt_R45S2 = new System.Windows.Forms.TextBox();
             this.txt_R58S2 = new System.Windows.Forms.TextBox();
@@ -165,15 +165,15 @@
             this.txt_R51S2 = new System.Windows.Forms.TextBox();
             this.txt_R52S2 = new System.Windows.Forms.TextBox();
             this.txt_R53S2 = new System.Windows.Forms.TextBox();
-            this.txt_R57S1 = new System.Windows.Forms.TextBox();
-            this.txt_R56S1 = new System.Windows.Forms.TextBox();
-            this.txt_R54S1 = new System.Windows.Forms.TextBox();
-            this.txt_R55S1 = new System.Windows.Forms.TextBox();
-            this.txt_R63S1 = new System.Windows.Forms.TextBox();
-            this.txt_R64S1 = new System.Windows.Forms.TextBox();
-            this.txt_R51S1 = new System.Windows.Forms.TextBox();
-            this.txt_R52S1 = new System.Windows.Forms.TextBox();
-            this.txt_R53S1 = new System.Windows.Forms.TextBox();
+            this.txt_R57L1624 = new System.Windows.Forms.TextBox();
+            this.txt_R56L5 = new System.Windows.Forms.TextBox();
+            this.txt_R54L5 = new System.Windows.Forms.TextBox();
+            this.txt_R55L2 = new System.Windows.Forms.TextBox();
+            this.txt_R63L2 = new System.Windows.Forms.TextBox();
+            this.txt_R64LMagenta2 = new System.Windows.Forms.TextBox();
+            this.txt_R51LBlack = new System.Windows.Forms.TextBox();
+            this.txt_R52L17 = new System.Windows.Forms.TextBox();
+            this.txt_R53L13 = new System.Windows.Forms.TextBox();
             this.txt_R57 = new System.Windows.Forms.TextBox();
             this.txt_R56 = new System.Windows.Forms.TextBox();
             this.txt_R54 = new System.Windows.Forms.TextBox();
@@ -214,8 +214,8 @@
             this.txt_R62S3 = new System.Windows.Forms.TextBox();
             this.txt_R61S2 = new System.Windows.Forms.TextBox();
             this.txt_R62S2 = new System.Windows.Forms.TextBox();
-            this.txt_R61S1 = new System.Windows.Forms.TextBox();
-            this.txt_R62S1 = new System.Windows.Forms.TextBox();
+            this.txt_R61LPink2 = new System.Windows.Forms.TextBox();
+            this.txt_R62LPink1 = new System.Windows.Forms.TextBox();
             this.txt_R61 = new System.Windows.Forms.TextBox();
             this.txt_R62 = new System.Windows.Forms.TextBox();
             this.txt_R57S6 = new System.Windows.Forms.TextBox();
@@ -391,66 +391,66 @@
             this.txt_R58.Text = "58";
             this.txt_R58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R34S1
+            // txt_R34L2
             // 
-            this.txt_R34S1.BackColor = System.Drawing.Color.Yellow;
-            this.txt_R34S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R34S1.Location = new System.Drawing.Point(332, 121);
-            this.txt_R34S1.Name = "txt_R34S1";
-            this.txt_R34S1.ReadOnly = true;
-            this.txt_R34S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R34S1.TabIndex = 8;
-            this.txt_R34S1.Text = "2";
-            this.txt_R34S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R34L2.BackColor = System.Drawing.Color.Yellow;
+            this.txt_R34L2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R34L2.Location = new System.Drawing.Point(332, 121);
+            this.txt_R34L2.Name = "txt_R34L2";
+            this.txt_R34L2.ReadOnly = true;
+            this.txt_R34L2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R34L2.TabIndex = 8;
+            this.txt_R34L2.Text = "2";
+            this.txt_R34L2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R33S1
+            // txt_R33L1624
             // 
-            this.txt_R33S1.BackColor = System.Drawing.Color.DarkRed;
-            this.txt_R33S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R33S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R33S1.Location = new System.Drawing.Point(378, 121);
-            this.txt_R33S1.Name = "txt_R33S1";
-            this.txt_R33S1.ReadOnly = true;
-            this.txt_R33S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R33S1.TabIndex = 9;
-            this.txt_R33S1.Text = "16/24";
-            this.txt_R33S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R33L1624.BackColor = System.Drawing.Color.DarkRed;
+            this.txt_R33L1624.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R33L1624.ForeColor = System.Drawing.Color.White;
+            this.txt_R33L1624.Location = new System.Drawing.Point(378, 121);
+            this.txt_R33L1624.Name = "txt_R33L1624";
+            this.txt_R33L1624.ReadOnly = true;
+            this.txt_R33L1624.Size = new System.Drawing.Size(40, 20);
+            this.txt_R33L1624.TabIndex = 9;
+            this.txt_R33L1624.Text = "16/24";
+            this.txt_R33L1624.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R32S1
+            // txt_R32L10
             // 
-            this.txt_R32S1.BackColor = System.Drawing.Color.Gray;
-            this.txt_R32S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R32S1.Location = new System.Drawing.Point(424, 121);
-            this.txt_R32S1.Name = "txt_R32S1";
-            this.txt_R32S1.ReadOnly = true;
-            this.txt_R32S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R32S1.TabIndex = 10;
-            this.txt_R32S1.Text = "10";
-            this.txt_R32S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R32L10.BackColor = System.Drawing.Color.Gray;
+            this.txt_R32L10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R32L10.Location = new System.Drawing.Point(424, 121);
+            this.txt_R32L10.Name = "txt_R32L10";
+            this.txt_R32L10.ReadOnly = true;
+            this.txt_R32L10.Size = new System.Drawing.Size(40, 20);
+            this.txt_R32L10.TabIndex = 10;
+            this.txt_R32L10.Text = "10";
+            this.txt_R32L10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R31S1
+            // txt_R31LMagenta2
             // 
-            this.txt_R31S1.BackColor = System.Drawing.Color.Magenta;
-            this.txt_R31S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R31S1.Location = new System.Drawing.Point(470, 121);
-            this.txt_R31S1.Name = "txt_R31S1";
-            this.txt_R31S1.ReadOnly = true;
-            this.txt_R31S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R31S1.TabIndex = 11;
-            this.txt_R31S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R31LMagenta2.BackColor = System.Drawing.Color.Magenta;
+            this.txt_R31LMagenta2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R31LMagenta2.Location = new System.Drawing.Point(470, 121);
+            this.txt_R31LMagenta2.Name = "txt_R31LMagenta2";
+            this.txt_R31LMagenta2.ReadOnly = true;
+            this.txt_R31LMagenta2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R31LMagenta2.TabIndex = 11;
+            this.txt_R31LMagenta2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R30S1
+            // txt_R30L1624
             // 
-            this.txt_R30S1.BackColor = System.Drawing.Color.DarkRed;
-            this.txt_R30S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R30S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R30S1.Location = new System.Drawing.Point(516, 121);
-            this.txt_R30S1.Name = "txt_R30S1";
-            this.txt_R30S1.ReadOnly = true;
-            this.txt_R30S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R30S1.TabIndex = 12;
-            this.txt_R30S1.Text = "16/24";
-            this.txt_R30S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R30L1624.BackColor = System.Drawing.Color.DarkRed;
+            this.txt_R30L1624.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R30L1624.ForeColor = System.Drawing.Color.White;
+            this.txt_R30L1624.Location = new System.Drawing.Point(516, 121);
+            this.txt_R30L1624.Name = "txt_R30L1624";
+            this.txt_R30L1624.ReadOnly = true;
+            this.txt_R30L1624.Size = new System.Drawing.Size(40, 20);
+            this.txt_R30L1624.TabIndex = 12;
+            this.txt_R30L1624.Text = "16/24";
+            this.txt_R30L1624.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40
             // 
@@ -518,54 +518,54 @@
             this.txt_R44.Text = "44";
             this.txt_R44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R44S1
+            // txt_R44L13
             // 
-            this.txt_R44S1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.txt_R44S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R44S1.Location = new System.Drawing.Point(780, 122);
-            this.txt_R44S1.Name = "txt_R44S1";
-            this.txt_R44S1.ReadOnly = true;
-            this.txt_R44S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R44S1.TabIndex = 23;
-            this.txt_R44S1.Text = "13";
-            this.txt_R44S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R44L13.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.txt_R44L13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R44L13.Location = new System.Drawing.Point(780, 122);
+            this.txt_R44L13.Name = "txt_R44L13";
+            this.txt_R44L13.ReadOnly = true;
+            this.txt_R44L13.Size = new System.Drawing.Size(40, 20);
+            this.txt_R44L13.TabIndex = 23;
+            this.txt_R44L13.Text = "13";
+            this.txt_R44L13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R43S1
+            // txt_R43L1
             // 
-            this.txt_R43S1.BackColor = System.Drawing.Color.SpringGreen;
-            this.txt_R43S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R43S1.Location = new System.Drawing.Point(734, 122);
-            this.txt_R43S1.Name = "txt_R43S1";
-            this.txt_R43S1.ReadOnly = true;
-            this.txt_R43S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R43S1.TabIndex = 22;
-            this.txt_R43S1.Text = "1";
-            this.txt_R43S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R43L1.BackColor = System.Drawing.Color.SpringGreen;
+            this.txt_R43L1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R43L1.Location = new System.Drawing.Point(734, 122);
+            this.txt_R43L1.Name = "txt_R43L1";
+            this.txt_R43L1.ReadOnly = true;
+            this.txt_R43L1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R43L1.TabIndex = 22;
+            this.txt_R43L1.Text = "1";
+            this.txt_R43L1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R42S1
+            // txt_R42L55
             // 
-            this.txt_R42S1.BackColor = System.Drawing.Color.DarkViolet;
-            this.txt_R42S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R42S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R42S1.Location = new System.Drawing.Point(688, 122);
-            this.txt_R42S1.Name = "txt_R42S1";
-            this.txt_R42S1.ReadOnly = true;
-            this.txt_R42S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R42S1.TabIndex = 21;
-            this.txt_R42S1.Text = "55";
-            this.txt_R42S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R42L55.BackColor = System.Drawing.Color.DarkViolet;
+            this.txt_R42L55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R42L55.ForeColor = System.Drawing.Color.White;
+            this.txt_R42L55.Location = new System.Drawing.Point(688, 122);
+            this.txt_R42L55.Name = "txt_R42L55";
+            this.txt_R42L55.ReadOnly = true;
+            this.txt_R42L55.Size = new System.Drawing.Size(40, 20);
+            this.txt_R42L55.TabIndex = 21;
+            this.txt_R42L55.Text = "55";
+            this.txt_R42L55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R41S1
+            // txt_R41L10
             // 
-            this.txt_R41S1.BackColor = System.Drawing.Color.Gray;
-            this.txt_R41S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R41S1.Location = new System.Drawing.Point(642, 122);
-            this.txt_R41S1.Name = "txt_R41S1";
-            this.txt_R41S1.ReadOnly = true;
-            this.txt_R41S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R41S1.TabIndex = 20;
-            this.txt_R41S1.Text = "10";
-            this.txt_R41S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R41L10.BackColor = System.Drawing.Color.Gray;
+            this.txt_R41L10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R41L10.Location = new System.Drawing.Point(642, 122);
+            this.txt_R41L10.Name = "txt_R41L10";
+            this.txt_R41L10.ReadOnly = true;
+            this.txt_R41L10.Size = new System.Drawing.Size(40, 20);
+            this.txt_R41L10.TabIndex = 20;
+            this.txt_R41L10.Text = "10";
+            this.txt_R41L10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R40S1
             // 
@@ -790,18 +790,18 @@
             this.txt_R36L1.Text = "1";
             this.txt_R36L1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R35S1
+            // txt_R35L1624
             // 
-            this.txt_R35S1.BackColor = System.Drawing.Color.DarkRed;
-            this.txt_R35S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R35S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R35S1.Location = new System.Drawing.Point(286, 121);
-            this.txt_R35S1.Name = "txt_R35S1";
-            this.txt_R35S1.ReadOnly = true;
-            this.txt_R35S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R35S1.TabIndex = 45;
-            this.txt_R35S1.Text = "16/24";
-            this.txt_R35S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R35L1624.BackColor = System.Drawing.Color.DarkRed;
+            this.txt_R35L1624.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R35L1624.ForeColor = System.Drawing.Color.White;
+            this.txt_R35L1624.Location = new System.Drawing.Point(286, 121);
+            this.txt_R35L1624.Name = "txt_R35L1624";
+            this.txt_R35L1624.ReadOnly = true;
+            this.txt_R35L1624.Size = new System.Drawing.Size(40, 20);
+            this.txt_R35L1624.TabIndex = 45;
+            this.txt_R35L1624.Text = "16/24";
+            this.txt_R35L1624.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R37L5
             // 
@@ -1180,18 +1180,18 @@
             this.txt_R34S5.TabIndex = 75;
             this.txt_R34S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R45S1
+            // txt_R45L17
             // 
-            this.txt_R45S1.BackColor = System.Drawing.Color.Red;
-            this.txt_R45S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R45S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R45S1.Location = new System.Drawing.Point(860, 122);
-            this.txt_R45S1.Name = "txt_R45S1";
-            this.txt_R45S1.ReadOnly = true;
-            this.txt_R45S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R45S1.TabIndex = 84;
-            this.txt_R45S1.Text = "17";
-            this.txt_R45S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R45L17.BackColor = System.Drawing.Color.Red;
+            this.txt_R45L17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R45L17.ForeColor = System.Drawing.Color.White;
+            this.txt_R45L17.Location = new System.Drawing.Point(860, 122);
+            this.txt_R45L17.Name = "txt_R45L17";
+            this.txt_R45L17.ReadOnly = true;
+            this.txt_R45L17.Size = new System.Drawing.Size(40, 20);
+            this.txt_R45L17.TabIndex = 84;
+            this.txt_R45L17.Text = "17";
+            this.txt_R45L17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R58S1
             // 
@@ -1733,113 +1733,113 @@
             this.txt_R53S2.TabIndex = 137;
             this.txt_R53S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R57S1
+            // txt_R57L1624
             // 
-            this.txt_R57S1.BackColor = System.Drawing.Color.DarkRed;
-            this.txt_R57S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R57S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R57S1.Location = new System.Drawing.Point(148, 471);
-            this.txt_R57S1.Name = "txt_R57S1";
-            this.txt_R57S1.ReadOnly = true;
-            this.txt_R57S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R57S1.TabIndex = 136;
-            this.txt_R57S1.Text = "16/24";
-            this.txt_R57S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R57L1624.BackColor = System.Drawing.Color.DarkRed;
+            this.txt_R57L1624.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R57L1624.ForeColor = System.Drawing.Color.White;
+            this.txt_R57L1624.Location = new System.Drawing.Point(148, 471);
+            this.txt_R57L1624.Name = "txt_R57L1624";
+            this.txt_R57L1624.ReadOnly = true;
+            this.txt_R57L1624.Size = new System.Drawing.Size(40, 20);
+            this.txt_R57L1624.TabIndex = 136;
+            this.txt_R57L1624.Text = "16/24";
+            this.txt_R57L1624.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R56S1
+            // txt_R56L5
             // 
-            this.txt_R56S1.BackColor = System.Drawing.Color.Violet;
-            this.txt_R56S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R56S1.Location = new System.Drawing.Point(194, 471);
-            this.txt_R56S1.Name = "txt_R56S1";
-            this.txt_R56S1.ReadOnly = true;
-            this.txt_R56S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R56S1.TabIndex = 135;
-            this.txt_R56S1.Text = "5";
-            this.txt_R56S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R56L5.BackColor = System.Drawing.Color.Violet;
+            this.txt_R56L5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R56L5.Location = new System.Drawing.Point(194, 471);
+            this.txt_R56L5.Name = "txt_R56L5";
+            this.txt_R56L5.ReadOnly = true;
+            this.txt_R56L5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R56L5.TabIndex = 135;
+            this.txt_R56L5.Text = "5";
+            this.txt_R56L5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R54S1
+            // txt_R54L5
             // 
-            this.txt_R54S1.BackColor = System.Drawing.Color.Violet;
-            this.txt_R54S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R54S1.Location = new System.Drawing.Point(286, 471);
-            this.txt_R54S1.Name = "txt_R54S1";
-            this.txt_R54S1.ReadOnly = true;
-            this.txt_R54S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R54S1.TabIndex = 134;
-            this.txt_R54S1.Text = "5";
-            this.txt_R54S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R54L5.BackColor = System.Drawing.Color.Violet;
+            this.txt_R54L5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R54L5.Location = new System.Drawing.Point(286, 471);
+            this.txt_R54L5.Name = "txt_R54L5";
+            this.txt_R54L5.ReadOnly = true;
+            this.txt_R54L5.Size = new System.Drawing.Size(40, 20);
+            this.txt_R54L5.TabIndex = 134;
+            this.txt_R54L5.Text = "5";
+            this.txt_R54L5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R55S1
+            // txt_R55L2
             // 
-            this.txt_R55S1.BackColor = System.Drawing.Color.Yellow;
-            this.txt_R55S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R55S1.Location = new System.Drawing.Point(240, 471);
-            this.txt_R55S1.Name = "txt_R55S1";
-            this.txt_R55S1.ReadOnly = true;
-            this.txt_R55S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R55S1.TabIndex = 133;
-            this.txt_R55S1.Text = "2";
-            this.txt_R55S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R55L2.BackColor = System.Drawing.Color.Yellow;
+            this.txt_R55L2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R55L2.Location = new System.Drawing.Point(240, 471);
+            this.txt_R55L2.Name = "txt_R55L2";
+            this.txt_R55L2.ReadOnly = true;
+            this.txt_R55L2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R55L2.TabIndex = 133;
+            this.txt_R55L2.Text = "2";
+            this.txt_R55L2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R63S1
+            // txt_R63L2
             // 
-            this.txt_R63S1.BackColor = System.Drawing.Color.Yellow;
-            this.txt_R63S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R63S1.Location = new System.Drawing.Point(516, 471);
-            this.txt_R63S1.Name = "txt_R63S1";
-            this.txt_R63S1.ReadOnly = true;
-            this.txt_R63S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R63S1.TabIndex = 132;
-            this.txt_R63S1.Text = "2";
-            this.txt_R63S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R63L2.BackColor = System.Drawing.Color.Yellow;
+            this.txt_R63L2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R63L2.Location = new System.Drawing.Point(516, 471);
+            this.txt_R63L2.Name = "txt_R63L2";
+            this.txt_R63L2.ReadOnly = true;
+            this.txt_R63L2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R63L2.TabIndex = 132;
+            this.txt_R63L2.Text = "2";
+            this.txt_R63L2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R64S1
+            // txt_R64LMagenta2
             // 
-            this.txt_R64S1.BackColor = System.Drawing.Color.Magenta;
-            this.txt_R64S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R64S1.Location = new System.Drawing.Point(470, 471);
-            this.txt_R64S1.Name = "txt_R64S1";
-            this.txt_R64S1.ReadOnly = true;
-            this.txt_R64S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R64S1.TabIndex = 131;
-            this.txt_R64S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R64LMagenta2.BackColor = System.Drawing.Color.Magenta;
+            this.txt_R64LMagenta2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R64LMagenta2.Location = new System.Drawing.Point(470, 471);
+            this.txt_R64LMagenta2.Name = "txt_R64LMagenta2";
+            this.txt_R64LMagenta2.ReadOnly = true;
+            this.txt_R64LMagenta2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R64LMagenta2.TabIndex = 131;
+            this.txt_R64LMagenta2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R51S1
+            // txt_R51LBlack
             // 
-            this.txt_R51S1.BackColor = System.Drawing.Color.Black;
-            this.txt_R51S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R51S1.Location = new System.Drawing.Point(424, 471);
-            this.txt_R51S1.Name = "txt_R51S1";
-            this.txt_R51S1.ReadOnly = true;
-            this.txt_R51S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R51S1.TabIndex = 130;
-            this.txt_R51S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R51LBlack.BackColor = System.Drawing.Color.Black;
+            this.txt_R51LBlack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R51LBlack.Location = new System.Drawing.Point(424, 471);
+            this.txt_R51LBlack.Name = "txt_R51LBlack";
+            this.txt_R51LBlack.ReadOnly = true;
+            this.txt_R51LBlack.Size = new System.Drawing.Size(40, 20);
+            this.txt_R51LBlack.TabIndex = 130;
+            this.txt_R51LBlack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R52S1
+            // txt_R52L17
             // 
-            this.txt_R52S1.BackColor = System.Drawing.Color.Red;
-            this.txt_R52S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R52S1.ForeColor = System.Drawing.Color.White;
-            this.txt_R52S1.Location = new System.Drawing.Point(378, 471);
-            this.txt_R52S1.Name = "txt_R52S1";
-            this.txt_R52S1.ReadOnly = true;
-            this.txt_R52S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R52S1.TabIndex = 129;
-            this.txt_R52S1.Text = "17";
-            this.txt_R52S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R52L17.BackColor = System.Drawing.Color.Red;
+            this.txt_R52L17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R52L17.ForeColor = System.Drawing.Color.White;
+            this.txt_R52L17.Location = new System.Drawing.Point(378, 471);
+            this.txt_R52L17.Name = "txt_R52L17";
+            this.txt_R52L17.ReadOnly = true;
+            this.txt_R52L17.Size = new System.Drawing.Size(40, 20);
+            this.txt_R52L17.TabIndex = 129;
+            this.txt_R52L17.Text = "17";
+            this.txt_R52L17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R53S1
+            // txt_R53L13
             // 
-            this.txt_R53S1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.txt_R53S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R53S1.Location = new System.Drawing.Point(332, 471);
-            this.txt_R53S1.Name = "txt_R53S1";
-            this.txt_R53S1.ReadOnly = true;
-            this.txt_R53S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R53S1.TabIndex = 128;
-            this.txt_R53S1.Text = "13";
-            this.txt_R53S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R53L13.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.txt_R53L13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R53L13.Location = new System.Drawing.Point(332, 471);
+            this.txt_R53L13.Name = "txt_R53L13";
+            this.txt_R53L13.ReadOnly = true;
+            this.txt_R53L13.Size = new System.Drawing.Size(40, 20);
+            this.txt_R53L13.TabIndex = 128;
+            this.txt_R53L13.Text = "13";
+            this.txt_R53L13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R57
             // 
@@ -2259,27 +2259,27 @@
             this.txt_R62S2.TabIndex = 186;
             this.txt_R62S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R61S1
+            // txt_R61LPink2
             // 
-            this.txt_R61S1.BackColor = System.Drawing.Color.Pink;
-            this.txt_R61S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R61S1.Location = new System.Drawing.Point(608, 471);
-            this.txt_R61S1.Name = "txt_R61S1";
-            this.txt_R61S1.ReadOnly = true;
-            this.txt_R61S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R61S1.TabIndex = 185;
-            this.txt_R61S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R61LPink2.BackColor = System.Drawing.Color.Pink;
+            this.txt_R61LPink2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R61LPink2.Location = new System.Drawing.Point(608, 471);
+            this.txt_R61LPink2.Name = "txt_R61LPink2";
+            this.txt_R61LPink2.ReadOnly = true;
+            this.txt_R61LPink2.Size = new System.Drawing.Size(40, 20);
+            this.txt_R61LPink2.TabIndex = 185;
+            this.txt_R61LPink2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txt_R62S1
+            // txt_R62LPink1
             // 
-            this.txt_R62S1.BackColor = System.Drawing.Color.Pink;
-            this.txt_R62S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_R62S1.Location = new System.Drawing.Point(562, 471);
-            this.txt_R62S1.Name = "txt_R62S1";
-            this.txt_R62S1.ReadOnly = true;
-            this.txt_R62S1.Size = new System.Drawing.Size(40, 20);
-            this.txt_R62S1.TabIndex = 184;
-            this.txt_R62S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_R62LPink1.BackColor = System.Drawing.Color.Pink;
+            this.txt_R62LPink1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_R62LPink1.Location = new System.Drawing.Point(562, 471);
+            this.txt_R62LPink1.Name = "txt_R62LPink1";
+            this.txt_R62LPink1.ReadOnly = true;
+            this.txt_R62LPink1.Size = new System.Drawing.Size(40, 20);
+            this.txt_R62LPink1.TabIndex = 184;
+            this.txt_R62LPink1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_R61
             // 
@@ -3064,8 +3064,8 @@
             this.Controls.Add(this.txt_R62S3);
             this.Controls.Add(this.txt_R61S2);
             this.Controls.Add(this.txt_R62S2);
-            this.Controls.Add(this.txt_R61S1);
-            this.Controls.Add(this.txt_R62S1);
+            this.Controls.Add(this.txt_R61LPink2);
+            this.Controls.Add(this.txt_R62LPink1);
             this.Controls.Add(this.txt_R61);
             this.Controls.Add(this.txt_R62);
             this.Controls.Add(this.txt_R57S5);
@@ -3113,15 +3113,15 @@
             this.Controls.Add(this.txt_R51S2);
             this.Controls.Add(this.txt_R52S2);
             this.Controls.Add(this.txt_R53S2);
-            this.Controls.Add(this.txt_R57S1);
-            this.Controls.Add(this.txt_R56S1);
-            this.Controls.Add(this.txt_R54S1);
-            this.Controls.Add(this.txt_R55S1);
-            this.Controls.Add(this.txt_R63S1);
-            this.Controls.Add(this.txt_R64S1);
-            this.Controls.Add(this.txt_R51S1);
-            this.Controls.Add(this.txt_R52S1);
-            this.Controls.Add(this.txt_R53S1);
+            this.Controls.Add(this.txt_R57L1624);
+            this.Controls.Add(this.txt_R56L5);
+            this.Controls.Add(this.txt_R54L5);
+            this.Controls.Add(this.txt_R55L2);
+            this.Controls.Add(this.txt_R63L2);
+            this.Controls.Add(this.txt_R64LMagenta2);
+            this.Controls.Add(this.txt_R51LBlack);
+            this.Controls.Add(this.txt_R52L17);
+            this.Controls.Add(this.txt_R53L13);
             this.Controls.Add(this.txt_R57);
             this.Controls.Add(this.txt_R56);
             this.Controls.Add(this.txt_R54);
@@ -3165,7 +3165,7 @@
             this.Controls.Add(this.txt_R58S3);
             this.Controls.Add(this.txt_R45S2);
             this.Controls.Add(this.txt_R58S2);
-            this.Controls.Add(this.txt_R45S1);
+            this.Controls.Add(this.txt_R45L17);
             this.Controls.Add(this.txt_R58S1);
             this.Controls.Add(this.txt_R38S4);
             this.Controls.Add(this.txt_R37S4);
@@ -3203,7 +3203,7 @@
             this.Controls.Add(this.txt_R34S2);
             this.Controls.Add(this.txt_R38L2);
             this.Controls.Add(this.txt_R37L5);
-            this.Controls.Add(this.txt_R35S1);
+            this.Controls.Add(this.txt_R35L1624);
             this.Controls.Add(this.txt_R36L1);
             this.Controls.Add(this.txt_R44S3);
             this.Controls.Add(this.txt_R43S3);
@@ -3225,10 +3225,10 @@
             this.Controls.Add(this.txt_R42S2);
             this.Controls.Add(this.txt_R41S2);
             this.Controls.Add(this.txt_R40S2);
-            this.Controls.Add(this.txt_R44S1);
-            this.Controls.Add(this.txt_R43S1);
-            this.Controls.Add(this.txt_R42S1);
-            this.Controls.Add(this.txt_R41S1);
+            this.Controls.Add(this.txt_R44L13);
+            this.Controls.Add(this.txt_R43L1);
+            this.Controls.Add(this.txt_R42L55);
+            this.Controls.Add(this.txt_R41L10);
             this.Controls.Add(this.txt_R40S1);
             this.Controls.Add(this.txt_R44);
             this.Controls.Add(this.txt_R45);
@@ -3236,11 +3236,11 @@
             this.Controls.Add(this.txt_R42);
             this.Controls.Add(this.txt_R41);
             this.Controls.Add(this.txt_R40);
-            this.Controls.Add(this.txt_R30S1);
-            this.Controls.Add(this.txt_R31S1);
-            this.Controls.Add(this.txt_R32S1);
-            this.Controls.Add(this.txt_R33S1);
-            this.Controls.Add(this.txt_R34S1);
+            this.Controls.Add(this.txt_R30L1624);
+            this.Controls.Add(this.txt_R31LMagenta2);
+            this.Controls.Add(this.txt_R32L10);
+            this.Controls.Add(this.txt_R33L1624);
+            this.Controls.Add(this.txt_R34L2);
             this.Controls.Add(this.txt_R58);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRepair);
@@ -3276,21 +3276,21 @@
         private System.Windows.Forms.Button btnRepair;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TextBox txt_R58;
-        private System.Windows.Forms.TextBox txt_R34S1;
-        private System.Windows.Forms.TextBox txt_R33S1;
-        private System.Windows.Forms.TextBox txt_R32S1;
-        private System.Windows.Forms.TextBox txt_R31S1;
-        private System.Windows.Forms.TextBox txt_R30S1;
+        private System.Windows.Forms.TextBox txt_R34L2;
+        private System.Windows.Forms.TextBox txt_R33L1624;
+        private System.Windows.Forms.TextBox txt_R32L10;
+        private System.Windows.Forms.TextBox txt_R31LMagenta2;
+        private System.Windows.Forms.TextBox txt_R30L1624;
         private System.Windows.Forms.TextBox txt_R40;
         private System.Windows.Forms.TextBox txt_R41;
         private System.Windows.Forms.TextBox txt_R42;
         private System.Windows.Forms.TextBox txt_R43;
         private System.Windows.Forms.TextBox txt_R45;
         private System.Windows.Forms.TextBox txt_R44;
-        private System.Windows.Forms.TextBox txt_R44S1;
-        private System.Windows.Forms.TextBox txt_R43S1;
-        private System.Windows.Forms.TextBox txt_R42S1;
-        private System.Windows.Forms.TextBox txt_R41S1;
+        private System.Windows.Forms.TextBox txt_R44L13;
+        private System.Windows.Forms.TextBox txt_R43L1;
+        private System.Windows.Forms.TextBox txt_R42L55;
+        private System.Windows.Forms.TextBox txt_R41L10;
         private System.Windows.Forms.TextBox txt_R40S1;
         private System.Windows.Forms.TextBox txt_R44S2;
         private System.Windows.Forms.TextBox txt_R43S2;
@@ -3313,7 +3313,7 @@
         private System.Windows.Forms.TextBox txt_R41S3;
         private System.Windows.Forms.TextBox txt_R40S3;
         private System.Windows.Forms.TextBox txt_R36L1;
-        private System.Windows.Forms.TextBox txt_R35S1;
+        private System.Windows.Forms.TextBox txt_R35L1624;
         private System.Windows.Forms.TextBox txt_R37L5;
         private System.Windows.Forms.TextBox txt_R38L2;
         private System.Windows.Forms.TextBox txt_R38S1;
@@ -3350,7 +3350,7 @@
         private System.Windows.Forms.TextBox txt_R32S5;
         private System.Windows.Forms.TextBox txt_R33S5;
         private System.Windows.Forms.TextBox txt_R34S5;
-        private System.Windows.Forms.TextBox txt_R45S1;
+        private System.Windows.Forms.TextBox txt_R45L17;
         private System.Windows.Forms.TextBox txt_R58S1;
         private System.Windows.Forms.TextBox txt_R45S2;
         private System.Windows.Forms.TextBox txt_R58S2;
@@ -3404,15 +3404,15 @@
         private System.Windows.Forms.TextBox txt_R51S2;
         private System.Windows.Forms.TextBox txt_R52S2;
         private System.Windows.Forms.TextBox txt_R53S2;
-        private System.Windows.Forms.TextBox txt_R57S1;
-        private System.Windows.Forms.TextBox txt_R56S1;
-        private System.Windows.Forms.TextBox txt_R54S1;
-        private System.Windows.Forms.TextBox txt_R55S1;
-        private System.Windows.Forms.TextBox txt_R63S1;
-        private System.Windows.Forms.TextBox txt_R64S1;
-        private System.Windows.Forms.TextBox txt_R51S1;
-        private System.Windows.Forms.TextBox txt_R52S1;
-        private System.Windows.Forms.TextBox txt_R53S1;
+        private System.Windows.Forms.TextBox txt_R57L1624;
+        private System.Windows.Forms.TextBox txt_R56L5;
+        private System.Windows.Forms.TextBox txt_R54L5;
+        private System.Windows.Forms.TextBox txt_R55L2;
+        private System.Windows.Forms.TextBox txt_R63L2;
+        private System.Windows.Forms.TextBox txt_R64LMagenta2;
+        private System.Windows.Forms.TextBox txt_R51LBlack;
+        private System.Windows.Forms.TextBox txt_R52L17;
+        private System.Windows.Forms.TextBox txt_R53L13;
         private System.Windows.Forms.TextBox txt_R57;
         private System.Windows.Forms.TextBox txt_R56;
         private System.Windows.Forms.TextBox txt_R54;
@@ -3453,8 +3453,8 @@
         private System.Windows.Forms.TextBox txt_R62S3;
         private System.Windows.Forms.TextBox txt_R61S2;
         private System.Windows.Forms.TextBox txt_R62S2;
-        private System.Windows.Forms.TextBox txt_R61S1;
-        private System.Windows.Forms.TextBox txt_R62S1;
+        private System.Windows.Forms.TextBox txt_R61LPink2;
+        private System.Windows.Forms.TextBox txt_R62LPink1;
         private System.Windows.Forms.TextBox txt_R61;
         private System.Windows.Forms.TextBox txt_R62;
         private System.Windows.Forms.TextBox txt_R57S6;
