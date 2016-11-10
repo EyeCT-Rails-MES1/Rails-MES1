@@ -62,5 +62,29 @@ namespace DAL.Persistencies
             }
             return cleaningList;
         }
+
+        public List<MaintenanceData> getMaintenanceData()
+        {
+            List<MaintenanceData> maintenanceList = new List<MaintenanceData>();
+            string query = @"select ID from [Maintenance];";
+            List<int> maintenanceID = databaseConnection.executeReaderIntList(query);
+            MaintenanceData tempMaintenance = new MaintenanceData(0, 0, 0, 0, DateTime.Today, DateTime.Today);
+            foreach (int id in maintenanceID)
+            {
+                tempMaintenance.ID = id;
+                query = @"Select TramID from [Maintenance] where ID = " + id + @";";
+                tempMaintenance.TramID = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select UserID from [Maintenance] where ID = " + id + @";";
+                tempMaintenance.UserID = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select CleaningListID from [Maintenance] where ID = " + id + @";";
+                tempMaintenance.CleaningListID = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select StartDate from [Maintenance] where ID = " + id + @";";
+                tempMaintenance.StartDate = (DateTime)databaseConnection.executeReaderDateTime(query);
+                query = @"Select EndDate from [Maintenance] where ID = " + id + @";";
+                tempMaintenance.EndDate = (DateTime)databaseConnection.executeReaderDateTime(query);
+                maintenanceList.Add(new MaintenanceData(tempMaintenance.ID, tempMaintenance.TramID, tempMaintenance.UserID, tempMaintenance.CleaningListID, tempMaintenance.StartDate, tempMaintenance.EndDate));
+            }
+            return maintenanceList;
+        }
     }
 }

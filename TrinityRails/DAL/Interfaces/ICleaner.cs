@@ -12,5 +12,6 @@ namespace DAL.Interfaces
     {
         void finishTask(int tramNumber, DateTime date, User user);
         List<Cleaner> cleaningList();
+        List<MaintenanceData> getMaintenanceData();
     }
 }

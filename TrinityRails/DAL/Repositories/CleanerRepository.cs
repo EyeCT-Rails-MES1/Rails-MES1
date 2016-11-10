@@ -29,5 +29,10 @@ namespace DAL.Repositories
         {
             context.finishTask(tramNumber, date, user);
         }
+
+        public List<MaintenanceData> getMaintenanceData()
+        {
+            return context.getMaintenanceData();
+        }
     }
 }

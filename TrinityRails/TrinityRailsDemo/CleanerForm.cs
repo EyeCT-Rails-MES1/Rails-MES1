@@ -19,6 +19,7 @@ namespace TrinityRailsDemo
     {
         CleanerRepository CleanerRepo = new CleanerRepository(new CleanerSQL());
         List<Cleaner> cleaningList = new List<Cleaner>();
+        List<MaintenanceData> maintenanceList = new List<MaintenanceData>();
         User user;
 
         public CleanerForm(User user)
@@ -33,6 +34,11 @@ namespace TrinityRailsDemo
             foreach (Cleaner taak in cleaningList)
             {
                 lbCleaning.Items.Add(taak.task + ", " + Convert.ToString(taak.tramNumber));
+            }
+            maintenanceList = CleanerRepo.getMaintenanceData();
+            foreach(MaintenanceData data in maintenanceList)
+            {
+                lbDone.Items.Add(data.TramID + ", " + data.UserID + ", " + data.CleaningListID + ", " + data.StartDate.ToString() + ", " + data.EndDate.ToString());
             }
         }
 
@@ -59,6 +65,12 @@ namespace TrinityRailsDemo
             {
                 lbCleaning.Items.Add(taak.task + ", " + Convert.ToString(taak.tramNumber));
             }
+            lbDone.Items.Clear();
+            foreach (MaintenanceData data in maintenanceList)
+            {
+                lbDone.Items.Add(data.TramID + ", " + data.UserID + ", " + data.CleaningListID + ", " + data.StartDate.ToString() + ", " + data.EndDate.ToString())
+            }
+
         }
     }
 }
