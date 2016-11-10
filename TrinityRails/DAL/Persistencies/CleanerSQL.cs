@@ -19,28 +19,37 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void setDate(DateTime date, User user, Tram tram)
+        public void finishTask(int tramNumber, DateTime date)
         {
-            string query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
-            databaseConnection.executeCommand(query);
-        }
+            string query = @"SELECT [ID] FROM [Tram] WHERE [TramNumber] = " + tramNumber + @";";
+            int TramID = (int)databaseConnection.executeReaderInt(query);
 
-        public void setName(User user, Tram tram)
-        {
-            string query = @"UPDATE [Maintenance] SET [Name] = " + user.name + @" WHERE [UserID] = " + user.ID + @" AND [TramID] = " + tram.number + @";";
-            databaseConnection.executeCommand(query);
-        }
+            query = @"SELECT [CleaningListID] FROM [Maintenance] WHERE [TramNumber] = " + tramNumber + @";";
+            int CleaningListID = (int)databaseConnection.executeReaderInt(query);
 
-        public void setStatus(Tram tram, Status.tramStatus status)
-        {
-            string query = @"UPDATE [Tram] SET [Status] = " + Convert.ToInt32(status) + @"WHERE [TramNumber] = " + tram.number + @";";
-            databaseConnection.executeCommand(query);
-        }
+            query = @"SELECT [Name] FROM [CleaningList] WHERE [CleaningListID] = " + CleaningListID + @";";
+            string Name = databaseConnection.executeReaderString(query);
 
-        public string getCleaningTasks(Tram tram)
-        {
-            string query = @"SELECT [Task] FROM [Cleaninglist] WHERE [TramNumber] = " + tram.number + @";";
-            return databaseConnection.executeReaderString(query);
+            query = @"SELECT [Task] FROM [CleaningList] WHERE [CleaningListID] = " + CleaningListID + @";";
+            string Task = databaseConnection.executeReaderString(query);
+
+            query = @"SELECT [UserID] FROM [Maintenance] WHERE [Name] = " + Name + @";";
+            int UserID = (int)databaseConnection.executeReaderInt(query);
+
+            query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @" WHERE [CleaningListID] = " + CleaningListID + @";";
+            databaseConnection.executeCommand(query);
+
+            query = @"UPDATE [Maintenance] SET [UserID] = " + UserID + @" WHERE [CleaningListID] = " + CleaningListID + @";";
+            databaseConnection.executeCommand(query);
+
+            query = @"UPDATE [Maintenance] SET [Name] = " + Name + @" WHERE [CleaningListID] = " + CleaningListID + @";";
+            databaseConnection.executeCommand(query);
+
+            query = @"UPDATE [Tram] SET [Status] = " + Convert.ToInt32(Status.tramStatus.Remise) + @" WHERE [TramNumber] = " + tramNumber + @";";
+            databaseConnection.executeCommand(query);
+
+            query = @"DELETE FROM [CleanerList] WHERE [ID] = " + CleaningListID + @";";
+            databaseConnection.executeCommand(query);
         }
 
         List<Cleaner> ICleaner.cleaningList()

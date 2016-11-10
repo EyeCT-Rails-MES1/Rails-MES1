@@ -26,7 +26,7 @@ namespace DAL.Persistencies
             databaseConnection.executeCommand(query);
             query = @"SELECT MAX(ID) FROM [Maintenance]";
             int MaintenanceID = (int)databaseConnection.executeReaderInt(query) + 1;
-            query = @"SELECT [ID] FROM [Maintenance] WHERE [TramNumber] = " + tram.number + @";";
+            query = @"SELECT [ID] FROM [Tram] WHERE [TramNumber] = " + tram.number + @";";
             int TramID = (int)databaseConnection.executeReaderInt(query);
             query = @"INSERT INTO [Maintenance] VALUES (" + MaintenanceID + @", " + TramID + @", " + "NULL" + @", " + CleaningListID + @", " + "NULL" + @", '" + DateTime.Today + @"', " + "NULL" + @");";
             databaseConnection.executeCommand(query);
@@ -40,7 +40,7 @@ namespace DAL.Persistencies
 
         public Nullable<int> getLocation(Tram tram)
         {
-            string query = @"SELECT [Location] From [Tram] WHERE [TramNumber] = " + tram.number + @";";
+            string query = @"SELECT [LocationID] From [Tram] WHERE [TramNumber] = " + tram.number + @";";
             return Convert.ToInt32(databaseConnection.executeReaderInt(query));
         }
     }
