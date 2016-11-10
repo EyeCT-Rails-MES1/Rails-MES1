@@ -19,36 +19,27 @@ namespace DAL.Persistencies
             databaseConnection = new DatabaseConnection();
         }
 
-        public void finishTask(int tramNumber, DateTime date)
+        public void finishTask(int tramNumber, DateTime date, User user)
         {
             string query = @"SELECT [ID] FROM [Tram] WHERE [TramNumber] = " + tramNumber + @";";
             int TramID = (int)databaseConnection.executeReaderInt(query);
 
-            query = @"SELECT [CleaningListID] FROM [Maintenance] WHERE [TramNumber] = " + tramNumber + @";";
+            query = @"SELECT [CleaningListID] FROM [Maintenance] WHERE [TramID] = " + TramID + @";";
             int CleaningListID = (int)databaseConnection.executeReaderInt(query);
-
-            query = @"SELECT [Name] FROM [CleaningList] WHERE [CleaningListID] = " + CleaningListID + @";";
-            string Name = databaseConnection.executeReaderString(query);
 
             query = @"SELECT [Task] FROM [CleaningList] WHERE [CleaningListID] = " + CleaningListID + @";";
             string Task = databaseConnection.executeReaderString(query);
 
-            query = @"SELECT [UserID] FROM [Maintenance] WHERE [Name] = " + Name + @";";
-            int UserID = (int)databaseConnection.executeReaderInt(query);
-
-            query = @"UPDATE [Maintenance] SET [EndDate] = " + date + @" WHERE [CleaningListID] = " + CleaningListID + @";";
+            query = @"UPDATE [Maintenance] SET [EndDate] = '" + date + @"' WHERE [CleaningListID] = " + CleaningListID + @";";
             databaseConnection.executeCommand(query);
 
-            query = @"UPDATE [Maintenance] SET [UserID] = " + UserID + @" WHERE [CleaningListID] = " + CleaningListID + @";";
-            databaseConnection.executeCommand(query);
-
-            query = @"UPDATE [Maintenance] SET [Name] = " + Name + @" WHERE [CleaningListID] = " + CleaningListID + @";";
+            query = @"UPDATE [Maintenance] SET [UserID] = " + user.ID + @" WHERE [CleaningListID] = " + CleaningListID + @";";
             databaseConnection.executeCommand(query);
 
             query = @"UPDATE [Tram] SET [Status] = " + Convert.ToInt32(Status.tramStatus.Remise) + @" WHERE [TramNumber] = " + tramNumber + @";";
             databaseConnection.executeCommand(query);
 
-            query = @"DELETE FROM [CleanerList] WHERE [ID] = " + CleaningListID + @";";
+            query = @"DELETE FROM [CleaningList] WHERE [ID] = " + CleaningListID + @";";
             databaseConnection.executeCommand(query);
         }
 

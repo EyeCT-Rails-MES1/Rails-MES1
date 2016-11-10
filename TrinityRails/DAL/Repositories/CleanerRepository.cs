@@ -25,9 +25,9 @@ namespace DAL.Repositories
             return context.cleaningList();
         }
 
-        public void finishTask(int tramNumber, DateTime date)
+        public void finishTask(int tramNumber, DateTime date, User user)
         {
-            context.finishTask(tramNumber, date);
+            context.finishTask(tramNumber, date, user);
         }
     }
 }

@@ -28,7 +28,7 @@ namespace DAL.Persistencies
             int MaintenanceID = (int)databaseConnection.executeReaderInt(query) + 1;
             query = @"SELECT [ID] FROM [Tram] WHERE [TramNumber] = " + tram.number + @";";
             int TramID = (int)databaseConnection.executeReaderInt(query);
-            query = @"INSERT INTO [Maintenance] VALUES (" + MaintenanceID + @", " + TramID + @", " + "NULL" + @", " + CleaningListID + @", " + "NULL" + @", '" + DateTime.Today + @"', " + "NULL" + @");";
+            query = @"INSERT INTO [Maintenance] VALUES (" + MaintenanceID + @", " + TramID + @", " + "NULL" + @", " + CleaningListID + @", '" + DateTime.Today + @"', " + "NULL" + @");";
             databaseConnection.executeCommand(query);
         }
 

@@ -50,10 +50,15 @@ namespace TrinityRailsDemo
                 {
                     comma = true;
                 }
-                
             }
             tramNumber.Remove(0, 1);
-            CleanerRepo.finishTask(Convert.ToInt32(tramNumber), DateTime.Today);
+            CleanerRepo.finishTask(Convert.ToInt32(tramNumber), DateTime.Today, user);
+            lbCleaning.Items.Clear();
+            cleaningList = CleanerRepo.getCleaningList();
+            foreach (Cleaner taak in cleaningList)
+            {
+                lbCleaning.Items.Add(taak.task + ", " + Convert.ToString(taak.tramNumber));
+            }
         }
     }
 }
