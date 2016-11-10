@@ -38,8 +38,21 @@ namespace TrinityRailsDemo
 
         private void btnFinishCleaning_Click(object sender, EventArgs e)
         {
-            int selected = lbCleaning.SelectedIndex;
-            //CleanerRepo.finishCleaning(dtDate.Value,  Taken[selected]);
+            string tramNumber = "";
+            bool comma = false;
+            foreach(char character in lbCleaning.SelectedItem.ToString())
+            {
+                if(character == ',')
+                {
+                    comma = true;
+                }
+                if(comma)
+                {
+                    tramNumber += character;
+                }
+            }
+            tramNumber.Remove(0, 1);
+            CleanerRepo.finishTask(Convert.ToInt32(tramNumber), DateTime.Today);
         }
     }
 }

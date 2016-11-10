@@ -10,10 +10,7 @@ namespace DAL.Interfaces
 {
     public interface ICleaner
     {
-        void setDate(DateTime date, User user, Tram tram);
-        void setName(User user, Tram tram);
-        void setStatus(Tram tram, Status.tramStatus status);
-        string getCleaningTasks(Tram tram);
+        void finishTask(int tramNumber, DateTime date);
         List<Cleaner> cleaningList();
     }
 }

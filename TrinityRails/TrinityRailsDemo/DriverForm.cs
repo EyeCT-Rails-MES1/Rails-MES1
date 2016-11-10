@@ -12,6 +12,7 @@ using DAL.Repositories;
 using DAL.Interfaces;
 using DAL.Persistencies;
 using System.Windows.Forms;
+using Classes.Enumerations;
 
 
 namespace TrinityRailsDemo
@@ -78,7 +79,7 @@ namespace TrinityRailsDemo
         {
             tbTramNumber.Text = tbTramNumber.Text + "0";
         }
-        
+
         private void btnRecover_Click(object sender, EventArgs e)
         {
             if (tbTramNumber.TextLength > 1)
@@ -99,27 +100,26 @@ namespace TrinityRailsDemo
                 {
                     if (rbRepair.Checked)
                     {
-                        TramRepo.setStatus(tram, Classes.Enumerations.Status.tramStatus.Repair);
+                        TramRepo.setStatus(tram, Status.tramStatus.Repair);
                     }
                     if (rbCleaning.Checked)
                     {
-                        TramRepo.setStatus(tram, Classes.Enumerations.Status.tramStatus.Cleaning);
+                        TramRepo.setStatus(tram, Status.tramStatus.Cleaning);
                         DriverRepo.addCleaningTask(tbRemarks.Text, tram);
                     }
                     tbGoTo.Text = Convert.ToString(DriverRepo.getLocation(tram));
                 }
             }
-            
         }
 
         private void tbTramNumber_TextChanged(object sender, EventArgs e)
         {
             if (rbRepair.Checked && tbRemarks.Text != "" || rbCleaning.Checked && tbRemarks.Text != "")
             {
-                 if (tbTramNumber.TextLength == 3 || tbTramNumber.TextLength == 4)
-                    {
-                        btnConfirm.Enabled = true;
-                    }
+                if (tbTramNumber.TextLength == 3 || tbTramNumber.TextLength == 4)
+                {
+                    btnConfirm.Enabled = true;
+                }
             }
         }
     }
