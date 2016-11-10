@@ -58,6 +58,38 @@ namespace DAL.Persistencies
                 tempTram.rail = (int)databaseConnection.executeReaderInt(query);
                 TramList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
             }
+            query = @"select TramNumber from [Tram] WHERE [Status] = " + Convert.ToInt32(Status.tramStatus.Repair) + @";";
+            tramID = databaseConnection.executeReaderIntList(query);
+            tempTram = new Tram(1, Status.tramStatus.Repair, 1, "1", 1);
+            foreach (int id in tramID)
+            {
+                tempTram.number = id;
+                query = @"Select Status from [Tram] where TramNumber =" + id + @";";
+                tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);
+                query = @"select SectorNumber from [LOCATION] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
+                tempTram.sector = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select RFID from [Tram] where ID =" + id + @";";
+                tempTram.RFID = (string)databaseConnection.executeReaderString(query);
+                query = @"Select RailNumber from [Location] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
+                tempTram.rail = (int)databaseConnection.executeReaderInt(query);
+                TramList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
+            }
+            query = @"select TramNumber from [Tram] WHERE [Status] = " + Convert.ToInt32(Status.tramStatus.Cleaning) + @";";
+            tramID = databaseConnection.executeReaderIntList(query);
+            tempTram = new Tram(1, Status.tramStatus.Repair, 1, "1", 1);
+            foreach (int id in tramID)
+            {
+                tempTram.number = id;
+                query = @"Select Status from [Tram] where TramNumber =" + id + @";";
+                tempTram.status = (Status.tramStatus)databaseConnection.executeReaderInt(query);
+                query = @"select SectorNumber from [LOCATION] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
+                tempTram.sector = (int)databaseConnection.executeReaderInt(query);
+                query = @"Select RFID from [Tram] where ID =" + id + @";";
+                tempTram.RFID = (string)databaseConnection.executeReaderString(query);
+                query = @"Select RailNumber from [Location] left join [TRAM] on LOCATION.ID = TRAM.LocationID where TRAM.TramNumber=" + id + @";";
+                tempTram.rail = (int)databaseConnection.executeReaderInt(query);
+                TramList.Add(new Tram(tempTram.number, tempTram.status, tempTram.sector, tempTram.RFID, tempTram.rail));
+            }
             return TramList;
         }
         public void setStatus(Tram tram, Status.tramStatus status)

@@ -508,16 +508,6 @@ namespace TrinityRailsDemo
             textBoxes77[5] = txt_R77S6;
             
             refreshTrams();
-
-            //List<Sector> sectors = new List<Sector>();
-            //foreach (Tram tram in tramRepo.getTrams())
-            //{
-            //    sectors = fleetRepo.getSectorList();
-            //    if (tram.rail != 0 && tram.sector != 0)
-            //    {
-
-            //    }
-            //}
         }
 
         public TextBox[] ReturnSectorBoxes(int spoorNummer)
@@ -618,10 +608,19 @@ namespace TrinityRailsDemo
             trams = tramRepo.getTramsInRemise();
             foreach (Tram tram in trams)
             {
-                if (tram.status == Status.tramStatus.Remise)
+                if (tram.status == Status.tramStatus.Remise || tram.status == Status.tramStatus.Repair || tram.status == Status.tramStatus.Cleaning)
                 {
                     TextBox[] chosenBoxes = ReturnSectorBoxes(tram.rail);
                     chosenBoxes[tram.sector - 1].Text = Convert.ToString(tram.number);
+                    chosenBoxes[tram.sector - 1].ForeColor = Color.Black;
+                    if (tram.status == Status.tramStatus.Repair)
+                    {
+                        chosenBoxes[tram.sector - 1].ForeColor = Color.Red;
+                    }
+                    if (tram.status == Status.tramStatus.Cleaning)
+                    {
+                        chosenBoxes[tram.sector - 1].ForeColor = Color.Blue;
+                    }
                 }
             }
         }
