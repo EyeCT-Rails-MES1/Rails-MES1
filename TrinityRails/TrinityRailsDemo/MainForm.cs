@@ -61,6 +61,7 @@ namespace TrinityRailsDemo
         TextBox[] textBoxes75 = new TextBox[5];
         TextBox[] textBoxes76 = new TextBox[6];
         TextBox[] textBoxes77 = new TextBox[6];
+        TextBox[] chosenBoxes = new TextBox[10];
         User user;
         List<Tram> trams;
         TramRepository tramRepo = new TramRepository(new TramSQL());
@@ -505,7 +506,8 @@ namespace TrinityRailsDemo
             textBoxes77[3] = txt_R77S4;
             textBoxes77[4] = txt_R77S5;
             textBoxes77[5] = txt_R77S6;
-
+            
+            refreshTrams();
 
             //List<Sector> sectors = new List<Sector>();
             //foreach (Tram tram in tramRepo.getTrams())
@@ -603,5 +605,25 @@ namespace TrinityRailsDemo
             }
         }
 
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (trams != tramRepo.getTramsInRemise())
+            {
+                refreshTrams();
+            }
+        }
+
+        public void refreshTrams()
+        {
+            trams = tramRepo.getTramsInRemise();
+            foreach (Tram tram in trams)
+            {
+                if (tram.status == Status.tramStatus.Remise)
+                {
+                    TextBox[] chosenBoxes = ReturnSectorBoxes(tram.rail);
+                    chosenBoxes[tram.sector - 1].Text = Convert.ToString(tram.number);
+                }
+            }
+        }
     }
 }
