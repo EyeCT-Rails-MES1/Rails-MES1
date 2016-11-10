@@ -29,6 +29,11 @@ namespace TrinityRailsDemo.SideForms
             {
                 if (tram.number == Convert.ToInt32(tbTramNumber.Text))
                 {
+                    if (cbRepair.Checked)
+                    {
+                        TramRepo.setStatus(tram, Classes.Enumerations.Status.tramStatus.Repair);
+                    }
+                    Reservation reservation = new Reservation(tram, tram.rail);
                     tram.rail = Convert.ToInt32(tbRailNumber.Text);
                     TramRepo.setLocation(tram);
                 }

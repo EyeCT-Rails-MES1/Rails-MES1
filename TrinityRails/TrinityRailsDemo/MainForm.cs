@@ -64,6 +64,7 @@ namespace TrinityRailsDemo
         TextBox[] chosenBoxes = new TextBox[10];
         User user;
         List<Tram> trams;
+        List<Sector> sectors;
         TramRepository tramRepo = new TramRepository(new TramSQL());
         FleetManagerRepository fleetRepo = new FleetManagerRepository(new FleetManagerSQL());
 
@@ -283,7 +284,8 @@ namespace TrinityRailsDemo
         #region Sporen Dropdown
         private void spoorSectorBlokkerenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            BlockRailSector form = new BlockRailSector();
+            form.Show();
         }
 
         private void spoorUpdatenToolStripMenuItem_Click(object sender, EventArgs e)
@@ -318,11 +320,11 @@ namespace TrinityRailsDemo
                     {
                         if(sector.status == RailStatus.railStatus.Blocked)
                         {
-                            sector.status = RailStatus.railStatus.Available;
+                            fleetRepo.unblockSector(sector);
                         }
                         else if(sector.status == RailStatus.railStatus.Available)
                         {
-                            sector.status = RailStatus.railStatus.Blocked;
+                            fleetRepo.blockSector(sector);
                         }
                         else
                         {
@@ -332,7 +334,7 @@ namespace TrinityRailsDemo
 
                 }
             }
-
+            refreshTrams();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -506,7 +508,22 @@ namespace TrinityRailsDemo
             textBoxes77[3] = txt_R77S4;
             textBoxes77[4] = txt_R77S5;
             textBoxes77[5] = txt_R77S6;
-            
+            if (sectors != fleetRepo.getSectorList())
+            {
+                sectors = fleetRepo.getSectorList();
+                foreach (Sector sector in sectors)
+                {
+                    TextBox[] chosenBoxes = ReturnSectorBoxes(sector.railNumber);
+                    if (sector.status == RailStatus.railStatus.Blocked)
+                    {
+                        chosenBoxes[sector.Number - 1].BackColor = Color.DarkGray;
+                    }
+                    else
+                    {
+                        chosenBoxes[sector.Number - 1].BackColor = Color.White;
+                    }
+                }
+            }
             refreshTrams();
         }
 
@@ -597,32 +614,33 @@ namespace TrinityRailsDemo
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            if (trams != tramRepo.getTramsInRemise())
-            {
-                refreshTrams();
-            }
+            refreshTrams();
         }
 
         public void refreshTrams()
         {
-            trams = tramRepo.getTramsInRemise();
-            foreach (Tram tram in trams)
+            if (trams != tramRepo.getTramsInRemise())
             {
-                if (tram.status == Status.tramStatus.Remise || tram.status == Status.tramStatus.Repair || tram.status == Status.tramStatus.Cleaning)
+                trams = tramRepo.getTramsInRemise();
+                foreach (Tram tram in trams)
                 {
-                    TextBox[] chosenBoxes = ReturnSectorBoxes(tram.rail);
-                    chosenBoxes[tram.sector - 1].Text = Convert.ToString(tram.number);
-                    chosenBoxes[tram.sector - 1].ForeColor = Color.Black;
-                    if (tram.status == Status.tramStatus.Repair)
+                    if (tram.status == Status.tramStatus.Remise || tram.status == Status.tramStatus.Repair || tram.status == Status.tramStatus.Cleaning)
                     {
-                        chosenBoxes[tram.sector - 1].ForeColor = Color.Red;
-                    }
-                    if (tram.status == Status.tramStatus.Cleaning)
-                    {
-                        chosenBoxes[tram.sector - 1].ForeColor = Color.Blue;
+                        TextBox[] chosenBoxes = ReturnSectorBoxes(tram.rail);
+                        chosenBoxes[tram.sector - 1].Text = Convert.ToString(tram.number);
+                        chosenBoxes[tram.sector - 1].ForeColor = Color.Black;
+                        if (tram.status == Status.tramStatus.Repair)
+                        {
+                            chosenBoxes[tram.sector - 1].ForeColor = Color.Red;
+                        }
+                        if (tram.status == Status.tramStatus.Cleaning)
+                        {
+                            chosenBoxes[tram.sector - 1].ForeColor = Color.Blue;
+                        }
                     }
                 }
             }
+            
         }
     }
 }

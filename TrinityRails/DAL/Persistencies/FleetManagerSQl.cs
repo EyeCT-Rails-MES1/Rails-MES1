@@ -21,7 +21,7 @@ namespace DAL.Persistencies
 
         public void setSectorStatus(Sector sector)
         {
-            string query = @"UPDATE [Location] SET [Status] = " + (int)sector.status + @" WHERE [SectorNumber] = " + sector.Number + @";";
+            string query = @"UPDATE [Location] SET [Status] = " + (int)sector.status + @" WHERE [SectorNumber] = " + sector.Number + @" AND [RailNumber] = " + sector.railNumber + @";";
             databaseConnection.executeCommand(query);
         }
 

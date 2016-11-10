@@ -100,7 +100,8 @@ namespace DAL.Persistencies
 
         public void setLocation(Tram tram)
         {
-            string query = @"Update [Tram] SET [Rail, Sector] = '" + "(" + tram.rail + ", " + tram.sector + ")" + @"' WHERE [TramNumber] = " + tram.number + @";";
+            string query = @"Update [Tram] SET [Rail] = '" + tram.rail + "', " + "[Sector] = '" + tram.sector + @"' WHERE [TramNumber] = " + tram.number + @";";
+            databaseConnection.executeCommand(query);
         }
     }
 }

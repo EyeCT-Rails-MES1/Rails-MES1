@@ -573,7 +573,6 @@
             this.txt_R40S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S1.Location = new System.Drawing.Point(596, 122);
             this.txt_R40S1.Name = "txt_R40S1";
-            this.txt_R40S1.ReadOnly = true;
             this.txt_R40S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R40S1.TabIndex = 19;
             this.txt_R40S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -583,7 +582,6 @@
             this.txt_R44S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S2.Location = new System.Drawing.Point(780, 148);
             this.txt_R44S2.Name = "txt_R44S2";
-            this.txt_R44S2.ReadOnly = true;
             this.txt_R44S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S2.TabIndex = 28;
             this.txt_R44S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -593,7 +591,6 @@
             this.txt_R43S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S2.Location = new System.Drawing.Point(734, 148);
             this.txt_R43S2.Name = "txt_R43S2";
-            this.txt_R43S2.ReadOnly = true;
             this.txt_R43S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S2.TabIndex = 27;
             this.txt_R43S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -603,7 +600,6 @@
             this.txt_R42S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R42S2.Location = new System.Drawing.Point(688, 148);
             this.txt_R42S2.Name = "txt_R42S2";
-            this.txt_R42S2.ReadOnly = true;
             this.txt_R42S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S2.TabIndex = 26;
             this.txt_R42S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -613,7 +609,6 @@
             this.txt_R41S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S2.Location = new System.Drawing.Point(642, 148);
             this.txt_R41S2.Name = "txt_R41S2";
-            this.txt_R41S2.ReadOnly = true;
             this.txt_R41S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S2.TabIndex = 25;
             this.txt_R41S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -623,7 +618,6 @@
             this.txt_R40S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S2.Location = new System.Drawing.Point(596, 148);
             this.txt_R40S2.Name = "txt_R40S2";
-            this.txt_R40S2.ReadOnly = true;
             this.txt_R40S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R40S2.TabIndex = 24;
             this.txt_R40S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -633,7 +627,6 @@
             this.txt_R44S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S4.Location = new System.Drawing.Point(780, 200);
             this.txt_R44S4.Name = "txt_R44S4";
-            this.txt_R44S4.ReadOnly = true;
             this.txt_R44S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S4.TabIndex = 33;
             this.txt_R44S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -643,7 +636,6 @@
             this.txt_R43S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S4.Location = new System.Drawing.Point(734, 200);
             this.txt_R43S4.Name = "txt_R43S4";
-            this.txt_R43S4.ReadOnly = true;
             this.txt_R43S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S4.TabIndex = 32;
             this.txt_R43S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -653,7 +645,6 @@
             this.txt_R42S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R42S4.Location = new System.Drawing.Point(688, 200);
             this.txt_R42S4.Name = "txt_R42S4";
-            this.txt_R42S4.ReadOnly = true;
             this.txt_R42S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S4.TabIndex = 31;
             this.txt_R42S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -663,7 +654,6 @@
             this.txt_R41S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S4.Location = new System.Drawing.Point(642, 200);
             this.txt_R41S4.Name = "txt_R41S4";
-            this.txt_R41S4.ReadOnly = true;
             this.txt_R41S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S4.TabIndex = 30;
             this.txt_R41S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -673,7 +663,6 @@
             this.txt_R40S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S4.Location = new System.Drawing.Point(596, 200);
             this.txt_R40S4.Name = "txt_R40S4";
-            this.txt_R40S4.ReadOnly = true;
             this.txt_R40S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R40S4.TabIndex = 29;
             this.txt_R40S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -683,7 +672,6 @@
             this.txt_R44S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S5.Location = new System.Drawing.Point(780, 226);
             this.txt_R44S5.Name = "txt_R44S5";
-            this.txt_R44S5.ReadOnly = true;
             this.txt_R44S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S5.TabIndex = 38;
             this.txt_R44S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -693,7 +681,6 @@
             this.txt_R43S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S5.Location = new System.Drawing.Point(734, 226);
             this.txt_R43S5.Name = "txt_R43S5";
-            this.txt_R43S5.ReadOnly = true;
             this.txt_R43S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S5.TabIndex = 37;
             this.txt_R43S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -703,7 +690,6 @@
             this.txt_R42S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R42S5.Location = new System.Drawing.Point(688, 226);
             this.txt_R42S5.Name = "txt_R42S5";
-            this.txt_R42S5.ReadOnly = true;
             this.txt_R42S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S5.TabIndex = 36;
             this.txt_R42S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -713,7 +699,6 @@
             this.txt_R41S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S5.Location = new System.Drawing.Point(642, 226);
             this.txt_R41S5.Name = "txt_R41S5";
-            this.txt_R41S5.ReadOnly = true;
             this.txt_R41S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S5.TabIndex = 35;
             this.txt_R41S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -723,7 +708,6 @@
             this.txt_R40S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S5.Location = new System.Drawing.Point(596, 226);
             this.txt_R40S5.Name = "txt_R40S5";
-            this.txt_R40S5.ReadOnly = true;
             this.txt_R40S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R40S5.TabIndex = 34;
             this.txt_R40S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -733,7 +717,6 @@
             this.txt_R44S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R44S3.Location = new System.Drawing.Point(780, 174);
             this.txt_R44S3.Name = "txt_R44S3";
-            this.txt_R44S3.ReadOnly = true;
             this.txt_R44S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R44S3.TabIndex = 43;
             this.txt_R44S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -743,7 +726,6 @@
             this.txt_R43S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R43S3.Location = new System.Drawing.Point(734, 174);
             this.txt_R43S3.Name = "txt_R43S3";
-            this.txt_R43S3.ReadOnly = true;
             this.txt_R43S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R43S3.TabIndex = 42;
             this.txt_R43S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -753,7 +735,6 @@
             this.txt_R42S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R42S3.Location = new System.Drawing.Point(688, 174);
             this.txt_R42S3.Name = "txt_R42S3";
-            this.txt_R42S3.ReadOnly = true;
             this.txt_R42S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R42S3.TabIndex = 41;
             this.txt_R42S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -763,7 +744,6 @@
             this.txt_R41S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R41S3.Location = new System.Drawing.Point(642, 174);
             this.txt_R41S3.Name = "txt_R41S3";
-            this.txt_R41S3.ReadOnly = true;
             this.txt_R41S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R41S3.TabIndex = 40;
             this.txt_R41S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -773,7 +753,6 @@
             this.txt_R40S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R40S3.Location = new System.Drawing.Point(596, 174);
             this.txt_R40S3.Name = "txt_R40S3";
-            this.txt_R40S3.ReadOnly = true;
             this.txt_R40S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R40S3.TabIndex = 39;
             this.txt_R40S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -833,7 +812,6 @@
             this.txt_R38S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S1.Location = new System.Drawing.Point(148, 147);
             this.txt_R38S1.Name = "txt_R38S1";
-            this.txt_R38S1.ReadOnly = true;
             this.txt_R38S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S1.TabIndex = 56;
             this.txt_R38S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -844,7 +822,6 @@
             this.txt_R37S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S1.Location = new System.Drawing.Point(194, 147);
             this.txt_R37S1.Name = "txt_R37S1";
-            this.txt_R37S1.ReadOnly = true;
             this.txt_R37S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S1.TabIndex = 55;
             this.txt_R37S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -855,7 +832,6 @@
             this.txt_R35S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R35S2.Location = new System.Drawing.Point(286, 147);
             this.txt_R35S2.Name = "txt_R35S2";
-            this.txt_R35S2.ReadOnly = true;
             this.txt_R35S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S2.TabIndex = 54;
             this.txt_R35S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -865,7 +841,6 @@
             this.txt_R36S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S1.Location = new System.Drawing.Point(240, 147);
             this.txt_R36S1.Name = "txt_R36S1";
-            this.txt_R36S1.ReadOnly = true;
             this.txt_R36S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S1.TabIndex = 53;
             this.txt_R36S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -876,7 +851,6 @@
             this.txt_R30S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R30S2.Location = new System.Drawing.Point(516, 147);
             this.txt_R30S2.Name = "txt_R30S2";
-            this.txt_R30S2.ReadOnly = true;
             this.txt_R30S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R30S2.TabIndex = 52;
             this.txt_R30S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -886,7 +860,6 @@
             this.txt_R31S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R31S2.Location = new System.Drawing.Point(470, 147);
             this.txt_R31S2.Name = "txt_R31S2";
-            this.txt_R31S2.ReadOnly = true;
             this.txt_R31S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R31S2.TabIndex = 51;
             this.txt_R31S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -896,7 +869,6 @@
             this.txt_R32S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S2.Location = new System.Drawing.Point(424, 147);
             this.txt_R32S2.Name = "txt_R32S2";
-            this.txt_R32S2.ReadOnly = true;
             this.txt_R32S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S2.TabIndex = 50;
             this.txt_R32S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -906,7 +878,6 @@
             this.txt_R33S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R33S2.Location = new System.Drawing.Point(378, 147);
             this.txt_R33S2.Name = "txt_R33S2";
-            this.txt_R33S2.ReadOnly = true;
             this.txt_R33S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S2.TabIndex = 49;
             this.txt_R33S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -916,7 +887,6 @@
             this.txt_R34S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S2.Location = new System.Drawing.Point(332, 147);
             this.txt_R34S2.Name = "txt_R34S2";
-            this.txt_R34S2.ReadOnly = true;
             this.txt_R34S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S2.TabIndex = 48;
             this.txt_R34S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -926,7 +896,6 @@
             this.txt_R38S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S2.Location = new System.Drawing.Point(148, 173);
             this.txt_R38S2.Name = "txt_R38S2";
-            this.txt_R38S2.ReadOnly = true;
             this.txt_R38S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S2.TabIndex = 65;
             this.txt_R38S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -937,7 +906,6 @@
             this.txt_R37S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S2.Location = new System.Drawing.Point(194, 173);
             this.txt_R37S2.Name = "txt_R37S2";
-            this.txt_R37S2.ReadOnly = true;
             this.txt_R37S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S2.TabIndex = 64;
             this.txt_R37S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -948,7 +916,6 @@
             this.txt_R35S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R35S3.Location = new System.Drawing.Point(286, 173);
             this.txt_R35S3.Name = "txt_R35S3";
-            this.txt_R35S3.ReadOnly = true;
             this.txt_R35S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S3.TabIndex = 63;
             this.txt_R35S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -958,7 +925,6 @@
             this.txt_R36S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S2.Location = new System.Drawing.Point(240, 173);
             this.txt_R36S2.Name = "txt_R36S2";
-            this.txt_R36S2.ReadOnly = true;
             this.txt_R36S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S2.TabIndex = 62;
             this.txt_R36S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -969,7 +935,6 @@
             this.txt_R30S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R30S3.Location = new System.Drawing.Point(516, 173);
             this.txt_R30S3.Name = "txt_R30S3";
-            this.txt_R30S3.ReadOnly = true;
             this.txt_R30S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R30S3.TabIndex = 61;
             this.txt_R30S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -979,7 +944,6 @@
             this.txt_R31S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R31S3.Location = new System.Drawing.Point(470, 173);
             this.txt_R31S3.Name = "txt_R31S3";
-            this.txt_R31S3.ReadOnly = true;
             this.txt_R31S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R31S3.TabIndex = 60;
             this.txt_R31S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -989,7 +953,6 @@
             this.txt_R32S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S3.Location = new System.Drawing.Point(424, 173);
             this.txt_R32S3.Name = "txt_R32S3";
-            this.txt_R32S3.ReadOnly = true;
             this.txt_R32S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S3.TabIndex = 59;
             this.txt_R32S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -999,7 +962,6 @@
             this.txt_R33S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R33S3.Location = new System.Drawing.Point(378, 173);
             this.txt_R33S3.Name = "txt_R33S3";
-            this.txt_R33S3.ReadOnly = true;
             this.txt_R33S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S3.TabIndex = 58;
             this.txt_R33S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1009,7 +971,6 @@
             this.txt_R34S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S3.Location = new System.Drawing.Point(332, 173);
             this.txt_R34S3.Name = "txt_R34S3";
-            this.txt_R34S3.ReadOnly = true;
             this.txt_R34S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S3.TabIndex = 57;
             this.txt_R34S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1019,7 +980,6 @@
             this.txt_R38S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S3.Location = new System.Drawing.Point(148, 199);
             this.txt_R38S3.Name = "txt_R38S3";
-            this.txt_R38S3.ReadOnly = true;
             this.txt_R38S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S3.TabIndex = 74;
             this.txt_R38S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1030,7 +990,6 @@
             this.txt_R37S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S3.Location = new System.Drawing.Point(194, 199);
             this.txt_R37S3.Name = "txt_R37S3";
-            this.txt_R37S3.ReadOnly = true;
             this.txt_R37S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S3.TabIndex = 73;
             this.txt_R37S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1041,7 +1000,6 @@
             this.txt_R35S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R35S4.Location = new System.Drawing.Point(286, 199);
             this.txt_R35S4.Name = "txt_R35S4";
-            this.txt_R35S4.ReadOnly = true;
             this.txt_R35S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S4.TabIndex = 72;
             this.txt_R35S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1051,7 +1009,6 @@
             this.txt_R36S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S3.Location = new System.Drawing.Point(240, 199);
             this.txt_R36S3.Name = "txt_R36S3";
-            this.txt_R36S3.ReadOnly = true;
             this.txt_R36S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S3.TabIndex = 71;
             this.txt_R36S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1062,7 +1019,6 @@
             this.txt_R30S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R30S4.Location = new System.Drawing.Point(516, 199);
             this.txt_R30S4.Name = "txt_R30S4";
-            this.txt_R30S4.ReadOnly = true;
             this.txt_R30S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R30S4.TabIndex = 70;
             this.txt_R30S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1072,7 +1028,6 @@
             this.txt_R31S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R31S4.Location = new System.Drawing.Point(470, 199);
             this.txt_R31S4.Name = "txt_R31S4";
-            this.txt_R31S4.ReadOnly = true;
             this.txt_R31S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R31S4.TabIndex = 69;
             this.txt_R31S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1082,7 +1037,6 @@
             this.txt_R32S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S4.Location = new System.Drawing.Point(424, 199);
             this.txt_R32S4.Name = "txt_R32S4";
-            this.txt_R32S4.ReadOnly = true;
             this.txt_R32S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S4.TabIndex = 68;
             this.txt_R32S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1092,7 +1046,6 @@
             this.txt_R33S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R33S4.Location = new System.Drawing.Point(378, 199);
             this.txt_R33S4.Name = "txt_R33S4";
-            this.txt_R33S4.ReadOnly = true;
             this.txt_R33S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S4.TabIndex = 67;
             this.txt_R33S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1102,7 +1055,6 @@
             this.txt_R34S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S4.Location = new System.Drawing.Point(332, 199);
             this.txt_R34S4.Name = "txt_R34S4";
-            this.txt_R34S4.ReadOnly = true;
             this.txt_R34S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S4.TabIndex = 66;
             this.txt_R34S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1112,7 +1064,6 @@
             this.txt_R38S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R38S4.Location = new System.Drawing.Point(148, 225);
             this.txt_R38S4.Name = "txt_R38S4";
-            this.txt_R38S4.ReadOnly = true;
             this.txt_R38S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R38S4.TabIndex = 81;
             this.txt_R38S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1123,7 +1074,6 @@
             this.txt_R37S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R37S4.Location = new System.Drawing.Point(194, 225);
             this.txt_R37S4.Name = "txt_R37S4";
-            this.txt_R37S4.ReadOnly = true;
             this.txt_R37S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R37S4.TabIndex = 80;
             this.txt_R37S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1134,7 +1084,6 @@
             this.txt_R35S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R35S5.Location = new System.Drawing.Point(286, 225);
             this.txt_R35S5.Name = "txt_R35S5";
-            this.txt_R35S5.ReadOnly = true;
             this.txt_R35S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R35S5.TabIndex = 79;
             this.txt_R35S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1144,7 +1093,6 @@
             this.txt_R36S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R36S4.Location = new System.Drawing.Point(240, 225);
             this.txt_R36S4.Name = "txt_R36S4";
-            this.txt_R36S4.ReadOnly = true;
             this.txt_R36S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R36S4.TabIndex = 78;
             this.txt_R36S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1155,7 +1103,6 @@
             this.txt_R32S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R32S5.Location = new System.Drawing.Point(424, 225);
             this.txt_R32S5.Name = "txt_R32S5";
-            this.txt_R32S5.ReadOnly = true;
             this.txt_R32S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R32S5.TabIndex = 77;
             this.txt_R32S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1165,7 +1112,6 @@
             this.txt_R33S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R33S5.Location = new System.Drawing.Point(378, 225);
             this.txt_R33S5.Name = "txt_R33S5";
-            this.txt_R33S5.ReadOnly = true;
             this.txt_R33S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R33S5.TabIndex = 76;
             this.txt_R33S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1175,7 +1121,6 @@
             this.txt_R34S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R34S5.Location = new System.Drawing.Point(332, 225);
             this.txt_R34S5.Name = "txt_R34S5";
-            this.txt_R34S5.ReadOnly = true;
             this.txt_R34S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R34S5.TabIndex = 75;
             this.txt_R34S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1198,7 +1143,6 @@
             this.txt_R58S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S1.Location = new System.Drawing.Point(940, 122);
             this.txt_R58S1.Name = "txt_R58S1";
-            this.txt_R58S1.ReadOnly = true;
             this.txt_R58S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S1.TabIndex = 83;
             this.txt_R58S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1208,7 +1152,6 @@
             this.txt_R45S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S2.Location = new System.Drawing.Point(860, 148);
             this.txt_R45S2.Name = "txt_R45S2";
-            this.txt_R45S2.ReadOnly = true;
             this.txt_R45S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S2.TabIndex = 86;
             this.txt_R45S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1218,7 +1161,6 @@
             this.txt_R58S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S2.Location = new System.Drawing.Point(940, 148);
             this.txt_R58S2.Name = "txt_R58S2";
-            this.txt_R58S2.ReadOnly = true;
             this.txt_R58S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S2.TabIndex = 85;
             this.txt_R58S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1228,7 +1170,6 @@
             this.txt_R45S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S3.Location = new System.Drawing.Point(860, 174);
             this.txt_R45S3.Name = "txt_R45S3";
-            this.txt_R45S3.ReadOnly = true;
             this.txt_R45S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S3.TabIndex = 88;
             this.txt_R45S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1238,7 +1179,6 @@
             this.txt_R58S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S3.Location = new System.Drawing.Point(940, 174);
             this.txt_R58S3.Name = "txt_R58S3";
-            this.txt_R58S3.ReadOnly = true;
             this.txt_R58S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S3.TabIndex = 87;
             this.txt_R58S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1248,7 +1188,6 @@
             this.txt_R45S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S4.Location = new System.Drawing.Point(860, 200);
             this.txt_R45S4.Name = "txt_R45S4";
-            this.txt_R45S4.ReadOnly = true;
             this.txt_R45S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S4.TabIndex = 90;
             this.txt_R45S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1258,7 +1197,6 @@
             this.txt_R58S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S4.Location = new System.Drawing.Point(940, 200);
             this.txt_R58S4.Name = "txt_R58S4";
-            this.txt_R58S4.ReadOnly = true;
             this.txt_R58S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S4.TabIndex = 89;
             this.txt_R58S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1268,7 +1206,6 @@
             this.txt_R45S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S5.Location = new System.Drawing.Point(860, 226);
             this.txt_R45S5.Name = "txt_R45S5";
-            this.txt_R45S5.ReadOnly = true;
             this.txt_R45S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S5.TabIndex = 92;
             this.txt_R45S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1278,7 +1215,6 @@
             this.txt_R58S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S5.Location = new System.Drawing.Point(940, 226);
             this.txt_R58S5.Name = "txt_R58S5";
-            this.txt_R58S5.ReadOnly = true;
             this.txt_R58S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S5.TabIndex = 91;
             this.txt_R58S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1288,7 +1224,6 @@
             this.txt_R45S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S6.Location = new System.Drawing.Point(860, 252);
             this.txt_R45S6.Name = "txt_R45S6";
-            this.txt_R45S6.ReadOnly = true;
             this.txt_R45S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S6.TabIndex = 94;
             this.txt_R45S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1298,7 +1233,6 @@
             this.txt_R58S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R58S6.Location = new System.Drawing.Point(940, 252);
             this.txt_R58S6.Name = "txt_R58S6";
-            this.txt_R58S6.ReadOnly = true;
             this.txt_R58S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R58S6.TabIndex = 93;
             this.txt_R58S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1308,7 +1242,6 @@
             this.txt_R45S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S7.Location = new System.Drawing.Point(860, 278);
             this.txt_R45S7.Name = "txt_R45S7";
-            this.txt_R45S7.ReadOnly = true;
             this.txt_R45S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S7.TabIndex = 95;
             this.txt_R45S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1318,7 +1251,6 @@
             this.txt_R45S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S8.Location = new System.Drawing.Point(860, 304);
             this.txt_R45S8.Name = "txt_R45S8";
-            this.txt_R45S8.ReadOnly = true;
             this.txt_R45S8.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S8.TabIndex = 96;
             this.txt_R45S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1328,7 +1260,6 @@
             this.txt_R45S9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S9.Location = new System.Drawing.Point(860, 330);
             this.txt_R45S9.Name = "txt_R45S9";
-            this.txt_R45S9.ReadOnly = true;
             this.txt_R45S9.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S9.TabIndex = 97;
             this.txt_R45S9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1338,7 +1269,6 @@
             this.txt_R45S10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R45S10.Location = new System.Drawing.Point(860, 356);
             this.txt_R45S10.Name = "txt_R45S10";
-            this.txt_R45S10.ReadOnly = true;
             this.txt_R45S10.Size = new System.Drawing.Size(40, 20);
             this.txt_R45S10.TabIndex = 98;
             this.txt_R45S10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1348,7 +1278,6 @@
             this.txt_R21S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R21S1.Location = new System.Drawing.Point(940, 679);
             this.txt_R21S1.Name = "txt_R21S1";
-            this.txt_R21S1.ReadOnly = true;
             this.txt_R21S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R21S1.TabIndex = 108;
             this.txt_R21S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1358,7 +1287,6 @@
             this.txt_R20S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R20S1.Location = new System.Drawing.Point(940, 653);
             this.txt_R20S1.Name = "txt_R20S1";
-            this.txt_R20S1.ReadOnly = true;
             this.txt_R20S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R20S1.TabIndex = 107;
             this.txt_R20S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1368,7 +1296,6 @@
             this.txt_R19S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R19S1.Location = new System.Drawing.Point(940, 627);
             this.txt_R19S1.Name = "txt_R19S1";
-            this.txt_R19S1.ReadOnly = true;
             this.txt_R19S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R19S1.TabIndex = 106;
             this.txt_R19S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1378,7 +1305,6 @@
             this.txt_R18S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R18S1.Location = new System.Drawing.Point(940, 601);
             this.txt_R18S1.Name = "txt_R18S1";
-            this.txt_R18S1.ReadOnly = true;
             this.txt_R18S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R18S1.TabIndex = 105;
             this.txt_R18S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1388,7 +1314,6 @@
             this.txt_R17S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R17S1.Location = new System.Drawing.Point(940, 575);
             this.txt_R17S1.Name = "txt_R17S1";
-            this.txt_R17S1.ReadOnly = true;
             this.txt_R17S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R17S1.TabIndex = 104;
             this.txt_R17S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1398,7 +1323,6 @@
             this.txt_R16S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R16S1.Location = new System.Drawing.Point(940, 549);
             this.txt_R16S1.Name = "txt_R16S1";
-            this.txt_R16S1.ReadOnly = true;
             this.txt_R16S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R16S1.TabIndex = 103;
             this.txt_R16S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1408,7 +1332,6 @@
             this.txt_R15S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R15S1.Location = new System.Drawing.Point(940, 523);
             this.txt_R15S1.Name = "txt_R15S1";
-            this.txt_R15S1.ReadOnly = true;
             this.txt_R15S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R15S1.TabIndex = 102;
             this.txt_R15S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1418,7 +1341,6 @@
             this.txt_R14S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R14S1.Location = new System.Drawing.Point(940, 497);
             this.txt_R14S1.Name = "txt_R14S1";
-            this.txt_R14S1.ReadOnly = true;
             this.txt_R14S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R14S1.TabIndex = 101;
             this.txt_R14S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1428,7 +1350,6 @@
             this.txt_R13S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R13S1.Location = new System.Drawing.Point(940, 471);
             this.txt_R13S1.Name = "txt_R13S1";
-            this.txt_R13S1.ReadOnly = true;
             this.txt_R13S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R13S1.TabIndex = 100;
             this.txt_R13S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1438,7 +1359,6 @@
             this.txt_R12S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R12S1.Location = new System.Drawing.Point(940, 445);
             this.txt_R12S1.Name = "txt_R12S1";
-            this.txt_R12S1.ReadOnly = true;
             this.txt_R12S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R12S1.TabIndex = 99;
             this.txt_R12S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1558,7 +1478,6 @@
             this.txt_R57S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S3.Location = new System.Drawing.Point(148, 523);
             this.txt_R57S3.Name = "txt_R57S3";
-            this.txt_R57S3.ReadOnly = true;
             this.txt_R57S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S3.TabIndex = 154;
             this.txt_R57S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1568,7 +1487,6 @@
             this.txt_R56S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S3.Location = new System.Drawing.Point(194, 523);
             this.txt_R56S3.Name = "txt_R56S3";
-            this.txt_R56S3.ReadOnly = true;
             this.txt_R56S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S3.TabIndex = 153;
             this.txt_R56S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1578,7 +1496,6 @@
             this.txt_R54S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S3.Location = new System.Drawing.Point(286, 523);
             this.txt_R54S3.Name = "txt_R54S3";
-            this.txt_R54S3.ReadOnly = true;
             this.txt_R54S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S3.TabIndex = 152;
             this.txt_R54S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1588,7 +1505,6 @@
             this.txt_R55S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S3.Location = new System.Drawing.Point(240, 523);
             this.txt_R55S3.Name = "txt_R55S3";
-            this.txt_R55S3.ReadOnly = true;
             this.txt_R55S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S3.TabIndex = 151;
             this.txt_R55S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1598,7 +1514,6 @@
             this.txt_R63S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S3.Location = new System.Drawing.Point(516, 523);
             this.txt_R63S3.Name = "txt_R63S3";
-            this.txt_R63S3.ReadOnly = true;
             this.txt_R63S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S3.TabIndex = 150;
             this.txt_R63S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1608,7 +1523,6 @@
             this.txt_R64S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S3.Location = new System.Drawing.Point(470, 523);
             this.txt_R64S3.Name = "txt_R64S3";
-            this.txt_R64S3.ReadOnly = true;
             this.txt_R64S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R64S3.TabIndex = 149;
             this.txt_R64S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1618,7 +1532,6 @@
             this.txt_R51S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S3.Location = new System.Drawing.Point(424, 523);
             this.txt_R51S3.Name = "txt_R51S3";
-            this.txt_R51S3.ReadOnly = true;
             this.txt_R51S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R51S3.TabIndex = 148;
             this.txt_R51S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1628,7 +1541,6 @@
             this.txt_R52S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S3.Location = new System.Drawing.Point(378, 523);
             this.txt_R52S3.Name = "txt_R52S3";
-            this.txt_R52S3.ReadOnly = true;
             this.txt_R52S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S3.TabIndex = 147;
             this.txt_R52S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1638,7 +1550,6 @@
             this.txt_R53S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S3.Location = new System.Drawing.Point(332, 523);
             this.txt_R53S3.Name = "txt_R53S3";
-            this.txt_R53S3.ReadOnly = true;
             this.txt_R53S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S3.TabIndex = 146;
             this.txt_R53S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1648,7 +1559,6 @@
             this.txt_R57S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S2.Location = new System.Drawing.Point(148, 497);
             this.txt_R57S2.Name = "txt_R57S2";
-            this.txt_R57S2.ReadOnly = true;
             this.txt_R57S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S2.TabIndex = 145;
             this.txt_R57S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1658,7 +1568,6 @@
             this.txt_R56S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S2.Location = new System.Drawing.Point(194, 497);
             this.txt_R56S2.Name = "txt_R56S2";
-            this.txt_R56S2.ReadOnly = true;
             this.txt_R56S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S2.TabIndex = 144;
             this.txt_R56S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1668,7 +1577,6 @@
             this.txt_R54S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S2.Location = new System.Drawing.Point(286, 497);
             this.txt_R54S2.Name = "txt_R54S2";
-            this.txt_R54S2.ReadOnly = true;
             this.txt_R54S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S2.TabIndex = 143;
             this.txt_R54S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1678,7 +1586,6 @@
             this.txt_R55S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S2.Location = new System.Drawing.Point(240, 497);
             this.txt_R55S2.Name = "txt_R55S2";
-            this.txt_R55S2.ReadOnly = true;
             this.txt_R55S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S2.TabIndex = 142;
             this.txt_R55S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1688,7 +1595,6 @@
             this.txt_R63S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S2.Location = new System.Drawing.Point(516, 497);
             this.txt_R63S2.Name = "txt_R63S2";
-            this.txt_R63S2.ReadOnly = true;
             this.txt_R63S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S2.TabIndex = 141;
             this.txt_R63S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1698,7 +1604,6 @@
             this.txt_R64S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S2.Location = new System.Drawing.Point(470, 497);
             this.txt_R64S2.Name = "txt_R64S2";
-            this.txt_R64S2.ReadOnly = true;
             this.txt_R64S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R64S2.TabIndex = 140;
             this.txt_R64S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1708,7 +1613,6 @@
             this.txt_R51S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S2.Location = new System.Drawing.Point(424, 497);
             this.txt_R51S2.Name = "txt_R51S2";
-            this.txt_R51S2.ReadOnly = true;
             this.txt_R51S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R51S2.TabIndex = 139;
             this.txt_R51S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1718,7 +1622,6 @@
             this.txt_R52S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S2.Location = new System.Drawing.Point(378, 497);
             this.txt_R52S2.Name = "txt_R52S2";
-            this.txt_R52S2.ReadOnly = true;
             this.txt_R52S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S2.TabIndex = 138;
             this.txt_R52S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1728,7 +1631,6 @@
             this.txt_R53S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S2.Location = new System.Drawing.Point(332, 497);
             this.txt_R53S2.Name = "txt_R53S2";
-            this.txt_R53S2.ReadOnly = true;
             this.txt_R53S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S2.TabIndex = 137;
             this.txt_R53S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1945,7 +1847,6 @@
             this.txt_R57S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S4.Location = new System.Drawing.Point(148, 549);
             this.txt_R57S4.Name = "txt_R57S4";
-            this.txt_R57S4.ReadOnly = true;
             this.txt_R57S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S4.TabIndex = 163;
             this.txt_R57S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1955,7 +1856,6 @@
             this.txt_R56S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S4.Location = new System.Drawing.Point(194, 549);
             this.txt_R56S4.Name = "txt_R56S4";
-            this.txt_R56S4.ReadOnly = true;
             this.txt_R56S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S4.TabIndex = 162;
             this.txt_R56S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1965,7 +1865,6 @@
             this.txt_R54S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S4.Location = new System.Drawing.Point(286, 549);
             this.txt_R54S4.Name = "txt_R54S4";
-            this.txt_R54S4.ReadOnly = true;
             this.txt_R54S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S4.TabIndex = 161;
             this.txt_R54S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1975,7 +1874,6 @@
             this.txt_R55S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S4.Location = new System.Drawing.Point(240, 549);
             this.txt_R55S4.Name = "txt_R55S4";
-            this.txt_R55S4.ReadOnly = true;
             this.txt_R55S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S4.TabIndex = 160;
             this.txt_R55S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1985,7 +1883,6 @@
             this.txt_R63S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S4.Location = new System.Drawing.Point(516, 549);
             this.txt_R63S4.Name = "txt_R63S4";
-            this.txt_R63S4.ReadOnly = true;
             this.txt_R63S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S4.TabIndex = 159;
             this.txt_R63S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1995,7 +1892,6 @@
             this.txt_R64S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S4.Location = new System.Drawing.Point(470, 549);
             this.txt_R64S4.Name = "txt_R64S4";
-            this.txt_R64S4.ReadOnly = true;
             this.txt_R64S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R64S4.TabIndex = 158;
             this.txt_R64S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2005,7 +1901,6 @@
             this.txt_R51S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S4.Location = new System.Drawing.Point(424, 549);
             this.txt_R51S4.Name = "txt_R51S4";
-            this.txt_R51S4.ReadOnly = true;
             this.txt_R51S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R51S4.TabIndex = 157;
             this.txt_R51S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2015,7 +1910,6 @@
             this.txt_R52S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S4.Location = new System.Drawing.Point(378, 549);
             this.txt_R52S4.Name = "txt_R52S4";
-            this.txt_R52S4.ReadOnly = true;
             this.txt_R52S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S4.TabIndex = 156;
             this.txt_R52S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2025,7 +1919,6 @@
             this.txt_R53S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S4.Location = new System.Drawing.Point(332, 549);
             this.txt_R53S4.Name = "txt_R53S4";
-            this.txt_R53S4.ReadOnly = true;
             this.txt_R53S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S4.TabIndex = 155;
             this.txt_R53S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2134,7 +2027,6 @@
             this.txt_R57S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S5.Location = new System.Drawing.Point(148, 575);
             this.txt_R57S5.Name = "txt_R57S5";
-            this.txt_R57S5.ReadOnly = true;
             this.txt_R57S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S5.TabIndex = 181;
             this.txt_R57S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2144,7 +2036,6 @@
             this.txt_R56S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S5.Location = new System.Drawing.Point(194, 575);
             this.txt_R56S5.Name = "txt_R56S5";
-            this.txt_R56S5.ReadOnly = true;
             this.txt_R56S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S5.TabIndex = 180;
             this.txt_R56S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2154,7 +2045,6 @@
             this.txt_R54S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S5.Location = new System.Drawing.Point(286, 575);
             this.txt_R54S5.Name = "txt_R54S5";
-            this.txt_R54S5.ReadOnly = true;
             this.txt_R54S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S5.TabIndex = 179;
             this.txt_R54S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2164,7 +2054,6 @@
             this.txt_R55S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S5.Location = new System.Drawing.Point(240, 575);
             this.txt_R55S5.Name = "txt_R55S5";
-            this.txt_R55S5.ReadOnly = true;
             this.txt_R55S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S5.TabIndex = 178;
             this.txt_R55S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2174,7 +2063,6 @@
             this.txt_R63S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R63S5.Location = new System.Drawing.Point(516, 575);
             this.txt_R63S5.Name = "txt_R63S5";
-            this.txt_R63S5.ReadOnly = true;
             this.txt_R63S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R63S5.TabIndex = 177;
             this.txt_R63S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2184,7 +2072,6 @@
             this.txt_R64S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R64S5.Location = new System.Drawing.Point(470, 575);
             this.txt_R64S5.Name = "txt_R64S5";
-            this.txt_R64S5.ReadOnly = true;
             this.txt_R64S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R64S5.TabIndex = 176;
             this.txt_R64S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2194,7 +2081,6 @@
             this.txt_R51S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S5.Location = new System.Drawing.Point(424, 575);
             this.txt_R51S5.Name = "txt_R51S5";
-            this.txt_R51S5.ReadOnly = true;
             this.txt_R51S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R51S5.TabIndex = 175;
             this.txt_R51S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2204,7 +2090,6 @@
             this.txt_R52S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S5.Location = new System.Drawing.Point(378, 575);
             this.txt_R52S5.Name = "txt_R52S5";
-            this.txt_R52S5.ReadOnly = true;
             this.txt_R52S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S5.TabIndex = 174;
             this.txt_R52S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2214,7 +2099,6 @@
             this.txt_R53S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S5.Location = new System.Drawing.Point(332, 575);
             this.txt_R53S5.Name = "txt_R53S5";
-            this.txt_R53S5.ReadOnly = true;
             this.txt_R53S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S5.TabIndex = 173;
             this.txt_R53S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2224,7 +2108,6 @@
             this.txt_R61S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R61S3.Location = new System.Drawing.Point(608, 523);
             this.txt_R61S3.Name = "txt_R61S3";
-            this.txt_R61S3.ReadOnly = true;
             this.txt_R61S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R61S3.TabIndex = 189;
             this.txt_R61S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2234,7 +2117,6 @@
             this.txt_R62S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R62S3.Location = new System.Drawing.Point(562, 523);
             this.txt_R62S3.Name = "txt_R62S3";
-            this.txt_R62S3.ReadOnly = true;
             this.txt_R62S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R62S3.TabIndex = 188;
             this.txt_R62S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2244,7 +2126,6 @@
             this.txt_R61S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R61S2.Location = new System.Drawing.Point(608, 497);
             this.txt_R61S2.Name = "txt_R61S2";
-            this.txt_R61S2.ReadOnly = true;
             this.txt_R61S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R61S2.TabIndex = 187;
             this.txt_R61S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2254,7 +2135,6 @@
             this.txt_R62S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R62S2.Location = new System.Drawing.Point(562, 497);
             this.txt_R62S2.Name = "txt_R62S2";
-            this.txt_R62S2.ReadOnly = true;
             this.txt_R62S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R62S2.TabIndex = 186;
             this.txt_R62S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2308,7 +2188,6 @@
             this.txt_R57S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S6.Location = new System.Drawing.Point(148, 601);
             this.txt_R57S6.Name = "txt_R57S6";
-            this.txt_R57S6.ReadOnly = true;
             this.txt_R57S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S6.TabIndex = 196;
             this.txt_R57S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2318,7 +2197,6 @@
             this.txt_R56S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S6.Location = new System.Drawing.Point(194, 601);
             this.txt_R56S6.Name = "txt_R56S6";
-            this.txt_R56S6.ReadOnly = true;
             this.txt_R56S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S6.TabIndex = 195;
             this.txt_R56S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2328,7 +2206,6 @@
             this.txt_R54S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S6.Location = new System.Drawing.Point(286, 601);
             this.txt_R54S6.Name = "txt_R54S6";
-            this.txt_R54S6.ReadOnly = true;
             this.txt_R54S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S6.TabIndex = 194;
             this.txt_R54S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2338,7 +2215,6 @@
             this.txt_R55S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S6.Location = new System.Drawing.Point(240, 601);
             this.txt_R55S6.Name = "txt_R55S6";
-            this.txt_R55S6.ReadOnly = true;
             this.txt_R55S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S6.TabIndex = 193;
             this.txt_R55S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2348,7 +2224,6 @@
             this.txt_R51S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R51S6.Location = new System.Drawing.Point(424, 601);
             this.txt_R51S6.Name = "txt_R51S6";
-            this.txt_R51S6.ReadOnly = true;
             this.txt_R51S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R51S6.TabIndex = 192;
             this.txt_R51S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2358,7 +2233,6 @@
             this.txt_R52S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S6.Location = new System.Drawing.Point(378, 601);
             this.txt_R52S6.Name = "txt_R52S6";
-            this.txt_R52S6.ReadOnly = true;
             this.txt_R52S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S6.TabIndex = 191;
             this.txt_R52S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2368,7 +2242,6 @@
             this.txt_R53S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S6.Location = new System.Drawing.Point(332, 601);
             this.txt_R53S6.Name = "txt_R53S6";
-            this.txt_R53S6.ReadOnly = true;
             this.txt_R53S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S6.TabIndex = 190;
             this.txt_R53S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2378,7 +2251,6 @@
             this.txt_R57S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S7.Location = new System.Drawing.Point(148, 627);
             this.txt_R57S7.Name = "txt_R57S7";
-            this.txt_R57S7.ReadOnly = true;
             this.txt_R57S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S7.TabIndex = 202;
             this.txt_R57S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2388,7 +2260,6 @@
             this.txt_R56S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S7.Location = new System.Drawing.Point(194, 627);
             this.txt_R56S7.Name = "txt_R56S7";
-            this.txt_R56S7.ReadOnly = true;
             this.txt_R56S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S7.TabIndex = 201;
             this.txt_R56S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2398,7 +2269,6 @@
             this.txt_R54S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S7.Location = new System.Drawing.Point(286, 627);
             this.txt_R54S7.Name = "txt_R54S7";
-            this.txt_R54S7.ReadOnly = true;
             this.txt_R54S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S7.TabIndex = 200;
             this.txt_R54S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2408,7 +2278,6 @@
             this.txt_R55S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S7.Location = new System.Drawing.Point(240, 627);
             this.txt_R55S7.Name = "txt_R55S7";
-            this.txt_R55S7.ReadOnly = true;
             this.txt_R55S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S7.TabIndex = 199;
             this.txt_R55S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2418,7 +2287,6 @@
             this.txt_R52S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R52S7.Location = new System.Drawing.Point(378, 627);
             this.txt_R52S7.Name = "txt_R52S7";
-            this.txt_R52S7.ReadOnly = true;
             this.txt_R52S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R52S7.TabIndex = 198;
             this.txt_R52S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2428,7 +2296,6 @@
             this.txt_R53S7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R53S7.Location = new System.Drawing.Point(332, 627);
             this.txt_R53S7.Name = "txt_R53S7";
-            this.txt_R53S7.ReadOnly = true;
             this.txt_R53S7.Size = new System.Drawing.Size(40, 20);
             this.txt_R53S7.TabIndex = 197;
             this.txt_R53S7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2438,7 +2305,6 @@
             this.txt_R57S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S8.Location = new System.Drawing.Point(148, 653);
             this.txt_R57S8.Name = "txt_R57S8";
-            this.txt_R57S8.ReadOnly = true;
             this.txt_R57S8.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S8.TabIndex = 206;
             this.txt_R57S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2448,7 +2314,6 @@
             this.txt_R56S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R56S8.Location = new System.Drawing.Point(194, 653);
             this.txt_R56S8.Name = "txt_R56S8";
-            this.txt_R56S8.ReadOnly = true;
             this.txt_R56S8.Size = new System.Drawing.Size(40, 20);
             this.txt_R56S8.TabIndex = 205;
             this.txt_R56S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2458,7 +2323,6 @@
             this.txt_R54S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R54S8.Location = new System.Drawing.Point(286, 653);
             this.txt_R54S8.Name = "txt_R54S8";
-            this.txt_R54S8.ReadOnly = true;
             this.txt_R54S8.Size = new System.Drawing.Size(40, 20);
             this.txt_R54S8.TabIndex = 204;
             this.txt_R54S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2468,7 +2332,6 @@
             this.txt_R55S8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R55S8.Location = new System.Drawing.Point(240, 653);
             this.txt_R55S8.Name = "txt_R55S8";
-            this.txt_R55S8.ReadOnly = true;
             this.txt_R55S8.Size = new System.Drawing.Size(40, 20);
             this.txt_R55S8.TabIndex = 203;
             this.txt_R55S8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2478,7 +2341,6 @@
             this.txt_R57S9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R57S9.Location = new System.Drawing.Point(148, 679);
             this.txt_R57S9.Name = "txt_R57S9";
-            this.txt_R57S9.ReadOnly = true;
             this.txt_R57S9.Size = new System.Drawing.Size(40, 20);
             this.txt_R57S9.TabIndex = 207;
             this.txt_R57S9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2488,7 +2350,6 @@
             this.txt_R77S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S4.Location = new System.Drawing.Point(826, 549);
             this.txt_R77S4.Name = "txt_R77S4";
-            this.txt_R77S4.ReadOnly = true;
             this.txt_R77S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S4.TabIndex = 227;
             this.txt_R77S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2498,7 +2359,6 @@
             this.txt_R76S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S4.Location = new System.Drawing.Point(780, 549);
             this.txt_R76S4.Name = "txt_R76S4";
-            this.txt_R76S4.ReadOnly = true;
             this.txt_R76S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S4.TabIndex = 226;
             this.txt_R76S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2508,7 +2368,6 @@
             this.txt_R75S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R75S4.Location = new System.Drawing.Point(734, 549);
             this.txt_R75S4.Name = "txt_R75S4";
-            this.txt_R75S4.ReadOnly = true;
             this.txt_R75S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R75S4.TabIndex = 225;
             this.txt_R75S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2518,7 +2377,6 @@
             this.txt_R74S4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R74S4.Location = new System.Drawing.Point(688, 549);
             this.txt_R74S4.Name = "txt_R74S4";
-            this.txt_R74S4.ReadOnly = true;
             this.txt_R74S4.Size = new System.Drawing.Size(40, 20);
             this.txt_R74S4.TabIndex = 224;
             this.txt_R74S4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2528,7 +2386,6 @@
             this.txt_R77S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S3.Location = new System.Drawing.Point(826, 523);
             this.txt_R77S3.Name = "txt_R77S3";
-            this.txt_R77S3.ReadOnly = true;
             this.txt_R77S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S3.TabIndex = 223;
             this.txt_R77S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2538,7 +2395,6 @@
             this.txt_R76S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S3.Location = new System.Drawing.Point(780, 523);
             this.txt_R76S3.Name = "txt_R76S3";
-            this.txt_R76S3.ReadOnly = true;
             this.txt_R76S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S3.TabIndex = 222;
             this.txt_R76S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2548,7 +2404,6 @@
             this.txt_R75S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R75S3.Location = new System.Drawing.Point(734, 523);
             this.txt_R75S3.Name = "txt_R75S3";
-            this.txt_R75S3.ReadOnly = true;
             this.txt_R75S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R75S3.TabIndex = 221;
             this.txt_R75S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2558,7 +2413,6 @@
             this.txt_R74S3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R74S3.Location = new System.Drawing.Point(688, 523);
             this.txt_R74S3.Name = "txt_R74S3";
-            this.txt_R74S3.ReadOnly = true;
             this.txt_R74S3.Size = new System.Drawing.Size(40, 20);
             this.txt_R74S3.TabIndex = 220;
             this.txt_R74S3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2568,7 +2422,6 @@
             this.txt_R77S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S2.Location = new System.Drawing.Point(826, 497);
             this.txt_R77S2.Name = "txt_R77S2";
-            this.txt_R77S2.ReadOnly = true;
             this.txt_R77S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S2.TabIndex = 219;
             this.txt_R77S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2578,7 +2431,6 @@
             this.txt_R76S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S2.Location = new System.Drawing.Point(780, 497);
             this.txt_R76S2.Name = "txt_R76S2";
-            this.txt_R76S2.ReadOnly = true;
             this.txt_R76S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S2.TabIndex = 218;
             this.txt_R76S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2588,7 +2440,6 @@
             this.txt_R75S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R75S2.Location = new System.Drawing.Point(734, 497);
             this.txt_R75S2.Name = "txt_R75S2";
-            this.txt_R75S2.ReadOnly = true;
             this.txt_R75S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R75S2.TabIndex = 217;
             this.txt_R75S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2598,7 +2449,6 @@
             this.txt_R74S2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R74S2.Location = new System.Drawing.Point(688, 497);
             this.txt_R74S2.Name = "txt_R74S2";
-            this.txt_R74S2.ReadOnly = true;
             this.txt_R74S2.Size = new System.Drawing.Size(40, 20);
             this.txt_R74S2.TabIndex = 216;
             this.txt_R74S2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2608,7 +2458,6 @@
             this.txt_R77S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S1.Location = new System.Drawing.Point(826, 471);
             this.txt_R77S1.Name = "txt_R77S1";
-            this.txt_R77S1.ReadOnly = true;
             this.txt_R77S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S1.TabIndex = 215;
             this.txt_R77S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2618,7 +2467,6 @@
             this.txt_R76S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S1.Location = new System.Drawing.Point(780, 471);
             this.txt_R76S1.Name = "txt_R76S1";
-            this.txt_R76S1.ReadOnly = true;
             this.txt_R76S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S1.TabIndex = 214;
             this.txt_R76S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2628,7 +2476,6 @@
             this.txt_R75S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R75S1.Location = new System.Drawing.Point(734, 471);
             this.txt_R75S1.Name = "txt_R75S1";
-            this.txt_R75S1.ReadOnly = true;
             this.txt_R75S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R75S1.TabIndex = 213;
             this.txt_R75S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2638,7 +2485,6 @@
             this.txt_R74S1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R74S1.Location = new System.Drawing.Point(688, 471);
             this.txt_R74S1.Name = "txt_R74S1";
-            this.txt_R74S1.ReadOnly = true;
             this.txt_R74S1.Size = new System.Drawing.Size(40, 20);
             this.txt_R74S1.TabIndex = 212;
             this.txt_R74S1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2692,7 +2538,6 @@
             this.txt_R77S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S5.Location = new System.Drawing.Point(826, 575);
             this.txt_R77S5.Name = "txt_R77S5";
-            this.txt_R77S5.ReadOnly = true;
             this.txt_R77S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S5.TabIndex = 230;
             this.txt_R77S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2702,7 +2547,6 @@
             this.txt_R76S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S5.Location = new System.Drawing.Point(780, 575);
             this.txt_R76S5.Name = "txt_R76S5";
-            this.txt_R76S5.ReadOnly = true;
             this.txt_R76S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S5.TabIndex = 229;
             this.txt_R76S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2712,7 +2556,6 @@
             this.txt_R75S5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R75S5.Location = new System.Drawing.Point(734, 575);
             this.txt_R75S5.Name = "txt_R75S5";
-            this.txt_R75S5.ReadOnly = true;
             this.txt_R75S5.Size = new System.Drawing.Size(40, 20);
             this.txt_R75S5.TabIndex = 228;
             this.txt_R75S5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2722,7 +2565,6 @@
             this.txt_R77S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R77S6.Location = new System.Drawing.Point(826, 601);
             this.txt_R77S6.Name = "txt_R77S6";
-            this.txt_R77S6.ReadOnly = true;
             this.txt_R77S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R77S6.TabIndex = 232;
             this.txt_R77S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2732,7 +2574,6 @@
             this.txt_R76S6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_R76S6.Location = new System.Drawing.Point(780, 601);
             this.txt_R76S6.Name = "txt_R76S6";
-            this.txt_R76S6.ReadOnly = true;
             this.txt_R76S6.Size = new System.Drawing.Size(40, 20);
             this.txt_R76S6.TabIndex = 231;
             this.txt_R76S6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3010,6 +2851,7 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 

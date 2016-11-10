@@ -70,6 +70,7 @@
             this.btnToggle.TabIndex = 3;
             this.btnToggle.Text = "Toggle";
             this.btnToggle.UseVisualStyleBackColor = true;
+            this.btnToggle.Click += new System.EventHandler(this.btnToggle_Click);
             // 
             // btnCancel
             // 
