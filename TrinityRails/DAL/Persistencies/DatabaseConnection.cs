@@ -53,7 +53,30 @@ namespace DAL.Persistencies
             }
             return noResult;
         }
-                
+
+        public Nullable<DateTime> executeReaderDateTime(string query) //returns null if there is no result
+        {
+            Nullable<DateTime> noResult = null;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(query, connection);
+                    if (command.ExecuteScalar() != null)
+                    {
+                        return Convert.ToDateTime(command.ExecuteScalar());
+                    }
+                    connection.Close();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine("Error: " + exception.Message);
+            }
+            return noResult;
+        }
+
         public string executeReaderString(string query) //returns null if there is no result
         {
             string noResult = null;
