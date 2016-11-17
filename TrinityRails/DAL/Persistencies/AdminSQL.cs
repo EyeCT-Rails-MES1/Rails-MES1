@@ -37,7 +37,7 @@ namespace DAL.Persistencies
 
         public void delete(User user)
         {
-            string query = @"DELETE FROM [User] WHERE [ID] = " + user.ID + @";";
+            string query = @"DELETE * FROM [User] WHERE [ID] = " + user.ID + @";";
             databaseConnection.executeCommand(query);
         } 
 

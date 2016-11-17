@@ -508,22 +508,6 @@ namespace TrinityRailsDemo
             textBoxes77[3] = txt_R77S4;
             textBoxes77[4] = txt_R77S5;
             textBoxes77[5] = txt_R77S6;
-            if (sectors != fleetRepo.getSectorList())
-            {
-                sectors = fleetRepo.getSectorList();
-                foreach (Sector sector in sectors)
-                {
-                    TextBox[] chosenBoxes = ReturnSectorBoxes(sector.railNumber);
-                    if (sector.status == RailStatus.railStatus.Blocked)
-                    {
-                        chosenBoxes[sector.Number - 1].BackColor = Color.DarkGray;
-                    }
-                    else
-                    {
-                        chosenBoxes[sector.Number - 1].BackColor = Color.White;
-                    }
-                }
-            }
             refreshTrams();
         }
 

@@ -294,7 +294,6 @@
             this.wanneerIsOnderhoudVerrichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wanneerTreinWeerGereedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnUsers = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.cmsTram.SuspendLayout();
             this.cmsButtons.SuspendLayout();
             this.gbInformation.SuspendLayout();
@@ -2849,12 +2848,6 @@
             this.btnUsers.UseVisualStyleBackColor = true;
             this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 5000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3380,6 +3373,5 @@
         private System.Windows.Forms.ToolStripMenuItem wanneerIsOnderhoudVerrichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wanneerTreinWeerGereedToolStripMenuItem;
         private System.Windows.Forms.Button btnUsers;
-        private System.Windows.Forms.Timer timer1;
     }
 }
